@@ -1,0 +1,9 @@
+interface:
+  display_name: "WeChat Sticker Maker"
+  short_description: "Turn photos into consistent WeChat sticker packs (PNG/GIF)"
+  default_model: "gpt-4o"
+
+dependencies:
+  tools:
+    - python_execution
+    - file_system

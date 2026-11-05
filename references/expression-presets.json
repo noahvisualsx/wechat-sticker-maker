@@ -1,0 +1,338 @@
+[
+  {
+    "id": "01_hello",
+    "caption": "你好",
+    "mood": "friendly",
+    "static_pose": "facing forward, smiling warmly, one hand waving hello",
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "02_morning",
+    "caption": "早安",
+    "mood": "energetic",
+    "static_pose": "stretching arms upwards with an energetic smile",
+    "motion": {
+      "type": "stretch_and_blink",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "03_goodnight",
+    "caption": "晚安",
+    "mood": "sleepy",
+    "static_pose": "hugging a soft pillow, closed eyes with sleepy face and night cap",
+    "motion": {
+      "type": "sleepy_nod",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "04_laugh",
+    "caption": "哈哈哈",
+    "mood": "happy",
+    "static_pose": "laughing heartily with open mouth and curved joyous eyes",
+    "motion": {
+      "type": "laugh_bounce",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "05_shy",
+    "caption": "害羞",
+    "mood": "shy",
+    "static_pose": "hands near cheeks, blushing with rosy cheeks, glancing aside",
+    "motion": {
+      "type": "blink_and_blush",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "06_cry",
+    "caption": "哭哭",
+    "mood": "sad",
+    "static_pose": "teary eyes with big glittering tears streaming down",
+    "motion": {
+      "type": "teardrop_fall",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "07_angry",
+    "caption": "生气",
+    "mood": "angry",
+    "static_pose": "hands on hips, puffed cheeks with small comic steam puff",
+    "motion": {
+      "type": "stomp_and_steam",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "08_speechless",
+    "caption": "无语",
+    "mood": "speechless",
+    "static_pose": "half-closed deadpan eyes with a sweat drop on forehead",
+    "motion": {
+      "type": "sweatdrop_slide",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "09_acknowledged",
+    "caption": "收到",
+    "mood": "confident",
+    "static_pose": "giving a confident thumbs up with bright sparkling eyes",
+    "motion": {
+      "type": "nod_and_thumbsup",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "10_fighting",
+    "caption": "加油",
+    "mood": "encouraging",
+    "static_pose": "pumping a clenched fist determinedly in the air",
+    "motion": {
+      "type": "fist_pump",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "11_thanks",
+    "caption": "谢谢",
+    "mood": "grateful",
+    "static_pose": "bowing politely with palms pressed together in gratitude",
+    "motion": {
+      "type": "gentle_bow",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "12_hug",
+    "caption": "抱抱",
+    "mood": "comforting",
+    "static_pose": "arms wide open reaching forward for a warm loving hug",
+    "motion": {
+      "type": "hug_reach",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "13_yay",
+    "caption": "好耶",
+    "mood": "excited",
+    "static_pose": "jumping up with both arms raised high in pure celebration",
+    "motion": {
+      "type": "cheer_jump",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "14_confused",
+    "caption": "疑问",
+    "mood": "puzzled",
+    "static_pose": "head tilted to one side with a cute question mark overhead",
+    "motion": {
+      "type": "head_tilt",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "15_bye",
+    "caption": "拜拜",
+    "mood": "farewell",
+    "static_pose": "turning slightly sideways, waving hand goodbye with a wink",
+    "motion": {
+      "type": "side_wave",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "16_love",
+    "caption": "爱你",
+    "mood": "affectionate",
+    "static_pose": "holding a small glowing pink heart close to chest with sweet smile",
+    "motion": {
+      "type": "heart_beat",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "17_are_you_there",
+    "caption": "在吗",
+    "mood": "inquiring",
+    "static_pose": "peeking out from the side border with curious eyes",
+    "motion": {
+      "type": "peek_in_and_out",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "18_wait",
+    "caption": "等等",
+    "mood": "urgent",
+    "static_pose": "one hand extended forward in a stop gesture, sweating slightly",
+    "motion": {
+      "type": "hand_press",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "19_ok",
+    "caption": "OK",
+    "mood": "agreeable",
+    "static_pose": "making an OK finger circle sign with cheerful wink",
+    "motion": {
+      "type": "ok_nod",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "20_please",
+    "caption": "求求",
+    "mood": "pleading",
+    "static_pose": "hands clasped together pleading with big puppy-dog eyes",
+    "motion": {
+      "type": "plead_shake",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "21_eating",
+    "caption": "吃饭啦",
+    "mood": "hungry",
+    "static_pose": "holding a bowl and chopsticks with mouth watering",
+    "motion": {
+      "type": "eating_munch",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "22_sleeping",
+    "caption": "睡觉啦",
+    "mood": "sleepy",
+    "static_pose": "wrapped snugly in a cozy blanket with Zzz bubbles floating",
+    "motion": {
+      "type": "zzz_float",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "23_aggrieved",
+    "caption": "委屈",
+    "mood": "pouting",
+    "static_pose": "pouting lips, twiddling index fingers together nervously",
+    "motion": {
+      "type": "finger_twiddle",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  },
+  {
+    "id": "24_shocked",
+    "caption": "震惊",
+    "mood": "shocked",
+    "static_pose": "jaw dropped, wide eyes with exclamation marks popping",
+    "motion": {
+      "type": "shock_shake",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+    }
+  }
+]
