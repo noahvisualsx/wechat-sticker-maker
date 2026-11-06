@@ -1,10 +1,32 @@
-# WeChat Sticker Maker (ChatGPT / Codex 全平台真人 AI 表情包与梗图 Skill)
+<p align="right">
+  <strong>Language:</strong>
+  <a href="README.md"><b>简体中文</b></a> |
+  <a href="README.en.md"><b>English</b></a> |
+  <a href="README.ko.md"><b>한국어</b></a> |
+  <a href="README.ja.md"><b>日本語</b></a>
+</p>
+
+# WeChat Sticker Maker · 全平台真人 AI 表情包与梗图引擎
+
+> **Your Face, Your Vibe, Your Sticker Pack.**  
+> 专为**真人照片（`human-portrait`）**打造的一键成套 AI 表情包与梗图生成引擎（静态 + 多帧真动图），严格保留本人真实五官、骨相、肤质、发型与穿搭，**绝不二次元化或变成卡通假脸**，并一键分发至微信及全球 23 个主流社交平台。
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#内置-26-款真人专属风格referencesstyle-presetsjson)
+[![Styles](https://img.shields.io/badge/Photographic%20Styles-26%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#内置-26-款真人专属风格referencesstyle-presetsjson)
+[![Expressions & Memes](https://img.shields.io/badge/Catalog-132%20Expressions%20%7C%2038%20Memes%20%7C%20129%20Motions-success.svg)](#14-大类真人表情分类)
+[![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7-种对话气泡与-5-种独立单语种支持)
+[![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#全平台自动分发与社交封面导出)
+
+</div>
 
 ![真人表情包展示](docs/gallery/images/hero.jpg)
 
 > **[查看完整真人图库（26 款风格 / 10 款真动图 / 38 款梗图 / 14 类表情） → `docs/gallery/README.md`](docs/gallery/README.md)**
 
-专注于**真人照片（`human-portrait`）**的一键成套表情包与梗图生成（静态 + 动图），严格保留本人真实五官、骨相、肤质、发型与穿搭，**绝不二次元化或变成卡通假脸**，并同时导出到**微信及全部 23 个主流社交 / 聊天平台**：微信、QQ、抖音/快手、小红书、Soul、微博、钉钉、飞书、Telegram、WhatsApp、LINE、KakaoTalk、Discord、Slack、iMessage、Signal、Viber、GIPHY（Instagram / TikTok / Snapchat 贴纸来源）、Instagram、TikTok、X、Facebook 以及通用格式包。
+支持同时导出到**微信及全部 23 个主流社交 / 聊天平台**：微信、QQ、抖音/快手、小红书、Soul、微博、钉钉、飞书、Telegram、WhatsApp、LINE、KakaoTalk、Discord、Slack、iMessage、Signal、Viber、GIPHY（Instagram / TikTok / Snapchat 贴纸来源）、Instagram、TikTok、X、Facebook 以及通用格式包。
 
 ---
 
