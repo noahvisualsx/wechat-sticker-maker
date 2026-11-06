@@ -1,0 +1,2145 @@
+[
+  {
+    "id": "m01_ai_thinking",
+    "name_zh": "AI 正在思考",
+    "category": "ai-meme",
+    "caption": "正在思考",
+    "captions": {
+      "zh-CN": "正在思考",
+      "zh-TW": "正在思考",
+      "en": "Thinking",
+      "ja": "考え中",
+      "ko": "생각 중"
+    },
+    "mood": "dazed",
+    "static_pose": "looking upward with a dazed, vacant expression, blank unfocused eyes as if processing, mouth hanging slightly open with a tiny drop of drool at the corner, arms relaxed at the sides",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "thought",
+      "position": "top-left",
+      "texts": {
+        "zh-CN": "正在思考",
+        "zh-TW": "正在思考",
+        "en": "Thinking",
+        "ja": "考え中",
+        "ko": "생각 중"
+      },
+      "animation": "dots"
+    },
+    "motion": {
+      "type": "head_tilt",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Head tilted back looking up, blank unfocused eyes, mouth slightly open, tiny drool drop at the mouth corner; lower body stays in place.",
+        "Frame 2: Head drifting a little to the left while still looking up, eyes glazed and empty, mouth hanging open; lower body stays in place.",
+        "Frame 3: Head tilted further, eyes in a slow vacant blink, drool drop stretching slightly, totally spaced out; lower body stays in place.",
+        "Frame 4: Head drifting back to center looking up, eyes blank again, mouth slightly open; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "spaced-out, loading-screen vibe; leave clear empty space above the head and in the upper-left corner; derpy vacant face, no symbols drawn by the model",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "spinner",
+          "position": "head",
+          "color": "#5B8DEF",
+          "size": 1.0,
+          "animate": "rotate"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m02_china_ip_blocked",
+    "name_zh": "中国IP禁止靠近",
+    "category": "ban-warning",
+    "caption": "中国IP禁止靠近",
+    "captions": {
+      "zh-CN": "中国IP禁止靠近",
+      "zh-TW": "中國IP禁止靠近",
+      "en": "China IP: keep out",
+      "ja": "中国IP接近禁止",
+      "ko": "중국 IP 접근 금지"
+    },
+    "mood": "defensive",
+    "static_pose": "facing the viewer with a serious, defensive frown, both forearms crossed in front of the chest forming a big X, leaning back slightly",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "cross_arms_x",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Forearms raised in front of the chest, serious narrowed eyes, mouth pressed flat; lower body stays in place.",
+        "Frame 2: Forearms swinging toward each other, brows furrowed, quick stern blink; lower body stays in place.",
+        "Frame 3: Forearms firmly crossed into a big X, defensive glare straight at the viewer, mouth tight; lower body stays in place.",
+        "Frame 4: X held with a slight push forward for emphasis, eyes still stern; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "security-checkpoint vibe, stern but cute; keep the bottom band and upper-right corner clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "prohibition",
+          "position": "top-right",
+          "size": 1.0,
+          "animate": "pulse"
+        },
+        {
+          "type": "hazard_tape",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "检测到中国IP 禁止靠近",
+            "zh-TW": "偵測到中國IP 禁止靠近",
+            "en": "China IP detected — Keep Out",
+            "ja": "中国IPを検出 接近禁止",
+            "ko": "중국 IP 감지 접근 금지"
+          },
+          "animate": "none"
+        },
+        {
+          "type": "chip",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "风控拦截中",
+            "zh-TW": "風控攔截中",
+            "en": "Firewall active",
+            "ja": "ブロック中",
+            "ko": "차단 중"
+          },
+          "size": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "id": "m03_ban_threat",
+    "name_zh": "再说话封你号",
+    "category": "ban-warning",
+    "caption": "再说话封你号",
+    "captions": {
+      "zh-CN": "再说话封你号",
+      "zh-TW": "再說話封你號",
+      "en": "Say one more word and you're banned",
+      "ja": "これ以上喋ったらBANな",
+      "ko": "한 마디만 더 하면 정지"
+    },
+    "mood": "menacing",
+    "static_pose": "pointing an index finger straight at the viewer with a menacing smug grin and half-lidded eyes, the other hand holding a small toy gavel prop raised beside the shoulder",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "point_at_viewer",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hand with index finger raised beside the shoulder, toy gavel held in the other hand, smug half-lidded eyes; lower body stays in place.",
+        "Frame 2: Arm extending forward toward the viewer, smug grin widening, toy gavel lifted a bit higher; lower body stays in place.",
+        "Frame 3: Index finger pointing straight at the viewer, menacing grin, eyebrows lowered, toy gavel raised high; lower body stays in place.",
+        "Frame 4: Finger jabbing slightly forward again, toy gavel tapping down a little, smug glare held; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "playful moderator-power-trip vibe, comedic not scary; keep upper-left area clear for an overlay",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chat",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "再说话封你号",
+            "zh-TW": "再說話封你號",
+            "en": "One more word = ban",
+            "ja": "これ以上喋ったらBANな",
+            "ko": "한 마디만 더 하면 정지"
+          }
+        },
+        {
+          "type": "stamp",
+          "position": "bottom-right",
+          "text": {
+            "zh-CN": "封号",
+            "zh-TW": "封號",
+            "en": "BANNED",
+            "ja": "BAN",
+            "ko": "정지"
+          },
+          "color": "#D62B2B",
+          "angle": -14,
+          "animate": "slam"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m04_account_banned",
+    "name_zh": "账号已被封禁",
+    "category": "ban-warning",
+    "caption": "账号被封了",
+    "captions": {
+      "zh-CN": "账号被封了",
+      "zh-TW": "帳號被封了",
+      "en": "Account banned",
+      "ja": "アカBANされた",
+      "ko": "계정 정지됨"
+    },
+    "mood": "devastated",
+    "static_pose": "sobbing uncontrollably with streams of tears, mouth wide open in a wail, fists rubbing the eyes",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "sob",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Fists rubbing both eyes, mouth wobbling, tears welling; lower body stays in place.",
+        "Frame 2: Head tipping back, mouth wide open in a wail, tear streams flowing; lower body stays in place.",
+        "Frame 3: Shoulders shaking, eyes squeezed shut, big tear drops flying sideways; lower body stays in place.",
+        "Frame 4: Sniffling with trembling lips, fists back at the eyes; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "overdramatic despair, comedic; keep the center-top area clear for a popup overlay",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "dialog",
+          "position": "top",
+          "icon": "ban",
+          "title": {
+            "zh-CN": "系统提示",
+            "zh-TW": "系統提示",
+            "en": "System notice",
+            "ja": "システム通知",
+            "ko": "시스템 알림"
+          },
+          "text": {
+            "zh-CN": "你的账号已被封禁",
+            "zh-TW": "你的帳號已被封禁",
+            "en": "Your account has been banned",
+            "ja": "アカウントが凍結されました",
+            "ko": "계정이 정지되었습니다"
+          },
+          "button": {
+            "zh-CN": "确定",
+            "zh-TW": "確定",
+            "en": "OK",
+            "ja": "OK",
+            "ko": "확인"
+          },
+          "animate": "pulse"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m05_deep_thinking",
+    "name_zh": "已深度思考",
+    "category": "ai-meme",
+    "caption": "想了个寂寞",
+    "captions": {
+      "zh-CN": "想了个寂寞",
+      "zh-TW": "想了個寂寞",
+      "en": "Thought hard, got nothing",
+      "ja": "考えた結果、無",
+      "ko": "생각했는데 아무것도 없음"
+    },
+    "mood": "blank",
+    "static_pose": "staring straight ahead with a completely blank expression, tiny dot pupils, mouth a flat line, one hand resting on the chin",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "think_chin",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hand on chin, tiny dot pupils staring blankly ahead, flat mouth; lower body stays in place.",
+        "Frame 2: Head tilting slightly, slow empty blink, finger tapping the chin; lower body stays in place.",
+        "Frame 3: Eyes rolling upward as if searching, mouth a flat line, still blank; lower body stays in place.",
+        "Frame 4: Back to the blank forward stare with dot pupils, hand still on chin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "deadpan blank stare, empty-headed comedic look; leave space above the head",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "spinner",
+          "position": "head",
+          "color": "#5B8DEF",
+          "size": 0.8,
+          "animate": "rotate"
+        },
+        {
+          "type": "chip",
+          "position": "top",
+          "value": 999,
+          "text": {
+            "zh-CN": "已深度思考（用时 {value} 秒）",
+            "zh-TW": "已深度思考（用時 {value} 秒）",
+            "en": "Thought for {value}s",
+            "ja": "{value}秒間 熟考しました",
+            "ko": "{value}초 동안 깊이 생각함"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m06_rate_limited",
+    "name_zh": "请求过于频繁",
+    "category": "ai-meme",
+    "caption": "请求过于频繁",
+    "captions": {
+      "zh-CN": "请求过于频繁",
+      "zh-TW": "請求過於頻繁",
+      "en": "Too many requests",
+      "ja": "リクエスト多すぎ",
+      "ko": "요청이 너무 많음"
+    },
+    "mood": "exhausted",
+    "static_pose": "slumped forward exhausted, half-closed droopy eyes with dark circles, arms dangling, a sweat drop on the forehead",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "droop_slump",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Shoulders sagging, droopy half-closed eyes, mouth slightly open panting; lower body stays in place.",
+        "Frame 2: Upper body drooping further forward, arms dangling limp, sweat drop sliding; lower body stays in place.",
+        "Frame 3: Head hanging low, eyes nearly closed, exhausted sigh; lower body stays in place.",
+        "Frame 4: Slowly lifting the head a little, tired blank eyes; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "burnt-out, overworked vibe; keep the top area clear for a popup overlay",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "dialog",
+          "position": "top",
+          "icon": "warning",
+          "title": {
+            "zh-CN": "提示",
+            "zh-TW": "提示",
+            "en": "Notice",
+            "ja": "お知らせ",
+            "ko": "알림"
+          },
+          "text": {
+            "zh-CN": "请求过于频繁，请稍后再试",
+            "zh-TW": "請求過於頻繁，請稍後再試",
+            "en": "Too many requests, try later",
+            "ja": "しばらくしてから再試行",
+            "ko": "잠시 후 다시 시도하세요"
+          },
+          "button": {
+            "zh-CN": "好的",
+            "zh-TW": "好的",
+            "en": "OK",
+            "ja": "OK",
+            "ko": "확인"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m07_cpu_burning",
+    "name_zh": "CPU干烧了",
+    "category": "ai-meme",
+    "caption": "CPU干烧了",
+    "captions": {
+      "zh-CN": "CPU干烧了",
+      "zh-TW": "CPU乾燒了",
+      "en": "CPU overheating",
+      "ja": "CPUが焼けた",
+      "ko": "CPU 과열"
+    },
+    "mood": "overloaded",
+    "static_pose": "dizzy and overloaded, swirling spiral eyes, wobbly open mouth, flushed red cheeks, hands clutching the sides of the head",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "tremble",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands on both sides of the head, spiral swirling eyes, wobbly mouth, flushed cheeks; lower body stays in place.",
+        "Frame 2: Head wobbling to the left, spiral eyes spinning, sweat drops flying; lower body stays in place.",
+        "Frame 3: Head wobbling to the right, tongue slightly out, totally dizzy; lower body stays in place.",
+        "Frame 4: Head back to center trembling, spiral eyes, flushed face; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "overheated brain meltdown, red-hot flushed face; keep space above the head clear",
+      "background": null,
+      "filters": [
+        "high_contrast"
+      ],
+      "elements": [
+        {
+          "type": "smoke",
+          "position": "head",
+          "animate": "drift"
+        },
+        {
+          "type": "spinner",
+          "position": "head",
+          "color": "#E8743B",
+          "size": 0.8,
+          "animate": "rotate"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m08_refuse",
+    "name_zh": "AI拒绝回答",
+    "category": "ai-meme",
+    "caption": "我无法回答",
+    "captions": {
+      "zh-CN": "我无法回答",
+      "zh-TW": "我無法回答",
+      "en": "I can't answer that",
+      "ja": "お答えできません",
+      "ko": "답변할 수 없어요"
+    },
+    "mood": "polite",
+    "static_pose": "a polite customer-service bow with hands folded in front, wearing an obviously fake stiff smile with closed eyes",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "forced_smile",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands folded in front, stiff fake smile with closed curved eyes; lower body stays in place.",
+        "Frame 2: Bowing politely forward, the fake smile frozen; lower body stays in place.",
+        "Frame 3: Holding the bow, a tiny sweat drop appearing, smile twitching; lower body stays in place.",
+        "Frame 4: Rising back up with the same rigid fake smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "corporate politeness, uncanny fake smile, comedic; keep the top area clear for a popup",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "dialog",
+          "position": "top",
+          "icon": "info",
+          "title": {
+            "zh-CN": "提示",
+            "zh-TW": "提示",
+            "en": "Notice",
+            "ja": "お知らせ",
+            "ko": "알림"
+          },
+          "text": {
+            "zh-CN": "抱歉，我无法回答这个问题",
+            "zh-TW": "抱歉，我無法回答這個問題",
+            "en": "Sorry, I can't answer that",
+            "ja": "申し訳ありませんが回答不可",
+            "ko": "죄송하지만 답변할 수 없어요"
+          },
+          "button": {
+            "zh-CN": "好吧",
+            "zh-TW": "好吧",
+            "en": "Fine",
+            "ja": "わかった",
+            "ko": "알겠어"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m09_muted",
+    "name_zh": "被管理员禁言",
+    "category": "chat-ui",
+    "caption": "被禁言了",
+    "captions": {
+      "zh-CN": "被禁言了",
+      "zh-TW": "被禁言了",
+      "en": "Muted",
+      "ja": "ミュートされた",
+      "ko": "채팅 금지됨"
+    },
+    "mood": "silenced",
+    "static_pose": "mouth pressed tightly shut as if zipped closed, cheeks puffed, teary frustrated eyes, both hands covering the mouth",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "hand_press",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands pressed over the mouth, cheeks puffed, teary eyes; lower body stays in place.",
+        "Frame 2: Eyes darting left, mouth sealed tightly, muffled frustration; lower body stays in place.",
+        "Frame 3: Eyes darting right, cheeks puffing bigger, brows raised pleadingly; lower body stays in place.",
+        "Frame 4: Back to center, hands still over the mouth, quick blink; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "desperate to talk but silenced, comedic; keep the top band and upper-right corner clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "notice",
+          "position": "top",
+          "value": 10,
+          "text": {
+            "zh-CN": "你已被管理员禁言 {value} 分钟",
+            "zh-TW": "你已被管理員禁言 {value} 分鐘",
+            "en": "Muted by admin for {value} min",
+            "ja": "管理者により{value}分間ミュート",
+            "ko": "관리자가 {value}분간 채팅 금지"
+          }
+        },
+        {
+          "type": "mute",
+          "position": "top-right",
+          "animate": "pulse"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m10_typing_forever",
+    "name_zh": "对方正在输入",
+    "category": "chat-ui",
+    "caption": "疯狂输入中",
+    "captions": {
+      "zh-CN": "疯狂输入中",
+      "zh-TW": "瘋狂輸入中",
+      "en": "Typing furiously",
+      "ja": "爆速入力中",
+      "ko": "열심히 입력 중"
+    },
+    "mood": "intense",
+    "static_pose": "hunched forward furiously typing on an imaginary keyboard with both hands, intense focused eyes, sweat drops flying",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "typing",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "high",
+      "keyframe_poses": [
+        "Frame 1: Hunched forward, both hands hammering an imaginary keyboard, intense eyes; lower body stays in place.",
+        "Frame 2: Left hand up, right hand down mid-keystroke, brows furrowed, sweat drop flying; lower body stays in place.",
+        "Frame 3: Right hand up, left hand down mid-keystroke, tongue poking out in concentration; lower body stays in place.",
+        "Frame 4: Both hands slamming down together, eyes glowing with focus; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "frantic keyboard-warrior energy; keep the bottom band clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "typing",
+          "position": "bottom",
+          "animate": "dots",
+          "text": {
+            "zh-CN": "对方正在输入",
+            "zh-TW": "對方正在輸入",
+            "en": "typing",
+            "ja": "入力中",
+            "ko": "입력 중"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m11_read_no_reply",
+    "name_zh": "已读不回",
+    "category": "chat-ui",
+    "caption": "已读不回",
+    "captions": {
+      "zh-CN": "已读不回",
+      "zh-TW": "已讀不回",
+      "en": "Seen, no reply",
+      "ja": "既読スルー",
+      "ko": "읽씹"
+    },
+    "mood": "aloof",
+    "static_pose": "pretending not to see, head turned away, eyes sliding sideways, whistling with pursed lips, hands behind the back",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "side_eye",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Head turned slightly away, eyes sliding sideways, lips pursed whistling; lower body stays in place.",
+        "Frame 2: Eyes glancing back toward the viewer for a split second; lower body stays in place.",
+        "Frame 3: Snapping the gaze away again, nonchalant whistle; lower body stays in place.",
+        "Frame 4: Innocent look up at the sky, still pretending nothing happened; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "innocent fake-oblivious attitude; keep the lower-right corner clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "read_receipt",
+          "position": "bottom-right",
+          "text": {
+            "zh-CN": "已读",
+            "zh-TW": "已讀",
+            "en": "Seen",
+            "ja": "既読",
+            "ko": "읽음"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m12_404_brain",
+    "name_zh": "脑子404",
+    "category": "abstract",
+    "caption": "脑子不在服务区",
+    "captions": {
+      "zh-CN": "脑子不在服务区",
+      "zh-TW": "腦子不在服務區",
+      "en": "Brain not found",
+      "ja": "脳みそ圏外",
+      "ko": "뇌가 서비스 지역 밖"
+    },
+    "mood": "blank",
+    "static_pose": "completely empty-headed blank expression, eyes as tiny dots looking in different directions, mouth slightly open, arms limp",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "head_tilt",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Dot eyes pointing in different directions, mouth slightly open, arms limp; lower body stays in place.",
+        "Frame 2: Head tilting to one side, a slow vacant blink; lower body stays in place.",
+        "Frame 3: Head tilted the other way, a small twitch as if glitching; lower body stays in place.",
+        "Frame 4: Back to upright, blank dot-eyed stare; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "error-screen vibe, signal-lost blank face; leave clear space in the center-top area",
+      "background": null,
+      "filters": [
+        "glitch"
+      ],
+      "elements": [
+        {
+          "type": "big_text",
+          "position": "top",
+          "text": {
+            "zh-CN": "404",
+            "zh-TW": "404",
+            "en": "404",
+            "ja": "404",
+            "ko": "404"
+          },
+          "color": "#3A7BFF",
+          "animate": "glitch"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m13_loading_brain",
+    "name_zh": "大脑加载中",
+    "category": "ai-meme",
+    "caption": "大脑加载中",
+    "captions": {
+      "zh-CN": "大脑加载中",
+      "zh-TW": "大腦載入中",
+      "en": "Brain loading",
+      "ja": "脳みそ読込中",
+      "ko": "뇌 로딩 중"
+    },
+    "mood": "sleepy",
+    "static_pose": "groggy and just woke up, rubbing one eye with a fist, the other eye half-open, messy look, a big yawn",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "rub_eyes",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Fist rubbing one eye, other eye half-open, groggy; lower body stays in place.",
+        "Frame 2: Big wide yawn, eyes squeezed shut; lower body stays in place.",
+        "Frame 3: Blinking slowly, head bobbing as if still booting up; lower body stays in place.",
+        "Frame 4: Staring blankly ahead with half-open eyes; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "slow-booting groggy vibe; keep the bottom band clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "progress",
+          "position": "bottom",
+          "value": 99,
+          "animate": "progress",
+          "text": {
+            "zh-CN": "大脑加载中",
+            "zh-TW": "大腦載入中",
+            "en": "Brain loading",
+            "ja": "脳みそ読込中",
+            "ko": "뇌 로딩 중"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m14_shock_deepfried",
+    "name_zh": "震惊（油炸版）",
+    "category": "abstract",
+    "caption": "震惊！",
+    "captions": {
+      "zh-CN": "震惊！",
+      "zh-TW": "震驚！",
+      "en": "SHOCKED!",
+      "ja": "衝撃！",
+      "ko": "충격!"
+    },
+    "mood": "shocked",
+    "static_pose": "extremely shocked, eyes bulging wide with tiny pupils, jaw dropped wide open, hands on cheeks, hair standing on end",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "shock_shake",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "high",
+      "keyframe_poses": [
+        "Frame 1: Hands on cheeks, eyes bulging with tiny pupils, jaw dropped; lower body stays in place.",
+        "Frame 2: Whole upper body jolting backward, mouth stretched even wider; lower body stays in place.",
+        "Frame 3: Shaking violently left, sweat drops exploding outward; lower body stays in place.",
+        "Frame 4: Shaking right, frozen in exaggerated horror; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "over-the-top real-person variety-show shock reaction face, preserving authentic human facial features, saturated colors",
+      "background": null,
+      "filters": [
+        "deep_fry"
+      ],
+      "elements": [
+        {
+          "type": "speed_lines",
+          "position": "full",
+          "layer": "back"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m15_enlightened",
+    "name_zh": "我悟了",
+    "category": "abstract",
+    "caption": "我悟了",
+    "captions": {
+      "zh-CN": "我悟了",
+      "zh-TW": "我悟了",
+      "en": "I've seen the light",
+      "ja": "悟った",
+      "ko": "깨달았다"
+    },
+    "mood": "serene",
+    "static_pose": "serene enlightened expression, eyes gently closed, peaceful smile, palms pressed together in front of the chest like meditation",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "low",
+      "keyframe_poses": [
+        "Frame 1: Palms pressed together, eyes closed, peaceful smile; lower body stays in place.",
+        "Frame 2: Slow wise nod forward, serene expression; lower body stays in place.",
+        "Frame 3: Head rising back, eyes opening slightly with a calm all-knowing look; lower body stays in place.",
+        "Frame 4: Eyes closing again, tranquil smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "divine enlightenment, glowing calm aura, comically serene",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "light_rays",
+          "position": "full",
+          "layer": "back",
+          "color": "#FFD45C"
+        },
+        {
+          "type": "sparkles",
+          "position": "head",
+          "animate": "twinkle"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m16_cracked",
+    "name_zh": "我裂开了",
+    "category": "abstract",
+    "caption": "我裂开了",
+    "captions": {
+      "zh-CN": "我裂开了",
+      "zh-TW": "我裂開了",
+      "en": "I'm shattered",
+      "ja": "砕け散った",
+      "ko": "멘탈 깨짐"
+    },
+    "mood": "stunned",
+    "static_pose": "frozen stunned in disbelief, eyes wide and blank, mouth hanging open, body stiff as stone",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "heartbreak_crack",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Frozen stiff, wide blank eyes, mouth hanging open; lower body stays in place.",
+        "Frame 2: A tiny shiver, pupils shrinking; lower body stays in place.",
+        "Frame 3: Face going pale, eyes trembling in shock; lower body stays in place.",
+        "Frame 4: Completely petrified with an empty stare; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "petrified stone-faced shock, slightly desaturated mood",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "crack",
+          "position": "full"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m17_mental_state",
+    "name_zh": "精神状态良好",
+    "category": "abstract",
+    "caption": "精神状态良好",
+    "captions": {
+      "zh-CN": "精神状态良好",
+      "zh-TW": "精神狀態良好",
+      "en": "Mentally stable :)",
+      "ja": "メンタル良好",
+      "ko": "정신 상태 양호"
+    },
+    "mood": "unhinged",
+    "static_pose": "unhinged wide toothy grin, one eye twitching, wide-open sparkling eyes with mismatched pupils, a thumbs up",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "laugh_bounce",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Wide toothy grin, mismatched pupils, thumbs up; lower body stays in place.",
+        "Frame 2: Bouncing up with a manic laugh, one eye twitching; lower body stays in place.",
+        "Frame 3: Head tilting at an odd angle, grin even wider; lower body stays in place.",
+        "Frame 4: Bouncing back down, frozen unhinged smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "chaotic unhinged abstract-meme energy, derpy distorted face",
+      "background": null,
+      "filters": [
+        "hue_cycle",
+        "glitch"
+      ],
+      "elements": [
+        {
+          "type": "question_marks",
+          "position": "head",
+          "animate": "drift"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m18_patina",
+    "name_zh": "电子包浆",
+    "category": "classic-meme",
+    "caption": "祖传表情包",
+    "captions": {
+      "zh-CN": "祖传表情包",
+      "zh-TW": "祖傳表情包",
+      "en": "Ancient meme",
+      "ja": "伝説の古ミーム",
+      "ko": "조상님 짤"
+    },
+    "mood": "derpy",
+    "static_pose": "derpy goofy face, crossed eyes, tongue sticking out to one side, slightly lopsided grin",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "tongue_out",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Crossed eyes, tongue out to one side, lopsided grin; lower body stays in place.",
+        "Frame 2: Head bobbing to the left, tongue wagging; lower body stays in place.",
+        "Frame 3: Head bobbing to the right, eyes uncrossing for a moment; lower body stays in place.",
+        "Frame 4: Back to center, crossed eyes and goofy tongue; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "low-quality over-shared old meme look, crude derpy expression",
+      "background": null,
+      "filters": [
+        "patina"
+      ],
+      "elements": []
+    }
+  },
+  {
+    "id": "m19_panda_head",
+    "name_zh": "真人黑白梗图",
+    "category": "classic-meme",
+    "caption": "你在教我做事？",
+    "captions": {
+      "zh-CN": "你在教我做事？",
+      "zh-TW": "你在教我做事？",
+      "en": "You telling me what to do?",
+      "ja": "私に指図する気？",
+      "ko": "지금 나 가르치냐?"
+    },
+    "mood": "sassy",
+    "static_pose": "close-up face with a sassy disdainful expression, one eyebrow raised, mouth in a smug pout, eyes narrowed",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "smug_grin",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Narrowed eyes, one eyebrow raised, smug pout; lower body stays in place.",
+        "Frame 2: Chin lifting up arrogantly; lower body stays in place.",
+        "Frame 3: Eyes narrowing even more, mouth curling into a smirk; lower body stays in place.",
+        "Frame 4: Chin back down, disdainful stare at the viewer; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "high-contrast black-and-white photorealistic real-person reaction meme cutout, preserving the exact person's real human face and hairstyle with a sassy disdainful smirk, plain white background",
+      "background": "#FFFFFF",
+      "filters": [
+        "grayscale",
+        "high_contrast"
+      ],
+      "elements": []
+    }
+  },
+  {
+    "id": "m20_impact_classic",
+    "name_zh": "准时下班？",
+    "category": "work-life",
+    "caption": "开个短会",
+    "captions": {
+      "zh-CN": "开个短会",
+      "zh-TW": "開個短會",
+      "en": "Quick meeting?",
+      "ja": "ちょっと会議",
+      "ko": "잠깐 회의"
+    },
+    "mood": "crushed",
+    "static_pose": "bag on shoulder ready to leave work, expression freezing from hopeful smile into dead-eyed despair",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "droop_slump",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Bag on shoulder, hopeful smile about to leave; lower body stays in place.",
+        "Frame 2: Smile freezing, eyes widening in dread; lower body stays in place.",
+        "Frame 3: Shoulders slumping, eyes going dead and empty; lower body stays in place.",
+        "Frame 4: Head hanging, soul visibly leaving, totally defeated; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "office-worker despair, classic reaction meme framing; keep top and bottom bands clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "impact",
+          "position": "full",
+          "text": {
+            "zh-CN": "当你以为今天能准时下班",
+            "zh-TW": "當你以為今天能準時下班",
+            "en": "When you think you'll leave on time",
+            "ja": "定時で帰れると思った瞬間",
+            "ko": "칼퇴할 줄 알았는데"
+          },
+          "title": {
+            "zh-CN": "老板：开个短会",
+            "zh-TW": "老闆：開個短會",
+            "en": "Boss: quick meeting?",
+            "ja": "上司「ちょっと会議」",
+            "ko": "상사: 잠깐 회의"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m21_top_bar_meme",
+    "name_zh": "当代年轻人",
+    "category": "abstract",
+    "caption": "当代年轻人的精神状态",
+    "captions": {
+      "zh-CN": "当代年轻人的精神状态",
+      "zh-TW": "當代年輕人的精神狀態",
+      "en": "Gen Z mental state",
+      "ja": "現代の若者のメンタル",
+      "ko": "요즘 MZ 정신 상태"
+    },
+    "mood": "chaotic",
+    "static_pose": "chaotic goofy pose, arms flailing in the air, wide crazy eyes, open-mouth laugh",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "dance",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Arms flailing up, crazy wide eyes, open-mouth laugh; lower body stays in place.",
+        "Frame 2: Swaying left, arms waving wildly; lower body stays in place.",
+        "Frame 3: Swaying right, head thrown back laughing; lower body stays in place.",
+        "Frame 4: Arms crossing overhead, eyes rolling chaotically; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "chaotic internet-meme energy, derpy unhinged expression",
+      "background": "#FFFFFF",
+      "filters": [],
+      "elements": [
+        {
+          "type": "top_bar",
+          "position": "top",
+          "text": {
+            "zh-CN": "当代年轻人的精神状态",
+            "zh-TW": "當代年輕人的精神狀態",
+            "en": "Gen Z mental state",
+            "ja": "現代の若者のメンタル",
+            "ko": "요즘 MZ 정신 상태"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m22_battery_low",
+    "name_zh": "电量1%",
+    "category": "work-life",
+    "caption": "电量1%",
+    "captions": {
+      "zh-CN": "电量1%",
+      "zh-TW": "電量1%",
+      "en": "Battery 1%",
+      "ja": "残り1%",
+      "ko": "배터리 1%"
+    },
+    "mood": "drained",
+    "static_pose": "completely drained, melting downward, eyes half-closed and glazed, arms hanging limp, a tired sweat drop",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "droop_slump",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "low",
+      "keyframe_poses": [
+        "Frame 1: Half-closed glazed eyes, arms limp, sagging posture; lower body stays in place.",
+        "Frame 2: Upper body sinking lower, eyelids drooping; lower body stays in place.",
+        "Frame 3: Head nodding off, almost asleep; lower body stays in place.",
+        "Frame 4: Jerking slightly awake, still exhausted; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "out-of-energy, running on fumes; keep the upper-right corner clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "battery",
+          "position": "top-right",
+          "value": 1,
+          "color": "#E53935",
+          "animate": "flash"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m23_question",
+    "name_zh": "问号三连",
+    "category": "abstract",
+    "caption": "？？？",
+    "captions": {
+      "zh-CN": "？？？",
+      "zh-TW": "？？？",
+      "en": "???",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "mood": "confused",
+    "static_pose": "deeply confused, head tilted to one side, one eyebrow raised, scratching the head, mouth a wobbly line",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "question_marks",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hand scratching the side of the head, head tilted, eyebrow raised; lower body stays in place.",
+        "Frame 2: Head tilting further, eyes squinting in confusion; lower body stays in place.",
+        "Frame 3: Blinking twice, mouth wobbly, totally lost; lower body stays in place.",
+        "Frame 4: Head returning upright, still scratching, baffled stare; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "baffled reaction face; keep space above the head",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "question_marks",
+          "position": "head",
+          "animate": "drift"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m24_caution_hype",
+    "name_zh": "前方高能",
+    "category": "classic-meme",
+    "caption": "前方高能",
+    "captions": {
+      "zh-CN": "前方高能",
+      "zh-TW": "前方高能",
+      "en": "Hype incoming",
+      "ja": "この先 神展開",
+      "ko": "고에너지 주의"
+    },
+    "mood": "hyped",
+    "static_pose": "hyped and pumped, fists clenched in front, eyes blazing with excitement, leaning forward",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "chest_puff",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "high",
+      "keyframe_poses": [
+        "Frame 1: Fists clenched in front, blazing excited eyes; lower body stays in place.",
+        "Frame 2: Chest puffing up, big confident grin; lower body stays in place.",
+        "Frame 3: Leaning forward intensely, eyes sparkling; lower body stays in place.",
+        "Frame 4: Settling back, still grinning with excitement; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "dramatic high-energy real-person variety-show hype reaction; keep the top band clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "hazard_tape",
+          "position": "top",
+          "text": {
+            "zh-CN": "前方高能",
+            "zh-TW": "前方高能",
+            "en": "HYPE INCOMING",
+            "ja": "この先 神展開",
+            "ko": "고에너지 주의"
+          }
+        },
+        {
+          "type": "speed_lines",
+          "position": "full",
+          "layer": "back"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m25_behaving_now",
+    "name_zh": "已老实",
+    "category": "abstract",
+    "caption": "求放过",
+    "captions": {
+      "zh-CN": "求放过",
+      "zh-TW": "求放過",
+      "en": "Please spare me",
+      "ja": "許してください",
+      "ko": "봐주세요"
+    },
+    "mood": "meek",
+    "static_pose": "kneeling-style meek pose, palms pressed together pleading, teary puppy eyes, small trembling mouth",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "plead_shake",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Palms pressed together, teary puppy eyes; lower body stays in place.",
+        "Frame 2: Hands shaking pleadingly, lip trembling; lower body stays in place.",
+        "Frame 3: Bowing head slightly, tears glistening; lower body stays in place.",
+        "Frame 4: Looking up again with huge pleading eyes; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "totally humbled and obedient, comedic pitiful look; keep the upper-right corner clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "stamp",
+          "position": "top-right",
+          "text": {
+            "zh-CN": "已老实",
+            "zh-TW": "已老實",
+            "en": "BEHAVING",
+            "ja": "反省中",
+            "ko": "얌전해짐"
+          },
+          "color": "#D62B2B",
+          "angle": -10,
+          "animate": "slam"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m26_dian",
+    "name_zh": "典",
+    "category": "abstract",
+    "caption": "典",
+    "captions": {
+      "zh-CN": "典",
+      "zh-TW": "典",
+      "en": "Classic",
+      "ja": "典型",
+      "ko": "전형적"
+    },
+    "mood": "smug",
+    "static_pose": "smug knowing smirk, half-lidded eyes, arms folded, as if saying 'how typical'",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "smug_grin",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Arms folded, half-lidded eyes, smug smirk; lower body stays in place.",
+        "Frame 2: Chin lifting slightly, smirk widening; lower body stays in place.",
+        "Frame 3: Slow knowing nod, eyes closing smugly; lower body stays in place.",
+        "Frame 4: Eyes reopening with a sly look at the viewer; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "deadpan internet-commentator vibe; keep the upper area clear",
+      "background": null,
+      "filters": [
+        "vignette"
+      ],
+      "elements": [
+        {
+          "type": "big_text",
+          "position": "top",
+          "text": {
+            "zh-CN": "典",
+            "zh-TW": "典",
+            "en": "CLASSIC",
+            "ja": "典型",
+            "ko": "전형적"
+          },
+          "color": "#D62B2B",
+          "animate": "pulse"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m27_cant_hold",
+    "name_zh": "绷不住了",
+    "category": "abstract",
+    "caption": "绷不住了",
+    "captions": {
+      "zh-CN": "绷不住了",
+      "zh-TW": "繃不住了",
+      "en": "I can't hold it in",
+      "ja": "耐えられない",
+      "ko": "못 참겠다"
+    },
+    "mood": "cracking up",
+    "static_pose": "trying hard to keep a straight face but bursting out laughing, cheeks puffed, eyes squeezed, hand over the mouth",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "giggle_cover_mouth",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "high",
+      "keyframe_poses": [
+        "Frame 1: Hand over the mouth, cheeks puffed, trying to keep a straight face; lower body stays in place.",
+        "Frame 2: Shoulders shaking, eyes squeezing shut, laughter leaking out; lower body stays in place.",
+        "Frame 3: Bursting out laughing, head thrown back, tears of laughter; lower body stays in place.",
+        "Frame 4: Covering the mouth again, still shaking with giggles; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "failing to suppress laughter, exaggerated derpy face",
+      "background": null,
+      "filters": [
+        "posterize"
+      ],
+      "elements": [
+        {
+          "type": "speed_lines",
+          "position": "full",
+          "layer": "back"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m28_big_breakdown",
+    "name_zh": "破大防",
+    "category": "abstract",
+    "caption": "破大防了",
+    "captions": {
+      "zh-CN": "破大防了",
+      "zh-TW": "破大防了",
+      "en": "Totally wrecked",
+      "ja": "メンタル崩壊",
+      "ko": "멘탈 박살"
+    },
+    "mood": "heartbroken",
+    "static_pose": "emotionally wrecked, wobbling lips, huge tears streaming down, clutching the chest",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "cry_streams",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Clutching the chest, lips wobbling, tears welling; lower body stays in place.",
+        "Frame 2: Tears streaming down both cheeks, mouth wide in a wail; lower body stays in place.",
+        "Frame 3: Head tipping back, tear rivers flowing; lower body stays in place.",
+        "Frame 4: Sniffling hard, shoulders shaking; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "melodramatic emotional collapse, comedic",
+      "background": null,
+      "filters": [
+        "vignette"
+      ],
+      "elements": [
+        {
+          "type": "crack",
+          "position": "full"
+        },
+        {
+          "type": "hazard_tape",
+          "position": "cross",
+          "text": {
+            "zh-CN": "防线已破",
+            "zh-TW": "防線已破",
+            "en": "DEFENSE DOWN",
+            "ja": "防御突破",
+            "ko": "방어선 붕괴"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m29_thanks_sarcastic",
+    "name_zh": "我真的会谢",
+    "category": "abstract",
+    "caption": "我真的会谢",
+    "captions": {
+      "zh-CN": "我真的会谢",
+      "zh-TW": "我真的會謝",
+      "en": "Wow, thanks a lot",
+      "ja": "ほんとありがとね",
+      "ko": "참 고맙다"
+    },
+    "mood": "sarcastic",
+    "static_pose": "sarcastic deadpan, eyes half-lidded and rolling, a thin forced smile, slow sarcastic clap",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "eye_roll",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Half-lidded eyes, thin forced smile; lower body stays in place.",
+        "Frame 2: Eyes rolling slowly upward; lower body stays in place.",
+        "Frame 3: Eyes at the top of the roll, sigh escaping; lower body stays in place.",
+        "Frame 4: Back to the deadpan forced smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "passive-aggressive deadpan, comedic",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top",
+          "text": {
+            "zh-CN": "礼貌微笑",
+            "zh-TW": "禮貌微笑",
+            "en": "polite smile",
+            "ja": "愛想笑い",
+            "ko": "예의상 미소"
+          },
+          "size": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "id": "m30_zundu",
+    "name_zh": "尊嘟假嘟",
+    "category": "abstract",
+    "caption": "尊嘟假嘟",
+    "captions": {
+      "zh-CN": "尊嘟假嘟",
+      "zh-TW": "尊嘟假嘟",
+      "en": "For realsies?",
+      "ja": "マジでほんと？",
+      "ko": "진짜야 가짜야?"
+    },
+    "mood": "curious",
+    "static_pose": "huge sparkling curious eyes, pouty duck lips, leaning toward the viewer, hands on cheeks",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "sparkle_eyes",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands on cheeks, huge sparkling eyes, pouty lips; lower body stays in place.",
+        "Frame 2: Leaning in closer, eyes shimmering; lower body stays in place.",
+        "Frame 3: Head tilting cutely, lips pouting more; lower body stays in place.",
+        "Frame 4: Blinking with sparkles, waiting for an answer; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "ultra-cute baby-talk vibe, pouty duck face",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "sparkles",
+          "position": "head",
+          "animate": "twinkle"
+        },
+        {
+          "type": "question_marks",
+          "position": "top-right",
+          "animate": "drift",
+          "size": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "id": "m31_polite",
+    "name_zh": "你礼貌吗",
+    "category": "chat-ui",
+    "caption": "你礼貌吗",
+    "captions": {
+      "zh-CN": "你礼貌吗",
+      "zh-TW": "你禮貌嗎",
+      "en": "Rude much?",
+      "ja": "失礼じゃない？",
+      "ko": "예의 없네?"
+    },
+    "mood": "offended",
+    "static_pose": "offended side-eye, one eyebrow raised high, lips pursed in judgment, arms crossed",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "side_eye",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Arms crossed, side-eye, eyebrow raised; lower body stays in place.",
+        "Frame 2: Eyes sliding further sideways, lips pursing; lower body stays in place.",
+        "Frame 3: Head pulling back slightly in offense; lower body stays in place.",
+        "Frame 4: Turning the judging glare directly at the viewer; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "judgmental offended look; keep the upper-left area clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chat",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "你礼貌吗？",
+            "zh-TW": "你禮貌嗎？",
+            "en": "Rude much?",
+            "ja": "失礼じゃない？",
+            "ko": "예의 없네?"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m32_worker_recharge",
+    "name_zh": "打工人续命",
+    "category": "work-life",
+    "caption": "续命中",
+    "captions": {
+      "zh-CN": "续命中",
+      "zh-TW": "續命中",
+      "en": "Recharging",
+      "ja": "命をつなぐ",
+      "ko": "생명 연장 중"
+    },
+    "mood": "tired",
+    "static_pose": "tired office worker sipping from a coffee cup with both hands, dark under-eye circles, half-closed eyes slowly reviving",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "drink_sip",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "low",
+      "keyframe_poses": [
+        "Frame 1: Holding a coffee cup with both hands, dark eye circles; lower body stays in place.",
+        "Frame 2: Taking a long sip, eyes closed; lower body stays in place.",
+        "Frame 3: Eyes flickering open a little more, slight revival; lower body stays in place.",
+        "Frame 4: Sighing with relief, cup lowered, still sleepy; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "caffeine-dependent office worker, plain unbranded cup; keep the upper-right corner clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "battery",
+          "position": "top-right",
+          "value": 15,
+          "color": "#F4B400"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m33_caught_slacking",
+    "name_zh": "摸鱼被抓",
+    "category": "work-life",
+    "caption": "摸鱼被抓了",
+    "captions": {
+      "zh-CN": "摸鱼被抓了",
+      "zh-TW": "摸魚被抓了",
+      "en": "Caught slacking",
+      "ja": "サボりバレた",
+      "ko": "땡땡이 들킴"
+    },
+    "mood": "panicked",
+    "static_pose": "caught red-handed, eyes bulging with panic, stiff upright posture, hands frozen mid-air, sweat drops",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "shock_shake",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Frozen stiff, eyes bulging, hands mid-air; lower body stays in place.",
+        "Frame 2: Jolting upright in panic, sweat drops flying; lower body stays in place.",
+        "Frame 3: Eyes darting nervously sideways; lower body stays in place.",
+        "Frame 4: Forced innocent smile, still sweating; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "busted at work panic, comedic; keep the top band clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "notice",
+          "position": "top",
+          "text": {
+            "zh-CN": "老板拍了拍你",
+            "zh-TW": "老闆拍了拍你",
+            "en": "Boss nudged you",
+            "ja": "上司があなたをつついた",
+            "ko": "상사가 당신을 콕 찔렀어요"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m34_client_revision",
+    "name_zh": "甲方又改需求",
+    "category": "work-life",
+    "caption": "又改需求",
+    "captions": {
+      "zh-CN": "又改需求",
+      "zh-TW": "又改需求",
+      "en": "Another revision",
+      "ja": "また仕様変更",
+      "ko": "또 수정 요청"
+    },
+    "mood": "frazzled",
+    "static_pose": "frazzled and overwhelmed, both hands grabbing the head, eyes wide and shaking, mouth in a silent scream",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "panic_head_grab",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands on the head, wide shaking eyes; lower body stays in place.",
+        "Frame 2: Silent scream, hair messing up; lower body stays in place.",
+        "Frame 3: Head shaking side to side in disbelief; lower body stays in place.",
+        "Frame 4: Slumping with despair, hands still on the head; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "designer meltdown, comedic despair; keep the upper-left area clear",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chat",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "再改最后一版",
+            "zh-TW": "再改最後一版",
+            "en": "One last revision",
+            "ja": "最後の修正ね",
+            "ko": "마지막 수정만"
+          }
+        },
+        {
+          "type": "question_marks",
+          "position": "head",
+          "animate": "drift",
+          "size": 0.7
+        }
+      ]
+    }
+  },
+  {
+    "id": "m35_no_leaving",
+    "name_zh": "禁止下班",
+    "category": "work-life",
+    "caption": "禁止下班",
+    "captions": {
+      "zh-CN": "禁止下班",
+      "zh-TW": "禁止下班",
+      "en": "No clocking out",
+      "ja": "退勤禁止",
+      "ko": "퇴근 금지"
+    },
+    "mood": "trapped",
+    "static_pose": "slumped over an imaginary desk, cheek on the arms, lifeless eyes staring at the viewer",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "slump_desk",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Cheek resting on folded arms, lifeless eyes; lower body stays in place.",
+        "Frame 2: Slow lifeless blink; lower body stays in place.",
+        "Frame 3: A small despairing sigh, upper body sinking; lower body stays in place.",
+        "Frame 4: Eyes staring blankly again; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "trapped in overtime, dead-eyed office despair",
+      "background": null,
+      "filters": [
+        "glitch"
+      ],
+      "elements": [
+        {
+          "type": "big_text",
+          "position": "top",
+          "text": {
+            "zh-CN": "403",
+            "zh-TW": "403",
+            "en": "403",
+            "ja": "403",
+            "ko": "403"
+          },
+          "color": "#D62B2B",
+          "animate": "glitch"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m36_ai_hallucination",
+    "name_zh": "一本正经胡说",
+    "category": "ai-meme",
+    "caption": "一本正经胡说八道",
+    "captions": {
+      "zh-CN": "一本正经胡说八道",
+      "zh-TW": "一本正經胡說八道",
+      "en": "Confidently wrong",
+      "ja": "自信満々にデタラメ",
+      "ko": "당당하게 헛소리"
+    },
+    "mood": "confident",
+    "static_pose": "overconfident lecturing pose, index finger raised like a professor, chin up, eyes closed with a smug expert smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "chest_puff",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Index finger raised, chin up, smug closed-eye smile; lower body stays in place.",
+        "Frame 2: Chest puffing out proudly; lower body stays in place.",
+        "Frame 3: Wagging the raised finger confidently; lower body stays in place.",
+        "Frame 4: Nodding to self, utterly sure; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "overconfident know-it-all vibe, comedic",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top",
+          "text": {
+            "zh-CN": "内容由AI生成",
+            "zh-TW": "內容由AI生成",
+            "en": "AI-generated",
+            "ja": "AI生成コンテンツ",
+            "ko": "AI 생성 콘텐츠"
+          },
+          "size": 0.8
+        },
+        {
+          "type": "sparkles",
+          "position": "head",
+          "animate": "twinkle"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m37_quota_exhausted",
+    "name_zh": "额度用完",
+    "category": "ai-meme",
+    "caption": "额度用完了",
+    "captions": {
+      "zh-CN": "额度用完了",
+      "zh-TW": "額度用完了",
+      "en": "Out of credits",
+      "ja": "クレジット切れ",
+      "ko": "크레딧 소진"
+    },
+    "mood": "broke",
+    "static_pose": "lying flat on the back, limp, eyes as tiny swirls, tongue slightly out, totally out of energy",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "lie_flat",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "low",
+      "keyframe_poses": [
+        "Frame 1: Lying limp, tiny swirl eyes, tongue slightly out; lower body stays in place.",
+        "Frame 2: A weak twitch of one hand; lower body stays in place.",
+        "Frame 3: A slow faint sigh, head lolling; lower body stays in place.",
+        "Frame 4: Lying motionless again; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "drained and broke, comedic; keep the top area clear for a popup",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "dialog",
+          "position": "top",
+          "icon": "error",
+          "title": {
+            "zh-CN": "提示",
+            "zh-TW": "提示",
+            "en": "Notice",
+            "ja": "お知らせ",
+            "ko": "알림"
+          },
+          "text": {
+            "zh-CN": "今日额度已用完",
+            "zh-TW": "今日額度已用完",
+            "en": "Daily quota used up",
+            "ja": "本日の上限に達しました",
+            "ko": "오늘 한도 소진"
+          },
+          "button": {
+            "zh-CN": "充值",
+            "zh-TW": "儲值",
+            "en": "Top up",
+            "ja": "チャージ",
+            "ko": "충전"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "m38_reported",
+    "name_zh": "已截图举报",
+    "category": "ban-warning",
+    "caption": "已截图",
+    "captions": {
+      "zh-CN": "已截图",
+      "zh-TW": "已截圖",
+      "en": "Screenshotted",
+      "ja": "スクショ済み",
+      "ko": "캡처 완료"
+    },
+    "mood": "smug",
+    "static_pose": "holding up a phone toward the viewer, smug narrowed eyes, sly grin as if having collected evidence",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "show_phone",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Holding a phone up toward the viewer, smug narrowed eyes; lower body stays in place.",
+        "Frame 2: Tapping the phone screen with a sly grin; lower body stays in place.",
+        "Frame 3: Pushing the phone closer to the viewer; lower body stays in place.",
+        "Frame 4: Pulling the phone back, eyebrows wiggling smugly; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "playful evidence-collecting smugness, blank phone with no screen content",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "已截图",
+            "zh-TW": "已截圖",
+            "en": "Screenshotted",
+            "ja": "スクショ済み",
+            "ko": "캡처 완료"
+          }
+        },
+        {
+          "type": "stamp",
+          "position": "bottom-right",
+          "text": {
+            "zh-CN": "已举报",
+            "zh-TW": "已舉報",
+            "en": "REPORTED",
+            "ja": "通報済",
+            "ko": "신고됨"
+          },
+          "color": "#D62B2B",
+          "angle": -12,
+          "animate": "slam"
+        }
+      ]
+    }
+  }
+]

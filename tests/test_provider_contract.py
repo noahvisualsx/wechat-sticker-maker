@@ -61,3 +61,34 @@ def test_native_gif_downgrade_detection(tmp_path: Path):
     with patch.object(gif_provider.session, "post", return_value=mock_resp):
         with pytest.raises(ProviderCapabilityError, match="not supported"):
             gif_provider.render_native_gif("prompt", tmp_path / "test.gif")
+
+
+def test_openai_images_multi_reference_fallback_to_single(tmp_path: Path):
+    import base64
+    from PIL import Image
+
+    ref1 = tmp_path / "anchor.png"
+    ref2 = tmp_path / "source.png"
+    Image.new("RGBA", (64, 64), (255, 255, 255, 255)).save(ref1, format="PNG")
+    Image.new("RGBA", (64, 64), (255, 255, 255, 255)).save(ref2, format="PNG")
+
+    # Small valid PNG b64
+    out_buf = tmp_path / "dummy.png"
+    Image.new("RGBA", (64, 64), (255, 0, 0, 255)).save(out_buf, format="PNG")
+    valid_b64 = base64.b64encode(out_buf.read_bytes()).decode("ascii")
+
+    resp_400 = MagicMock()
+    resp_400.status_code = 400
+    resp_400.text = '{"error": {"message": "Multiple images not supported"}}'
+    resp_400.json.return_value = {"error": {"message": "Multiple images not supported"}}
+
+    resp_200 = MagicMock()
+    resp_200.status_code = 200
+    resp_200.json.return_value = {"data": [{"b64_json": valid_b64}]}
+
+    provider = OpenAIImagesProvider(api_key="test-key", max_retries=0)
+    with patch.object(provider.session, "post", side_effect=[resp_400, resp_200]) as mock_post:
+        out_file = tmp_path / "result.png"
+        provider.render_static([ref1, ref2], "test prompt", out_file)
+        assert out_file.exists()
+        assert mock_post.call_count == 2

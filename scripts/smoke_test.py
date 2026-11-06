@@ -30,12 +30,12 @@ def run_smoke_test() -> int:
     create_sample_photo(input_img)
 
     job = JobConfig(
-        job_id="smoke-cat-01",
+        job_id="smoke-portrait-01",
         source_image=str(input_img),
         output_dir=str(test_dir),
         mode="both",
         count=16,
-        style="kawaii-flat",
+        style="real-cutout",
         language="zh-CN",
         animation=AnimationConfig(backend="auto", frames=8, frame_duration_ms=180),
         font_path=get_default_font_path(),

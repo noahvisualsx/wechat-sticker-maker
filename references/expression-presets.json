@@ -1,338 +1,4804 @@
 [
   {
     "id": "01_hello",
+    "category": "greeting",
     "caption": "你好",
+    "captions": {
+      "zh-CN": "你好",
+      "zh-TW": "你好",
+      "en": "Hi there!",
+      "ja": "こんにちは！",
+      "ko": "안녕!"
+    },
     "mood": "friendly",
-    "static_pose": "facing forward, smiling warmly, one hand waving hello",
+    "static_pose": "facing forward, smiling warmly, one hand raised waving hello near cheek",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
     "motion": {
       "type": "wave_hand",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Shoulders stationary, eyes wide open and bright, gentle smile, raised hand tilted slightly inward toward cheek.",
+        "Frame 2: Shoulders stationary, eyes half-blinking, wider warm smile, raised hand upright at center wave position.",
+        "Frame 3: Shoulders stationary, eyes curved into happy closed crescents (blinking), open cheerful smile, raised hand waved outward to the right.",
+        "Frame 4: Shoulders stationary, eyes open again with catchlights, warm smile, raised hand swinging back to center wave position."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "hair_or_fur_pattern",
+        "outfit"
+      ]
     }
   },
   {
     "id": "02_morning",
+    "category": "greeting",
     "caption": "早安",
+    "captions": {
+      "zh-CN": "早安",
+      "zh-TW": "早安",
+      "en": "Good morning!",
+      "ja": "おはよ〜",
+      "ko": "좋은 아침!"
+    },
     "mood": "energetic",
-    "static_pose": "stretching arms upwards with an energetic smile",
+    "static_pose": "stretching arms upwards with an energetic morning smile",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
       "type": "stretch_and_blink",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Lower body stationary, both hands near shoulders preparing to stretch, eyes half-open.",
+        "Frame 2: Arms stretching upward above head, eyes blinking closed comfortably, mouth opening in a refreshing stretch.",
+        "Frame 3: Arms fully extended high in a big stretch, eyes sparkling wide open with energetic grin.",
+        "Frame 4: Arms relaxing slightly back down toward shoulders, bright awake smile."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "hair_or_fur_pattern",
+        "outfit"
+      ]
     }
   },
   {
     "id": "03_goodnight",
+    "category": "greeting",
     "caption": "晚安",
+    "captions": {
+      "zh-CN": "晚安",
+      "zh-TW": "晚安",
+      "en": "Good night~",
+      "ja": "おやすみ〜",
+      "ko": "잘자~"
+    },
     "mood": "sleepy",
-    "static_pose": "hugging a soft pillow, closed eyes with sleepy face and night cap",
+    "static_pose": "hugging a soft pillow, sleepy drooping eyes and gentle yawn",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
       "type": "sleepy_nod",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hugging pillow, upper eyelids heavy and half-closed, small sleepy mouth.",
+        "Frame 2: Head nodding slightly forward, eyes 80% closed, yawning softly.",
+        "Frame 3: Head resting tilted on pillow, eyes completely closed in peaceful sleep, floating Zzz.",
+        "Frame 4: Head lifting slightly back up, eyes fluttering half-open."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "pillow",
+        "outfit"
+      ]
     }
   },
   {
     "id": "04_laugh",
+    "category": "positive",
     "caption": "哈哈哈",
+    "captions": {
+      "zh-CN": "哈哈哈",
+      "zh-TW": "哈哈哈",
+      "en": "LOL",
+      "ja": "爆笑ｗｗ",
+      "ko": "ㅋㅋㅋ"
+    },
     "mood": "happy",
-    "static_pose": "laughing heartily with open mouth and curved joyous eyes",
+    "static_pose": "laughing heartily with open mouth, curved joyous eyes, one hand near mouth",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
       "type": "laugh_bounce",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Big grin, eyes open and crinkled, hand raised near chest.",
+        "Frame 2: Head tilting back slightly in laughter, eyes curved into happy crescents, mouth wide open laughing.",
+        "Frame 3: Clapping or waving hand in amusement, eyes tightly curved laughing, shoulders chuckling.",
+        "Frame 4: Returning to bright open-mouthed smile, eyes opening slightly."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "hair_or_fur_pattern",
+        "outfit"
+      ]
     }
   },
   {
     "id": "05_shy",
+    "category": "love",
     "caption": "害羞",
+    "captions": {
+      "zh-CN": "害羞",
+      "zh-TW": "害羞",
+      "en": "So shy~",
+      "ja": "照れる…",
+      "ko": "부끄부끄"
+    },
     "mood": "shy",
-    "static_pose": "hands near cheeks, blushing with rosy cheeks, glancing aside",
+    "static_pose": "both hands near rosy blushing cheeks, shy smile, glancing aside",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "whisper",
+      "position": "auto",
+      "texts": {}
+    },
     "motion": {
       "type": "blink_and_blush",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands near cheeks, eyes open looking forward, soft pink blush.",
+        "Frame 2: Eyelids lowering shyly, gaze shifting to the side, hands pressing gently against cheeks, deeper blush.",
+        "Frame 3: Eyes blinking closed bashfully, head tilted slightly down, rosy cheeks glowing, fingers wiggling.",
+        "Frame 4: Eyes peeking back open toward camera with a shy sweet smile."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
     }
   },
   {
     "id": "06_cry",
+    "category": "negative",
     "caption": "哭哭",
+    "captions": {
+      "zh-CN": "哭哭",
+      "zh-TW": "哭哭",
+      "en": "Waaah",
+      "ja": "えーん",
+      "ko": "흑흑"
+    },
     "mood": "sad",
-    "static_pose": "teary eyes with big glittering tears streaming down",
+    "static_pose": "teary eyes with big glittering tears, rubbing eyes with hands",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
       "type": "teardrop_fall",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Watery eyes welling up with tears, pouting quivering lips, hands raised near face.",
+        "Frame 2: Eyes squeezing half-shut, tears rolling down cheeks, hands rubbing eyes.",
+        "Frame 3: Crying with closed teary eyes, hands wiping tears outward, droplets falling.",
+        "Frame 4: Sniffling, eyes opening slightly with glossy tear drops."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
     }
   },
   {
     "id": "07_angry",
+    "category": "negative",
     "caption": "生气",
+    "captions": {
+      "zh-CN": "生气",
+      "zh-TW": "生氣",
+      "en": "So mad!",
+      "ja": "怒ったぞ！",
+      "ko": "화났어!"
+    },
     "mood": "angry",
-    "static_pose": "hands on hips, puffed cheeks with small comic steam puff",
+    "static_pose": "hands on hips or shaking fist, puffed cheeks, furrowed eyebrows",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "气死了！",
+        "zh-TW": "氣死了！",
+        "en": "Grrr!",
+        "ja": "ムカッ！",
+        "ko": "으악!"
+      }
+    },
     "motion": {
       "type": "stomp_and_steam",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Furrowed angry brows, puffed cheeks, clenched fist raised at shoulder level.",
+        "Frame 2: Shaking fist upward, eyes glaring intensely, steam puff appearing.",
+        "Frame 3: Blinking angrily while stomping/pumping fist down, cheeks extra puffed.",
+        "Frame 4: Fist returning to mid-position, huffing expression."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
     }
   },
   {
     "id": "08_speechless",
+    "category": "surprise",
     "caption": "无语",
+    "captions": {
+      "zh-CN": "无语",
+      "zh-TW": "無言",
+      "en": "Speechless...",
+      "ja": "…無言",
+      "ko": "할말없음"
+    },
     "mood": "speechless",
-    "static_pose": "half-closed deadpan eyes with a sweat drop on forehead",
+    "static_pose": "half-closed deadpan eyes with a sweat drop on temple, unimpressed expression",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
       "type": "sweatdrop_slide",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
       "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "keyframe_poses": [
+        "Frame 1: Eyes open with flat unimpressed brows, small sweatdrop forming at temple.",
+        "Frame 2: Upper eyelids dropping halfway into a deadpan stare, sweatdrop sliding down.",
+        "Frame 3: Slow exasperated eye-roll/blink, hand raised to forehead in facepalm gesture.",
+        "Frame 4: Holding deadpan half-lidded stare, sighing."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
     }
   },
   {
     "id": "09_acknowledged",
+    "category": "reply",
     "caption": "收到",
+    "captions": {
+      "zh-CN": "收到",
+      "zh-TW": "收到",
+      "en": "Got it!",
+      "ja": "了解です！",
+      "ko": "넵!"
+    },
     "mood": "confident",
-    "static_pose": "giving a confident thumbs up with bright sparkling eyes",
+    "static_pose": "giving a crisp salute or confident thumbs up with bright eyes",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "rect",
+      "position": "auto",
+      "texts": {}
+    },
     "motion": {
       "type": "nod_and_thumbsup",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Upright posture, eyes open, raising right hand into a thumbs-up.",
+        "Frame 2: Crisp affirmative head nod downward, eyes blinking in a confident wink, thumb raised high.",
+        "Frame 3: Head back upright, sparkling confident smile, thumbs-up pushed forward.",
+        "Frame 4: Relaxed confident smile, holding thumbs-up steady."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
     }
   },
   {
     "id": "10_fighting",
+    "category": "praise",
     "caption": "加油",
+    "captions": {
+      "zh-CN": "加油",
+      "zh-TW": "加油",
+      "en": "You got this!",
+      "ja": "がんばれ！",
+      "ko": "화이팅!"
+    },
     "mood": "encouraging",
-    "static_pose": "pumping a clenched fist determinedly in the air",
+    "static_pose": "pumping clenched fists determinedly with an encouraging smile",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
       "type": "fist_pump",
-      "duration_ms": 1440,
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Determined bright eyes, both fists clenched near chest.",
+        "Frame 2: Pumping right fist enthusiastically upward, mouth open cheering.",
+        "Frame 3: Both fists pumped high, eyes curved in an encouraging wink/blink.",
+        "Frame 4: Fists lowering back to chest height with energetic smile."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
     }
   },
   {
     "id": "11_thanks",
+    "category": "polite",
     "caption": "谢谢",
+    "captions": {
+      "zh-CN": "谢谢",
+      "zh-TW": "謝謝",
+      "en": "Thank you!",
+      "ja": "ありがと！",
+      "ko": "고마워!"
+    },
     "mood": "grateful",
-    "static_pose": "bowing politely with palms pressed together in gratitude",
+    "static_pose": "palms pressed together or hands clasped in gratitude, warm appreciative smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "gentle_bow",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands pressed together in front of chest, warm open eyes and smile.",
+        "Frame 2: Head and upper neck bowing politely forward, eyes softly closing in gratitude.",
+        "Frame 3: Deepest polite nod with happy closed curved eyes, hands wiggling slightly in thanks.",
+        "Frame 4: Head rising back up, eyes opening with a grateful smile."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "12_hug",
+    "category": "love",
+    "caption": "抱抱",
+    "captions": {
+      "zh-CN": "抱抱",
+      "zh-TW": "抱抱",
+      "en": "Hugs~",
+      "ja": "ぎゅ〜",
+      "ko": "안아줘~"
+    },
+    "mood": "comforting",
+    "static_pose": "both arms wide open reaching forward for a warm loving hug",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "hug_reach",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Warm loving eyes, arms opening wide to the sides.",
+        "Frame 2: Arms reaching forward in a welcoming motion, soft blink.",
+        "Frame 3: Hands gesturing 'come here' inward, happy curved smiling eyes and floating heart.",
+        "Frame 4: Arms open wide again with an affectionate smile."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "13_yay",
+    "category": "positive",
+    "caption": "好耶",
+    "captions": {
+      "zh-CN": "好耶",
+      "zh-TW": "好耶",
+      "en": "Yay!",
+      "ja": "やったー！",
+      "ko": "앗싸!"
+    },
+    "mood": "excited",
+    "static_pose": "both arms raised high waving in pure celebration",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "cheer_jump",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Excited grin, hands raised at head level.",
+        "Frame 2: Throwing both arms high into a V-shape cheer, mouth open cheering.",
+        "Frame 3: Waving both raised hands left and right, eyes blinking into happy stars/crescents.",
+        "Frame 4: Lowering hands slightly back to head level with radiant smile."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "14_confused",
+    "category": "surprise",
+    "caption": "疑问",
+    "captions": {
+      "zh-CN": "疑问",
+      "zh-TW": "疑問",
+      "en": "Huh?",
+      "ja": "はて？",
+      "ko": "응?"
+    },
+    "mood": "puzzled",
+    "static_pose": "head tilted to one side, finger touching cheek/chin with question mark",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "head_tilt",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Head upright, index finger near chin, curious open eyes.",
+        "Frame 2: Head tilting noticeably to the right, blinking once in confusion.",
+        "Frame 3: Full puzzled head tilt, one eyebrow raised, finger tapping cheek, question mark appearing.",
+        "Frame 4: Head tilting back toward center while blinking."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "15_bye",
+    "category": "greeting",
+    "caption": "拜拜",
+    "captions": {
+      "zh-CN": "拜拜",
+      "zh-TW": "掰掰",
+      "en": "Bye-bye!",
+      "ja": "バイバイ〜",
+      "ko": "빠이빠이~"
+    },
+    "mood": "farewell",
+    "static_pose": "waving hand goodbye with a cheerful wink",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "side_wave",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both eyes open, smiling, hand raised waving to the left.",
+        "Frame 2: Hand swinging across to the right, one eye winking playfully.",
+        "Frame 3: Hand waving back to the left, both eyes curved in a warm goodbye smile.",
+        "Frame 4: Hand centered, eyes open with a friendly farewell grin."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "16_love",
+    "category": "love",
+    "caption": "爱你",
+    "captions": {
+      "zh-CN": "爱你",
+      "zh-TW": "愛你",
+      "en": "Love you!",
+      "ja": "大好き！",
+      "ko": "사랑해!"
+    },
+    "mood": "affectionate",
+    "static_pose": "making finger-heart or holding a glowing pink heart with sweet wink",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "heart_beat",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Making a cute hand-heart / finger-heart gesture, both eyes open and smiling.",
+        "Frame 2: Pushing hand-heart slightly forward, winking one eye sweetly.",
+        "Frame 3: Both eyes curved in an affectionate smile, pink heart pulsing above hand.",
+        "Frame 4: Eyes opening brightly with a loving smile."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "17_are_you_there",
+    "category": "social",
+    "caption": "在吗",
+    "captions": {
+      "zh-CN": "在吗",
+      "zh-TW": "在嗎",
+      "en": "You there?",
+      "ja": "いる？",
+      "ko": "있어?"
+    },
+    "mood": "inquiring",
+    "static_pose": "leaning in curiously, waving one hand gently to get attention",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "top-right",
+      "texts": {}
+    },
+    "motion": {
+      "type": "peek_in_and_out",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Leaning slightly from the side, curious wide eyes, hand raised.",
+        "Frame 2: Head tilting inward, blinking twice curiously, hand knocking/waving.",
+        "Frame 3: Leaning closer with an expectant smile and raised eyebrows.",
+        "Frame 4: Settling back with a friendly inquiring look."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "18_wait",
+    "category": "reply",
+    "caption": "等等",
+    "captions": {
+      "zh-CN": "等等",
+      "zh-TW": "等等",
+      "en": "Wait!",
+      "ja": "待って！",
+      "ko": "잠깐만!"
+    },
+    "mood": "urgent",
+    "static_pose": "one palm extended forward in a wait/stop gesture",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "hand_press",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Urgent expression, open palm raised forward.",
+        "Frame 2: Waving open palm side-to-side ('wait a second!'), eyes blinking.",
+        "Frame 3: Pushing palm forward for emphasis, flustered expression.",
+        "Frame 4: Returning palm to center stop position."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "19_ok",
+    "category": "reply",
+    "caption": "OK",
+    "captions": {
+      "zh-CN": "OK",
+      "zh-TW": "OK",
+      "en": "OK!",
+      "ja": "オッケー！",
+      "ko": "오케이!"
+    },
+    "mood": "agreeable",
+    "static_pose": "making an OK finger circle sign near cheek with cheerful wink",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "ok_nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Raising hand into an OK finger sign, both eyes open.",
+        "Frame 2: Nodding head once while winking one eye and tilting the OK hand.",
+        "Frame 3: Holding crisp OK sign with a bright beaming smile.",
+        "Frame 4: Both eyes open again, relaxed cheerful expression."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "20_please",
+    "category": "polite",
+    "caption": "求求",
+    "captions": {
+      "zh-CN": "求求",
+      "zh-TW": "拜託拜託",
+      "en": "Pretty please",
+      "ja": "お願い〜！",
+      "ko": "제발~"
+    },
+    "mood": "pleading",
+    "static_pose": "hands clasped together under chin, big puppy-dog pleading eyes",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "plead_shake",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands clasped tightly under chin, big shimmering puppy eyes.",
+        "Frame 2: Shaking clasped hands gently left and right, blinking rapidly.",
+        "Frame 3: Head tilting in a cute begging pose, pouting lips.",
+        "Frame 4: Clasped hands returning to center with hopeful eyes."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "21_eating",
+    "category": "daily",
+    "caption": "吃饭啦",
+    "captions": {
+      "zh-CN": "吃饭啦",
+      "zh-TW": "吃飯囉",
+      "en": "Time to eat!",
+      "ja": "ごはんだ〜",
+      "ko": "밥 먹자!"
+    },
+    "mood": "hungry",
+    "static_pose": "holding a bowl and chopsticks/spoon, chewing happily",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "eating_munch",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Holding bowl, lifting chopsticks/spoon toward open mouth.",
+        "Frame 2: Taking a bite, eyes closing into happy crescents.",
+        "Frame 3: Chewing happily with puffed cheeks, hand waving spoon.",
+        "Frame 4: Swallowing with a satisfied grin, eyes open."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "22_sleeping",
+    "category": "daily",
+    "caption": "睡觉啦",
+    "captions": {
+      "zh-CN": "睡觉啦",
+      "zh-TW": "睡覺囉",
+      "en": "Bedtime~",
+      "ja": "寝るね〜",
+      "ko": "자러 간다~"
+    },
+    "mood": "sleepy",
+    "static_pose": "resting cheek on hands, closed eyes with Zzz bubbles",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "zzz_float",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "small",
+      "keyframe_poses": [
+        "Frame 1: Cheek resting on hands, eyes softly closed, breathing in.",
+        "Frame 2: Gentle exhale, head sinking slightly into hands, small Zzz.",
+        "Frame 3: Peaceful sleeping expression, eyebrows relaxing, larger Zzz floating.",
+        "Frame 4: Calm rhythmic breathing, returning to initial resting position."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "23_aggrieved",
+    "category": "negative",
+    "caption": "委屈",
+    "captions": {
+      "zh-CN": "委屈",
+      "zh-TW": "委屈",
+      "en": "So unfair...",
+      "ja": "ぴえん",
+      "ko": "억울해"
+    },
+    "mood": "pouting",
+    "static_pose": "pouting lower lip, index fingers poking together nervously",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "finger_twiddle",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Pouting lips, watery eyes looking up, index fingers apart.",
+        "Frame 2: Index fingers tapping together nervously, eyes blinking back tears.",
+        "Frame 3: Head drooping slightly, fingers poking again, aggrieved pout.",
+        "Frame 4: Looking up shyly while twiddling fingers."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "24_shocked",
+    "category": "surprise",
+    "caption": "震惊",
+    "captions": {
+      "zh-CN": "震惊",
+      "zh-TW": "震驚",
+      "en": "Shocked!",
+      "ja": "えっ！？",
+      "ko": "헐!"
+    },
+    "mood": "shocked",
+    "static_pose": "jaw dropped, wide eyes, both hands on cheeks in disbelief",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "shock_shake",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Eyes widening in surprise, hands rising toward cheeks.",
+        "Frame 2: Jaw dropping open, hands pressing both cheeks in shock, rapid blink.",
+        "Frame 3: Leaning slightly back in disbelief, wide shocked eyes and exclamation marks.",
+        "Frame 4: Holding shocked expression with hands on cheeks."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "25_long_time_no_see",
+    "category": "greeting",
+    "caption": "好久不见",
+    "captions": {
+      "zh-CN": "好久不见",
+      "zh-TW": "好久不見",
+      "en": "Long time no see!",
+      "ja": "久しぶり！",
+      "ko": "오랜만이야!"
+    },
+    "mood": "delighted",
+    "static_pose": "both hands raised waving excitedly, eyes sparkling with joy, wide open grin",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_both_hands",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws raised beside the head, palms facing forward; eyes open, a wide delighted grin; lower body stays in place.",
+        "Frame 2: Both hands/paws swaying to the left; eyes in a quick natural blink, a wide delighted grin; lower body stays in place.",
+        "Frame 3: Both hands/paws swung wide to the right at full stretch; eyes sparkling with happy tears of reunion, mouth open in a joyful shout; lower body stays in place.",
+        "Frame 4: Both hands/paws swinging back to center beside the head; eyes open again, a wide delighted grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "26_welcome",
+    "category": "greeting",
+    "caption": "欢迎欢迎",
+    "captions": {
+      "zh-CN": "欢迎欢迎",
+      "zh-TW": "歡迎歡迎",
+      "en": "Welcome!",
+      "ja": "いらっしゃい！",
+      "ko": "어서와!"
+    },
+    "mood": "welcoming",
+    "static_pose": "arms spread open wide in welcome, bright warm smile, slight lean forward",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "open_arms",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Arms held slightly out from the body, palms up; eyes open, a warm open smile; lower body stays in place.",
+        "Frame 2: Arms opening outward to shoulder height; eyes in a quick natural blink, a warm open smile; lower body stays in place.",
+        "Frame 3: Arms spread fully wide open, chest proud, palms up; eyes curved into happy crescents, mouth wide in a hearty welcome; lower body stays in place.",
+        "Frame 4: Arms drawing halfway back in, still open; eyes open again, a warm open smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "27_see_you_tomorrow",
+    "category": "greeting",
+    "caption": "明天见",
+    "captions": {
+      "zh-CN": "明天见",
+      "zh-TW": "明天見",
+      "en": "See you tomorrow",
+      "ja": "また明日！",
+      "ko": "내일 봐!"
+    },
+    "mood": "cheerful",
+    "static_pose": "one hand waving goodbye at shoulder height, friendly smile, head tilted",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "side_wave",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised at shoulder height, palm out; eyes open, a friendly closed-mouth smile; lower body stays in place.",
+        "Frame 2: The hand/paw swinging inward; eyes in a quick natural blink, a friendly closed-mouth smile; lower body stays in place.",
+        "Frame 3: The hand/paw swung wide to the side in a big wave; eyes in a playful wink, mouth in a bright cheerful grin; lower body stays in place.",
+        "Frame 4: The hand/paw swinging back; eyes open again, a friendly closed-mouth smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "28_im_back",
+    "category": "greeting",
+    "caption": "我回来了",
+    "captions": {
+      "zh-CN": "我回来了",
+      "zh-TW": "我回來了",
+      "en": "I'm back!",
+      "ja": "ただいま！",
+      "ko": "나 왔어!"
+    },
+    "mood": "excited",
+    "static_pose": "popping up with both arms thrown high, beaming face, energetic pose",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "pop_up",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Slight crouch with hands/paws tucked near the chest; eyes open, an excited open smile; lower body stays in place.",
+        "Frame 2: Springing up with arms starting to rise; eyes in a quick natural blink, an excited open smile; lower body stays in place.",
+        "Frame 3: Fully stretched upward with both arms thrown high; eyes wide and shining, mouth open in a big happy cheer; lower body stays in place.",
+        "Frame 4: Settling back down with arms lowering, feet back on the same spot; eyes open again, an excited open smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "29_good_afternoon",
+    "category": "greeting",
+    "caption": "午安",
+    "captions": {
+      "zh-CN": "午安",
+      "zh-TW": "午安",
+      "en": "Good afternoon",
+      "ja": "ごきげんよう",
+      "ko": "좋은 오후!"
+    },
+    "mood": "relaxed",
+    "static_pose": "holding a teacup with both hands, relaxed contented smile, cozy posture",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "drink_sip",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws cradling a cup at chest height; eyes open, a calm contented smile; lower body stays in place.",
+        "Frame 2: Both hands/paws raising the cup toward the chin; eyes in a quick natural blink, a calm contented smile; lower body stays in place.",
+        "Frame 3: Both hands/paws tilting the cup at the lips mid-sip; eyes softly closed in bliss, mouth gently sipping with a satisfied sigh; lower body stays in place.",
+        "Frame 4: Both hands/paws lowering the cup back to chest height; eyes open again, a calm contented smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "cup"
+      ]
+    }
+  },
+  {
+    "id": "30_excited",
+    "category": "positive",
+    "caption": "激动",
+    "captions": {
+      "zh-CN": "激动",
+      "zh-TW": "超興奮",
+      "en": "So excited!",
+      "ja": "ワクワク！",
+      "ko": "신난다!"
+    },
+    "mood": "excited",
+    "static_pose": "fists tucked to the chest mid-hop, star-sparkling eyes, open-mouthed squeal",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "啊啊啊！",
+        "zh-TW": "啊啊啊！",
+        "en": "Aaah!",
+        "ja": "きゃー！",
+        "ko": "꺄악!"
+      }
+    },
+    "motion": {
+      "type": "jump_joy",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Knees slightly bent, fists tucked near the chest; eyes open, an open-mouthed excited grin; lower body stays in place.",
+        "Frame 2: A small hop beginning with arms lifting; eyes in a quick natural blink, an open-mouthed excited grin; lower body stays in place.",
+        "Frame 3: At the top of the hop with arms flung up in a V; eyes turned into sparkling stars, mouth wide in an excited squeal; lower body stays in place.",
+        "Frame 4: Landing softly on the same spot, arms coming down; eyes open again, an open-mouthed excited grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "31_proud",
+    "category": "positive",
+    "caption": "骄傲",
+    "captions": {
+      "zh-CN": "骄傲",
+      "zh-TW": "驕傲",
+      "en": "So proud!",
+      "ja": "ドヤッ！",
+      "ko": "뿌듯해!"
+    },
+    "mood": "proud",
+    "static_pose": "hands on hips, chest puffed out, chin up with a confident closed-eye smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "chest_puff",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws on hips, chest neutral; eyes open, a confident little smirk; lower body stays in place.",
+        "Frame 2: Hands/paws on hips, chest puffing out, chin rising; eyes in a quick natural blink, a confident little smirk; lower body stays in place.",
+        "Frame 3: Hands/paws firmly on hips, chest fully puffed, chin held high; eyes closed proudly, mouth in a big self-satisfied grin, nose in the air; lower body stays in place.",
+        "Frame 4: Hands/paws still on hips, chest relaxing slightly; eyes open again, a confident little smirk; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "32_relieved",
+    "category": "positive",
+    "caption": "松了口气",
+    "captions": {
+      "zh-CN": "松了口气",
+      "zh-TW": "鬆了一口氣",
+      "en": "Phew!",
+      "ja": "ホッ…",
+      "ko": "다행이다~"
+    },
+    "mood": "relieved",
+    "static_pose": "wiping forehead with the back of one hand, relaxed relieved smile, shoulders dropped",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wipe_forehead",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised near the forehead; eyes open, a tense wobbly smile; lower body stays in place.",
+        "Frame 2: The back of the hand/paw sweeping across the brow; eyes in a quick natural blink, a tense wobbly smile; lower body stays in place.",
+        "Frame 3: The hand/paw flicked outward after wiping, shoulders dropping in relief; eyes closed in relief, mouth letting out a long relaxed sigh; lower body stays in place.",
+        "Frame 4: The hand/paw drifting back toward the forehead; eyes open again, a tense wobbly smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "33_cool",
+    "category": "positive",
+    "caption": "酷",
+    "captions": {
+      "zh-CN": "酷",
+      "zh-TW": "酷",
+      "en": "Too cool.",
+      "ja": "キマった",
+      "ko": "멋지지?"
+    },
+    "mood": "cool",
+    "static_pose": "putting on sunglasses with one finger, smug cool half-smile, chin tilted up",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "sunglasses_on",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding sunglasses just below the eyes; eyes open, a cool half-smile; lower body stays in place.",
+        "Frame 2: The hand/paw sliding the sunglasses up toward the eyes; eyes in a quick natural blink, a cool half-smile; lower body stays in place.",
+        "Frame 3: The sunglasses settled on the face with a finger pushing the bridge, a tiny glint flashing; eyes hidden behind the glinting sunglasses, mouth in a confident smirk; lower body stays in place.",
+        "Frame 4: The finger lowering slightly from the sunglasses bridge; eyes open again, a cool half-smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "sunglasses"
+      ]
+    }
+  },
+  {
+    "id": "34_dance",
+    "category": "positive",
+    "caption": "嗨起来",
+    "captions": {
+      "zh-CN": "嗨起来",
+      "zh-TW": "嗨起來",
+      "en": "Let's dance!",
+      "ja": "踊ろ〜！",
+      "ko": "춤추자!"
+    },
+    "mood": "groovy",
+    "static_pose": "mid dance move with arms up to one side, joyful closed eyes, big grin",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "dance",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Arms bent at the elbows, ready to groove; eyes open, a playful grin; lower body stays in place.",
+        "Frame 2: Arms swinging to the left with a shoulder bounce; eyes in a quick natural blink, a playful grin; lower body stays in place.",
+        "Frame 3: Arms thrown up to the right in a fun dance pose; eyes closed in pure fun, mouth open singing along; lower body stays in place.",
+        "Frame 4: Arms swinging back through center; eyes open again, a playful grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "35_giggle",
+    "category": "positive",
+    "caption": "嘿嘿",
+    "captions": {
+      "zh-CN": "嘿嘿",
+      "zh-TW": "嘿嘿",
+      "en": "Hehe",
+      "ja": "えへへ",
+      "ko": "헤헤"
+    },
+    "mood": "mischievous",
+    "static_pose": "hand covering mouth while giggling, eyes curved, shoulders raised",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "giggle_cover_mouth",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised near the mouth; eyes open, a sly little smile; lower body stays in place.",
+        "Frame 2: Fingertips covering the mouth, shoulders lifting; eyes in a quick natural blink, a sly little smile; lower body stays in place.",
+        "Frame 3: The hand/paw pressed over the mouth, shoulders shaking with suppressed giggles; eyes squeezed into mischievous crescents, mouth hidden in a giggle; lower body stays in place.",
+        "Frame 4: The hand/paw easing slightly away from the mouth; eyes open again, a sly little smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "36_happy",
+    "category": "positive",
+    "caption": "开心",
+    "captions": {
+      "zh-CN": "开心",
+      "zh-TW": "開心",
+      "en": "So happy!",
+      "ja": "うれしい！",
+      "ko": "행복해!"
+    },
+    "mood": "joyful",
+    "static_pose": "twirling with arms out wide, radiant smile, little flowers around",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "spin",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Facing forward, arms slightly out; eyes open, a radiant smile; lower body stays in place.",
+        "Frame 2: Upper body turning to a three-quarter view, arms trailing; eyes in a quick natural blink, a radiant smile; lower body stays in place.",
+        "Frame 3: Arms flung wide mid-twirl, upper body in profile; eyes closed in bliss, mouth open in a happy laugh with tiny flowers around; lower body stays in place.",
+        "Frame 4: Upper body turning back toward the front, arms settling; eyes open again, a radiant smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "37_heartbroken",
+    "category": "negative",
+    "caption": "心碎",
+    "captions": {
+      "zh-CN": "心碎",
+      "zh-TW": "心碎",
+      "en": "Heartbroken",
+      "ja": "心が折れた",
+      "ko": "마음 아파"
+    },
+    "mood": "heartbroken",
+    "static_pose": "holding a cracked red heart at the chest, teary eyes, trembling frown",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "heartbreak_crack",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a red heart at the chest; eyes open, a quivering frown; lower body stays in place.",
+        "Frame 2: Hands/paws trembling as a jagged crack runs down the heart; eyes in a quick natural blink, a quivering frown; lower body stays in place.",
+        "Frame 3: Hands/paws holding the heart split into two halves; eyes brimming with tears, mouth in a wobbly devastated frown; lower body stays in place.",
+        "Frame 4: Hands/paws lowering slightly with the halves drooping; eyes open again, a quivering frown; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "heart_prop"
+      ]
+    }
+  },
+  {
+    "id": "38_emo",
+    "category": "negative",
+    "caption": "emo了",
+    "captions": {
+      "zh-CN": "emo了",
+      "zh-TW": "emo了",
+      "en": "Feeling emo",
+      "ja": "病み期…",
+      "ko": "우울해"
+    },
+    "mood": "gloomy",
+    "static_pose": "slumped shoulders under a little grey rain cloud, blank sad eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "gloom_cloud",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms hanging limp, a small grey cloud above the head; eyes open, a flat sad mouth; lower body stays in place.",
+        "Frame 2: Arms limp, shoulders sagging as the cloud darkens; eyes in a quick natural blink, a flat sad mouth; lower body stays in place.",
+        "Frame 3: Arms dangling, head drooped, tiny raindrops falling from the cloud; eyes empty and downcast with dark shading, mouth in a tiny sigh; lower body stays in place.",
+        "Frame 4: Arms still limp, head lifting a little, the cloud lingering; eyes open again, a flat sad mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "39_jealous",
+    "category": "negative",
+    "caption": "酸了",
+    "captions": {
+      "zh-CN": "酸了",
+      "zh-TW": "好酸",
+      "en": "Jealous!",
+      "ja": "うらやま…",
+      "ko": "부럽다…"
+    },
+    "mood": "jealous",
+    "static_pose": "biting a handkerchief and tugging it, envious narrowed eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "bite_handkerchief",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a handkerchief near the mouth; eyes open, a clenched envious pout; lower body stays in place.",
+        "Frame 2: Hands/paws tugging the handkerchief sideways; eyes in a quick natural blink, a clenched envious pout; lower body stays in place.",
+        "Frame 3: The handkerchief bitten and pulled taut in both hands/paws; eyes narrowed with envious tears, teeth biting hard on the handkerchief; lower body stays in place.",
+        "Frame 4: Hands/paws loosening the handkerchief near the mouth; eyes open again, a clenched envious pout; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "handkerchief"
+      ]
+    }
+  },
+  {
+    "id": "40_hmph",
+    "category": "negative",
+    "caption": "哼",
+    "captions": {
+      "zh-CN": "哼",
+      "zh-TW": "哼",
+      "en": "Hmph!",
+      "ja": "ふんっ！",
+      "ko": "흥!"
+    },
+    "mood": "sulking",
+    "static_pose": "arms crossed, head turned away with puffed cheeks and chin up",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "top-left",
+      "texts": {}
+    },
+    "motion": {
+      "type": "turn_away_pout",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Arms crossed over the chest, facing forward; eyes open, puffed cheeks and a pout; lower body stays in place.",
+        "Frame 2: Arms still crossed, head starting to turn aside; eyes in a quick natural blink, puffed cheeks and a pout; lower body stays in place.",
+        "Frame 3: Arms tightly crossed, head turned fully away with chin up; eyes shut in a huff, cheeks fully puffed, mouth in a sulky pout; lower body stays in place.",
+        "Frame 4: Arms crossed, head turning partway back for a peek; eyes open again, puffed cheeks and a pout; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "41_table_flip",
+    "category": "negative",
+    "caption": "掀桌",
+    "captions": {
+      "zh-CN": "掀桌",
+      "zh-TW": "翻桌",
+      "en": "Table flip!",
+      "ja": "ちゃぶ台返し",
+      "ko": "상 엎어!"
+    },
+    "mood": "furious",
+    "static_pose": "flipping a small table with both arms flung up, furious face",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "不干了！",
+        "zh-TW": "不幹了！",
+        "en": "I quit!",
+        "ja": "やめだ！",
+        "ko": "못 해!"
+      }
+    },
+    "motion": {
+      "type": "table_flip",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws gripping the edge of a small table in front; eyes open, gritted teeth; lower body stays in place.",
+        "Frame 2: Arms rising as the table edge lifts; eyes in a quick natural blink, gritted teeth; lower body stays in place.",
+        "Frame 3: Arms flung high as the small table flips over in front; eyes blazing with fury, mouth wide open in an angry roar; lower body stays in place.",
+        "Frame 4: Arms lowering, the table settled back in front; eyes open again, gritted teeth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "table"
+      ]
+    }
+  },
+  {
+    "id": "42_wail",
+    "category": "negative",
+    "caption": "哇哇大哭",
+    "captions": {
+      "zh-CN": "哇哇大哭",
+      "zh-TW": "嚎啕大哭",
+      "en": "Crying hard",
+      "ja": "号泣…",
+      "ko": "엉엉"
+    },
+    "mood": "devastated",
+    "static_pose": "head tilted back wailing, tears gushing, arms limp",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "sob",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Fists rubbing near the eyes; eyes open, a trembling crying mouth; lower body stays in place.",
+        "Frame 2: Fists pressed to the cheeks, shoulders heaving; eyes in a quick natural blink, a trembling crying mouth; lower body stays in place.",
+        "Frame 3: Arms limp at the sides, head tilted back wailing; eyes squeezed shut gushing tears, mouth wide open in a loud wail; lower body stays in place.",
+        "Frame 4: Fists coming back up toward the eyes; eyes open again, a trembling crying mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "43_so_sad",
+    "category": "negative",
+    "caption": "好难过",
+    "captions": {
+      "zh-CN": "好难过",
+      "zh-TW": "好難過",
+      "en": "So sad...",
+      "ja": "かなしい…",
+      "ko": "너무 슬퍼"
+    },
+    "mood": "sad",
+    "static_pose": "hands clutching cheeks with two streams of tears, droopy eyebrows",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "cry_streams",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws clasped under the chin; eyes open, a downturned trembling mouth; lower body stays in place.",
+        "Frame 2: Hands/paws trembling under the chin as tears well up; eyes in a quick natural blink, a downturned trembling mouth; lower body stays in place.",
+        "Frame 3: Hands/paws clutching the cheeks, two streams of tears pouring from the eyes; eyes overflowing with two streams of tears, mouth in a heartbroken wobble; lower body stays in place.",
+        "Frame 4: Hands/paws sliding back under the chin, tears thinning; eyes open again, a downturned trembling mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "44_omg",
+    "category": "surprise",
+    "caption": "我的天",
+    "captions": {
+      "zh-CN": "我的天",
+      "zh-TW": "我的天",
+      "en": "OMG!",
+      "ja": "うそでしょ！？",
+      "ko": "세상에!"
+    },
+    "mood": "astonished",
+    "static_pose": "palms pressed on cheeks, huge eyes, mouth dropped open",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "hands_on_cheeks",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws raised beside the face; eyes open, a small surprised mouth; lower body stays in place.",
+        "Frame 2: Palms touching the cheeks; eyes in a quick natural blink, a small surprised mouth; lower body stays in place.",
+        "Frame 3: Palms pressing the cheeks hard, elbows out; eyes huge with tiny pupils, mouth dropped wide open in a gasp; lower body stays in place.",
+        "Frame 4: Palms easing off the cheeks; eyes open again, a small surprised mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "45_question_marks",
+    "category": "surprise",
+    "caption": "问号脸",
+    "captions": {
+      "zh-CN": "问号脸",
+      "zh-TW": "問號臉",
+      "en": "???",
+      "ja": "はてな？？",
+      "ko": "뭐라고??"
+    },
+    "mood": "baffled",
+    "static_pose": "scratching head with puzzled face, floating curly question-mark symbols",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "question_marks",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw scratching the side of the head; eyes open, a crooked confused mouth; lower body stays in place.",
+        "Frame 2: The hand/paw paused at the head as a small curly question-mark symbol appears above; eyes in a quick natural blink, a crooked confused mouth; lower body stays in place.",
+        "Frame 3: Both hands/paws up in a puzzled shrug, three curly question-mark symbols floating above; eyes blank dots, mouth in a wavy baffled line; lower body stays in place.",
+        "Frame 4: One hand/paw back to scratching the head as the symbols fade; eyes open again, a crooked confused mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "46_cant_believe",
+    "category": "surprise",
+    "caption": "不敢相信",
+    "captions": {
+      "zh-CN": "不敢相信",
+      "zh-TW": "不敢相信",
+      "en": "No way!",
+      "ja": "信じられない",
+      "ko": "말도 안 돼"
+    },
+    "mood": "disbelieving",
+    "static_pose": "rubbing eyes in disbelief, then staring wide-eyed with mouth agape",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "rub_eyes",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws raised in loose fists near the eyes; eyes open, a slightly open stunned mouth; lower body stays in place.",
+        "Frame 2: Fists rubbing the eyes; eyes in a quick natural blink, a slightly open stunned mouth; lower body stays in place.",
+        "Frame 3: Hands/paws dropped open in front of the chest, staring in disbelief; eyes popped wide in disbelief, jaw hanging open; lower body stays in place.",
+        "Frame 4: Fists rising back toward the eyes; eyes open again, a slightly open stunned mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "47_scared",
+    "category": "surprise",
+    "caption": "好怕怕",
+    "captions": {
+      "zh-CN": "好怕怕",
+      "zh-TW": "好可怕",
+      "en": "So scary!",
+      "ja": "こわい…",
+      "ko": "무서워…"
+    },
+    "mood": "frightened",
+    "static_pose": "hands clutched at chest, trembling, pale face with sweat drops",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "whisper",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "tremble",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws clutched together at the chest; eyes open, a wobbly frightened mouth; lower body stays in place.",
+        "Frame 2: Hands/paws clutched, arms and shoulders jittering slightly left; eyes in a quick natural blink, a wobbly frightened mouth; lower body stays in place.",
+        "Frame 3: Hands/paws clenched tight, the whole upper body shaking with wobble lines; eyes wide and watery with shrunken pupils, teeth chattering; lower body stays in place.",
+        "Frame 4: Hands/paws still clutched, the jitter easing to the right; eyes open again, a wobbly frightened mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "48_faint",
+    "category": "surprise",
+    "caption": "晕倒",
+    "captions": {
+      "zh-CN": "晕倒",
+      "zh-TW": "昏倒",
+      "en": "*faints*",
+      "ja": "バタッ",
+      "ko": "기절"
+    },
+    "mood": "overwhelmed",
+    "static_pose": "leaning far back with arms flopped, dizzy swirl eyes, spirals above head",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "faint",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws loose at the sides, wobbling; eyes open, a woozy open mouth; lower body stays in place.",
+        "Frame 2: One hand/paw to the forehead, upper body tilting back; eyes in a quick natural blink, a woozy open mouth; lower body stays in place.",
+        "Frame 3: Arms flopped open, upper body leaned far back, dizzy spiral marks above; eyes turned into dizzy swirls, mouth slack with tongue peeking out; lower body stays in place.",
+        "Frame 4: Arms loose, upper body swaying back toward upright; eyes open again, a woozy open mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "49_no",
+    "category": "reply",
+    "caption": "不要",
+    "captions": {
+      "zh-CN": "不要",
+      "zh-TW": "不要",
+      "en": "Nope!",
+      "ja": "ムリ！",
+      "ko": "싫어!"
+    },
+    "mood": "refusing",
+    "static_pose": "arms crossed into a big X in front of the face, firm frowning face",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "cross_arms_x",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Forearms raised in front of the chest; eyes open, a firm frown; lower body stays in place.",
+        "Frame 2: Forearms moving toward each other; eyes in a quick natural blink, a firm frown; lower body stays in place.",
+        "Frame 3: Forearms firmly crossed into a big X in front of the face; eyes squeezed shut in refusal, mouth in a determined shout; lower body stays in place.",
+        "Frame 4: Forearms loosening slightly apart; eyes open again, a firm frown; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "50_on_my_way",
+    "category": "reply",
+    "caption": "马上到",
+    "captions": {
+      "zh-CN": "马上到",
+      "zh-TW": "馬上到",
+      "en": "On my way!",
+      "ja": "今行く！",
+      "ko": "지금 가는 중"
+    },
+    "mood": "hurried",
+    "static_pose": "dashing on the spot with pumping arms, determined face, speed lines",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "run_in_place",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Arms bent at the elbows in a running pose; eyes open, a determined panting mouth; lower body stays in place.",
+        "Frame 2: Left arm forward and right arm back, legs blurred in a dash; eyes in a quick natural blink, a determined panting mouth; lower body stays in place.",
+        "Frame 3: Right arm forward and left arm back, speed lines streaming behind; eyes focused forward with sweat drops, mouth open puffing hard; lower body stays in place.",
+        "Frame 4: Arms passing back through the start position; eyes open again, a determined panting mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "51_sure",
+    "category": "reply",
+    "caption": "好的呀",
+    "captions": {
+      "zh-CN": "好的呀",
+      "zh-TW": "好喔",
+      "en": "Sure thing!",
+      "ja": "いいよ〜",
+      "ko": "좋아~"
+    },
+    "mood": "agreeable",
+    "static_pose": "OK hand sign beside the cheek, sunny smile, head tilted",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "ok_sign",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised to shoulder height; eyes open, a sunny smile; lower body stays in place.",
+        "Frame 2: Fingers curling into a circle; eyes in a quick natural blink, a sunny smile; lower body stays in place.",
+        "Frame 3: A clear OK hand/paw sign held up beside the face; eyes in a cheerful wink, mouth in a bright grin; lower body stays in place.",
+        "Frame 4: The OK hand/paw sign lowering a little; eyes open again, a sunny smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "52_let_me_think",
+    "category": "reply",
+    "caption": "让我想想",
+    "captions": {
+      "zh-CN": "让我想想",
+      "zh-TW": "讓我想想",
+      "en": "Let me think",
+      "ja": "うーん…",
+      "ko": "생각 좀…"
+    },
+    "mood": "pondering",
+    "static_pose": "finger on chin, eyes looking up, thoughtful pursed lips",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "think_chin",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw under the chin, other arm across the waist; eyes open, pursed thoughtful lips; lower body stays in place.",
+        "Frame 2: Fingers tapping the chin, gaze drifting upward; eyes in a quick natural blink, pursed thoughtful lips; lower body stays in place.",
+        "Frame 3: Index finger pressed to the chin, head tilted, deep in thought; eyes looking up and to the side, mouth twisted in deep thought; lower body stays in place.",
+        "Frame 4: Fingers relaxing under the chin; eyes open again, pursed thoughtful lips; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "53_got_it",
+    "category": "reply",
+    "caption": "懂了",
+    "captions": {
+      "zh-CN": "懂了",
+      "zh-TW": "懂了",
+      "en": "I see!",
+      "ja": "なるほど！",
+      "ko": "알겠다!"
+    },
+    "mood": "enlightened",
+    "static_pose": "index finger pointing up with a glowing lightbulb above, bright realization face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "lightbulb_idea",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw under the chin; eyes open, a curious small mouth; lower body stays in place.",
+        "Frame 2: The hand/paw lifting, index finger starting to rise; eyes in a quick natural blink, a curious small mouth; lower body stays in place.",
+        "Frame 3: Index finger pointing up as a glowing lightbulb pops above the head; eyes lit up wide with realization, mouth open in an excited aha; lower body stays in place.",
+        "Frame 4: The finger lowering as the lightbulb glow softens; eyes open again, a curious small mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "54_really",
+    "category": "reply",
+    "caption": "真的吗",
+    "captions": {
+      "zh-CN": "真的吗",
+      "zh-TW": "真的假的",
+      "en": "Really?",
+      "ja": "マジで？",
+      "ko": "진짜?"
+    },
+    "mood": "curious",
+    "static_pose": "leaning toward the viewer with hands near cheeks, wide curious eyes",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "lean_in",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws resting at the sides, upright; eyes open, a small curious open mouth; lower body stays in place.",
+        "Frame 2: Hands/paws rising as the upper body leans toward the viewer; eyes in a quick natural blink, a small curious open mouth; lower body stays in place.",
+        "Frame 3: Hands/paws cupped near the cheeks, face close to the viewer; eyes huge and sparkling with curiosity, mouth in an eager little o; lower body stays in place.",
+        "Frame 4: Hands/paws lowering as the upper body eases back; eyes open again, a small curious open mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "55_whatever",
+    "category": "reply",
+    "caption": "随便",
+    "captions": {
+      "zh-CN": "随便",
+      "zh-TW": "隨便啦",
+      "en": "Whatever.",
+      "ja": "どっちでも",
+      "ko": "아무거나"
+    },
+    "mood": "indifferent",
+    "static_pose": "shrugging with both palms up, half-lidded bored eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "shrug",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms relaxed at the sides; eyes open, a flat bored mouth; lower body stays in place.",
+        "Frame 2: Palms starting to turn up as the shoulders rise; eyes in a quick natural blink, a flat bored mouth; lower body stays in place.",
+        "Frame 3: Both palms up and out, shoulders high; eyes half-lidded and unbothered, mouth in a lazy sideways line; lower body stays in place.",
+        "Frame 4: Palms dropping as the shoulders lower; eyes open again, a flat bored mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "56_call_me",
+    "category": "reply",
+    "caption": "打给我",
+    "captions": {
+      "zh-CN": "打给我",
+      "zh-TW": "打給我",
+      "en": "Call me!",
+      "ja": "電話して！",
+      "ko": "전화해!"
+    },
+    "mood": "eager",
+    "static_pose": "holding a phone to the ear and pointing at the viewer, lively smile",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "phone_call",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a phone at the ear, other hand at the side; eyes open, a lively talking smile; lower body stays in place.",
+        "Frame 2: The free hand/paw lifting in a talking gesture; eyes in a quick natural blink, a lively talking smile; lower body stays in place.",
+        "Frame 3: The free hand/paw pointing at the viewer, phone still at the ear; eyes in a playful wink, mouth open mid-sentence; lower body stays in place.",
+        "Frame 4: The free hand/paw lowering back; eyes open again, a lively talking smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "phone"
+      ]
+    }
+  },
+  {
+    "id": "57_sorry",
+    "category": "polite",
+    "caption": "对不起",
+    "captions": {
+      "zh-CN": "对不起",
+      "zh-TW": "對不起",
+      "en": "So sorry!",
+      "ja": "ごめんなさい",
+      "ko": "미안해…"
+    },
+    "mood": "apologetic",
+    "static_pose": "bowing deeply from the waist with hands at the knees, guilty teary eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "bow_deep",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws together in front of the waist, upright; eyes open, an apologetic wobbly mouth; lower body stays in place.",
+        "Frame 2: Hands/paws together as the upper body bends forward halfway; eyes in a quick natural blink, an apologetic wobbly mouth; lower body stays in place.",
+        "Frame 3: Hands/paws at the knees, upper body bowed deeply, head lowered; eyes squeezed shut with a guilty tear, mouth in a sincere apology; lower body stays in place.",
+        "Frame 4: Hands/paws together as the upper body rises halfway; eyes open again, an apologetic wobbly mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "58_youre_welcome",
+    "category": "polite",
+    "caption": "不客气",
+    "captions": {
+      "zh-CN": "不客气",
+      "zh-TW": "不客氣",
+      "en": "You're welcome",
+      "ja": "いえいえ〜",
+      "ko": "천만에~"
+    },
+    "mood": "gracious",
+    "static_pose": "gentle nod with hands together in front, gracious smile",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws relaxed in front, head level; eyes open, a gracious soft smile; lower body stays in place.",
+        "Frame 2: Hands/paws relaxed, head dipping forward; eyes in a quick natural blink, a gracious soft smile; lower body stays in place.",
+        "Frame 3: Hands/paws relaxed, head at the lowest point of a firm nod; eyes closed gently, mouth in a modest warm smile; lower body stays in place.",
+        "Frame 4: Hands/paws relaxed, head lifting back up; eyes open again, a gracious soft smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "59_excuse_me",
+    "category": "polite",
+    "caption": "打扰了",
+    "captions": {
+      "zh-CN": "打扰了",
+      "zh-TW": "打擾了",
+      "en": "Excuse me...",
+      "ja": "失礼します",
+      "ko": "실례합니다"
+    },
+    "mood": "timid",
+    "static_pose": "raising one hand politely, slightly hunched, timid apologetic smile",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "whisper",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "raise_hand",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw at shoulder height, palm forward; eyes open, a timid little smile; lower body stays in place.",
+        "Frame 2: The hand/paw rising higher; eyes in a quick natural blink, a timid little smile; lower body stays in place.",
+        "Frame 3: The hand/paw raised high above the head; eyes glancing sideways nervously with a sweat drop, mouth in an awkward smile; lower body stays in place.",
+        "Frame 4: The hand/paw lowering slightly; eyes open again, a timid little smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "60_thanks_boss",
+    "category": "polite",
+    "caption": "谢谢老板",
+    "captions": {
+      "zh-CN": "谢谢老板",
+      "zh-TW": "謝謝老闆",
+      "en": "Thanks, boss!",
+      "ja": "社長あざっす！",
+      "ko": "사장님 감사!"
+    },
+    "mood": "grateful",
+    "static_pose": "fist-in-palm salute with a small bow, beaming flattering grin",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "老板大气！",
+        "zh-TW": "老闆大器！",
+        "en": "So generous!",
+        "ja": "太っ腹〜！",
+        "ko": "통 크시다!"
+      }
+    },
+    "motion": {
+      "type": "fist_palm_salute",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One fist pressed into the other open palm at chest height; eyes open, a beaming grin; lower body stays in place.",
+        "Frame 2: The clasped hands/paws pushing forward; eyes in a quick natural blink, a beaming grin; lower body stays in place.",
+        "Frame 3: The clasped hands/paws shaking forward with a small bow of the head; eyes curved in delighted gratitude, mouth wide in a flattering laugh; lower body stays in place.",
+        "Frame 4: The clasped hands/paws drawing back to the chest; eyes open again, a beaming grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "61_good_work",
+    "category": "polite",
+    "caption": "辛苦了",
+    "captions": {
+      "zh-CN": "辛苦了",
+      "zh-TW": "辛苦了",
+      "en": "Good work!",
+      "ja": "おつかれさま",
+      "ko": "수고했어!"
+    },
+    "mood": "appreciative",
+    "static_pose": "gentle bow with hands together, warm caring smile",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
       "type": "gentle_bow",
       "duration_ms": 1440,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws together in front of the chest; eyes open, a warm caring smile; lower body stays in place.",
+        "Frame 2: Hands/paws together as the head and shoulders dip; eyes in a quick natural blink, a warm caring smile; lower body stays in place.",
+        "Frame 3: Hands/paws together at the lowest point of a gentle bow; eyes softly closed, mouth in a kind thankful smile; lower body stays in place.",
+        "Frame 4: Hands/paws together as the upper body rises; eyes open again, a warm caring smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
     }
   },
   {
-    "id": "12_hug",
-    "caption": "抱抱",
-    "mood": "comforting",
-    "static_pose": "arms wide open reaching forward for a warm loving hug",
+    "id": "62_miss_you",
+    "category": "love",
+    "caption": "想你了",
+    "captions": {
+      "zh-CN": "想你了",
+      "zh-TW": "想你了",
+      "en": "Miss you~",
+      "ja": "会いたい…",
+      "ko": "보고싶어"
+    },
+    "mood": "longing",
+    "static_pose": "hugging a pillow tightly, dreamy wistful eyes, small blush",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {}
+    },
     "motion": {
-      "type": "hug_reach",
+      "type": "hug_pillow",
       "duration_ms": 1440,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms wrapped around a soft pillow; eyes open, a wistful little smile; lower body stays in place.",
+        "Frame 2: Arms squeezing the pillow tighter; eyes in a quick natural blink, a wistful little smile; lower body stays in place.",
+        "Frame 3: Arms hugging the pillow tight, cheek pressed into it; eyes dreamy and glistening, mouth in a soft longing pout with blush; lower body stays in place.",
+        "Frame 4: Arms loosening the hug slightly; eyes open again, a wistful little smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "pillow"
+      ]
     }
   },
   {
-    "id": "13_yay",
-    "caption": "好耶",
-    "mood": "excited",
-    "static_pose": "jumping up with both arms raised high in pure celebration",
-    "motion": {
-      "type": "cheer_jump",
-      "duration_ms": 1440,
-      "frames": 8,
-      "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
-    }
-  },
-  {
-    "id": "14_confused",
-    "caption": "疑问",
-    "mood": "puzzled",
-    "static_pose": "head tilted to one side with a cute question mark overhead",
-    "motion": {
-      "type": "head_tilt",
-      "duration_ms": 1440,
-      "frames": 8,
-      "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
-    }
-  },
-  {
-    "id": "15_bye",
-    "caption": "拜拜",
-    "mood": "farewell",
-    "static_pose": "turning slightly sideways, waving hand goodbye with a wink",
-    "motion": {
-      "type": "side_wave",
-      "duration_ms": 1440,
-      "frames": 8,
-      "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
-    }
-  },
-  {
-    "id": "16_love",
-    "caption": "爱你",
+    "id": "63_kiss",
+    "category": "love",
+    "caption": "亲亲",
+    "captions": {
+      "zh-CN": "亲亲",
+      "zh-TW": "親親",
+      "en": "Kiss kiss",
+      "ja": "チュッ♡",
+      "ko": "뽀뽀"
+    },
     "mood": "affectionate",
-    "static_pose": "holding a small glowing pink heart close to chest with sweet smile",
+    "static_pose": "blowing a kiss with one hand, small heart floating, rosy cheeks",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "blow_kiss",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Fingertips touching the lips; eyes open, puckered lips; lower body stays in place.",
+        "Frame 2: The hand/paw starting to move away from the lips; eyes in a quick natural blink, puckered lips; lower body stays in place.",
+        "Frame 3: The hand/paw flung outward toward the viewer, a small heart floating away; one eye winking, lips puckered in a kiss with a heart floating away; lower body stays in place.",
+        "Frame 4: The hand/paw returning toward the lips; eyes open again, puckered lips; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "64_finger_heart",
+    "category": "love",
+    "caption": "比心",
+    "captions": {
+      "zh-CN": "比心",
+      "zh-TW": "比心",
+      "en": "Finger heart",
+      "ja": "指ハート",
+      "ko": "손하트"
+    },
+    "mood": "sweet",
+    "static_pose": "making a finger heart toward the viewer with a sweet wink",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "finger_heart",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised near the cheek; eyes open, a sweet smile; lower body stays in place.",
+        "Frame 2: Thumb and index finger beginning to cross; eyes in a quick natural blink, a sweet smile; lower body stays in place.",
+        "Frame 3: A crisp finger heart pushed toward the viewer, a tiny heart popping above; one eye in a cute wink, mouth in a sweet beaming smile; lower body stays in place.",
+        "Frame 4: The hand/paw drawing back toward the cheek; eyes open again, a sweet smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "65_mwah",
+    "category": "love",
+    "caption": "么么哒",
+    "captions": {
+      "zh-CN": "么么哒",
+      "zh-TW": "啾咪",
+      "en": "Mwah!",
+      "ja": "ちゅー♡",
+      "ko": "쪽!"
+    },
+    "mood": "lovey",
+    "static_pose": "leaning in with puckered lips and hearts around, hands clasped at chin",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "kiss_pucker",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws clasped near the chin; eyes open, a shy blushing smile; lower body stays in place.",
+        "Frame 2: Hands/paws at the chin, leaning forward slightly; eyes in a quick natural blink, a shy blushing smile; lower body stays in place.",
+        "Frame 3: Hands/paws at the chin, leaning in with small hearts floating around; eyes closed blissfully, lips puckered for a big kiss, cheeks rosy; lower body stays in place.",
+        "Frame 4: Hands/paws still clasped, leaning back; eyes open again, a shy blushing smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "66_snuggle",
+    "category": "love",
+    "caption": "贴贴",
+    "captions": {
+      "zh-CN": "贴贴",
+      "zh-TW": "貼貼",
+      "en": "Snuggle~",
+      "ja": "すりすり",
+      "ko": "꼭 붙어"
+    },
+    "mood": "cuddly",
+    "static_pose": "rubbing cheek against a heart cushion, blissful closed eyes, blush",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "cheek_rub",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms hugging a small heart-shaped cushion against one cheek; eyes open, a blissful smile; lower body stays in place.",
+        "Frame 2: Arms holding the cushion as the cheek rubs to one side; eyes in a quick natural blink, a blissful smile; lower body stays in place.",
+        "Frame 3: Arms squeezing the cushion, cheek squished into it; eyes closed in bliss, cheeks squished and blushing, mouth in a content smile; lower body stays in place.",
+        "Frame 4: Arms relaxing as the cheek slides back; eyes open again, a blissful smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "cushion"
+      ]
+    }
+  },
+  {
+    "id": "67_sending_love",
+    "category": "love",
+    "caption": "送你爱心",
+    "captions": {
+      "zh-CN": "送你爱心",
+      "zh-TW": "送你愛心",
+      "en": "Sending love",
+      "ja": "愛を送る♡",
+      "ko": "하트 뿅"
+    },
+    "mood": "loving",
+    "static_pose": "arms forming a big heart over the head, cheerful smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "heart_hands",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws raised to the chest; eyes open, a cheerful smile; lower body stays in place.",
+        "Frame 2: Hands/paws forming the two halves of a heart; eyes in a quick natural blink, a cheerful smile; lower body stays in place.",
+        "Frame 3: A big heart shape made with both arms over the head; eyes curved happily, mouth in a big loving grin; lower body stays in place.",
+        "Frame 4: Arms lowering back to the chest; eyes open again, a cheerful smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "68_heart_flutter",
+    "category": "love",
+    "caption": "心动",
+    "captions": {
+      "zh-CN": "心动",
+      "zh-TW": "心動",
+      "en": "Heart flutter",
+      "ja": "キュン♡",
+      "ko": "설렘"
+    },
+    "mood": "smitten",
+    "static_pose": "holding a pulsing pink heart at the chest, blushing starry eyes",
+    "text_layout": "none",
+    "bubble": null,
     "motion": {
       "type": "heart_beat",
       "duration_ms": 1440,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a pink heart at the chest; eyes open, a shy smitten smile; lower body stays in place.",
+        "Frame 2: The hands/paws holding the heart as it shrinks slightly; eyes in a quick natural blink, a shy smitten smile; lower body stays in place.",
+        "Frame 3: The hands/paws holding the heart as it pulses big and glowing; eyes turned into little hearts, cheeks deeply blushing, mouth in a giddy smile; lower body stays in place.",
+        "Frame 4: The hands/paws holding the heart as it settles; eyes open again, a shy smitten smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders",
+        "outfit"
+      ]
     }
   },
   {
-    "id": "17_are_you_there",
-    "caption": "在吗",
-    "mood": "inquiring",
-    "static_pose": "peeking out from the side border with curious eyes",
+    "id": "69_six_six_six",
+    "category": "praise",
+    "caption": "666",
+    "captions": {
+      "zh-CN": "666",
+      "zh-TW": "神喔",
+      "en": "Epic!",
+      "ja": "神すぎ",
+      "ko": "대박!"
+    },
+    "mood": "impressed",
+    "static_pose": "making the six hand gesture toward the viewer, impressed grin",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
-      "type": "peek_in_and_out",
-      "duration_ms": 1440,
+      "type": "shaka_six",
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised at shoulder height; eyes open, an impressed grin; lower body stays in place.",
+        "Frame 2: The hand/paw extending thumb and pinky in a six gesture; eyes in a quick natural blink, an impressed grin; lower body stays in place.",
+        "Frame 3: The hand/paw shaking the six gesture toward the viewer with sparkles; eyes wide with admiration, mouth open in an impressed whoa; lower body stays in place.",
+        "Frame 4: The hand/paw easing back; eyes open again, an impressed grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
     }
   },
   {
-    "id": "18_wait",
-    "caption": "等等",
-    "mood": "urgent",
-    "static_pose": "one hand extended forward in a stop gesture, sweating slightly",
+    "id": "70_clap",
+    "category": "praise",
+    "caption": "鼓掌",
+    "captions": {
+      "zh-CN": "鼓掌",
+      "zh-TW": "拍手",
+      "en": "Bravo!",
+      "ja": "パチパチ",
+      "ko": "짝짝짝"
+    },
+    "mood": "applauding",
+    "static_pose": "clapping hands enthusiastically, beaming smile",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
-      "type": "hand_press",
-      "duration_ms": 1440,
+      "type": "clap",
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws apart in front of the chest; eyes open, a beaming smile; lower body stays in place.",
+        "Frame 2: Hands/paws moving together; eyes in a quick natural blink, a beaming smile; lower body stays in place.",
+        "Frame 3: Palms meeting in a clap with small burst lines; eyes curved in delight, mouth open cheering; lower body stays in place.",
+        "Frame 4: Hands/paws opening apart again; eyes open again, a beaming smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
     }
   },
   {
-    "id": "19_ok",
-    "caption": "OK",
-    "mood": "agreeable",
-    "static_pose": "making an OK finger circle sign with cheerful wink",
+    "id": "71_like",
+    "category": "praise",
+    "caption": "点赞",
+    "captions": {
+      "zh-CN": "点赞",
+      "zh-TW": "按讚",
+      "en": "Like!",
+      "ja": "いいね！",
+      "ko": "좋아요!"
+    },
+    "mood": "approving",
+    "static_pose": "strong thumbs up toward the viewer with a sparkle, confident smile",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
-      "type": "ok_nod",
-      "duration_ms": 1440,
+      "type": "thumbs_up",
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: A fist raised at chest height; eyes open, a confident smile; lower body stays in place.",
+        "Frame 2: The thumb extending upward; eyes in a quick natural blink, a confident smile; lower body stays in place.",
+        "Frame 3: A strong thumbs up pushed toward the viewer with a sparkle; eyes in a confident wink, mouth in a bright approving grin; lower body stays in place.",
+        "Frame 4: The thumbs up drawing back slightly; eyes open again, a confident smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
     }
   },
   {
-    "id": "20_please",
-    "caption": "求求",
-    "mood": "pleading",
-    "static_pose": "hands clasped together pleading with big puppy-dog eyes",
+    "id": "72_genius",
+    "category": "praise",
+    "caption": "天才",
+    "captions": {
+      "zh-CN": "天才",
+      "zh-TW": "天才",
+      "en": "Genius!",
+      "ja": "天才か！",
+      "ko": "천재다!"
+    },
+    "mood": "amazed",
+    "static_pose": "pointing straight at the viewer with an amazed delighted face",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
     "motion": {
-      "type": "plead_shake",
-      "duration_ms": 1440,
+      "type": "point_at_viewer",
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised beside the shoulder; eyes open, an amazed open smile; lower body stays in place.",
+        "Frame 2: The arm extending forward; eyes in a quick natural blink, an amazed open smile; lower body stays in place.",
+        "Frame 3: Index finger pointed straight at the viewer; eyes sparkling with admiration, mouth wide in an excited shout; lower body stays in place.",
+        "Frame 4: The arm drawing back slightly; eyes open again, an amazed open smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
     }
   },
   {
-    "id": "21_eating",
-    "caption": "吃饭啦",
-    "mood": "hungry",
-    "static_pose": "holding a bowl and chopsticks with mouth watering",
+    "id": "73_you_can_do_it",
+    "category": "praise",
+    "caption": "你可以的",
+    "captions": {
+      "zh-CN": "你可以的",
+      "zh-TW": "你可以的",
+      "en": "You can do it!",
+      "ja": "できるよ！",
+      "ko": "할 수 있어!"
+    },
+    "mood": "supportive",
+    "static_pose": "cheering with pompoms raised high, encouraging bright face",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
     "motion": {
-      "type": "eating_munch",
-      "duration_ms": 1440,
+      "type": "cheer_pompoms",
+      "duration_ms": 1280,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding pompoms at the hips; eyes open, an encouraging smile; lower body stays in place.",
+        "Frame 2: One hand/paw raising a pompom beside the head; eyes in a quick natural blink, an encouraging smile; lower body stays in place.",
+        "Frame 3: Both arms throwing the pompoms high overhead; eyes bright and determined, mouth open in an energetic cheer; lower body stays in place.",
+        "Frame 4: Both arms bringing the pompoms down to shoulder height; eyes open again, an encouraging smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "pompoms"
+      ]
     }
   },
   {
-    "id": "22_sleeping",
-    "caption": "睡觉啦",
-    "mood": "sleepy",
-    "static_pose": "wrapped snugly in a cozy blanket with Zzz bubbles floating",
+    "id": "74_respect",
+    "category": "praise",
+    "caption": "敬礼",
+    "captions": {
+      "zh-CN": "敬礼",
+      "zh-TW": "敬禮",
+      "en": "Respect!",
+      "ja": "敬礼！",
+      "ko": "존경합니다"
+    },
+    "mood": "respectful",
+    "static_pose": "crisp salute at the brow, chest out, serious respectful face",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
-      "type": "zzz_float",
+      "type": "salute",
       "duration_ms": 1440,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw rising toward the brow; eyes open, a firm serious mouth; lower body stays in place.",
+        "Frame 2: The hand/paw at the brow, fingers together; eyes in a quick natural blink, a firm serious mouth; lower body stays in place.",
+        "Frame 3: The hand/paw held in a crisp salute at the brow, chest out; eyes sharp and respectful, mouth set in a proud firm line; lower body stays in place.",
+        "Frame 4: The saluting hand/paw relaxing a little; eyes open again, a firm serious mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
     }
   },
   {
-    "id": "23_aggrieved",
-    "caption": "委屈",
-    "mood": "pouting",
-    "static_pose": "pouting lips, twiddling index fingers together nervously",
+    "id": "75_awesome",
+    "category": "praise",
+    "caption": "太强了",
+    "captions": {
+      "zh-CN": "太强了",
+      "zh-TW": "太強了",
+      "en": "Awesome!",
+      "ja": "すごすぎ！",
+      "ko": "미쳤다!"
+    },
+    "mood": "worshipful",
+    "static_pose": "bowing low with arms stretched forward in exaggerated worship, starry eyes",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "大佬！",
+        "zh-TW": "大神！",
+        "en": "Legend!",
+        "ja": "師匠！",
+        "ko": "레전드!"
+      }
+    },
     "motion": {
-      "type": "finger_twiddle",
-      "duration_ms": 1440,
+      "type": "worship_bow",
+      "duration_ms": 1120,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Both arms raised straight up, palms forward; eyes open, an awed open mouth; lower body stays in place.",
+        "Frame 2: Arms still raised as the upper body bends forward; eyes in a quick natural blink, an awed open mouth; lower body stays in place.",
+        "Frame 3: Both arms stretched forward, upper body bowed low in worship; eyes turned into shining stars, mouth wide in awe; lower body stays in place.",
+        "Frame 4: Arms rising as the upper body lifts; eyes open again, an awed open mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
     }
   },
   {
-    "id": "24_shocked",
-    "caption": "震惊",
-    "mood": "shocked",
-    "static_pose": "jaw dropped, wide eyes with exclamation marks popping",
+    "id": "76_chow_time",
+    "category": "daily",
+    "caption": "干饭人",
+    "captions": {
+      "zh-CN": "干饭人",
+      "zh-TW": "吃飯皇帝大",
+      "en": "Food time!",
+      "ja": "いただきます！",
+      "ko": "밥이다!"
+    },
+    "mood": "ravenous",
+    "static_pose": "slurping noodles from a bowl with chopsticks, cheeks stuffed, happy eyes",
+    "text_layout": "caption",
+    "bubble": null,
     "motion": {
-      "type": "shock_shake",
+      "type": "slurp_noodles",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding chopsticks over a bowl held by the other hand; eyes open, an eager hungry smile; lower body stays in place.",
+        "Frame 2: The chopsticks lifting noodles toward the mouth; eyes in a quick natural blink, an eager hungry smile; lower body stays in place.",
+        "Frame 3: The chopsticks holding noodles being slurped into the mouth; eyes closed in delicious bliss, cheeks puffed while slurping; lower body stays in place.",
+        "Frame 4: The chopsticks dipping back to the bowl; eyes open again, an eager hungry smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "bowl"
+      ]
+    }
+  },
+  {
+    "id": "77_hungry",
+    "category": "daily",
+    "caption": "饿了",
+    "captions": {
+      "zh-CN": "饿了",
+      "zh-TW": "好餓",
+      "en": "So hungry",
+      "ja": "お腹すいた",
+      "ko": "배고파"
+    },
+    "mood": "starving",
+    "static_pose": "rubbing a rumbling tummy, droopy pleading eyes, drool drop",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "tummy_rub",
       "duration_ms": 1440,
       "frames": 8,
       "loop": "seamless",
-      "amplitude": "small",
-      "stationary_parts": ["hair_or_fur_pattern", "outfit", "body_silhouette"]
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws resting on the tummy; eyes open, a droopy hungry mouth; lower body stays in place.",
+        "Frame 2: Hands/paws circling on the tummy; eyes in a quick natural blink, a droopy hungry mouth; lower body stays in place.",
+        "Frame 3: Hands/paws pressed to the tummy, shoulders hunched; eyes teary and pleading, mouth open with a little drool drop; lower body stays in place.",
+        "Frame 4: Hands/paws circling back; eyes open again, a droopy hungry mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "78_coffee",
+    "category": "daily",
+    "caption": "续命咖啡",
+    "captions": {
+      "zh-CN": "续命咖啡",
+      "zh-TW": "咖啡續命",
+      "en": "Need coffee",
+      "ja": "コーヒー…",
+      "ko": "커피 수혈"
+    },
+    "mood": "drowsy",
+    "static_pose": "sipping coffee with both hands, tired half-closed eyes, dark circles",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "drink_sip",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws cradling a cup at chest height; eyes open, a tired flat mouth; lower body stays in place.",
+        "Frame 2: Both hands/paws raising the cup toward the chin; eyes in a quick natural blink, a tired flat mouth; lower body stays in place.",
+        "Frame 3: Both hands/paws tilting the cup at the lips mid-sip; eyes half-closed with dark circles, mouth sipping as a tiny spark of energy returns; lower body stays in place.",
+        "Frame 4: Both hands/paws lowering the cup back to chest height; eyes open again, a tired flat mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "cup"
+      ]
+    }
+  },
+  {
+    "id": "79_bath_time",
+    "category": "daily",
+    "caption": "洗澡去",
+    "captions": {
+      "zh-CN": "洗澡去",
+      "zh-TW": "去洗澡",
+      "en": "Bath time~",
+      "ja": "お風呂〜",
+      "ko": "씻으러 간다"
+    },
+    "mood": "refreshed",
+    "static_pose": "towel on head scrubbing with a brush, soap foam puffs, happy hum",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "bath_scrub",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: A towel draped on the head, hands/paws holding a scrub brush; eyes open, a happy humming smile; lower body stays in place.",
+        "Frame 2: The hands/paws scrubbing one shoulder as soap foam appears; eyes in a quick natural blink, a happy humming smile; lower body stays in place.",
+        "Frame 3: The hands/paws scrubbing high behind the head, soap foam puffs everywhere; eyes closed contentedly, mouth humming a tune among soap foam; lower body stays in place.",
+        "Frame 4: The hands/paws moving the brush back to the shoulder; eyes open again, a happy humming smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "towel"
+      ]
+    }
+  },
+  {
+    "id": "80_shopping",
+    "category": "daily",
+    "caption": "买买买",
+    "captions": {
+      "zh-CN": "买买买",
+      "zh-TW": "買買買",
+      "en": "Shop shop!",
+      "ja": "爆買い！",
+      "ko": "쇼핑 가자!"
+    },
+    "mood": "thrilled",
+    "static_pose": "lifting shopping bags high in triumph, sparkling eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "shopping_bags",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding shopping bags at the sides; eyes open, a thrilled grin; lower body stays in place.",
+        "Frame 2: The hands/paws lifting the bags up; eyes in a quick natural blink, a thrilled grin; lower body stays in place.",
+        "Frame 3: Both arms raising the bags high in triumph; eyes sparkling with excitement, mouth open in a gleeful laugh; lower body stays in place.",
+        "Frame 4: The hands/paws lowering the bags; eyes open again, a thrilled grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "shopping_bags"
+      ]
+    }
+  },
+  {
+    "id": "81_gaming",
+    "category": "daily",
+    "caption": "打游戏",
+    "captions": {
+      "zh-CN": "打游戏",
+      "zh-TW": "打電動",
+      "en": "Game on!",
+      "ja": "ゲーム中",
+      "ko": "게임 중"
+    },
+    "mood": "focused",
+    "static_pose": "gripping a game controller intensely, focused eyes, tongue poking out",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "game_controller",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws gripping a game controller at chest height; eyes open, a focused mouth with tongue poking out; lower body stays in place.",
+        "Frame 2: Thumbs mashing buttons, the controller tilting left; eyes in a quick natural blink, a focused mouth with tongue poking out; lower body stays in place.",
+        "Frame 3: Hands/paws jerking the controller to the right in an intense moment; eyes narrowed in intense focus, teeth gritted in concentration; lower body stays in place.",
+        "Frame 4: Hands/paws tilting the controller back; eyes open again, a focused mouth with tongue poking out; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "game_controller"
+      ]
+    }
+  },
+  {
+    "id": "82_workout",
+    "category": "daily",
+    "caption": "健身",
+    "captions": {
+      "zh-CN": "健身",
+      "zh-TW": "健身",
+      "en": "Workout!",
+      "ja": "筋トレ！",
+      "ko": "운동 중"
+    },
+    "mood": "determined",
+    "static_pose": "curling a dumbbell with a sweaty determined face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "dumbbell_lift",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a dumbbell at the waist; eyes open, a determined tight mouth; lower body stays in place.",
+        "Frame 2: The hand/paw curling the dumbbell halfway up; eyes in a quick natural blink, a determined tight mouth; lower body stays in place.",
+        "Frame 3: The hand/paw curling the dumbbell to the shoulder, bicep bulging; eyes squeezed with effort and sweat drops, teeth clenched powerfully; lower body stays in place.",
+        "Frame 4: The hand/paw lowering the dumbbell; eyes open again, a determined tight mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "dumbbell"
+      ]
+    }
+  },
+  {
+    "id": "83_five_more_minutes",
+    "category": "daily",
+    "caption": "赖床",
+    "captions": {
+      "zh-CN": "赖床",
+      "zh-TW": "賴床",
+      "en": "5 more mins",
+      "ja": "あと5分…",
+      "ko": "5분만…"
+    },
+    "mood": "lazy",
+    "static_pose": "wrapped in a blanket in bed, yawning, eyes barely open",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "yawn",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw near the mouth; eyes open, a sleepy droopy mouth; lower body stays in place.",
+        "Frame 2: The hand/paw covering the mouth; eyes in a quick natural blink, a sleepy droopy mouth; lower body stays in place.",
+        "Frame 3: Arms stretched out in a big yawn, a tear at the eye corner; eyes squeezed shut, mouth wide open in a huge yawn; lower body stays in place.",
+        "Frame 4: Arms dropping back down; eyes open again, a sleepy droopy mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "84_commuting",
+    "category": "daily",
+    "caption": "通勤中",
+    "captions": {
+      "zh-CN": "通勤中",
+      "zh-TW": "通勤中",
+      "en": "Commuting...",
+      "ja": "通勤中",
+      "ko": "출근 중"
+    },
+    "mood": "weary",
+    "static_pose": "walking on the spot with a bag strap on shoulder, glum tired face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "walk_in_place",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms swinging gently, a bag strap on the shoulder; eyes open, a weary flat mouth; lower body stays in place.",
+        "Frame 2: Left arm forward in mid stride; eyes in a quick natural blink, a weary flat mouth; lower body stays in place.",
+        "Frame 3: Right arm forward in mid stride; eyes glazed and tired, mouth in a resigned little sigh; lower body stays in place.",
+        "Frame 4: Arms passing through center; eyes open again, a weary flat mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "85_meeting",
+    "category": "work",
+    "caption": "开会中",
+    "captions": {
+      "zh-CN": "开会中",
+      "zh-TW": "開會中",
+      "en": "In a meeting",
+      "ja": "会議中",
+      "ko": "회의 중"
+    },
+    "mood": "attentive",
+    "static_pose": "sitting upright nodding with hands folded, polite attentive face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws relaxed in front, head level; eyes open, a polite closed-mouth smile; lower body stays in place.",
+        "Frame 2: Hands/paws relaxed, head dipping forward; eyes in a quick natural blink, a polite closed-mouth smile; lower body stays in place.",
+        "Frame 3: Hands/paws relaxed, head at the lowest point of a firm nod; eyes glazing over while nodding along, mouth in a stiff polite smile; lower body stays in place.",
+        "Frame 4: Hands/paws relaxed, head lifting back up; eyes open again, a polite closed-mouth smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "86_overtime",
+    "category": "work",
+    "caption": "加班",
+    "captions": {
+      "zh-CN": "加班",
+      "zh-TW": "加班",
+      "en": "Overtime...",
+      "ja": "残業…",
+      "ko": "야근 중"
+    },
+    "mood": "exhausted",
+    "static_pose": "slumped on a desk with arms folded, hollow tired eyes",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "想下班…",
+        "zh-TW": "想下班…",
+        "en": "Wanna go home",
+        "ja": "帰りたい…",
+        "ko": "퇴근하고파"
+      }
+    },
+    "motion": {
+      "type": "slump_desk",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms folded on a desk, chin resting on them; eyes open, a lifeless flat mouth; lower body stays in place.",
+        "Frame 2: Arms folded, head sinking lower onto them; eyes in a quick natural blink, a lifeless flat mouth; lower body stays in place.",
+        "Frame 3: Arms folded, face half-buried in them on the desk; eyes hollow with dark circles, mouth letting out a ghostly sigh; lower body stays in place.",
+        "Frame 4: Arms folded, chin lifting slightly; eyes open again, a lifeless flat mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "desk"
+      ]
+    }
+  },
+  {
+    "id": "87_payday",
+    "category": "work",
+    "caption": "发工资啦",
+    "captions": {
+      "zh-CN": "发工资啦",
+      "zh-TW": "發薪水囉",
+      "en": "Payday!",
+      "ja": "給料日！",
+      "ko": "월급날!"
+    },
+    "mood": "ecstatic",
+    "static_pose": "tossing paper bills into the air, coin-shaped eyes, huge grin",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "钱来了！",
+        "zh-TW": "錢來了！",
+        "en": "Money!",
+        "ja": "お金だ！",
+        "ko": "돈이다!"
+      }
+    },
+    "motion": {
+      "type": "money_rain",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws holding a fan of paper bills; eyes open, a huge greedy grin; lower body stays in place.",
+        "Frame 2: Hands/paws tossing some bills upward; eyes in a quick natural blink, a huge greedy grin; lower body stays in place.",
+        "Frame 3: Arms flung up as bills rain down; eyes turned into shiny coins, mouth wide open laughing; lower body stays in place.",
+        "Frame 4: Hands/paws catching falling bills; eyes open again, a huge greedy grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "88_deadline",
+    "category": "work",
+    "caption": "赶DDL",
+    "captions": {
+      "zh-CN": "赶DDL",
+      "zh-TW": "趕死線",
+      "en": "Deadline panic",
+      "ja": "締め切り！",
+      "ko": "마감 임박"
+    },
+    "mood": "panicked",
+    "static_pose": "grabbing head in panic with flying sweat drops, frantic eyes",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "来不及了！",
+        "zh-TW": "來不及了！",
+        "en": "No time!",
+        "ja": "間に合わない！",
+        "ko": "늦었다!"
+      }
+    },
+    "motion": {
+      "type": "panic_head_grab",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws hovering beside the head; eyes open, a panicked wobbly mouth; lower body stays in place.",
+        "Frame 2: Hands/paws clutching the head; eyes in a quick natural blink, a panicked wobbly mouth; lower body stays in place.",
+        "Frame 3: Hands/paws gripping the head, sweat drops flying; eyes spinning in panic, mouth wide open screaming; lower body stays in place.",
+        "Frame 4: Hands/paws loosening on the head; eyes open again, a panicked wobbly mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "89_slacking",
+    "category": "work",
+    "caption": "摸鱼",
+    "captions": {
+      "zh-CN": "摸鱼",
+      "zh-TW": "偷懶中",
+      "en": "Slacking off",
+      "ja": "サボり中",
+      "ko": "땡땡이"
+    },
+    "mood": "sneaky",
+    "static_pose": "secretly scrolling a phone held low, sly sideways glance",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "phone_scroll",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a phone at chest height; eyes open, a sneaky smug smile; lower body stays in place.",
+        "Frame 2: A thumb swiping up on the screen; eyes in a quick natural blink, a sneaky smug smile; lower body stays in place.",
+        "Frame 3: The hands/paws tilting the phone closer to the face mid-swipe; eyes darting sideways to check nobody is watching, mouth in a sly grin; lower body stays in place.",
+        "Frame 4: The thumb returning; eyes open again, a sneaky smug smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "phone"
+      ]
+    }
+  },
+  {
+    "id": "90_studying",
+    "category": "work",
+    "caption": "学习中",
+    "captions": {
+      "zh-CN": "学习中",
+      "zh-TW": "讀書中",
+      "en": "Studying...",
+      "ja": "勉強中",
+      "ko": "공부 중"
+    },
+    "mood": "studious",
+    "static_pose": "reading an open book with round glasses, focused eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "read_book",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding an open book; eyes open, a focused small mouth; lower body stays in place.",
+        "Frame 2: One hand/paw turning a page; eyes in a quick natural blink, a focused small mouth; lower body stays in place.",
+        "Frame 3: The hands/paws raising the book closer, page mid-turn; eyes intent behind round glasses, mouth murmuring along quietly; lower body stays in place.",
+        "Frame 4: The hands/paws settling the page; eyes open again, a focused small mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "book"
+      ]
+    }
+  },
+  {
+    "id": "91_exam_week",
+    "category": "work",
+    "caption": "考试周",
+    "captions": {
+      "zh-CN": "考试周",
+      "zh-TW": "考試週",
+      "en": "Exam week",
+      "ja": "テスト期間",
+      "ko": "시험 기간"
+    },
+    "mood": "stressed",
+    "static_pose": "scribbling fast in a notebook, stressed sweaty face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "writing",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a pen over a notebook; eyes open, a stressed tight mouth; lower body stays in place.",
+        "Frame 2: The hand/paw moving the pen across the page; eyes in a quick natural blink, a stressed tight mouth; lower body stays in place.",
+        "Frame 3: The hand/paw scribbling fast with motion lines; eyes bloodshot and wide, mouth clenched with sweat drops flying; lower body stays in place.",
+        "Frame 4: The hand/paw lifting the pen slightly; eyes open again, a stressed tight mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "notebook"
+      ]
+    }
+  },
+  {
+    "id": "92_typing_fast",
+    "category": "work",
+    "caption": "疯狂打字",
+    "captions": {
+      "zh-CN": "疯狂打字",
+      "zh-TW": "瘋狂打字",
+      "en": "Typing fast",
+      "ja": "カタカタ…",
+      "ko": "타닥타닥"
+    },
+    "mood": "frantic",
+    "static_pose": "typing furiously on a laptop with blurred fingers, intense eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "typing",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws over a laptop keyboard; eyes open, an intense tight-lipped mouth; lower body stays in place.",
+        "Frame 2: Fingers tapping on the left keys; eyes in a quick natural blink, an intense tight-lipped mouth; lower body stays in place.",
+        "Frame 3: Fingers blurring across the keys with motion lines; eyes blazing with focus, mouth in a fierce determined line; lower body stays in place.",
+        "Frame 4: Fingers tapping on the right keys; eyes open again, an intense tight-lipped mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "laptop"
+      ]
+    }
+  },
+  {
+    "id": "93_off_work",
+    "category": "work",
+    "caption": "下班啦",
+    "captions": {
+      "zh-CN": "下班啦",
+      "zh-TW": "下班囉",
+      "en": "Off work!",
+      "ja": "退勤！",
+      "ko": "퇴근!"
+    },
+    "mood": "liberated",
+    "static_pose": "dashing away on the spot with arms pumping, overjoyed face",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "run_in_place",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Arms bent at the elbows in a running pose; eyes open, an overjoyed grin; lower body stays in place.",
+        "Frame 2: Left arm forward and right arm back, legs blurred in a dash; eyes in a quick natural blink, an overjoyed grin; lower body stays in place.",
+        "Frame 3: Right arm forward and left arm back, speed lines streaming behind; eyes shining with freedom, mouth wide open in a happy shout; lower body stays in place.",
+        "Frame 4: Arms passing back through the start position; eyes open again, an overjoyed grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "94_grind",
+    "category": "work",
+    "caption": "打工人",
+    "captions": {
+      "zh-CN": "打工人",
+      "zh-TW": "社畜",
+      "en": "Grind mode",
+      "ja": "社畜です",
+      "ko": "직장인"
+    },
+    "mood": "resigned",
+    "static_pose": "tired fist pump with a forced brave grin, office lanyard",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "冲鸭！",
+        "zh-TW": "衝啊！",
+        "en": "Let's go!",
+        "ja": "いくぞ！",
+        "ko": "가자!"
+      }
+    },
+    "motion": {
+      "type": "fist_pump",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Fists clenched at chest height; eyes open, a forced brave grin; lower body stays in place.",
+        "Frame 2: One fist starting to rise; eyes in a quick natural blink, a forced brave grin; lower body stays in place.",
+        "Frame 3: One fist pumped high overhead; eyes tired but determined, mouth in a strained energetic shout; lower body stays in place.",
+        "Frame 4: The fist coming back down; eyes open again, a forced brave grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit"
+      ]
+    }
+  },
+  {
+    "id": "95_eat_melon",
+    "category": "meme",
+    "caption": "吃瓜",
+    "captions": {
+      "zh-CN": "吃瓜",
+      "zh-TW": "吃瓜",
+      "en": "Watching drama",
+      "ja": "高みの見物",
+      "ko": "구경 중"
+    },
+    "mood": "nosy",
+    "static_pose": "munching a watermelon slice while watching curiously",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "melon_eat",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a watermelon slice; eyes open, a nosy chewing mouth; lower body stays in place.",
+        "Frame 2: The hands/paws raising the slice toward the mouth; eyes in a quick natural blink, a nosy chewing mouth; lower body stays in place.",
+        "Frame 3: The hands/paws holding the slice as a big bite is taken; eyes wide and gossip-hungry, cheeks full mid-bite; lower body stays in place.",
+        "Frame 4: The hands/paws lowering the slice; eyes open again, a nosy chewing mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "watermelon"
+      ]
+    }
+  },
+  {
+    "id": "96_lie_flat",
+    "category": "meme",
+    "caption": "躺平",
+    "captions": {
+      "zh-CN": "躺平",
+      "zh-TW": "躺平",
+      "en": "Lying flat",
+      "ja": "寝そべり",
+      "ko": "드러눕기"
+    },
+    "mood": "apathetic",
+    "static_pose": "lying flat on the back with arms flopped, blank peaceful face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "lie_flat",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Lying flat on the back, arms spread loosely; eyes open, a blank flat mouth; lower body stays in place.",
+        "Frame 2: One arm lifting lazily; eyes in a quick natural blink, a blank flat mouth; lower body stays in place.",
+        "Frame 3: Arms flopped wide, sinking deeper into the floor; eyes half-closed in total apathy, mouth in a lazy content line; lower body stays in place.",
+        "Frame 4: The arm drifting back down; eyes open again, a blank flat mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "floor"
+      ]
+    }
+  },
+  {
+    "id": "97_side_eye",
+    "category": "meme",
+    "caption": "斜眼",
+    "captions": {
+      "zh-CN": "斜眼",
+      "zh-TW": "斜眼看",
+      "en": "Side-eye",
+      "ja": "ジト目",
+      "ko": "째릿"
+    },
+    "mood": "suspicious",
+    "static_pose": "arms crossed, sharp side-eye glance, unimpressed mouth",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "side_eye",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms crossed loosely; eyes open, an unimpressed flat mouth; lower body stays in place.",
+        "Frame 2: Arms crossed, head starting to turn; eyes in a quick natural blink, an unimpressed flat mouth; lower body stays in place.",
+        "Frame 3: Arms crossed, head turned slightly as the gaze slides fully to one side; eyes slid sharply to the corner in a judging side-eye, mouth twisted; lower body stays in place.",
+        "Frame 4: Arms crossed, head drifting back; eyes open again, an unimpressed flat mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "98_facepalm",
+    "category": "meme",
+    "caption": "捂脸",
+    "captions": {
+      "zh-CN": "捂脸",
+      "zh-TW": "摀臉",
+      "en": "Facepalm",
+      "ja": "あちゃー",
+      "ko": "아이고"
+    },
+    "mood": "exasperated",
+    "static_pose": "palm planted over the face, head bowed in exasperation",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "facepalm",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw rising toward the face; eyes open, a grimacing mouth; lower body stays in place.",
+        "Frame 2: The palm reaching the forehead; eyes in a quick natural blink, a grimacing mouth; lower body stays in place.",
+        "Frame 3: The palm planted over the face, head bowed; eyes hidden behind the palm, mouth in a long-suffering grimace; lower body stays in place.",
+        "Frame 4: The palm sliding down slightly; eyes open again, a grimacing mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "99_thats_it",
+    "category": "meme",
+    "caption": "就这？",
+    "captions": {
+      "zh-CN": "就这？",
+      "zh-TW": "就這？",
+      "en": "That's it?",
+      "ja": "それだけ？",
+      "ko": "겨우?"
+    },
+    "mood": "smug",
+    "static_pose": "fingers framing the chin with a smug half-lidded smirk",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "smug_grin",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms crossed, chin slightly up; eyes open, a smug smirk; lower body stays in place.",
+        "Frame 2: One hand/paw lifting to the chin; eyes in a quick natural blink, a smug smirk; lower body stays in place.",
+        "Frame 3: Fingers framing the chin in a smug pose; eyes half-lidded and mocking, mouth in an exaggerated smug grin; lower body stays in place.",
+        "Frame 4: The hand/paw lowering back to crossed arms; eyes open again, a smug smirk; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "100_im_fine",
+    "category": "meme",
+    "caption": "我没事",
+    "captions": {
+      "zh-CN": "我没事",
+      "zh-TW": "我沒事",
+      "en": "I'm fine.",
+      "ja": "大丈夫です",
+      "ko": "괜찮아…"
+    },
+    "mood": "dying_inside",
+    "static_pose": "weak thumbs up with a stiff forced smile, eyes watering",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "内心崩溃",
+        "zh-TW": "內心崩潰",
+        "en": "dying inside",
+        "ja": "心は限界",
+        "ko": "속은 울음"
+      }
+    },
+    "motion": {
+      "type": "forced_smile",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws loosely clasped in front; eyes open, a stiff forced smile; lower body stays in place.",
+        "Frame 2: One hand/paw giving a weak thumbs up; eyes in a quick natural blink, a stiff forced smile; lower body stays in place.",
+        "Frame 3: The weak thumbs up held while the shoulders tremble; eyes watering behind the smile, mouth trembling at the corners; lower body stays in place.",
+        "Frame 4: The thumb lowering; eyes open again, a stiff forced smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "101_broken",
+    "category": "meme",
+    "caption": "破防了",
+    "captions": {
+      "zh-CN": "破防了",
+      "zh-TW": "破防了",
+      "en": "I'm broken",
+      "ja": "メンタル崩壊",
+      "ko": "멘붕"
+    },
+    "mood": "shattered",
+    "static_pose": "cracking and crumbling into flakes with a stunned face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "crumble_dust",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Arms hanging stiff; eyes open, a stunned frozen mouth; lower body stays in place.",
+        "Frame 2: Cracks appearing over the arms and shoulders; eyes in a quick natural blink, a stunned frozen mouth; lower body stays in place.",
+        "Frame 3: The edges of the arms and shoulders crumbling into drifting flakes; eyes blank white circles, mouth hanging open as the body crumbles; lower body stays in place.",
+        "Frame 4: Arms reforming as the flakes settle back; eyes open again, a stunned frozen mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "102_popcorn",
+    "category": "meme",
+    "caption": "坐等后续",
+    "captions": {
+      "zh-CN": "坐等后续",
+      "zh-TW": "坐等後續",
+      "en": "Popcorn time",
+      "ja": "続きはよ",
+      "ko": "팝콘 준비"
+    },
+    "mood": "entertained",
+    "static_pose": "hugging a popcorn bucket and munching, eager eyes",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "popcorn_munch",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One arm hugging a popcorn bucket, other hand/paw in the bucket; eyes open, an eager munching mouth; lower body stays in place.",
+        "Frame 2: The hand/paw lifting popcorn toward the mouth; eyes in a quick natural blink, an eager munching mouth; lower body stays in place.",
+        "Frame 3: The hand/paw tossing popcorn into the mouth; eyes glued forward in anticipation, cheeks stuffed with popcorn; lower body stays in place.",
+        "Frame 4: The hand/paw dipping back into the bucket; eyes open again, an eager munching mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "popcorn_bucket"
+      ]
+    }
+  },
+  {
+    "id": "103_mic_drop",
+    "category": "meme",
+    "caption": "我说完了",
+    "captions": {
+      "zh-CN": "我说完了",
+      "zh-TW": "我說完了",
+      "en": "Mic drop.",
+      "ja": "以上！",
+      "ko": "이상!"
+    },
+    "mood": "confident",
+    "static_pose": "dropping a microphone from an outstretched hand, cool closed-eye face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "mic_drop",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a microphone out at arm's length; eyes open, a cool confident smirk; lower body stays in place.",
+        "Frame 2: Fingers loosening around the microphone; eyes in a quick natural blink, a cool confident smirk; lower body stays in place.",
+        "Frame 3: The microphone falling from the open hand/paw; eyes closed in cool confidence, mouth in a satisfied smirk; lower body stays in place.",
+        "Frame 4: The hand/paw closing and lowering; eyes open again, a cool confident smirk; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "104_thank_q",
+    "category": "meme",
+    "caption": "栓Q",
+    "captions": {
+      "zh-CN": "栓Q",
+      "zh-TW": "栓Q",
+      "en": "Thank Q...",
+      "ja": "あざっす(棒)",
+      "ko": "땡큐…"
+    },
+    "mood": "sarcastic",
+    "static_pose": "hands on hips rolling eyes with a fake grateful smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "eye_roll",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws on hips; eyes open, a fake polite smile; lower body stays in place.",
+        "Frame 2: Hands/paws on hips, head tilting back; eyes in a quick natural blink, a fake polite smile; lower body stays in place.",
+        "Frame 3: Hands/paws on hips, head tilted back for a full eye roll; eyes rolled up to the sky, mouth in a sarcastic flat smile; lower body stays in place.",
+        "Frame 4: Hands/paws on hips, head returning; eyes open again, a fake polite smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "105_youre_right",
+    "category": "meme",
+    "caption": "你说得对",
+    "captions": {
+      "zh-CN": "你说得对",
+      "zh-TW": "你說得對",
+      "en": "You're right~",
+      "ja": "せやな",
+      "ko": "네 맞아요~"
+    },
+    "mood": "passive_aggressive",
+    "static_pose": "slow nodding with a tight passive-aggressive smile",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws relaxed in front, head level; eyes open, a tight polite smile; lower body stays in place.",
+        "Frame 2: Hands/paws relaxed, head dipping forward; eyes in a quick natural blink, a tight polite smile; lower body stays in place.",
+        "Frame 3: Hands/paws relaxed, head at the lowest point of a firm nod; eyes closed with a twitching brow, mouth in an overly sweet smile; lower body stays in place.",
+        "Frame 4: Hands/paws relaxed, head lifting back up; eyes open again, a tight polite smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "106_new_year",
+    "category": "festival",
+    "caption": "新年快乐",
+    "captions": {
+      "zh-CN": "新年快乐",
+      "zh-TW": "新年快樂",
+      "en": "Happy New Year",
+      "ja": "あけおめ！",
+      "ko": "새해 복 많이!"
+    },
+    "mood": "festive",
+    "static_pose": "arms raised cheering in festive clothes with fireworks bursting behind",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "fireworks",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws raised pointing up; eyes open, a festive beaming smile; lower body stays in place.",
+        "Frame 2: Hands/paws raised as a firework streak rises behind; eyes in a quick natural blink, a festive beaming smile; lower body stays in place.",
+        "Frame 3: Arms raised in cheer as a colorful firework bursts behind; eyes sparkling with festive joy, mouth open in a cheer; lower body stays in place.",
+        "Frame 4: Arms lowering as the sparkles fade; eyes open again, a festive beaming smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "107_red_envelope",
+    "category": "festival",
+    "caption": "恭喜发财",
+    "captions": {
+      "zh-CN": "恭喜发财",
+      "zh-TW": "恭喜發財",
+      "en": "Lucky money!",
+      "ja": "お年玉！",
+      "ko": "세뱃돈 줘!"
+    },
+    "mood": "prosperous",
+    "static_pose": "holding out a red envelope with both hands, cheeky hopeful grin",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "红包拿来",
+        "zh-TW": "紅包拿來",
+        "en": "Red pocket pls",
+        "ja": "お年玉ちょうだい",
+        "ko": "세뱃돈 주세요"
+      }
+    },
+    "motion": {
+      "type": "give_red_envelope",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a red envelope at the chest; eyes open, a cheeky hopeful grin; lower body stays in place.",
+        "Frame 2: The hands/paws pushing the envelope forward; eyes in a quick natural blink, a cheeky hopeful grin; lower body stays in place.",
+        "Frame 3: The hands/paws offering the red envelope toward the viewer with gold sparkles; eyes sparkling greedily, mouth in a big lucky grin; lower body stays in place.",
+        "Frame 4: The hands/paws drawing the envelope back; eyes open again, a cheeky hopeful grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "red_envelope"
+      ]
+    }
+  },
+  {
+    "id": "108_birthday",
+    "category": "festival",
+    "caption": "生日快乐",
+    "captions": {
+      "zh-CN": "生日快乐",
+      "zh-TW": "生日快樂",
+      "en": "Happy birthday!",
+      "ja": "おたおめ！",
+      "ko": "생일 축하해!"
+    },
+    "mood": "celebratory",
+    "static_pose": "holding a small birthday cake with glowing candles, party hat, joyful smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "birthday_cake",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a small birthday cake with candles; eyes open, a joyful smile; lower body stays in place.",
+        "Frame 2: The hands/paws raising the cake a little, candle flames flickering; eyes in a quick natural blink, a joyful smile; lower body stays in place.",
+        "Frame 3: The hands/paws lifting the cake toward the viewer, candles glowing; eyes curved with happiness, mouth open singing a birthday song; lower body stays in place.",
+        "Frame 4: The hands/paws lowering the cake; eyes open again, a joyful smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "cake"
+      ]
+    }
+  },
+  {
+    "id": "109_christmas",
+    "category": "festival",
+    "caption": "圣诞快乐",
+    "captions": {
+      "zh-CN": "圣诞快乐",
+      "zh-TW": "聖誕快樂",
+      "en": "Merry Xmas!",
+      "ja": "メリクリ！",
+      "ko": "메리 크리스마스"
+    },
+    "mood": "jolly",
+    "static_pose": "wearing a Santa hat holding out a wrapped gift box, jolly smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "gift_present",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a wrapped gift box; eyes open, a jolly smile; lower body stays in place.",
+        "Frame 2: The hands/paws pushing the gift box forward; eyes in a quick natural blink, a jolly smile; lower body stays in place.",
+        "Frame 3: The hands/paws holding the gift out toward the viewer with sparkles; eyes twinkling merrily, mouth in a big jolly laugh; lower body stays in place.",
+        "Frame 4: The hands/paws drawing the gift back; eyes open again, a jolly smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "gift_box"
+      ]
+    }
+  },
+  {
+    "id": "110_valentine",
+    "category": "festival",
+    "caption": "情人节快乐",
+    "captions": {
+      "zh-CN": "情人节快乐",
+      "zh-TW": "情人節快樂",
+      "en": "Be my Valentine",
+      "ja": "バレンタイン♡",
+      "ko": "해피 발렌타인"
+    },
+    "mood": "romantic",
+    "static_pose": "holding out a big glowing red heart, blushing shy smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "hold_heart",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a big red heart at the chest; eyes open, a shy blushing smile; lower body stays in place.",
+        "Frame 2: The hands/paws pushing the heart forward; eyes in a quick natural blink, a shy blushing smile; lower body stays in place.",
+        "Frame 3: The hands/paws holding the heart out toward the viewer, glowing and pulsing; eyes shining with love, mouth in a hopeful sweet smile, cheeks rosy; lower body stays in place.",
+        "Frame 4: The hands/paws drawing the heart back; eyes open again, a shy blushing smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "heart_prop"
+      ]
+    }
+  },
+  {
+    "id": "111_mid_autumn",
+    "category": "festival",
+    "caption": "中秋快乐",
+    "captions": {
+      "zh-CN": "中秋快乐",
+      "zh-TW": "中秋快樂",
+      "en": "Happy Mid-Autumn",
+      "ja": "お月見だよ",
+      "ko": "즐거운 추석"
+    },
+    "mood": "serene",
+    "static_pose": "raising a glowing lantern under a full moon, serene smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "raise_lantern",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a glowing lantern; eyes open, a serene gentle smile; lower body stays in place.",
+        "Frame 2: The hand/paw lifting the lantern higher; eyes in a quick natural blink, a serene gentle smile; lower body stays in place.",
+        "Frame 3: The lantern raised high, glowing warmly; eyes softly reflecting the lantern glow, mouth in a peaceful smile; lower body stays in place.",
+        "Frame 4: The hand/paw lowering the lantern; eyes open again, a serene gentle smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "lantern"
+      ]
+    }
+  },
+  {
+    "id": "112_halloween",
+    "category": "festival",
+    "caption": "不给糖就捣蛋",
+    "captions": {
+      "zh-CN": "不给糖就捣蛋",
+      "zh-TW": "不給糖就搗蛋",
+      "en": "Trick or treat!",
+      "ja": "お菓子ちょうだい",
+      "ko": "사탕 내놔!"
+    },
+    "mood": "playful",
+    "static_pose": "thrusting a jack-o'-lantern forward in a witch hat, playful spooky face",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "pumpkin_boo",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a jack-o'-lantern; eyes open, a mischievous grin; lower body stays in place.",
+        "Frame 2: The hands/paws pushing the pumpkin forward; eyes in a quick natural blink, a mischievous grin; lower body stays in place.",
+        "Frame 3: The hands/paws thrusting the pumpkin toward the viewer in a playful spook; eyes wide in a playful spook, mouth open in a fake scary boo; lower body stays in place.",
+        "Frame 4: The hands/paws drawing the pumpkin back; eyes open again, a mischievous grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "pumpkin"
+      ]
+    }
+  },
+  {
+    "id": "113_congrats",
+    "category": "festival",
+    "caption": "恭喜恭喜",
+    "captions": {
+      "zh-CN": "恭喜恭喜",
+      "zh-TW": "恭喜恭喜",
+      "en": "Congrats!",
+      "ja": "おめでとう！",
+      "ko": "축하해!"
+    },
+    "mood": "celebrating",
+    "static_pose": "throwing confetti high overhead, joyful face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "throw_confetti",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws cupped holding confetti; eyes open, a joyful open smile; lower body stays in place.",
+        "Frame 2: The hands/paws sweeping upward; eyes in a quick natural blink, a joyful open smile; lower body stays in place.",
+        "Frame 3: Both arms throwing confetti high overhead, colorful pieces floating; eyes squeezed in celebration, mouth wide in a happy cheer; lower body stays in place.",
+        "Frame 4: The hands/paws lowering; eyes open again, a joyful open smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "114_cheers",
+    "category": "festival",
+    "caption": "干杯",
+    "captions": {
+      "zh-CN": "干杯",
+      "zh-TW": "乾杯",
+      "en": "Cheers!",
+      "ja": "かんぱーい！",
+      "ko": "건배!"
+    },
+    "mood": "merry",
+    "static_pose": "raising a glass high in a toast, flushed merry face",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "raise_glass",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a drink glass; eyes open, a merry grin; lower body stays in place.",
+        "Frame 2: The hand/paw lifting the glass; eyes in a quick natural blink, a merry grin; lower body stays in place.",
+        "Frame 3: The hand/paw raising the glass high toward the viewer in a toast with a clink sparkle; eyes closed in merriment, mouth wide open in a toast cheer; lower body stays in place.",
+        "Frame 4: The hand/paw lowering the glass; eyes open again, a merry grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "glass"
+      ]
+    }
+  },
+  {
+    "id": "115_busy",
+    "category": "status",
+    "caption": "忙碌中",
+    "captions": {
+      "zh-CN": "忙碌中",
+      "zh-TW": "忙碌中",
+      "en": "So busy",
+      "ja": "多忙です",
+      "ko": "바빠요"
+    },
+    "mood": "overwhelmed",
+    "static_pose": "juggling papers and a phone with flailing arms, frazzled face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "juggle_tasks",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Arms holding a stack of papers and a phone; eyes open, a frazzled wobbly mouth; lower body stays in place.",
+        "Frame 2: One hand/paw grabbing as papers slip; eyes in a quick natural blink, a frazzled wobbly mouth; lower body stays in place.",
+        "Frame 3: Arms flailing as papers and the phone fly up; eyes spinning with stress, mouth open in a frazzled yelp; lower body stays in place.",
+        "Frame 4: Hands/paws catching the items back; eyes open again, a frazzled wobbly mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "116_do_not_disturb",
+    "category": "status",
+    "caption": "勿扰",
+    "captions": {
+      "zh-CN": "勿扰",
+      "zh-TW": "勿擾",
+      "en": "Do not disturb",
+      "ja": "邪魔しないで",
+      "ko": "방해 금지"
+    },
+    "mood": "stern",
+    "static_pose": "holding up a blank placard with a stern no-nonsense face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "hold_sign",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding a blank placard at the chest; eyes open, a stern flat mouth; lower body stays in place.",
+        "Frame 2: The hands/paws raising the placard; eyes in a quick natural blink, a stern flat mouth; lower body stays in place.",
+        "Frame 3: Both arms thrusting the placard up overhead; eyes narrowed sternly, mouth in a firm do-not-bother-me line; lower body stays in place.",
+        "Frame 4: The hands/paws lowering the placard; eyes open again, a stern flat mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "placard"
+      ]
+    }
+  },
+  {
+    "id": "117_sick",
+    "category": "status",
+    "caption": "生病了",
+    "captions": {
+      "zh-CN": "生病了",
+      "zh-TW": "生病了",
+      "en": "Feeling sick",
+      "ja": "体調不良…",
+      "ko": "아파요…"
+    },
+    "mood": "ill",
+    "static_pose": "sneezing into a tissue with a red nose, thermometer, flushed face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "sneeze",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a tissue near the nose; eyes open, a weak droopy mouth; lower body stays in place.",
+        "Frame 2: The hand/paw hovering the tissue as the head tilts back; eyes in a quick natural blink, a weak droopy mouth; lower body stays in place.",
+        "Frame 3: The hand/paw pressing the tissue to the nose as the head jerks forward in a sneeze; eyes squeezed shut in a big sneeze, mouth burst open, red nose scrunched; lower body stays in place.",
+        "Frame 4: The hand/paw lowering the tissue as the head returns; eyes open again, a weak droopy mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "118_tired",
+    "category": "status",
+    "caption": "好累",
+    "captions": {
+      "zh-CN": "好累",
+      "zh-TW": "好累",
+      "en": "So tired...",
+      "ja": "つかれた…",
+      "ko": "피곤해…"
+    },
+    "mood": "drained",
+    "static_pose": "upper body melting forward with dangling arms, drained face",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "想躺平…",
+        "zh-TW": "想躺平…",
+        "en": "Need a nap",
+        "ja": "寝たい…",
+        "ko": "눕고 싶다"
+      }
+    },
+    "motion": {
+      "type": "droop_slump",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Arms hanging; eyes open, a drained limp mouth; lower body stays in place.",
+        "Frame 2: Arms hanging, shoulders sagging; eyes in a quick natural blink, a drained limp mouth; lower body stays in place.",
+        "Frame 3: Arms dangling, upper body melted forward; eyes empty and half-closed, mouth hanging open with a soul-like wisp; lower body stays in place.",
+        "Frame 4: Arms hanging, upper body straightening a bit; eyes open again, a drained limp mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "119_broke",
+    "category": "status",
+    "caption": "没钱了",
+    "captions": {
+      "zh-CN": "没钱了",
+      "zh-TW": "沒錢了",
+      "en": "I'm broke",
+      "ja": "金欠…",
+      "ko": "텅장…"
+    },
+    "mood": "broke",
+    "static_pose": "shaking an empty upside-down wallet, a moth fluttering out, teary face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "empty_wallet",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws holding an open wallet; eyes open, a quivering sad mouth; lower body stays in place.",
+        "Frame 2: The hands/paws turning the wallet upside down; eyes in a quick natural blink, a quivering sad mouth; lower body stays in place.",
+        "Frame 3: The hands/paws shaking the wallet as only a moth flutters out; eyes teary and hopeless, mouth in a wobbly frown; lower body stays in place.",
+        "Frame 4: The hands/paws turning the wallet back up; eyes open again, a quivering sad mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "wallet"
+      ]
+    }
+  },
+  {
+    "id": "120_rich",
+    "category": "status",
+    "caption": "暴富",
+    "captions": {
+      "zh-CN": "暴富",
+      "zh-TW": "發大財",
+      "en": "I'm rich!",
+      "ja": "大金持ち！",
+      "ko": "부자 됐다!"
+    },
+    "mood": "rich",
+    "static_pose": "arms thrown up as gold coins rain down, coin-shaped eyes",
+    "text_layout": "both",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "发财啦！",
+        "zh-TW": "發財啦！",
+        "en": "Ka-ching!",
+        "ja": "ウハウハ！",
+        "ko": "돈벼락!"
+      }
+    },
+    "motion": {
+      "type": "money_eyes",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws clasped at the chest; eyes open, a giddy wide grin; lower body stays in place.",
+        "Frame 2: Hands/paws rising as sparkles appear; eyes in a quick natural blink, a giddy wide grin; lower body stays in place.",
+        "Frame 3: Hands/paws thrown up as gold coins rain down; eyes turned into gold coins, mouth open in an ecstatic laugh; lower body stays in place.",
+        "Frame 4: Hands/paws lowering; eyes open again, a giddy wide grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "121_cold",
+    "category": "status",
+    "caption": "好冷",
+    "captions": {
+      "zh-CN": "好冷",
+      "zh-TW": "好冷",
+      "en": "Freezing!",
+      "ja": "さむい…",
+      "ko": "추워…"
+    },
+    "mood": "freezing",
+    "static_pose": "hugging own body in a scarf, shivering with frost puffs, blue lips",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "shiver_cold",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Arms hugging the body, a scarf around the neck; eyes open, chattering teeth; lower body stays in place.",
+        "Frame 2: Arms hugging tight, shivering to the left; eyes in a quick natural blink, chattering teeth; lower body stays in place.",
+        "Frame 3: Arms clamped around the body, shivering hard with frost puffs; eyes squeezed tight, teeth chattering hard with blue lips; lower body stays in place.",
+        "Frame 4: Arms hugging, shivering to the right; eyes open again, chattering teeth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "scarf"
+      ]
+    }
+  },
+  {
+    "id": "122_hot",
+    "category": "status",
+    "caption": "热化了",
+    "captions": {
+      "zh-CN": "热化了",
+      "zh-TW": "熱到融化",
+      "en": "Melting...",
+      "ja": "あつい…",
+      "ko": "더워 죽겠다"
+    },
+    "mood": "overheated",
+    "static_pose": "fanning furiously with a hand fan, sweaty melting face",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "fan_hot",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a hand fan; eyes open, a panting open mouth; lower body stays in place.",
+        "Frame 2: The hand/paw flicking the fan left; eyes in a quick natural blink, a panting open mouth; lower body stays in place.",
+        "Frame 3: The hand/paw flapping the fan hard, sweat drops flying; eyes droopy and dazed from heat, tongue hanging out panting; lower body stays in place.",
+        "Frame 4: The hand/paw flicking the fan right; eyes open again, a panting open mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "hand_fan"
+      ]
+    }
+  },
+  {
+    "id": "123_pat_pat",
+    "category": "social",
+    "caption": "摸摸头",
+    "captions": {
+      "zh-CN": "摸摸头",
+      "zh-TW": "摸摸頭",
+      "en": "Pat pat",
+      "ja": "よしよし",
+      "ko": "쓰담쓰담"
+    },
+    "mood": "gentle",
+    "static_pose": "reaching forward to gently pat the viewer's head, soft caring smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "pat_head",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised reaching forward; eyes open, a soft caring smile; lower body stays in place.",
+        "Frame 2: The palm lowering gently; eyes in a quick natural blink, a soft caring smile; lower body stays in place.",
+        "Frame 3: The palm patting softly with tiny sparkle marks; eyes closed gently, mouth in a tender soothing smile; lower body stays in place.",
+        "Frame 4: The palm lifting; eyes open again, a soft caring smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "124_poke",
+    "category": "social",
+    "caption": "戳一戳",
+    "captions": {
+      "zh-CN": "戳一戳",
+      "zh-TW": "戳一下",
+      "en": "*poke*",
+      "ja": "ツンツン",
+      "ko": "콕콕"
+    },
+    "mood": "playful",
+    "static_pose": "poking toward the viewer with one finger, playful mischievous grin",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "poke",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: Index finger raised; eyes open, a playful grin; lower body stays in place.",
+        "Frame 2: The finger extending toward the viewer; eyes in a quick natural blink, a playful grin; lower body stays in place.",
+        "Frame 3: The finger poking the viewer with a small impact mark; eyes squinting mischievously, mouth in a teasing smile; lower body stays in place.",
+        "Frame 4: The finger pulling back; eyes open again, a playful grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "125_high_five",
+    "category": "social",
+    "caption": "击掌",
+    "captions": {
+      "zh-CN": "击掌",
+      "zh-TW": "擊掌",
+      "en": "High five!",
+      "ja": "ハイタッチ！",
+      "ko": "하이파이브!"
+    },
+    "mood": "energetic",
+    "static_pose": "palm pushed toward the viewer for a high five, energetic grin",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "high_five",
+      "duration_ms": 1120,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "strong",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw raised at head height; eyes open, an energetic grin; lower body stays in place.",
+        "Frame 2: The hand/paw swinging forward; eyes in a quick natural blink, an energetic grin; lower body stays in place.",
+        "Frame 3: The palm pushed flat toward the viewer with burst lines; eyes bright and lively, mouth open in a hearty yeah; lower body stays in place.",
+        "Frame 4: The hand/paw pulling back; eyes open again, an energetic grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "126_selfie",
+    "category": "social",
+    "caption": "自拍",
+    "captions": {
+      "zh-CN": "自拍",
+      "zh-TW": "自拍",
+      "en": "Selfie time!",
+      "ja": "自撮り〜",
+      "ko": "셀카 타임"
+    },
+    "mood": "photogenic",
+    "static_pose": "holding a phone up for a selfie with a peace sign, cute pose",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "take_selfie",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One arm holding a phone up at an angle; eyes open, a cute photo smile; lower body stays in place.",
+        "Frame 2: The other hand/paw starting a peace sign; eyes in a quick natural blink, a cute photo smile; lower body stays in place.",
+        "Frame 3: The free hand/paw making a peace sign beside the cheek with a phone flash sparkle; one eye winking for the camera, mouth in a cute duck-face smile; lower body stays in place.",
+        "Frame 4: The peace-sign hand/paw easing; eyes open again, a cute photo smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "phone"
+      ]
+    }
+  },
+  {
+    "id": "127_peek",
+    "category": "social",
+    "caption": "偷看",
+    "captions": {
+      "zh-CN": "偷看",
+      "zh-TW": "偷看",
+      "en": "*peeks*",
+      "ja": "チラッ",
+      "ko": "빼꼼"
+    },
+    "mood": "curious",
+    "static_pose": "peeking out from the side edge of the frame, curious big eyes",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "peek_from_edge",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Hands/paws gripping the side edge of the frame, only half the body visible; eyes open, a tiny curious mouth; lower body stays in place.",
+        "Frame 2: Hands/paws gripping the edge, head leaning out a bit; eyes in a quick natural blink, a tiny curious mouth; lower body stays in place.",
+        "Frame 3: Hands/paws gripping the edge, head and shoulders leaned out further; eyes big and curious looking at the viewer, mouth in a tiny shy smile; lower body stays in place.",
+        "Frame 4: Hands/paws gripping the edge, leaning back behind it; eyes open again, a tiny curious mouth; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "frame_edge"
+      ]
+    }
+  },
+  {
+    "id": "128_money_sent",
+    "category": "social",
+    "caption": "转账",
+    "captions": {
+      "zh-CN": "转账",
+      "zh-TW": "轉帳",
+      "en": "Money sent!",
+      "ja": "送金したよ",
+      "ko": "송금 완료"
+    },
+    "mood": "generous",
+    "static_pose": "showing a phone screen to the viewer, generous proud smile",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "show_phone",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw holding a phone near the chest; eyes open, a generous smile; lower body stays in place.",
+        "Frame 2: The hand/paw turning the phone toward the viewer; eyes in a quick natural blink, a generous smile; lower body stays in place.",
+        "Frame 3: The hand/paw holding the phone out to the viewer with a sparkle on the screen; eyes in a proud wink, mouth in a generous confident grin; lower body stays in place.",
+        "Frame 4: The hand/paw drawing the phone back; eyes open again, a generous smile; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern",
+        "phone"
+      ]
+    }
+  },
+  {
+    "id": "129_waiting_reply",
+    "category": "social",
+    "caption": "等你回复",
+    "captions": {
+      "zh-CN": "等你回复",
+      "zh-TW": "等你回覆",
+      "en": "Waiting...",
+      "ja": "返信まだ？",
+      "ko": "답장 기다림"
+    },
+    "mood": "impatient",
+    "static_pose": "chin resting on both hands, staring and waiting, slightly pouty",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "chin_on_hands",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: Both hands/paws cupping the chin; eyes open, a small impatient pout; lower body stays in place.",
+        "Frame 2: Hands/paws cupping the chin as the head sways left; eyes in a quick natural blink, a small impatient pout; lower body stays in place.",
+        "Frame 3: Cheeks squished in the palms, head tilted right; eyes staring longingly at the viewer, cheeks squished into a pout; lower body stays in place.",
+        "Frame 4: Hands/paws cupping the chin, head back to center; eyes open again, a small impatient pout; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "130_go_out",
+    "category": "social",
+    "caption": "出去玩",
+    "captions": {
+      "zh-CN": "出去玩",
+      "zh-TW": "出去玩",
+      "en": "Let's go out!",
+      "ja": "遊びに行こ！",
+      "ko": "놀러 가자!"
+    },
+    "mood": "adventurous",
+    "static_pose": "beckoning the viewer over enthusiastically, excited grin",
+    "text_layout": "bubble",
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "beckon",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw extended palm up; eyes open, an excited grin; lower body stays in place.",
+        "Frame 2: Fingers curling inward; eyes in a quick natural blink, an excited grin; lower body stays in place.",
+        "Frame 3: The hand/paw waving the viewer over enthusiastically; eyes sparkling with adventure, mouth open calling out happily; lower body stays in place.",
+        "Frame 4: The hand/paw reopening; eyes open again, an excited grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "131_bleh",
+    "category": "meme",
+    "caption": "略略略",
+    "captions": {
+      "zh-CN": "略略略",
+      "zh-TW": "略略略",
+      "en": "Bleh!",
+      "ja": "べーっだ",
+      "ko": "메롱"
+    },
+    "mood": "cheeky",
+    "static_pose": "pulling down one eyelid and sticking tongue out cheekily",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "tongue_out",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: One finger raised near one eye; eyes open, a cheeky grin; lower body stays in place.",
+        "Frame 2: The finger at the lower eyelid, head tilting; eyes in a quick natural blink, a cheeky grin; lower body stays in place.",
+        "Frame 3: The finger pulling down the lower eyelid; one eye squinting playfully, tongue stuck out in a teasing face; lower body stays in place.",
+        "Frame 4: The finger releasing the eyelid; eyes open again, a cheeky grin; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "132_you_know",
+    "category": "meme",
+    "caption": "懂的都懂",
+    "captions": {
+      "zh-CN": "懂的都懂",
+      "zh-TW": "懂的都懂",
+      "en": "You know~",
+      "ja": "察して",
+      "ko": "알지?"
+    },
+    "mood": "knowing",
+    "static_pose": "finger gun at the viewer with a knowing wink and smirk",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wink",
+      "duration_ms": 1440,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "subtle",
+      "keyframe_poses": [
+        "Frame 1: One hand/paw making a finger gun near the chin; eyes open, a knowing smirk; lower body stays in place.",
+        "Frame 2: The finger gun lifting, head tilting; eyes in a quick natural blink, a knowing smirk; lower body stays in place.",
+        "Frame 3: The finger gun pointed at the viewer with a star sparkle; one eye winking knowingly, mouth in a sly sideways grin; lower body stays in place.",
+        "Frame 4: The hand/paw returning; eyes open again, a knowing smirk; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
     }
   }
 ]

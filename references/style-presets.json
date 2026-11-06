@@ -1,0 +1,678 @@
+[
+  {
+    "id": "real-cutout",
+    "display_name": "真人写真抠图贴纸",
+    "category": "真人专属",
+    "region": "通用",
+    "description": "保留真人真实五官、肤色与自然神态，外圈自动生成微信经典纯白立体模切贴纸白边（默认主推）。",
+    "prompt_lock": "High-clarity photorealistic real-person portrait sticker cutout of the exact same person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, glasses/accessories, and outfit. Clean studio portrait lighting, natural flattering real skin texture, vivid real-person facial expression and hand gesture, isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, chibi illustration, flat vector art, or 3D doll. Do not alter facial identity or age, no uncanny valley distortion, no background clutter.",
+    "outline": "die-cut-white-border",
+    "lighting": "studio-portrait",
+    "default_palette": [
+      "#FFE5D9",
+      "#F4A261",
+      "#3D405B"
+    ],
+    "banner_bg": "#F8F9FA",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#1F2421",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-variety-meme",
+    "display_name": "真人综艺花字斗图",
+    "category": "真人专属",
+    "region": "中式",
+    "description": "真人戏剧化实拍表情抓拍 + 国民综艺亮黄撞色花字描边，斗图表现力拉满。",
+    "prompt_lock": "Expressive variety-show photorealistic reaction portrait sticker of the exact same real person from the reference photo, vivid comedic real-person micro-expression and hand gesture, crisp high-key television studio lighting, preserving authentic human facial features and real skin texture, clean cutout silhouette.",
+    "negative_extra": "NEVER cartoonize or draw as 2D anime/comic illustration. Do not alter subject identity, no dark muddy lighting, no motion blur on face.",
+    "outline": "die-cut-white-border",
+    "lighting": "high-key-tv",
+    "default_palette": [
+      "#FFEE32",
+      "#FF3366",
+      "#111111"
+    ],
+    "banner_bg": "#FFF9DB",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#111111",
+      "stroke_color": "#FFEE32",
+      "stroke_width": 4,
+      "start_font_size": 28
+    }
+  },
+  {
+    "id": "real-bobblehead",
+    "display_name": "真人搞怪大头贴",
+    "category": "真人专属",
+    "region": "通用",
+    "description": "保留真人真实摄影面部五官神态，搭配夸张大头比例与剪纸白边，情侣、萌娃与朋友斗图神器。",
+    "prompt_lock": "Playful bobblehead real-photo collage sticker of the exact same real person from the reference photo: photorealistic expressive human head and face faithfully preserving their real facial features and skin texture, paired with a compact oversized-head photo-cutout proportion and dynamic real hand gestures. Clean studio cutout with crisp sticker aesthetic.",
+    "negative_extra": "NEVER replace the person's real photographic face with a 2D anime, cartoon, or 3D doll face. No creepy proportions, no messy background.",
+    "outline": "die-cut-white-border",
+    "lighting": "bright-studio",
+    "default_palette": [
+      "#FFF1E6",
+      "#FFCAD4",
+      "#2B2D42"
+    ],
+    "banner_bg": "#FFF5F7",
+    "die_cut_border_px": 5,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#D90429",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-purikura",
+    "display_name": "韩系人生四格大头贴",
+    "category": "真人专属",
+    "region": "韩系",
+    "description": "清透韩系水光奶油肌真人写真，搭配柔和粉白描边与清甜拍立得人像质感。",
+    "prompt_lock": "Korean Purikura photobooth real-person portrait sticker of the exact same person from the reference photo, preserving authentic facial features and hairstyle with soft creamy K-beauty studio portrait lighting, natural rosy cheeks, and crisp photographic cutout.",
+    "negative_extra": "NEVER turn into 2D cartoon or anime illustration, no heavy oil painting, no harsh shadows, do not change facial identity.",
+    "outline": "die-cut-white-border",
+    "lighting": "creamy-kbeauty",
+    "default_palette": [
+      "#FFF0F3",
+      "#FF8FA3",
+      "#594A4E"
+    ],
+    "banner_bg": "#FFF5F8",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#594A4E",
+      "stroke_color": "#FFF0F3",
+      "stroke_width": 4,
+      "start_font_size": 26
+    }
+  },
+  {
+    "id": "real-street-cool",
+    "display_name": "真人潮酷街拍贴纸",
+    "category": "真人专属",
+    "region": "通用",
+    "description": "高质感潮流杂志闪光灯实拍人像抠图，立体光影与醒目模切白边，适合 INS / 潮人态度表达。",
+    "prompt_lock": "Editorial street-fashion photorealistic portrait sticker cutout of the exact same real person from the reference photo, crisp direct-flash magazine photography lighting, authentic skin texture, confident real-person attitude and hand gesture, isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize or stylize into 2D/3D illustration, do not alter facial structure or hairstyle, no background clutter.",
+    "outline": "die-cut-white-border",
+    "lighting": "editorial-flash",
+    "default_palette": [
+      "#F4F4F6",
+      "#FF4D6D",
+      "#16161A"
+    ],
+    "banner_bg": "#F1F3F5",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#16161A",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-vintage-ccd",
+    "display_name": "真人复古CCD胶片贴纸",
+    "category": "真人专属",
+    "region": "通用",
+    "description": "千禧年复古 CCD 数码相机直出真人写真质感、柔和暖调胶片光感与经典贴纸白边。",
+    "prompt_lock": "Y2K vintage CCD camera photorealistic portrait sticker cutout of the exact same real person from the reference photo, warm nostalgic film color grading, authentic human facial features and natural skin texture, expressive real-person pose, isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize or draw as anime/illustration, do not alter facial identity, no blurry face.",
+    "outline": "die-cut-white-border",
+    "lighting": "ccd-warm-flash",
+    "default_palette": [
+      "#FDF0D5",
+      "#E07A5F",
+      "#3D405B"
+    ],
+    "banner_bg": "#FAF3E0",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#2B2D42",
+      "stroke_color": "#FFFDF7",
+      "stroke_width": 4,
+      "start_font_size": 26
+    }
+  },
+  {
+    "id": "real-work-emo",
+    "display_name": "真人打工人纪实梗图",
+    "category": "真人专属",
+    "region": "通用",
+    "description": "真实生活感/职场纪实抓拍人像神态（生无可恋、强颜欢笑、发疯精神状态）+ 醒目白边大字。",
+    "prompt_lock": "Candid documentary-style photorealistic portrait sticker cutout of the exact same real person from the reference photo, hilariously relatable deadpan or unhinged office-worker real facial expression, natural indoor lighting, authentic human skin and features, isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, no 2D doodle or anime face, do not alter the person's identity, no background objects.",
+    "outline": "die-cut-white-border",
+    "lighting": "natural-candid",
+    "default_palette": [
+      "#E9ECEF",
+      "#ADB5BD",
+      "#212529"
+    ],
+    "banner_bg": "#F4F5F7",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#111111",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 28
+    }
+  },
+  {
+    "id": "real-high-contrast",
+    "display_name": "真人黑白高反差梗图",
+    "category": "真人专属",
+    "region": "通用",
+    "description": "保留真人真实五官神态的黑白高对比实拍抠图质感 + 纯白模切边，经典斗图与抽象梗图首选。",
+    "prompt_lock": "High-contrast monochrome-toned photorealistic portrait sticker cutout of the exact same real person from the reference photo, preserving true human facial structure and dramatic real-person micro-expression, punchy studio contrast, isolated on transparent background.",
+    "negative_extra": "NEVER draw a panda head, cartoon face, or 2D stick figure; must remain the real human's photographic face.",
+    "outline": "die-cut-white-border",
+    "lighting": "high-contrast-studio",
+    "default_palette": [
+      "#FFFFFF",
+      "#CED4DA",
+      "#111111"
+    ],
+    "banner_bg": "#F1F3F5",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#000000",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 28
+    }
+  },
+  {
+    "id": "real-kr-idol-selfie",
+    "display_name": "韩系爱豆自拍",
+    "category": "真人专属",
+    "region": "韩系",
+    "description": "韩国爱豆自拍感：柔光美颜但不改五官，水润唇色、清透眼神，适合比心、wink、卖萌。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. K-pop idol selfie vibe: soft ring-light glow, clean luminous skin with real texture kept, glossy gradient lips, bright sparkling eye catchlights, playful idol charm. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no plastic over-smoothed skin, no enlarged anime eyes.",
+    "outline": "die-cut-white-border",
+    "lighting": "kpop-ringlight",
+    "default_palette": [
+      "#FFF0F5",
+      "#FF8FB1",
+      "#4A3F55"
+    ],
+    "banner_bg": "#FFF4F8",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#4A3F55",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-kr-glass-skin",
+    "display_name": "韩系水光肌清透",
+    "category": "真人专属",
+    "region": "韩系",
+    "description": "韩系水光肌：通透奶油光泽、低饱和裸色调，干净高级的韩妆氛围。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Korean glass-skin beauty portrait: dewy translucent glow, soft diffused beauty-dish lighting, muted nude and milky tones, clean minimal elegance. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no oily shine, no heavy contour.",
+    "outline": "die-cut-white-border",
+    "lighting": "kbeauty-dewy",
+    "default_palette": [
+      "#FBF5F1",
+      "#E8C4B8",
+      "#5E4B48"
+    ],
+    "banner_bg": "#FAF6F3",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#5E4B48",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-kr-photocard",
+    "display_name": "韩系爱豆小卡",
+    "category": "真人专属",
+    "region": "韩系",
+    "description": "韩国爱豆收藏小卡质感：粉蓝渐变柔光、清甜少女/少年感，适合追星同好斗图。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. K-pop collectible photocard portrait: soft pastel pink-to-sky gradient rim light, crisp high-resolution studio finish, sweet youthful idol expression. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no glitter overlay on the face.",
+    "outline": "die-cut-white-border",
+    "lighting": "pastel-gradient-studio",
+    "default_palette": [
+      "#EAF4FF",
+      "#FFC6D9",
+      "#3B4A6B"
+    ],
+    "banner_bg": "#F2F6FF",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#3B4A6B",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-kr-cafe-film",
+    "display_name": "韩系咖啡馆胶片",
+    "category": "真人专属",
+    "region": "韩系",
+    "description": "韩系咖啡馆日常胶片：奶茶米色调、窗边自然光、温柔慵懒的 ins 风日常感。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Korean cafe daily-life film portrait: soft window daylight, warm beige milk-tea color grading, subtle film grain, relaxed natural candid expression. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no cold blue tint.",
+    "outline": "die-cut-white-border",
+    "lighting": "window-daylight",
+    "default_palette": [
+      "#F5EDE3",
+      "#C9A98B",
+      "#5A4636"
+    ],
+    "banner_bg": "#F7F1EA",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#5A4636",
+      "stroke_color": "#FFFDF8",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-kr-drama",
+    "display_name": "韩剧主角氛围",
+    "category": "真人专属",
+    "region": "韩系",
+    "description": "韩剧男女主氛围感：电影级柔逆光、浪漫光斑质感，深情、心动、委屈表情都很出片。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. K-drama lead-role cinematic portrait: soft romantic backlight halo, gentle lens bloom, rich yet soft cinematic color grade, emotionally expressive real-person face. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no heavy bokeh covering the face.",
+    "outline": "die-cut-white-border",
+    "lighting": "kdrama-backlight",
+    "default_palette": [
+      "#FDF1EC",
+      "#E59A9A",
+      "#3C3346"
+    ],
+    "banner_bg": "#FBF3F1",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#3C3346",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-kr-variety",
+    "display_name": "韩综字幕斗图",
+    "category": "真人专属",
+    "region": "韩系",
+    "description": "韩国综艺（Running Man 式）夸张反应抓拍 + 彩色粗描边字幕，搞笑反应满分。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Korean variety-show reaction capture: bright high-key studio lighting, exaggerated comedic real-person reaction, crisp punchy colors. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no motion blur on the face.",
+    "outline": "die-cut-white-border",
+    "lighting": "kvariety-highkey",
+    "default_palette": [
+      "#FFF7D1",
+      "#36C5F0",
+      "#222222"
+    ],
+    "banner_bg": "#FFFBE6",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#1E6FD9",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 28
+    }
+  },
+  {
+    "id": "real-jp-airy",
+    "display_name": "日系空气感清新",
+    "category": "真人专属",
+    "region": "日系",
+    "description": "日系空气感：微过曝、低对比、淡青淡粉色调，干净通透的清新写真。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Japanese airy photography portrait: slightly overexposed bright exposure, low contrast, pale mint and blush pastel color grading, soft clean natural light, gentle calm expression. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no harsh shadows, no saturated colors.",
+    "outline": "die-cut-white-border",
+    "lighting": "airy-overexposed",
+    "default_palette": [
+      "#F4FAF8",
+      "#BFE3DA",
+      "#5B6B70"
+    ],
+    "banner_bg": "#F5FBF9",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#4F6066",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-jp-fuji-film",
+    "display_name": "日系富士胶片",
+    "category": "真人专属",
+    "region": "日系",
+    "description": "日系富士胶片色：青绿暗部、柔和肤色、细腻颗粒，文艺日常感。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Japanese Fujifilm-style film portrait: classic chrome color science with cyan-green shadows and soft warm skin, fine natural film grain, quiet poetic everyday mood. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no over-sharpened digital look.",
+    "outline": "die-cut-white-border",
+    "lighting": "fuji-film",
+    "default_palette": [
+      "#EEF2EA",
+      "#8FB3A3",
+      "#38463F"
+    ],
+    "banner_bg": "#F0F4EE",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#38463F",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-jp-purikura",
+    "display_name": "日系大头贴プリクラ",
+    "category": "真人专属",
+    "region": "日系",
+    "description": "日本プリクラ大头贴：高亮美白、粉嫩边框感、可爱比 V 姿势（不放大眼睛、不改脸型）。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Japanese purikura photo-booth portrait: very bright flash-booth lighting, fair luminous skin with real features kept, cute peace-sign kawaii energy, candy pink accent glow. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; never enlarge the eyes or slim the jaw.",
+    "outline": "die-cut-white-border",
+    "lighting": "purikura-booth",
+    "default_palette": [
+      "#FFF2FA",
+      "#FF7EC8",
+      "#5A3D5C"
+    ],
+    "banner_bg": "#FFF5FB",
+    "die_cut_border_px": 5,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#C2187A",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-jp-summer",
+    "display_name": "日系夏日逆光",
+    "category": "真人专属",
+    "region": "日系",
+    "description": "日系夏日青春：金色逆光、发丝透光、蓝天感清爽色调，元气满满。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Japanese summer youth portrait: golden backlight rim glowing through hair strands, fresh sky-blue and sunlit warm tones, energetic seishun mood. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no lens flare covering the face.",
+    "outline": "die-cut-white-border",
+    "lighting": "summer-backlight",
+    "default_palette": [
+      "#EAF6FF",
+      "#FFD27F",
+      "#2E5A7A"
+    ],
+    "banner_bg": "#EEF8FF",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#2E5A7A",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-jp-harajuku",
+    "display_name": "日系原宿街头",
+    "category": "真人专属",
+    "region": "日系",
+    "description": "原宿街头潮人：高饱和撞色、直闪街拍、个性十足的态度表情。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Harajuku street-snap portrait: direct flash street photography, vivid saturated pop accent colors, bold playful attitude. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; do not change the person's outfit.",
+    "outline": "die-cut-white-border",
+    "lighting": "street-flash",
+    "default_palette": [
+      "#FFF3B0",
+      "#FF4FA3",
+      "#2B2B6E"
+    ],
+    "banner_bg": "#FFF8D9",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#2B2B6E",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-jp-showa",
+    "display_name": "日系昭和复古",
+    "category": "真人专属",
+    "region": "日系",
+    "description": "昭和复古写真：80 年代暖黄褪色、柔焦与颗粒，老杂志封面感。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Japanese Showa-era retro portrait: 1980s faded warm color print look, gentle soft focus, visible film grain, nostalgic magazine-cover charm. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no modern HDR look.",
+    "outline": "die-cut-white-border",
+    "lighting": "showa-retro",
+    "default_palette": [
+      "#F6E7C8",
+      "#D9825B",
+      "#4B3A2F"
+    ],
+    "banner_bg": "#F7EBD3",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#4B3A2F",
+      "stroke_color": "#FFF8EA",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-cn-new-chinese",
+    "display_name": "新中式国风写真",
+    "category": "真人专属",
+    "region": "中式",
+    "description": "新中式东方美学：暖光柔影、朱红与金色点缀、温润雅致的氛围（保留本人原本穿搭）。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. New Chinese oriental-aesthetic portrait: warm soft lantern-like key light, elegant cinnabar red and antique gold accent tones, refined graceful real-person expression. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; do not change the person's outfit into costume unless it is in the photo.",
+    "outline": "die-cut-white-border",
+    "lighting": "oriental-warm",
+    "default_palette": [
+      "#FBF3E6",
+      "#C8382F",
+      "#3A2A22"
+    ],
+    "banner_bg": "#FAF1E4",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#8E1F1A",
+      "stroke_color": "#FFF8EC",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-cn-hk-retro",
+    "display_name": "港风复古胶片",
+    "category": "真人专属",
+    "region": "中式",
+    "description": "90 年代港风电影：霓虹暖红绿调、王家卫式氛围、复古胶片颗粒。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. 1990s Hong Kong cinema portrait: moody neon red-and-teal color grade, slight motion-film atmosphere, rich film grain, nostalgic cinematic expression. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no blurred face.",
+    "outline": "die-cut-white-border",
+    "lighting": "hk-neon-film",
+    "default_palette": [
+      "#F3E6D8",
+      "#C2453A",
+      "#1F3B3A"
+    ],
+    "banner_bg": "#F1E5DA",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#1F3B3A",
+      "stroke_color": "#FFF3E8",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-cn-xhs-vibe",
+    "display_name": "小红书氛围感",
+    "category": "真人专属",
+    "region": "中式",
+    "description": "小红书氛围感博主风：奶油柔光、低饱和高级色、精致自然的生活方式质感。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Chinese lifestyle-influencer vibe portrait: creamy soft diffused light, muted refined low-saturation tones, natural polished real skin, effortless chic expression. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no heavy beauty-filter face reshaping.",
+    "outline": "die-cut-white-border",
+    "lighting": "creamy-soft",
+    "default_palette": [
+      "#F8F2EC",
+      "#D8B4A0",
+      "#5C4A42"
+    ],
+    "banner_bg": "#F9F4EF",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#5C4A42",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  },
+  {
+    "id": "real-cn-douyin",
+    "display_name": "抖音网红美颜",
+    "category": "真人专属",
+    "region": "中式",
+    "description": "抖音网红直播间质感：环形灯高光、元气活泼、表情夸张有梗（只提亮不改脸）。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Chinese short-video influencer portrait: bright ring-light key, lively energetic real-person expression, crisp vivid colors, trendy upbeat vibe. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; never slim the face or enlarge the eyes.",
+    "outline": "die-cut-white-border",
+    "lighting": "ringlight-bright",
+    "default_palette": [
+      "#FFF0F0",
+      "#FE2C55",
+      "#25F4EE"
+    ],
+    "banner_bg": "#FFF5F6",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#161823",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 28
+    }
+  },
+  {
+    "id": "real-cn-studio-retro",
+    "display_name": "复古影楼风",
+    "category": "真人专属",
+    "region": "中式",
+    "description": "90 年代老式影楼写真：柔焦光晕、艳丽撞色、土味又好笑，斗图梗图神器。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. 1990s Chinese photo-studio portrait: dreamy soft-focus glow, gaudy saturated studio colors, classic awkward studio pose, hilariously nostalgic yet the face stays photographic. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no painted portrait look.",
+    "outline": "die-cut-white-border",
+    "lighting": "retro-studio-softfocus",
+    "default_palette": [
+      "#FFE9F0",
+      "#E0457B",
+      "#3E2A5A"
+    ],
+    "banner_bg": "#FFF0F5",
+    "die_cut_border_px": 5,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#3E2A5A",
+      "stroke_color": "#FFE36E",
+      "stroke_width": 4,
+      "start_font_size": 28
+    }
+  },
+  {
+    "id": "real-cn-tw-youth",
+    "display_name": "台式青春胶片",
+    "category": "真人专属",
+    "region": "中式",
+    "description": "台湾青春电影感：午后暖阳、淡绿柔调、校园初恋般清新怀旧。",
+    "prompt_lock": "Photorealistic real-person portrait sticker cutout of the exact same real person from the reference photo, faithfully preserving true facial bone structure, eyes, nose, lips, hairstyle, skin tone, accessories and outfit. Taiwanese youth-film portrait: warm afternoon sunlight, soft faded green and cream color grading, gentle nostalgic first-love mood, natural candid expression. Isolated on transparent background.",
+    "negative_extra": "NEVER cartoonize, NEVER turn into 2D anime, manhwa/manga illustration, chibi drawing or 3D doll; do not alter facial identity, face shape or age; no oversaturated colors.",
+    "outline": "die-cut-white-border",
+    "lighting": "afternoon-sun",
+    "default_palette": [
+      "#F4F1E1",
+      "#A9C59A",
+      "#45503B"
+    ],
+    "banner_bg": "#F5F3E6",
+    "die_cut_border_px": 4,
+    "prefer_keyframes": true,
+    "caption_animation": "none",
+    "typography": {
+      "text_color": "#45503B",
+      "stroke_color": "#FFFFFF",
+      "stroke_width": 4,
+      "start_font_size": 27
+    }
+  }
+]

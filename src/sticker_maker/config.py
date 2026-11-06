@@ -5,7 +5,22 @@ from __future__ import annotations
 import os
 from pathlib import Path
 from typing import Dict, List, Tuple
+from dotenv import load_dotenv
 from pydantic import BaseModel, Field
+
+from .styles import load_style_presets, resolve_style_preset
+
+load_dotenv()
+
+
+STYLE_PRESETS: Dict[str, str] = {
+    k: v.prompt_lock for k, v in load_style_presets().items()
+}
+
+
+def get_style_description(style: str) -> str:
+    """Return detailed style lock prompt for a given style name."""
+    return resolve_style_preset(style).prompt_lock
 
 
 class AssetSpec(BaseModel):
@@ -49,6 +64,7 @@ class AppSettings(BaseModel):
     openai_base_url: str = Field(default_factory=lambda: os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1"))
     sticker_image_model: str = Field(default_factory=lambda: os.getenv("STICKER_IMAGE_MODEL", "gpt-image-2.5-sunburst"))
     sticker_gif_model: str = Field(default_factory=lambda: os.getenv("STICKER_GIF_MODEL", "gpt-image-2.6-sunburst"))
+    sticker_vision_model: str = Field(default_factory=lambda: os.getenv("STICKER_VISION_MODEL", "gpt-4o-mini"))
     sticker_max_retries: int = Field(default_factory=lambda: int(os.getenv("STICKER_MAX_RETRIES", "2")))
     sticker_max_parallel: int = Field(default_factory=lambda: int(os.getenv("STICKER_MAX_PARALLEL", "2")))
     sticker_font_path: str = Field(default_factory=lambda: os.getenv("STICKER_FONT_PATH", ""))

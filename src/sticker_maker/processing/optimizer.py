@@ -5,6 +5,8 @@ from __future__ import annotations
 from pathlib import Path
 from PIL import Image, ImageSequence
 
+from .gif_encoder import encode_gif
+
 
 def optimize_png(path: Path, max_bytes: int = 500_000) -> int:
     """Optimize PNG file in-place if larger than max_bytes."""
@@ -30,7 +32,7 @@ def optimize_png(path: Path, max_bytes: int = 500_000) -> int:
 
 
 def optimize_gif(path: Path, max_bytes: int = 500_000) -> int:
-    """Optimize GIF file in-place if larger than max_bytes."""
+    """Optimize GIF file in-place if larger than max_bytes while preserving 1-bit transparency."""
     size = path.stat().st_size
     if size <= max_bytes:
         return size
@@ -40,25 +42,16 @@ def optimize_gif(path: Path, max_bytes: int = 500_000) -> int:
         duration = img.info.get("duration", 180)
         loop = img.info.get("loop", 0)
 
-    # Re-encode with fewer colors (e.g. 128 colors)
-    reduced_frames = []
-    for f in frames:
-        p_frame = f.quantize(colors=128, method=Image.Quantize.FASTOCTREE)
-        reduced_frames.append(p_frame)
-
     tmp = path.with_suffix(".opt.gif")
-    reduced_frames[0].save(
-        tmp,
-        format="GIF",
-        save_all=True,
-        append_images=reduced_frames[1:],
-        duration=duration,
-        loop=loop,
-        disposal=2,
-        optimize=True,
-    )
-
-    if tmp.stat().st_size < size:
-        tmp.replace(path)
+    for max_colors in (128, 64, 32):
+        encode_gif(frames, tmp, frame_duration_ms=duration, loop=loop, max_colors=max_colors)
+        new_size = tmp.stat().st_size
+        if new_size < size:
+            tmp.replace(path)
+            size = new_size
+        else:
+            tmp.unlink(missing_ok=True)
+        if size <= max_bytes:
+            break
 
     return path.stat().st_size

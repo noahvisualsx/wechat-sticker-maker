@@ -1,9 +1,10 @@
 interface:
   display_name: "WeChat Sticker Maker"
-  short_description: "Turn photos into consistent WeChat sticker packs (PNG/GIF)"
+  short_description: "Turn photos into consistent WeChat sticker packs (PNG/GIF) using Codex built-in image generation"
   default_model: "gpt-4o"
 
 dependencies:
   tools:
+    - image_gen
     - python_execution
     - file_system

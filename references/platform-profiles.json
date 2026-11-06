@@ -1,0 +1,462 @@
+{
+  "_comment": "Engineering baseline export profiles (2026-11). Platform rules change often: every profile is marked requires_manual_recheck — verify in the official creator console before submission. Sizes in px, max_bytes in bytes.",
+  "groups": {
+    "china": ["wechat", "qq", "douyin", "xiaohongshu", "soul", "weibo", "dingtalk", "feishu"],
+    "global-chat": ["telegram", "whatsapp", "line", "kakaotalk", "discord", "slack", "imessage", "signal", "viber"],
+    "social": ["instagram", "tiktok", "xiaohongshu", "douyin", "weibo", "x", "facebook", "giphy"],
+    "sticker-stores": ["wechat", "qq", "line", "kakaotalk", "telegram", "whatsapp", "imessage", "signal"]
+  },
+  "aliases": {
+    "weixin": "wechat", "微信": "wechat", "qq表情": "qq", "抖音": "douyin", "dy": "douyin", "kuaishou": "douyin", "快手": "douyin",
+    "xhs": "xiaohongshu", "rednote": "xiaohongshu", "red": "xiaohongshu", "小红书": "xiaohongshu", "soulapp": "soul",
+    "微博": "weibo", "钉钉": "dingtalk", "飞书": "feishu", "lark": "feishu",
+    "tg": "telegram", "wa": "whatsapp", "kakao": "kakaotalk", "카카오톡": "kakaotalk", "ins": "instagram", "ig": "instagram",
+    "twitter": "x", "fb": "facebook", "messenger": "facebook", "snapchat": "giphy", "snap": "giphy", "tumblr": "giphy",
+    "apple": "imessage", "ios": "imessage", "line-stickers": "line"
+  },
+  "profiles": [
+    {
+      "id": "wechat",
+      "display_name": "WeChat Stickers",
+      "display_name_zh": "微信表情开放平台",
+      "region": "CN",
+      "kind": "sticker-store",
+      "description_zh": "微信表情专辑：主图 240×240 PNG/GIF（≤500KB），缩略图 120×120，封面/图标/横幅。8/16/24 张。",
+      "docs_url": "https://sticker.weixin.qq.com",
+      "legacy_root_layout": true,
+      "pack_counts": [8, 16, 24],
+      "sets": [
+        {
+          "name": "main",
+          "static": {"format": "png", "size": [240, 240], "max_bytes": 500000, "margin_px": 2},
+          "animated": {"format": "gif", "size": [240, 240], "max_bytes": 500000, "margin_px": 2, "loop": 0},
+          "thumbnail": {"format": "png", "size": [120, 120], "max_bytes": 50000}
+        }
+      ],
+      "assets": [
+        {"name": "cover", "source": "anchor", "spec": {"format": "png", "size": [240, 240], "max_bytes": 500000}},
+        {"name": "icon", "source": "anchor", "spec": {"format": "png", "size": [50, 50], "max_bytes": 100000}},
+        {"name": "banner", "source": "banner", "spec": {"format": "png", "size": [750, 400], "max_bytes": 500000, "transparent": false}}
+      ]
+    },
+    {
+      "id": "qq",
+      "display_name": "QQ Stickers",
+      "display_name_zh": "QQ 表情",
+      "region": "CN",
+      "kind": "sticker-store",
+      "description_zh": "QQ 表情开放平台/收藏表情：240×240 PNG/GIF 主图 + 120 缩略图（参考微信规格，提交前复核）。",
+      "pack_counts": [8, 16, 24],
+      "sets": [
+        {
+          "name": "main",
+          "static": {"format": "png", "size": [240, 240], "max_bytes": 500000, "margin_px": 2},
+          "animated": {"format": "gif", "size": [240, 240], "max_bytes": 500000, "margin_px": 2},
+          "thumbnail": {"format": "png", "size": [120, 120], "max_bytes": 50000}
+        }
+      ],
+      "assets": [
+        {"name": "cover", "source": "anchor", "spec": {"format": "png", "size": [240, 240], "max_bytes": 500000}},
+        {"name": "icon", "source": "anchor", "spec": {"format": "png", "size": [50, 50], "max_bytes": 100000}}
+      ]
+    },
+    {
+      "id": "douyin",
+      "display_name": "Douyin / Kuaishou",
+      "display_name_zh": "抖音 / 快手",
+      "region": "CN",
+      "kind": "content",
+      "description_zh": "聊天自定义表情（GIF/PNG）+ 9:16 竖版展示视频与图文作品页，适合发布表情包合集。",
+      "sets": [
+        {
+          "name": "chat",
+          "static": {"format": "png", "size": [300, 300], "max_bytes": 1000000},
+          "animated": {"format": "gif", "size": [300, 300], "max_bytes": 1000000}
+        }
+      ],
+      "showcase": [
+        {"name": "cover", "kind": "cover", "size": [1080, 1440], "format": "jpg"},
+        {"name": "grid", "kind": "grid", "size": [1080, 1440], "format": "jpg", "cols": 3, "rows": 3},
+        {"name": "video", "kind": "video_grid", "size": [1080, 1920], "format": "mp4", "cols": 3, "rows": 4, "seconds": 6}
+      ]
+    },
+    {
+      "id": "xiaohongshu",
+      "display_name": "Xiaohongshu (RedNote)",
+      "display_name_zh": "小红书",
+      "region": "CN",
+      "kind": "content",
+      "description_zh": "3:4 笔记封面 + 九宫格合集页 + 单张展示图 + 透明原图（供粉丝保存）+ 动态视频笔记。",
+      "sets": [
+        {
+          "name": "original",
+          "static": {"format": "png", "size": [512, 512], "max_bytes": 3000000},
+          "animated": {"format": "gif", "size": [480, 480], "max_bytes": 5000000}
+        }
+      ],
+      "showcase": [
+        {"name": "cover", "kind": "cover", "size": [1080, 1440], "format": "jpg"},
+        {"name": "grid", "kind": "grid", "size": [1080, 1440], "format": "jpg", "cols": 3, "rows": 3},
+        {"name": "single", "kind": "single", "size": [1080, 1440], "format": "jpg", "max_items": 18},
+        {"name": "video", "kind": "video_grid", "size": [1080, 1440], "format": "mp4", "cols": 3, "rows": 3, "seconds": 6}
+      ]
+    },
+    {
+      "id": "soul",
+      "display_name": "Soul",
+      "display_name_zh": "Soul",
+      "region": "CN",
+      "kind": "chat-app",
+      "description_zh": "聊天自定义表情（PNG/GIF，≤1MB）+ 瞬间广场 1:1 九宫格展示图（规格为保守基线，需复核）。",
+      "sets": [
+        {
+          "name": "chat",
+          "static": {"format": "png", "size": [300, 300], "max_bytes": 1000000},
+          "animated": {"format": "gif", "size": [300, 300], "max_bytes": 1000000}
+        }
+      ],
+      "showcase": [
+        {"name": "moment", "kind": "grid", "size": [1080, 1080], "format": "jpg", "cols": 3, "rows": 3}
+      ]
+    },
+    {
+      "id": "weibo",
+      "display_name": "Weibo",
+      "display_name_zh": "微博",
+      "region": "CN",
+      "kind": "content",
+      "description_zh": "微博九宫格（9 张 1:1 方图）+ GIF 动图（480px）。",
+      "sets": [
+        {
+          "name": "gif",
+          "animated": {"format": "gif", "size": [480, 480], "max_bytes": 5000000},
+          "static": {"format": "png", "size": [480, 480], "max_bytes": 5000000}
+        }
+      ],
+      "showcase": [
+        {"name": "nine", "kind": "nine_grid", "size": [1080, 1080], "format": "jpg"}
+      ]
+    },
+    {
+      "id": "dingtalk",
+      "display_name": "DingTalk",
+      "display_name_zh": "钉钉",
+      "region": "CN",
+      "kind": "chat-app",
+      "description_zh": "钉钉聊天自定义表情（PNG/GIF，保守基线 240px ≤1MB）。",
+      "sets": [
+        {
+          "name": "chat",
+          "static": {"format": "png", "size": [240, 240], "max_bytes": 1000000},
+          "animated": {"format": "gif", "size": [240, 240], "max_bytes": 1000000}
+        }
+      ]
+    },
+    {
+      "id": "feishu",
+      "display_name": "Feishu / Lark",
+      "display_name_zh": "飞书 / Lark",
+      "region": "CN",
+      "kind": "chat-app",
+      "description_zh": "飞书自定义表情（PNG/GIF，保守基线 240px ≤1MB）+ 企业表情 128px。",
+      "sets": [
+        {
+          "name": "chat",
+          "static": {"format": "png", "size": [240, 240], "max_bytes": 1000000},
+          "animated": {"format": "gif", "size": [240, 240], "max_bytes": 1000000}
+        },
+        {
+          "name": "emoji",
+          "static": {"format": "png", "size": [128, 128], "max_bytes": 256000},
+          "animated": {"format": "gif", "size": [128, 128], "max_bytes": 256000}
+        }
+      ]
+    },
+    {
+      "id": "telegram",
+      "display_name": "Telegram",
+      "display_name_zh": "Telegram",
+      "region": "Global",
+      "kind": "sticker-store",
+      "description_zh": "静态 WEBP 512px（≤512KB）；动态为 WEBM VP9 视频贴纸 512px（≤256KB、≤3 秒、≤30fps、无音轨）；包图标 100×100；另附 100px 自定义 Emoji。",
+      "docs_url": "https://core.telegram.org/stickers",
+      "min_count": 1,
+      "max_count": 120,
+      "file_pattern": "{index:03d}_{id}",
+      "sets": [
+        {
+          "name": "stickers",
+          "static": {"format": "webp", "size": [512, 512], "max_bytes": 512000},
+          "animated": {"format": "webm", "size": [512, 512], "max_bytes": 256000, "max_duration_ms": 3000, "max_fps": 30}
+        },
+        {
+          "name": "emoji",
+          "static": {"format": "webp", "size": [100, 100], "max_bytes": 64000},
+          "animated": {"format": "webm", "size": [100, 100], "max_bytes": 64000, "max_duration_ms": 3000, "max_fps": 30}
+        }
+      ],
+      "assets": [
+        {"name": "pack_icon", "source": "first_static", "spec": {"format": "webp", "size": [100, 100], "max_bytes": 32000}}
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "display_name": "WhatsApp",
+      "display_name_zh": "WhatsApp",
+      "region": "Global",
+      "kind": "sticker-store",
+      "description_zh": "静态 WEBP 512×512（≤100KB）、动态 WEBP 512×512（≤500KB、≤10 秒），托盘图标 96×96 PNG（≤50KB），每包 3–30 张，建议 16px 边距。",
+      "docs_url": "https://faq.whatsapp.com/",
+      "min_count": 3,
+      "max_count": 30,
+      "file_pattern": "{index:02d}_{id}",
+      "sets": [
+        {
+          "name": "stickers",
+          "static": {"format": "webp", "size": [512, 512], "max_bytes": 100000, "margin_px": 16},
+          "animated": {"format": "webp", "size": [512, 512], "max_bytes": 500000, "margin_px": 16, "max_duration_ms": 10000, "min_frame_ms": 8}
+        }
+      ],
+      "assets": [
+        {"name": "tray_icon", "source": "first_static", "spec": {"format": "png", "size": [96, 96], "max_bytes": 50000}}
+      ]
+    },
+    {
+      "id": "line",
+      "display_name": "LINE Creators Market",
+      "display_name_zh": "LINE 贴图",
+      "region": "JP/TW/TH",
+      "kind": "sticker-store",
+      "description_zh": "静态 PNG 最大 370×320（偶数尺寸、10px 边距、≤1MB），动态 APNG 最大 320×270（5–20 帧、≤4 秒、循环 1–4 次、≤300KB），main 240×240，tab 96×74。8/16/24/32/40 张。",
+      "docs_url": "https://creator.line.me/en/guideline/sticker/",
+      "pack_counts": [8, 16, 24, 32, 40],
+      "file_pattern": "{index:02d}",
+      "sets": [
+        {
+          "name": "stickers",
+          "static": {"format": "png", "size": [370, 320], "fit": "contain", "even_dims": true, "max_bytes": 1000000, "margin_px": 10},
+          "animated": {"format": "apng", "size": [320, 270], "fit": "contain", "even_dims": true, "max_bytes": 300000, "margin_px": 6, "min_frames": 5, "max_frames": 20, "max_duration_ms": 4000, "loop": 3}
+        }
+      ],
+      "assets": [
+        {"name": "main", "source": "first_static", "spec": {"format": "png", "size": [240, 240], "max_bytes": 1000000}},
+        {"name": "tab", "source": "first_static", "spec": {"format": "png", "size": [96, 74], "fit": "contain", "even_dims": true, "max_bytes": 1000000}},
+        {"name": "main_animation", "source": "first_animated", "spec": {"format": "apng", "size": [240, 240], "max_bytes": 300000, "min_frames": 5, "max_frames": 20, "max_duration_ms": 4000, "loop": 3}}
+      ]
+    },
+    {
+      "id": "kakaotalk",
+      "display_name": "KakaoTalk Emoticon Studio",
+      "display_name_zh": "KakaoTalk 이모티콘",
+      "region": "KR",
+      "kind": "sticker-store",
+      "description_zh": "멈춰있는 이모티콘 360×360 PNG（32 张）/ 움직이는 이모티콘 360×360 GIF（24 张），提案规格需在 Emoticon Studio 复核。",
+      "docs_url": "https://emoticonstudio.kakao.com",
+      "pack_counts": [24, 32],
+      "file_pattern": "{index:02d}",
+      "sets": [
+        {
+          "name": "emoticons",
+          "static": {"format": "png", "size": [360, 360], "max_bytes": 1000000, "margin_px": 6},
+          "animated": {"format": "gif", "size": [360, 360], "max_bytes": 2000000, "margin_px": 6}
+        }
+      ],
+      "assets": [
+        {"name": "icon", "source": "first_static", "spec": {"format": "png", "size": [78, 78], "max_bytes": 100000}}
+      ]
+    },
+    {
+      "id": "discord",
+      "display_name": "Discord",
+      "display_name_zh": "Discord",
+      "region": "Global",
+      "kind": "chat-app",
+      "description_zh": "服务器贴纸 320×320 PNG/APNG/GIF（≤512KB）+ 自定义 Emoji 128×128（≤256KB）。",
+      "sets": [
+        {
+          "name": "stickers",
+          "static": {"format": "png", "size": [320, 320], "max_bytes": 512000},
+          "animated": {"format": "apng", "size": [320, 320], "max_bytes": 512000}
+        },
+        {
+          "name": "emoji",
+          "static": {"format": "png", "size": [128, 128], "max_bytes": 256000},
+          "animated": {"format": "gif", "size": [128, 128], "max_bytes": 256000}
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "display_name": "Slack",
+      "display_name_zh": "Slack",
+      "region": "Global",
+      "kind": "chat-app",
+      "description_zh": "自定义 Emoji 128×128 PNG/GIF（≤128KB）。",
+      "sets": [
+        {
+          "name": "emoji",
+          "static": {"format": "png", "size": [128, 128], "max_bytes": 128000},
+          "animated": {"format": "gif", "size": [128, 128], "max_bytes": 128000}
+        }
+      ]
+    },
+    {
+      "id": "imessage",
+      "display_name": "iMessage Sticker Pack",
+      "display_name_zh": "iMessage 贴纸",
+      "region": "Global",
+      "kind": "sticker-store",
+      "description_zh": "Xcode Sticker Pack：常规 408×408 PNG/APNG（≤500KB），可放入 Stickers.xcstickers。",
+      "docs_url": "https://developer.apple.com/stickers/",
+      "sets": [
+        {
+          "name": "regular",
+          "static": {"format": "png", "size": [408, 408], "max_bytes": 500000},
+          "animated": {"format": "apng", "size": [408, 408], "max_bytes": 500000}
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "display_name": "Signal",
+      "display_name_zh": "Signal",
+      "region": "Global",
+      "kind": "sticker-store",
+      "description_zh": "512×512 PNG/WEBP（≤300KB），动态 APNG（≤3 秒、≤300KB）。",
+      "max_count": 200,
+      "sets": [
+        {
+          "name": "stickers",
+          "static": {"format": "webp", "size": [512, 512], "max_bytes": 300000},
+          "animated": {"format": "apng", "size": [512, 512], "max_bytes": 300000, "max_duration_ms": 3000}
+        }
+      ]
+    },
+    {
+      "id": "viber",
+      "display_name": "Viber",
+      "display_name_zh": "Viber",
+      "region": "Global",
+      "kind": "sticker-store",
+      "description_zh": "静态 PNG 最大 490×490（透明背景）。",
+      "sets": [
+        {
+          "name": "stickers",
+          "static": {"format": "png", "size": [490, 490], "max_bytes": 1000000},
+          "animated": {"format": "gif", "size": [490, 490], "max_bytes": 2000000}
+        }
+      ]
+    },
+    {
+      "id": "giphy",
+      "display_name": "GIPHY Stickers (Instagram / TikTok / Snapchat / Messenger)",
+      "display_name_zh": "GIPHY 贴纸（Instagram/TikTok/Snapchat 搜索贴纸来源）",
+      "region": "Global",
+      "kind": "gif-library",
+      "description_zh": "透明背景 GIF 贴纸，上传 GIPHY 认证频道后可在 Instagram Story/Reels、TikTok、Snapchat、Messenger 的 GIF 贴纸里被搜到。",
+      "docs_url": "https://support.giphy.com",
+      "sets": [
+        {
+          "name": "stickers",
+          "animated": {"format": "gif", "size": [480, 480], "max_bytes": 8000000},
+          "static": {"format": "png", "size": [480, 480], "max_bytes": 8000000}
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "display_name": "Instagram",
+      "display_name_zh": "Instagram",
+      "region": "Global",
+      "kind": "content",
+      "description_zh": "4:5 轮播合集帖 1080×1350、Story 1080×1920、Reels 竖版视频；GIF 贴纸走 GIPHY 套装。",
+      "sets": [
+        {
+          "name": "giphy",
+          "animated": {"format": "gif", "size": [480, 480], "max_bytes": 8000000},
+          "static": {"format": "png", "size": [480, 480], "max_bytes": 8000000}
+        }
+      ],
+      "showcase": [
+        {"name": "post", "kind": "grid", "size": [1080, 1350], "format": "jpg", "cols": 3, "rows": 3},
+        {"name": "story", "kind": "story", "size": [1080, 1920], "format": "jpg", "max_items": 8},
+        {"name": "reel", "kind": "video_grid", "size": [1080, 1920], "format": "mp4", "cols": 3, "rows": 4, "seconds": 6}
+      ]
+    },
+    {
+      "id": "tiktok",
+      "display_name": "TikTok",
+      "display_name_zh": "TikTok",
+      "region": "Global",
+      "kind": "content",
+      "description_zh": "9:16 照片模式轮播 1080×1920 + 竖版视频；GIF 贴纸走 GIPHY 套装。",
+      "sets": [
+        {
+          "name": "giphy",
+          "animated": {"format": "gif", "size": [480, 480], "max_bytes": 8000000},
+          "static": {"format": "png", "size": [480, 480], "max_bytes": 8000000}
+        }
+      ],
+      "showcase": [
+        {"name": "photo", "kind": "grid", "size": [1080, 1920], "format": "jpg", "cols": 3, "rows": 4},
+        {"name": "video", "kind": "video_grid", "size": [1080, 1920], "format": "mp4", "cols": 3, "rows": 4, "seconds": 6}
+      ]
+    },
+    {
+      "id": "x",
+      "display_name": "X (Twitter)",
+      "display_name_zh": "X（推特）",
+      "region": "Global",
+      "kind": "content",
+      "description_zh": "GIF 回复动图（480px，移动端 ≤5MB）+ 1:1 合集图。",
+      "sets": [
+        {
+          "name": "gif",
+          "animated": {"format": "gif", "size": [480, 480], "max_bytes": 5000000},
+          "static": {"format": "png", "size": [480, 480], "max_bytes": 5000000}
+        }
+      ],
+      "showcase": [
+        {"name": "post", "kind": "grid", "size": [1200, 1200], "format": "jpg", "cols": 4, "rows": 4}
+      ]
+    },
+    {
+      "id": "facebook",
+      "display_name": "Facebook / Messenger",
+      "display_name_zh": "Facebook / Messenger",
+      "region": "Global",
+      "kind": "content",
+      "description_zh": "1:1 合集帖 + GIF 动图（Messenger 贴纸走 GIPHY）。",
+      "sets": [
+        {
+          "name": "gif",
+          "animated": {"format": "gif", "size": [480, 480], "max_bytes": 8000000},
+          "static": {"format": "png", "size": [480, 480], "max_bytes": 8000000}
+        }
+      ],
+      "showcase": [
+        {"name": "post", "kind": "grid", "size": [1080, 1080], "format": "jpg", "cols": 3, "rows": 3}
+      ]
+    },
+    {
+      "id": "generic",
+      "display_name": "Generic (PNG / GIF / WebP)",
+      "display_name_zh": "通用格式包",
+      "region": "Global",
+      "kind": "generic",
+      "description_zh": "通用 512px 透明 PNG / GIF / 动态 WEBP，适用于任意聊天软件手动添加表情。",
+      "sets": [
+        {
+          "name": "png_gif",
+          "static": {"format": "png", "size": [512, 512], "max_bytes": 5000000},
+          "animated": {"format": "gif", "size": [512, 512], "max_bytes": 5000000}
+        },
+        {
+          "name": "webp",
+          "static": {"format": "webp", "size": [512, 512], "max_bytes": 1000000},
+          "animated": {"format": "webp", "size": [512, 512], "max_bytes": 2000000}
+        }
+      ]
+    }
+  ]
+}

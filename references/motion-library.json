@@ -1,0 +1,2225 @@
+{
+  "wave_hand": {
+    "label_zh": "挥手",
+    "label_en": "Wave hand",
+    "group": "gesture",
+    "description": "One raised hand waves side to side in a friendly greeting.",
+    "keyframe_poses": [
+      "Frame 1: Shoulders stationary, eyes wide open and bright, gentle smile, raised hand tilted slightly inward toward cheek.",
+      "Frame 2: Shoulders stationary, eyes half-blinking, wider warm smile, raised hand upright at center wave position.",
+      "Frame 3: Shoulders stationary, eyes curved into happy closed crescents (blinking), open cheerful smile, raised hand waved outward to the right.",
+      "Frame 4: Shoulders stationary, eyes open again with catchlights, warm smile, raised hand swinging back to center wave position."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "hair_or_fur_pattern",
+      "outfit"
+    ]
+  },
+  "stretch_and_blink": {
+    "label_zh": "伸懒腰",
+    "label_en": "Stretch and blink",
+    "group": "body",
+    "description": "Arms stretch upward in an energetic wake-up stretch with a blink.",
+    "keyframe_poses": [
+      "Frame 1: Lower body stationary, both hands near shoulders preparing to stretch, eyes half-open.",
+      "Frame 2: Arms stretching upward above head, eyes blinking closed comfortably, mouth opening in a refreshing stretch.",
+      "Frame 3: Arms fully extended high in a big stretch, eyes sparkling wide open with energetic grin.",
+      "Frame 4: Arms relaxing slightly back down toward shoulders, bright awake smile."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "hair_or_fur_pattern",
+      "outfit"
+    ]
+  },
+  "sleepy_nod": {
+    "label_zh": "困到点头",
+    "label_en": "Sleepy nod",
+    "group": "face",
+    "description": "Head droops and bobs sleepily while eyes slowly close.",
+    "keyframe_poses": [
+      "Frame 1: Hugging pillow, upper eyelids heavy and half-closed, small sleepy mouth.",
+      "Frame 2: Head nodding slightly forward, eyes 80% closed, yawning softly.",
+      "Frame 3: Head resting tilted on pillow, eyes completely closed in peaceful sleep, floating Zzz.",
+      "Frame 4: Head lifting slightly back up, eyes fluttering half-open."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "pillow",
+      "outfit"
+    ]
+  },
+  "laugh_bounce": {
+    "label_zh": "大笑抖动",
+    "label_en": "Laugh bounce",
+    "group": "emotion-fx",
+    "description": "Shoulders bounce with hearty laughter and curved happy eyes.",
+    "keyframe_poses": [
+      "Frame 1: Big grin, eyes open and crinkled, hand raised near chest.",
+      "Frame 2: Head tilting back slightly in laughter, eyes curved into happy crescents, mouth wide open laughing.",
+      "Frame 3: Clapping or waving hand in amusement, eyes tightly curved laughing, shoulders chuckling.",
+      "Frame 4: Returning to bright open-mouthed smile, eyes opening slightly."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "hair_or_fur_pattern",
+      "outfit"
+    ]
+  },
+  "blink_and_blush": {
+    "label_zh": "眨眼脸红",
+    "label_en": "Blink and blush",
+    "group": "face",
+    "description": "Shy blinking while the cheek blush deepens.",
+    "keyframe_poses": [
+      "Frame 1: Hands near cheeks, eyes open looking forward, soft pink blush.",
+      "Frame 2: Eyelids lowering shyly, gaze shifting to the side, hands pressing gently against cheeks, deeper blush.",
+      "Frame 3: Eyes blinking closed bashfully, head tilted slightly down, rosy cheeks glowing, fingers wiggling.",
+      "Frame 4: Eyes peeking back open toward camera with a shy sweet smile."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "teardrop_fall": {
+    "label_zh": "落泪",
+    "label_en": "Teardrop fall",
+    "group": "face",
+    "description": "Big teardrops well up and fall from teary eyes.",
+    "keyframe_poses": [
+      "Frame 1: Watery eyes welling up with tears, pouting quivering lips, hands raised near face.",
+      "Frame 2: Eyes squeezing half-shut, tears rolling down cheeks, hands rubbing eyes.",
+      "Frame 3: Crying with closed teary eyes, hands wiping tears outward, droplets falling.",
+      "Frame 4: Sniffling, eyes opening slightly with glossy tear drops."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "stomp_and_steam": {
+    "label_zh": "跺脚冒烟",
+    "label_en": "Stomp and steam",
+    "group": "emotion-fx",
+    "description": "Angry stomping energy with steam puffs rising from the head.",
+    "keyframe_poses": [
+      "Frame 1: Furrowed angry brows, puffed cheeks, clenched fist raised at shoulder level.",
+      "Frame 2: Shaking fist upward, eyes glaring intensely, steam puff appearing.",
+      "Frame 3: Blinking angrily while stomping/pumping fist down, cheeks extra puffed.",
+      "Frame 4: Fist returning to mid-position, huffing expression."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "sweatdrop_slide": {
+    "label_zh": "流汗无语",
+    "label_en": "Sweat drop slide",
+    "group": "face",
+    "description": "A sweat drop slides down the temple of a deadpan face.",
+    "keyframe_poses": [
+      "Frame 1: Eyes open with flat unimpressed brows, small sweatdrop forming at temple.",
+      "Frame 2: Upper eyelids dropping halfway into a deadpan stare, sweatdrop sliding down.",
+      "Frame 3: Slow exasperated eye-roll/blink, hand raised to forehead in facepalm gesture.",
+      "Frame 4: Holding deadpan half-lidded stare, sighing."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "nod_and_thumbsup": {
+    "label_zh": "点头点赞",
+    "label_en": "Nod and thumbs up",
+    "group": "gesture",
+    "description": "A confident nod combined with a thumbs up.",
+    "keyframe_poses": [
+      "Frame 1: Upright posture, eyes open, raising right hand into a thumbs-up.",
+      "Frame 2: Crisp affirmative head nod downward, eyes blinking in a confident wink, thumb raised high.",
+      "Frame 3: Head back upright, sparkling confident smile, thumbs-up pushed forward.",
+      "Frame 4: Relaxed confident smile, holding thumbs-up steady."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "fist_pump": {
+    "label_zh": "握拳加油",
+    "label_en": "Fist pump",
+    "group": "gesture",
+    "description": "Clenched fists pump up and down with determination.",
+    "keyframe_poses": [
+      "Frame 1: Determined bright eyes, both fists clenched near chest.",
+      "Frame 2: Pumping right fist enthusiastically upward, mouth open cheering.",
+      "Frame 3: Both fists pumped high, eyes curved in an encouraging wink/blink.",
+      "Frame 4: Fists lowering back to chest height with energetic smile."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "gentle_bow": {
+    "label_zh": "轻轻鞠躬",
+    "label_en": "Gentle bow",
+    "group": "body",
+    "description": "A gentle grateful bow with hands together.",
+    "keyframe_poses": [
+      "Frame 1: Hands pressed together in front of chest, warm open eyes and smile.",
+      "Frame 2: Head and upper neck bowing politely forward, eyes softly closing in gratitude.",
+      "Frame 3: Deepest polite nod with happy closed curved eyes, hands wiggling slightly in thanks.",
+      "Frame 4: Head rising back up, eyes opening with a grateful smile."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "hug_reach": {
+    "label_zh": "张臂抱抱",
+    "label_en": "Hug reach",
+    "group": "body",
+    "description": "Both arms reach forward to offer a warm hug.",
+    "keyframe_poses": [
+      "Frame 1: Warm loving eyes, arms opening wide to the sides.",
+      "Frame 2: Arms reaching forward in a welcoming motion, soft blink.",
+      "Frame 3: Hands gesturing 'come here' inward, happy curved smiling eyes and floating heart.",
+      "Frame 4: Arms open wide again with an affectionate smile."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "cheer_jump": {
+    "label_zh": "欢呼跳跃",
+    "label_en": "Cheer jump",
+    "group": "locomotion",
+    "description": "Arms raised high in a celebratory cheer with a small bounce.",
+    "keyframe_poses": [
+      "Frame 1: Excited grin, hands raised at head level.",
+      "Frame 2: Throwing both arms high into a V-shape cheer, mouth open cheering.",
+      "Frame 3: Waving both raised hands left and right, eyes blinking into happy stars/crescents.",
+      "Frame 4: Lowering hands slightly back to head level with radiant smile."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "head_tilt": {
+    "label_zh": "歪头",
+    "label_en": "Head tilt",
+    "group": "face",
+    "description": "Head tilts to one side in a puzzled look.",
+    "keyframe_poses": [
+      "Frame 1: Head upright, index finger near chin, curious open eyes.",
+      "Frame 2: Head tilting noticeably to the right, blinking once in confusion.",
+      "Frame 3: Full puzzled head tilt, one eyebrow raised, finger tapping cheek, question mark appearing.",
+      "Frame 4: Head tilting back toward center while blinking."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "side_wave": {
+    "label_zh": "侧身挥手",
+    "label_en": "Side wave",
+    "group": "gesture",
+    "description": "A cheerful goodbye wave swinging to the side.",
+    "keyframe_poses": [
+      "Frame 1: Both eyes open, smiling, hand raised waving to the left.",
+      "Frame 2: Hand swinging across to the right, one eye winking playfully.",
+      "Frame 3: Hand waving back to the left, both eyes curved in a warm goodbye smile.",
+      "Frame 4: Hand centered, eyes open with a friendly farewell grin."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "heart_beat": {
+    "label_zh": "爱心跳动",
+    "label_en": "Heart beat",
+    "group": "emotion-fx",
+    "description": "A heart prop or heart shape pulses like a heartbeat.",
+    "keyframe_poses": [
+      "Frame 1: Making a cute hand-heart / finger-heart gesture, both eyes open and smiling.",
+      "Frame 2: Pushing hand-heart slightly forward, winking one eye sweetly.",
+      "Frame 3: Both eyes curved in an affectionate smile, pink heart pulsing above hand.",
+      "Frame 4: Eyes opening brightly with a loving smile."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "peek_in_and_out": {
+    "label_zh": "探头张望",
+    "label_en": "Peek in and out",
+    "group": "body",
+    "description": "Leans in and out curiously to get attention.",
+    "keyframe_poses": [
+      "Frame 1: Leaning slightly from the side, curious wide eyes, hand raised.",
+      "Frame 2: Head tilting inward, blinking twice curiously, hand knocking/waving.",
+      "Frame 3: Leaning closer with an expectant smile and raised eyebrows.",
+      "Frame 4: Settling back with a friendly inquiring look."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "hand_press": {
+    "label_zh": "伸手示停",
+    "label_en": "Hand press",
+    "group": "gesture",
+    "description": "One palm pushes forward in a wait or stop gesture.",
+    "keyframe_poses": [
+      "Frame 1: Urgent expression, open palm raised forward.",
+      "Frame 2: Waving open palm side-to-side ('wait a second!'), eyes blinking.",
+      "Frame 3: Pushing palm forward for emphasis, flustered expression.",
+      "Frame 4: Returning palm to center stop position."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "ok_nod": {
+    "label_zh": "OK点头",
+    "label_en": "OK nod",
+    "group": "gesture",
+    "description": "An OK finger sign near the cheek with a nod.",
+    "keyframe_poses": [
+      "Frame 1: Raising hand into an OK finger sign, both eyes open.",
+      "Frame 2: Nodding head once while winking one eye and tilting the OK hand.",
+      "Frame 3: Holding crisp OK sign with a bright beaming smile.",
+      "Frame 4: Both eyes open again, relaxed cheerful expression."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "plead_shake": {
+    "label_zh": "拜托摇手",
+    "label_en": "Plead shake",
+    "group": "gesture",
+    "description": "Clasped hands shake in pleading with puppy-dog eyes.",
+    "keyframe_poses": [
+      "Frame 1: Hands clasped tightly under chin, big shimmering puppy eyes.",
+      "Frame 2: Shaking clasped hands gently left and right, blinking rapidly.",
+      "Frame 3: Head tilting in a cute begging pose, pouting lips.",
+      "Frame 4: Clasped hands returning to center with hopeful eyes."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "eating_munch": {
+    "label_zh": "吃饭咀嚼",
+    "label_en": "Eating munch",
+    "group": "prop",
+    "description": "Chopsticks or spoon bring food to the mouth for happy chewing.",
+    "keyframe_poses": [
+      "Frame 1: Holding bowl, lifting chopsticks/spoon toward open mouth.",
+      "Frame 2: Taking a bite, eyes closing into happy crescents.",
+      "Frame 3: Chewing happily with puffed cheeks, hand waving spoon.",
+      "Frame 4: Swallowing with a satisfied grin, eyes open."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "zzz_float": {
+    "label_zh": "睡觉冒泡",
+    "label_en": "Sleep float",
+    "group": "face",
+    "description": "Peaceful sleeping with gently floating sleep symbols.",
+    "keyframe_poses": [
+      "Frame 1: Cheek resting on hands, eyes softly closed, breathing in.",
+      "Frame 2: Gentle exhale, head sinking slightly into hands, small Zzz.",
+      "Frame 3: Peaceful sleeping expression, eyebrows relaxing, larger Zzz floating.",
+      "Frame 4: Calm rhythmic breathing, returning to initial resting position."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "finger_twiddle": {
+    "label_zh": "手指对戳",
+    "label_en": "Finger twiddle",
+    "group": "gesture",
+    "description": "Index fingers poke together nervously with a pout.",
+    "keyframe_poses": [
+      "Frame 1: Pouting lips, watery eyes looking up, index fingers apart.",
+      "Frame 2: Index fingers tapping together nervously, eyes blinking back tears.",
+      "Frame 3: Head drooping slightly, fingers poking again, aggrieved pout.",
+      "Frame 4: Looking up shyly while twiddling fingers."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "shoulders",
+      "outfit"
+    ]
+  },
+  "shock_shake": {
+    "label_zh": "震惊发抖",
+    "label_en": "Shock shake",
+    "group": "emotion-fx",
+    "description": "Jaw drops and the upper body jolts in shock.",
+    "keyframe_poses": [
+      "Frame 1: Eyes widening in surprise, hands rising toward cheeks.",
+      "Frame 2: Jaw dropping open, hands pressing both cheeks in shock, rapid blink.",
+      "Frame 3: Leaning slightly back in disbelief, wide shocked eyes and exclamation marks.",
+      "Frame 4: Holding shocked expression with hands on cheeks."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit"
+    ]
+  },
+  "wave_both_hands": {
+    "label_zh": "双手挥舞",
+    "label_en": "Wave both hands",
+    "group": "gesture",
+    "description": "Both hands raised high and waving side to side in an enthusiastic greeting.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws raised beside the head, palms facing forward; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Both hands/paws swaying to the left; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both hands/paws swung wide to the right at full stretch; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Both hands/paws swinging back to center beside the head; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "open_arms": {
+    "label_zh": "张开双臂",
+    "label_en": "Open arms",
+    "group": "body",
+    "description": "Arms spread open wide in a welcoming gesture.",
+    "keyframe_poses": [
+      "Frame 1: Arms held slightly out from the body, palms up; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms opening outward to shoulder height; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms spread fully wide open, chest proud, palms up; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms drawing halfway back in, still open; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "pop_up": {
+    "label_zh": "冒出来",
+    "label_en": "Pop up",
+    "group": "locomotion",
+    "description": "The character springs up from a slight crouch with arms thrown up, landing on the same spot.",
+    "keyframe_poses": [
+      "Frame 1: Slight crouch with hands/paws tucked near the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Springing up with arms starting to rise; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Fully stretched upward with both arms thrown high; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Settling back down with arms lowering, feet back on the same spot; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "drink_sip": {
+    "label_zh": "喝饮料",
+    "label_en": "Drink sip",
+    "group": "prop",
+    "description": "Hands lift a cup to the mouth for a sip and lower it again.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws cradling a cup at chest height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Both hands/paws raising the cup toward the chin; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both hands/paws tilting the cup at the lips mid-sip; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Both hands/paws lowering the cup back to chest height; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "cup"
+    ]
+  },
+  "jump_joy": {
+    "label_zh": "开心蹦跳",
+    "label_en": "Joyful hop",
+    "group": "locomotion",
+    "description": "A small joyful hop with arms flung up, landing on the same spot.",
+    "keyframe_poses": [
+      "Frame 1: Knees slightly bent, fists tucked near the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: A small hop beginning with arms lifting; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: At the top of the hop with arms flung up in a V; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Landing softly on the same spot, arms coming down; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "chest_puff": {
+    "label_zh": "挺胸叉腰",
+    "label_en": "Proud chest puff",
+    "group": "body",
+    "description": "Hands on hips while the chest puffs out proudly.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws on hips, chest neutral; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws on hips, chest puffing out, chin rising; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws firmly on hips, chest fully puffed, chin held high; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws still on hips, chest relaxing slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "wipe_forehead": {
+    "label_zh": "擦汗",
+    "label_en": "Wipe forehead",
+    "group": "gesture",
+    "description": "The back of a hand wipes across the brow in relief.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised near the forehead; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The back of the hand/paw sweeping across the brow; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw flicked outward after wiping, shoulders dropping in relief; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw drifting back toward the forehead; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "sunglasses_on": {
+    "label_zh": "戴墨镜",
+    "label_en": "Sunglasses on",
+    "group": "prop",
+    "description": "A hand slides sunglasses onto the face with a cool glint.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding sunglasses just below the eyes; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw sliding the sunglasses up toward the eyes; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The sunglasses settled on the face with a finger pushing the bridge, a tiny glint flashing; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The finger lowering slightly from the sunglasses bridge; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "sunglasses"
+    ]
+  },
+  "dance": {
+    "label_zh": "跳舞",
+    "label_en": "Dance",
+    "group": "body",
+    "description": "Arms groove from side to side in a playful dance.",
+    "keyframe_poses": [
+      "Frame 1: Arms bent at the elbows, ready to groove; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms swinging to the left with a shoulder bounce; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms thrown up to the right in a fun dance pose; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms swinging back through center; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "giggle_cover_mouth": {
+    "label_zh": "捂嘴偷笑",
+    "label_en": "Giggle behind hand",
+    "group": "face",
+    "description": "A hand covers the mouth while the shoulders shake with giggles.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised near the mouth; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fingertips covering the mouth, shoulders lifting; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw pressed over the mouth, shoulders shaking with suppressed giggles; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw easing slightly away from the mouth; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "spin": {
+    "label_zh": "转圈",
+    "label_en": "Spin",
+    "group": "locomotion",
+    "description": "A happy twirl on the spot with arms trailing.",
+    "keyframe_poses": [
+      "Frame 1: Facing forward, arms slightly out; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Upper body turning to a three-quarter view, arms trailing; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms flung wide mid-twirl, upper body in profile; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Upper body turning back toward the front, arms settling; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "heartbreak_crack": {
+    "label_zh": "心碎",
+    "label_en": "Heart cracks",
+    "group": "emotion-fx",
+    "description": "A heart held at the chest cracks and splits in two.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a red heart at the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws trembling as a jagged crack runs down the heart; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws holding the heart split into two halves; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws lowering slightly with the halves drooping; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "heart_prop"
+    ]
+  },
+  "gloom_cloud": {
+    "label_zh": "头顶乌云",
+    "label_en": "Gloom cloud",
+    "group": "emotion-fx",
+    "description": "A small rain cloud hovers overhead as the character droops.",
+    "keyframe_poses": [
+      "Frame 1: Arms hanging limp, a small grey cloud above the head; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms limp, shoulders sagging as the cloud darkens; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms dangling, head drooped, tiny raindrops falling from the cloud; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms still limp, head lifting a little, the cloud lingering; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "bite_handkerchief": {
+    "label_zh": "咬手帕",
+    "label_en": "Bite handkerchief",
+    "group": "prop",
+    "description": "Both hands tug a handkerchief held in the teeth out of jealousy.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a handkerchief near the mouth; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws tugging the handkerchief sideways; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The handkerchief bitten and pulled taut in both hands/paws; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws loosening the handkerchief near the mouth; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "handkerchief"
+    ]
+  },
+  "turn_away_pout": {
+    "label_zh": "扭头",
+    "label_en": "Turn away and pout",
+    "group": "body",
+    "description": "Arms crossed while the head turns away with chin up.",
+    "keyframe_poses": [
+      "Frame 1: Arms crossed over the chest, facing forward; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms still crossed, head starting to turn aside; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms tightly crossed, head turned fully away with chin up; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms crossed, head turning partway back for a peek; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "table_flip": {
+    "label_zh": "掀桌",
+    "label_en": "Table flip",
+    "group": "prop",
+    "description": "Both hands flip a small table in front of the character.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws gripping the edge of a small table in front; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms rising as the table edge lifts; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms flung high as the small table flips over in front; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms lowering, the table settled back in front; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "table"
+    ]
+  },
+  "sob": {
+    "label_zh": "嚎啕大哭",
+    "label_en": "Sob loudly",
+    "group": "face",
+    "description": "Loud wailing with fists at the eyes and heaving shoulders.",
+    "keyframe_poses": [
+      "Frame 1: Fists rubbing near the eyes; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fists pressed to the cheeks, shoulders heaving; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms limp at the sides, head tilted back wailing; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Fists coming back up toward the eyes; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "cry_streams": {
+    "label_zh": "泪流成河",
+    "label_en": "Tear streams",
+    "group": "face",
+    "description": "Two streams of tears pour down while hands clutch the face.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws clasped under the chin; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws trembling under the chin as tears well up; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws clutching the cheeks, two streams of tears pouring from the eyes; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws sliding back under the chin, tears thinning; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "hands_on_cheeks": {
+    "label_zh": "捧脸惊呼",
+    "label_en": "Hands on cheeks",
+    "group": "face",
+    "description": "Palms press against the cheeks in a dramatic gasp.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws raised beside the face; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Palms touching the cheeks; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Palms pressing the cheeks hard, elbows out; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Palms easing off the cheeks; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "question_marks": {
+    "label_zh": "问号飘浮",
+    "label_en": "Floating question marks",
+    "group": "emotion-fx",
+    "description": "Puzzled head scratching while curly question-mark symbols float above.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw scratching the side of the head; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw paused at the head as a small curly question-mark symbol appears above; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both hands/paws up in a puzzled shrug, three curly question-mark symbols floating above; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: One hand/paw back to scratching the head as the symbols fade; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "rub_eyes": {
+    "label_zh": "揉眼睛",
+    "label_en": "Rub eyes",
+    "group": "face",
+    "description": "Fists rub the eyes and drop to stare in disbelief.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws raised in loose fists near the eyes; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fists rubbing the eyes; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws dropped open in front of the chest, staring in disbelief; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Fists rising back toward the eyes; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "tremble": {
+    "label_zh": "发抖",
+    "label_en": "Tremble",
+    "group": "body",
+    "description": "The upper body jitters with fear while hands clutch together.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws clutched together at the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws clutched, arms and shoulders jittering slightly left; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws clenched tight, the whole upper body shaking with wobble lines; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws still clutched, the jitter easing to the right; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "faint": {
+    "label_zh": "晕倒",
+    "label_en": "Faint",
+    "group": "body",
+    "description": "The upper body tips back in a dizzy faint with spiral marks.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws loose at the sides, wobbling; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: One hand/paw to the forehead, upper body tilting back; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms flopped open, upper body leaned far back, dizzy spiral marks above; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms loose, upper body swaying back toward upright; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "cross_arms_x": {
+    "label_zh": "双手打叉",
+    "label_en": "Arms X",
+    "group": "gesture",
+    "description": "Forearms cross into a big X to refuse.",
+    "keyframe_poses": [
+      "Frame 1: Forearms raised in front of the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Forearms moving toward each other; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Forearms firmly crossed into a big X in front of the face; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Forearms loosening slightly apart; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "run_in_place": {
+    "label_zh": "原地跑",
+    "label_en": "Run in place",
+    "group": "locomotion",
+    "description": "A cartoon dash on the spot with pumping arms and speed lines.",
+    "keyframe_poses": [
+      "Frame 1: Arms bent at the elbows in a running pose; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Left arm forward and right arm back, legs blurred in a dash; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Right arm forward and left arm back, speed lines streaming behind; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms passing back through the start position; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "ok_sign": {
+    "label_zh": "OK手势",
+    "label_en": "OK sign",
+    "group": "gesture",
+    "description": "Fingers form a clear OK circle beside the face.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised to shoulder height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fingers curling into a circle; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: A clear OK hand/paw sign held up beside the face; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The OK hand/paw sign lowering a little; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "think_chin": {
+    "label_zh": "托腮思考",
+    "label_en": "Chin think",
+    "group": "gesture",
+    "description": "A finger taps the chin while the gaze drifts upward in thought.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw under the chin, other arm across the waist; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fingers tapping the chin, gaze drifting upward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Index finger pressed to the chin, head tilted, deep in thought; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Fingers relaxing under the chin; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "lightbulb_idea": {
+    "label_zh": "灵光一闪",
+    "label_en": "Lightbulb idea",
+    "group": "emotion-fx",
+    "description": "An index finger shoots up as a glowing lightbulb pops overhead.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw under the chin; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw lifting, index finger starting to rise; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Index finger pointing up as a glowing lightbulb pops above the head; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The finger lowering as the lightbulb glow softens; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "lean_in": {
+    "label_zh": "凑近",
+    "label_en": "Lean in",
+    "group": "body",
+    "description": "The upper body leans toward the viewer curiously.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws resting at the sides, upright; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws rising as the upper body leans toward the viewer; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws cupped near the cheeks, face close to the viewer; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws lowering as the upper body eases back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "shrug": {
+    "label_zh": "耸肩",
+    "label_en": "Shrug",
+    "group": "gesture",
+    "description": "Shoulders rise with palms turned up in a shrug.",
+    "keyframe_poses": [
+      "Frame 1: Arms relaxed at the sides; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Palms starting to turn up as the shoulders rise; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both palms up and out, shoulders high; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Palms dropping as the shoulders lower; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "phone_call": {
+    "label_zh": "打电话",
+    "label_en": "Phone call",
+    "group": "prop",
+    "description": "One hand holds a phone to the ear while the other gestures.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a phone at the ear, other hand at the side; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The free hand/paw lifting in a talking gesture; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The free hand/paw pointing at the viewer, phone still at the ear; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The free hand/paw lowering back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "phone"
+    ]
+  },
+  "bow_deep": {
+    "label_zh": "鞠躬",
+    "label_en": "Deep bow",
+    "group": "body",
+    "description": "A deep apologetic bow from the waist.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws together in front of the waist, upright; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws together as the upper body bends forward halfway; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws at the knees, upper body bowed deeply, head lowered; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws together as the upper body rises halfway; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "nod": {
+    "label_zh": "点头",
+    "label_en": "Nod",
+    "group": "face",
+    "description": "A clear up-and-down nod of the head.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws relaxed in front, head level; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws relaxed, head dipping forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws relaxed, head at the lowest point of a firm nod; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws relaxed, head lifting back up; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "raise_hand": {
+    "label_zh": "举手",
+    "label_en": "Raise hand",
+    "group": "gesture",
+    "description": "One hand rises politely to get attention.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw at shoulder height, palm forward; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw rising higher; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw raised high above the head; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw lowering slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "fist_palm_salute": {
+    "label_zh": "抱拳",
+    "label_en": "Fist-palm salute",
+    "group": "gesture",
+    "description": "A fist pressed into an open palm is shaken forward in thanks.",
+    "keyframe_poses": [
+      "Frame 1: One fist pressed into the other open palm at chest height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The clasped hands/paws pushing forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The clasped hands/paws shaking forward with a small bow of the head; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The clasped hands/paws drawing back to the chest; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "hug_pillow": {
+    "label_zh": "抱枕头",
+    "label_en": "Hug pillow",
+    "group": "prop",
+    "description": "Arms squeeze a soft pillow tightly.",
+    "keyframe_poses": [
+      "Frame 1: Arms wrapped around a soft pillow; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms squeezing the pillow tighter; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms hugging the pillow tight, cheek pressed into it; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms loosening the hug slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "pillow"
+    ]
+  },
+  "blow_kiss": {
+    "label_zh": "飞吻",
+    "label_en": "Blow a kiss",
+    "group": "gesture",
+    "description": "Fingertips leave the lips and toss a kiss toward the viewer.",
+    "keyframe_poses": [
+      "Frame 1: Fingertips touching the lips; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw starting to move away from the lips; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw flung outward toward the viewer, a small heart floating away; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw returning toward the lips; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "finger_heart": {
+    "label_zh": "比心",
+    "label_en": "Finger heart",
+    "group": "gesture",
+    "description": "Thumb and index finger cross into a small finger heart.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised near the cheek; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Thumb and index finger beginning to cross; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: A crisp finger heart pushed toward the viewer, a tiny heart popping above; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw drawing back toward the cheek; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "kiss_pucker": {
+    "label_zh": "嘟嘴亲亲",
+    "label_en": "Kiss pucker",
+    "group": "face",
+    "description": "Leaning in with puckered lips and floating hearts.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws clasped near the chin; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws at the chin, leaning forward slightly; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws at the chin, leaning in with small hearts floating around; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws still clasped, leaning back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "cheek_rub": {
+    "label_zh": "蹭蹭",
+    "label_en": "Cheek rub",
+    "group": "body",
+    "description": "A cheek nuzzles affectionately into a soft cushion.",
+    "keyframe_poses": [
+      "Frame 1: Arms hugging a small heart-shaped cushion against one cheek; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms holding the cushion as the cheek rubs to one side; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms squeezing the cushion, cheek squished into it; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms relaxing as the cheek slides back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "cushion"
+    ]
+  },
+  "heart_hands": {
+    "label_zh": "双手比心",
+    "label_en": "Heart hands",
+    "group": "gesture",
+    "description": "Both arms form a big heart shape over the head.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws raised to the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws forming the two halves of a heart; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: A big heart shape made with both arms over the head; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms lowering back to the chest; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "shaka_six": {
+    "label_zh": "666手势",
+    "label_en": "Six gesture",
+    "group": "gesture",
+    "description": "Thumb and pinky extended in the Chinese six gesture, shaken toward the viewer.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised at shoulder height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw extending thumb and pinky in a six gesture; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw shaking the six gesture toward the viewer with sparkles; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw easing back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "clap": {
+    "label_zh": "鼓掌",
+    "label_en": "Clap",
+    "group": "gesture",
+    "description": "Hands clap together with little burst lines.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws apart in front of the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws moving together; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Palms meeting in a clap with small burst lines; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws opening apart again; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "thumbs_up": {
+    "label_zh": "竖大拇指",
+    "label_en": "Thumbs up",
+    "group": "gesture",
+    "description": "A strong thumbs up pushed toward the viewer.",
+    "keyframe_poses": [
+      "Frame 1: A fist raised at chest height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The thumb extending upward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: A strong thumbs up pushed toward the viewer with a sparkle; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The thumbs up drawing back slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "point_at_viewer": {
+    "label_zh": "指向你",
+    "label_en": "Point at viewer",
+    "group": "gesture",
+    "description": "An index finger points straight at the viewer.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised beside the shoulder; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The arm extending forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Index finger pointed straight at the viewer; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The arm drawing back slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "cheer_pompoms": {
+    "label_zh": "啦啦队",
+    "label_en": "Cheer pompoms",
+    "group": "prop",
+    "description": "Pompoms are shaken and thrown high in cheerleading.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding pompoms at the hips; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: One hand/paw raising a pompom beside the head; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both arms throwing the pompoms high overhead; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Both arms bringing the pompoms down to shoulder height; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "pompoms"
+    ]
+  },
+  "salute": {
+    "label_zh": "敬礼",
+    "label_en": "Salute",
+    "group": "gesture",
+    "description": "A crisp salute at the brow.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw rising toward the brow; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw at the brow, fingers together; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw held in a crisp salute at the brow, chest out; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The saluting hand/paw relaxing a little; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "worship_bow": {
+    "label_zh": "膜拜",
+    "label_en": "Worship bow",
+    "group": "body",
+    "description": "Arms raised and stretched forward in an exaggerated worship bow.",
+    "keyframe_poses": [
+      "Frame 1: Both arms raised straight up, palms forward; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms still raised as the upper body bends forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both arms stretched forward, upper body bowed low in worship; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms rising as the upper body lifts; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "slurp_noodles": {
+    "label_zh": "嗦面",
+    "label_en": "Slurp noodles",
+    "group": "prop",
+    "description": "Chopsticks lift noodles from a bowl to slurp.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding chopsticks over a bowl held by the other hand; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The chopsticks lifting noodles toward the mouth; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The chopsticks holding noodles being slurped into the mouth; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The chopsticks dipping back to the bowl; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "bowl"
+    ]
+  },
+  "tummy_rub": {
+    "label_zh": "摸肚子",
+    "label_en": "Tummy rub",
+    "group": "body",
+    "description": "Hands rub a rumbling tummy.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws resting on the tummy; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws circling on the tummy; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws pressed to the tummy, shoulders hunched; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws circling back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "bath_scrub": {
+    "label_zh": "搓澡",
+    "label_en": "Bath scrub",
+    "group": "prop",
+    "description": "A towel on the head and a scrub brush working up soap foam.",
+    "keyframe_poses": [
+      "Frame 1: A towel draped on the head, hands/paws holding a scrub brush; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws scrubbing one shoulder as soap foam appears; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws scrubbing high behind the head, soap foam puffs everywhere; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws moving the brush back to the shoulder; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "towel"
+    ]
+  },
+  "shopping_bags": {
+    "label_zh": "拎购物袋",
+    "label_en": "Shopping bags",
+    "group": "prop",
+    "description": "Shopping bags are lifted high in triumph.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding shopping bags at the sides; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws lifting the bags up; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both arms raising the bags high in triumph; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws lowering the bags; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "shopping_bags"
+    ]
+  },
+  "game_controller": {
+    "label_zh": "打游戏",
+    "label_en": "Game controller",
+    "group": "prop",
+    "description": "Hands mash a game controller that tilts with the action.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws gripping a game controller at chest height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Thumbs mashing buttons, the controller tilting left; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws jerking the controller to the right in an intense moment; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws tilting the controller back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "game_controller"
+    ]
+  },
+  "dumbbell_lift": {
+    "label_zh": "举哑铃",
+    "label_en": "Dumbbell lift",
+    "group": "prop",
+    "description": "A dumbbell is curled up to the shoulder.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a dumbbell at the waist; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw curling the dumbbell halfway up; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw curling the dumbbell to the shoulder, bicep bulging; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw lowering the dumbbell; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "dumbbell"
+    ]
+  },
+  "yawn": {
+    "label_zh": "打哈欠",
+    "label_en": "Yawn",
+    "group": "face",
+    "description": "A big yawn with stretched arms.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw near the mouth; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw covering the mouth; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms stretched out in a big yawn, a tear at the eye corner; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms dropping back down; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "walk_in_place": {
+    "label_zh": "原地走",
+    "label_en": "Walk in place",
+    "group": "locomotion",
+    "description": "A steady walk on the spot with swinging arms.",
+    "keyframe_poses": [
+      "Frame 1: Arms swinging gently, a bag strap on the shoulder; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Left arm forward in mid stride; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Right arm forward in mid stride; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms passing through center; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "writing": {
+    "label_zh": "写字",
+    "label_en": "Writing",
+    "group": "prop",
+    "description": "A pen scribbles quickly in a notebook.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a pen over a notebook; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw moving the pen across the page; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw scribbling fast with motion lines; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw lifting the pen slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "notebook"
+    ]
+  },
+  "slump_desk": {
+    "label_zh": "趴桌",
+    "label_en": "Slump on desk",
+    "group": "body",
+    "description": "Arms folded on a desk with the head sinking down.",
+    "keyframe_poses": [
+      "Frame 1: Arms folded on a desk, chin resting on them; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms folded, head sinking lower onto them; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms folded, face half-buried in them on the desk; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms folded, chin lifting slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "desk"
+    ]
+  },
+  "money_rain": {
+    "label_zh": "撒钱",
+    "label_en": "Money rain",
+    "group": "emotion-fx",
+    "description": "Paper bills are tossed up and rain down.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws holding a fan of paper bills; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws tossing some bills upward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms flung up as bills rain down; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws catching falling bills; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "panic_head_grab": {
+    "label_zh": "抱头抓狂",
+    "label_en": "Panic head grab",
+    "group": "emotion-fx",
+    "description": "Hands grab the head in panic with flying sweat drops.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws hovering beside the head; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws clutching the head; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws gripping the head, sweat drops flying; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws loosening on the head; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "phone_scroll": {
+    "label_zh": "刷手机",
+    "label_en": "Phone scroll",
+    "group": "prop",
+    "description": "A thumb swipes up on a phone held close.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a phone at chest height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: A thumb swiping up on the screen; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws tilting the phone closer to the face mid-swipe; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The thumb returning; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "phone"
+    ]
+  },
+  "read_book": {
+    "label_zh": "看书",
+    "label_en": "Read book",
+    "group": "prop",
+    "description": "Hands hold an open book and turn a page.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding an open book; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: One hand/paw turning a page; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws raising the book closer, page mid-turn; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws settling the page; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "book"
+    ]
+  },
+  "typing": {
+    "label_zh": "打字",
+    "label_en": "Typing",
+    "group": "prop",
+    "description": "Fingers type rapidly on a laptop keyboard.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws over a laptop keyboard; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fingers tapping on the left keys; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Fingers blurring across the keys with motion lines; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Fingers tapping on the right keys; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "laptop"
+    ]
+  },
+  "melon_eat": {
+    "label_zh": "吃瓜",
+    "label_en": "Eat watermelon",
+    "group": "prop",
+    "description": "A watermelon slice is munched while watching.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a watermelon slice; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws raising the slice toward the mouth; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws holding the slice as a big bite is taken; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws lowering the slice; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "watermelon"
+    ]
+  },
+  "lie_flat": {
+    "label_zh": "躺平",
+    "label_en": "Lie flat",
+    "group": "body",
+    "description": "Lying flat on the back with arms flopped loosely.",
+    "keyframe_poses": [
+      "Frame 1: Lying flat on the back, arms spread loosely; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: One arm lifting lazily; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms flopped wide, sinking deeper into the floor; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The arm drifting back down; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "floor"
+    ]
+  },
+  "side_eye": {
+    "label_zh": "斜眼",
+    "label_en": "Side-eye",
+    "group": "face",
+    "description": "Eyes slide sharply to one side in suspicion.",
+    "keyframe_poses": [
+      "Frame 1: Arms crossed loosely; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms crossed, head starting to turn; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms crossed, head turned slightly as the gaze slides fully to one side; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms crossed, head drifting back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "facepalm": {
+    "label_zh": "捂脸",
+    "label_en": "Facepalm",
+    "group": "gesture",
+    "description": "A palm is planted over the face in exasperation.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw rising toward the face; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The palm reaching the forehead; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The palm planted over the face, head bowed; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The palm sliding down slightly; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "smug_grin": {
+    "label_zh": "得意笑",
+    "label_en": "Smug grin",
+    "group": "face",
+    "description": "Fingers frame the chin in a smug pose.",
+    "keyframe_poses": [
+      "Frame 1: Arms crossed, chin slightly up; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: One hand/paw lifting to the chin; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Fingers framing the chin in a smug pose; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw lowering back to crossed arms; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "forced_smile": {
+    "label_zh": "强颜欢笑",
+    "label_en": "Forced smile",
+    "group": "face",
+    "description": "A weak thumbs up and trembling shoulders behind a forced smile.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws loosely clasped in front; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: One hand/paw giving a weak thumbs up; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The weak thumbs up held while the shoulders tremble; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The thumb lowering; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "crumble_dust": {
+    "label_zh": "碎成渣",
+    "label_en": "Crumble to dust",
+    "group": "emotion-fx",
+    "description": "The edges of the arms and shoulders crack and flake away.",
+    "keyframe_poses": [
+      "Frame 1: Arms hanging stiff; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Cracks appearing over the arms and shoulders; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The edges of the arms and shoulders crumbling into drifting flakes; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms reforming as the flakes settle back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "popcorn_munch": {
+    "label_zh": "吃爆米花",
+    "label_en": "Popcorn munch",
+    "group": "prop",
+    "description": "Popcorn is tossed into the mouth from a bucket.",
+    "keyframe_poses": [
+      "Frame 1: One arm hugging a popcorn bucket, other hand/paw in the bucket; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw lifting popcorn toward the mouth; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw tossing popcorn into the mouth; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw dipping back into the bucket; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "popcorn_bucket"
+    ]
+  },
+  "mic_drop": {
+    "label_zh": "丢麦",
+    "label_en": "Mic drop",
+    "group": "prop",
+    "description": "A microphone held at arm's length is dropped.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a microphone out at arm's length; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fingers loosening around the microphone; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The microphone falling from the open hand/paw; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw closing and lowering; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "eye_roll": {
+    "label_zh": "翻白眼",
+    "label_en": "Eye roll",
+    "group": "face",
+    "description": "Head tilts back with an exaggerated eye roll.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws on hips; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws on hips, head tilting back; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws on hips, head tilted back for a full eye roll; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws on hips, head returning; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "fireworks": {
+    "label_zh": "放烟花",
+    "label_en": "Fireworks",
+    "group": "emotion-fx",
+    "description": "Fireworks burst behind as arms cheer upward.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws raised pointing up; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws raised as a firework streak rises behind; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms raised in cheer as a colorful firework bursts behind; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms lowering as the sparkles fade; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "give_red_envelope": {
+    "label_zh": "发红包",
+    "label_en": "Give red envelope",
+    "group": "prop",
+    "description": "A red envelope is offered toward the viewer.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a red envelope at the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws pushing the envelope forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws offering the red envelope toward the viewer with gold sparkles; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws drawing the envelope back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "red_envelope"
+    ]
+  },
+  "birthday_cake": {
+    "label_zh": "捧蛋糕",
+    "label_en": "Birthday cake",
+    "group": "prop",
+    "description": "A birthday cake with glowing candles is lifted toward the viewer.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a small birthday cake with candles; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws raising the cake a little, candle flames flickering; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws lifting the cake toward the viewer, candles glowing; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws lowering the cake; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "cake"
+    ]
+  },
+  "gift_present": {
+    "label_zh": "送礼物",
+    "label_en": "Give present",
+    "group": "prop",
+    "description": "A wrapped gift box is held out to the viewer.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a wrapped gift box; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws pushing the gift box forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws holding the gift out toward the viewer with sparkles; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws drawing the gift back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "gift_box"
+    ]
+  },
+  "hold_heart": {
+    "label_zh": "捧爱心",
+    "label_en": "Hold heart",
+    "group": "prop",
+    "description": "A big heart prop is held out and glows.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a big red heart at the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws pushing the heart forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws holding the heart out toward the viewer, glowing and pulsing; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws drawing the heart back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "heart_prop"
+    ]
+  },
+  "raise_lantern": {
+    "label_zh": "提灯笼",
+    "label_en": "Raise lantern",
+    "group": "prop",
+    "description": "A glowing lantern is lifted high.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a glowing lantern; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw lifting the lantern higher; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The lantern raised high, glowing warmly; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw lowering the lantern; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "lantern"
+    ]
+  },
+  "pumpkin_boo": {
+    "label_zh": "南瓜吓人",
+    "label_en": "Pumpkin boo",
+    "group": "prop",
+    "description": "A jack-o'-lantern is thrust forward in a playful spook.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a jack-o'-lantern; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws pushing the pumpkin forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws thrusting the pumpkin toward the viewer in a playful spook; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws drawing the pumpkin back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "pumpkin"
+    ]
+  },
+  "throw_confetti": {
+    "label_zh": "撒花",
+    "label_en": "Throw confetti",
+    "group": "prop",
+    "description": "Confetti is thrown high and floats down.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws cupped holding confetti; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws sweeping upward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both arms throwing confetti high overhead, colorful pieces floating; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws lowering; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "raise_glass": {
+    "label_zh": "举杯",
+    "label_en": "Raise glass",
+    "group": "prop",
+    "description": "A glass is raised high in a toast.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a drink glass; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw lifting the glass; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw raising the glass high toward the viewer in a toast with a clink sparkle; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw lowering the glass; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "glass"
+    ]
+  },
+  "juggle_tasks": {
+    "label_zh": "手忙脚乱",
+    "label_en": "Juggle tasks",
+    "group": "prop",
+    "description": "Arms flail juggling papers and a phone.",
+    "keyframe_poses": [
+      "Frame 1: Arms holding a stack of papers and a phone; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: One hand/paw grabbing as papers slip; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms flailing as papers and the phone fly up; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws catching the items back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "hold_sign": {
+    "label_zh": "举牌",
+    "label_en": "Hold placard",
+    "group": "prop",
+    "description": "A blank placard is raised overhead.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding a blank placard at the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws raising the placard; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both arms thrusting the placard up overhead; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws lowering the placard; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "placard"
+    ]
+  },
+  "sneeze": {
+    "label_zh": "打喷嚏",
+    "label_en": "Sneeze",
+    "group": "face",
+    "description": "A sneeze into a tissue with a head jerk.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a tissue near the nose; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw hovering the tissue as the head tilts back; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw pressing the tissue to the nose as the head jerks forward in a sneeze; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw lowering the tissue as the head returns; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "droop_slump": {
+    "label_zh": "瘫软",
+    "label_en": "Droop and slump",
+    "group": "body",
+    "description": "The upper body melts forward with dangling arms.",
+    "keyframe_poses": [
+      "Frame 1: Arms hanging; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms hanging, shoulders sagging; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms dangling, upper body melted forward; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms hanging, upper body straightening a bit; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "empty_wallet": {
+    "label_zh": "空钱包",
+    "label_en": "Empty wallet",
+    "group": "prop",
+    "description": "An open wallet is shaken upside down with nothing inside.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws holding an open wallet; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws turning the wallet upside down; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws shaking the wallet as only a moth flutters out; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws turning the wallet back up; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "wallet"
+    ]
+  },
+  "money_eyes": {
+    "label_zh": "见钱眼开",
+    "label_en": "Money eyes",
+    "group": "face",
+    "description": "Eyes become coin shapes while gold coins rain.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws clasped at the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws rising as sparkles appear; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws thrown up as gold coins rain down; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws lowering; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "shiver_cold": {
+    "label_zh": "冷得发抖",
+    "label_en": "Shiver cold",
+    "group": "body",
+    "description": "Arms hug the body while shivering with frost puffs.",
+    "keyframe_poses": [
+      "Frame 1: Arms hugging the body, a scarf around the neck; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms hugging tight, shivering to the left; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Arms clamped around the body, shivering hard with frost puffs; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms hugging, shivering to the right; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "scarf"
+    ]
+  },
+  "fan_hot": {
+    "label_zh": "扇风",
+    "label_en": "Fan hot",
+    "group": "prop",
+    "description": "A hand fan flaps hard against the heat.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a hand fan; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw flicking the fan left; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw flapping the fan hard, sweat drops flying; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw flicking the fan right; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "hand_fan"
+    ]
+  },
+  "pat_head": {
+    "label_zh": "摸头",
+    "label_en": "Pat head",
+    "group": "gesture",
+    "description": "A palm gently pats toward the viewer's head.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised reaching forward; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The palm lowering gently; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The palm patting softly with tiny sparkle marks; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The palm lifting; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "poke": {
+    "label_zh": "戳",
+    "label_en": "Poke",
+    "group": "gesture",
+    "description": "An index finger pokes toward the viewer.",
+    "keyframe_poses": [
+      "Frame 1: Index finger raised; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The finger extending toward the viewer; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The finger poking the viewer with a small impact mark; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The finger pulling back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "high_five": {
+    "label_zh": "击掌",
+    "label_en": "High five",
+    "group": "gesture",
+    "description": "A palm swings forward for a high five.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised at head height; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw swinging forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The palm pushed flat toward the viewer with burst lines; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw pulling back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "take_selfie": {
+    "label_zh": "自拍",
+    "label_en": "Take selfie",
+    "group": "prop",
+    "description": "One hand holds up a phone while the other makes a peace sign.",
+    "keyframe_poses": [
+      "Frame 1: One arm holding a phone up at an angle; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The other hand/paw starting a peace sign; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The free hand/paw making a peace sign beside the cheek with a phone flash sparkle; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The peace-sign hand/paw easing; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "phone"
+    ]
+  },
+  "peek_from_edge": {
+    "label_zh": "探头偷看",
+    "label_en": "Peek from edge",
+    "group": "body",
+    "description": "Half the body leans out from the side edge of the frame.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws gripping the side edge of the frame, only half the body visible; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws gripping the edge, head leaning out a bit; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws gripping the edge, head and shoulders leaned out further; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws gripping the edge, leaning back behind it; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "frame_edge"
+    ]
+  },
+  "show_phone": {
+    "label_zh": "亮手机",
+    "label_en": "Show phone",
+    "group": "prop",
+    "description": "A phone screen is shown to the viewer.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw holding a phone near the chest; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hand/paw turning the phone toward the viewer; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw holding the phone out to the viewer with a sparkle on the screen; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw drawing the phone back; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "phone"
+    ]
+  },
+  "chin_on_hands": {
+    "label_zh": "双手托腮",
+    "label_en": "Chin on hands",
+    "group": "face",
+    "description": "The chin rests on both hands while the head sways.",
+    "keyframe_poses": [
+      "Frame 1: Both hands/paws cupping the chin; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws cupping the chin as the head sways left; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Cheeks squished in the palms, head tilted right; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws cupping the chin, head back to center; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "beckon": {
+    "label_zh": "招手",
+    "label_en": "Beckon",
+    "group": "gesture",
+    "description": "A hand waves the viewer over enthusiastically.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw extended palm up; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fingers curling inward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw waving the viewer over enthusiastically; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw reopening; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "tongue_out": {
+    "label_zh": "吐舌头",
+    "label_en": "Tongue out",
+    "group": "face",
+    "description": "A cheeky tongue out with one eyelid pulled down.",
+    "keyframe_poses": [
+      "Frame 1: One finger raised near one eye; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The finger at the lower eyelid, head tilting; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The finger pulling down the lower eyelid; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The finger releasing the eyelid; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "wink": {
+    "label_zh": "眨眼",
+    "label_en": "Wink",
+    "group": "face",
+    "description": "A playful wink with a finger gun.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw making a finger gun near the chin; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The finger gun lifting, head tilting; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The finger gun pointed at the viewer with a star sparkle; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw returning; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "flex": {
+    "label_zh": "秀肌肉",
+    "label_en": "Flex muscles",
+    "group": "gesture",
+    "description": "Both arms flex to show off biceps.",
+    "keyframe_poses": [
+      "Frame 1: Both arms lowered; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Arms bending up; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Both arms flexed showing biceps; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Arms lowering; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "hide_behind": {
+    "label_zh": "躲起来",
+    "label_en": "Hide behind",
+    "group": "body",
+    "description": "Hands hold a cushion up to hide and peek.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws holding a cushion in front of the face; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: The hands/paws lowering the cushion slightly; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hands/paws holding the cushion just below the eyes to peek; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hands/paws raising the cushion again; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern",
+      "cushion"
+    ]
+  },
+  "sparkle_eyes": {
+    "label_zh": "星星眼",
+    "label_en": "Sparkle eyes",
+    "group": "face",
+    "description": "Hands clasp under the chin as the eyes fill with stars.",
+    "keyframe_poses": [
+      "Frame 1: Hands/paws clasped together under the chin; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Hands/paws squeezing, leaning forward; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Hands/paws clasped tight with sparkles all around; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Hands/paws relaxing as the lean eases; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "steam_rage": {
+    "label_zh": "气到冒烟",
+    "label_en": "Steam rage",
+    "group": "emotion-fx",
+    "description": "Fists shake as steam puffs out of the head.",
+    "keyframe_poses": [
+      "Frame 1: Fists clenched at the sides; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Fists rising, cheeks puffing; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: Fists shaking with steam puffs from the head; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: Fists lowering; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  },
+  "peace_sign": {
+    "label_zh": "剪刀手",
+    "label_en": "Peace sign",
+    "group": "gesture",
+    "description": "Two fingers form a peace sign beside the eye.",
+    "keyframe_poses": [
+      "Frame 1: One hand/paw raised; eyes open, relaxed mouth; lower body stays in place.",
+      "Frame 2: Two fingers forming a V; eyes in a quick natural blink, relaxed mouth; lower body stays in place.",
+      "Frame 3: The hand/paw holding a peace sign beside the eye; eyes and mouth at their most expressive for the action; lower body stays in place.",
+      "Frame 4: The hand/paw easing; eyes open again, relaxed mouth; lower body stays in place."
+    ],
+    "stationary_parts": [
+      "lower_torso",
+      "outfit",
+      "hair_or_fur_pattern"
+    ]
+  }
+}

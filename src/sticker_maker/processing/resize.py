@@ -2,7 +2,10 @@
 
 from __future__ import annotations
 
-from PIL import Image
+from typing import Optional
+from PIL import Image, ImageDraw
+
+from ..styles import hex_to_rgba, resolve_style_preset
 
 
 def fit_and_pad(
@@ -43,12 +46,25 @@ def create_icon(img: Image.Image, size: tuple[int, int] = (50, 50)) -> Image.Ima
     return fit_and_pad(img, size)
 
 
-def create_banner(img: Image.Image, size: tuple[int, int] = (750, 400)) -> Image.Image:
-    """Adapt sticker visual to 750x400 banner standard."""
+def create_banner(
+    img: Image.Image,
+    size: tuple[int, int] = (750, 400),
+    style: Optional[str] = None,
+) -> Image.Image:
+    """Adapt sticker visual to 750x400 banner standard with style-aware theme background."""
     tw, th = size
-    canvas = Image.new("RGBA", (tw, th), (255, 248, 240, 255))  # Soft pastel background
+    preset = resolve_style_preset(style or "real-cutout")
+    bg_rgba = hex_to_rgba(preset.banner_bg)
+    canvas = Image.new("RGBA", (tw, th), bg_rgba)
+    draw = ImageDraw.Draw(canvas)
 
-    # Character placed on right or center
+    # Draw subtle style accent circles in banner background
+    if preset.default_palette:
+        accent_color = hex_to_rgba(preset.default_palette[min(1, len(preset.default_palette) - 1)], alpha=45)
+        draw.ellipse([-60, -60, 220, 220], fill=accent_color)
+        draw.ellipse([tw - 200, th - 180, tw + 60, th + 60], fill=accent_color)
+
+    # Character placed at center
     char_size = (360, 360)
     scaled_char = fit_and_pad(img, char_size)
     offset_x = (tw - 360) // 2

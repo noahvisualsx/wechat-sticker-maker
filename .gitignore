@@ -39,7 +39,10 @@ htmlcov/
 
 # Local output / caches
 output/
+tests/fixtures/
 .env
+korean-threads-satire-image-skill.zip
+wechat-sticker-maker-开发文档-v1.0.md
 
 # OS files
 .DS_Store

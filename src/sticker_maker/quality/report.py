@@ -79,14 +79,37 @@ def run_full_validation(
         try:
             with manifest_p.open("r", encoding="utf-8") as f:
                 mdata = json.load(f)
+                items = mdata.get("items", [])
                 all_checks.append(
                     ValidationCheck(
                         name="Manifest: Decode",
                         target="manifest.json",
                         status="pass",
-                        message=f"Valid manifest with {len(mdata.get('items', []))} items",
+                        message=f"Valid manifest with {len(items)} items",
                     )
                 )
+                for m_item in items:
+                    item_id = m_item.get("id", "unknown")
+                    if m_item.get("status") == "FAILED":
+                        all_checks.append(
+                            ValidationCheck(
+                                name=f"Manifest Item {item_id}: Status",
+                                target="manifest.json",
+                                status="fail",
+                                message=f"Item {item_id} failed generation: {m_item.get('error', 'unknown error')}",
+                            )
+                        )
+                    for key in ("static_path", "animated_path", "thumbnail_path"):
+                        rel = m_item.get(key)
+                        if rel and not (output_dir / rel).exists():
+                            all_checks.append(
+                                ValidationCheck(
+                                    name=f"Manifest Item {item_id}: {key}",
+                                    target=rel,
+                                    status="fail",
+                                    message=f"Manifest references missing file: {rel}",
+                                )
+                            )
         except Exception as e:
             all_checks.append(
                 ValidationCheck(
@@ -153,13 +176,17 @@ def generate_markdown_report(report: ValidationReport) -> str:
     return "\n".join(lines)
 
 
-def generate_preview_sheet(output_dir: Path, target_path: Path | None = None) -> Path | None:
+def generate_preview_sheet(
+    output_dir: Path,
+    target_path: Path | None = None,
+    files: List[Path] | None = None,
+) -> Path | None:
     """Generate a combined contact sheet preview for QA review (internal only)."""
-    static_dir = output_dir / "static"
-    if not static_dir.exists():
-        return None
-
-    files = sorted(static_dir.glob("*.png"))
+    if files is None:
+        static_dir = output_dir / "static"
+        if not static_dir.exists():
+            return None
+        files = sorted(static_dir.glob("*.png"))
     if not files:
         return None
 
@@ -192,6 +219,8 @@ def generate_preview_sheet(output_dir: Path, target_path: Path | None = None) ->
         try:
             with Image.open(f) as cell_img:
                 cell_rgba = cell_img.convert("RGBA")
+                if cell_rgba.size != (cell_size, cell_size):
+                    cell_rgba.thumbnail((cell_size, cell_size), Image.Resampling.LANCZOS)
                 sheet.paste(cell_rgba, (x, y), cell_rgba)
         except Exception:
             pass

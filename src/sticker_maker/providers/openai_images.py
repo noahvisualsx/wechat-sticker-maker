@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import base64
+from contextlib import ExitStack
 import logging
+import mimetypes
 import os
 import time
 from pathlib import Path
@@ -126,30 +128,74 @@ class OpenAIImagesProvider(StickerProvider):
     def render_static(
         self, reference_paths: List[Path], prompt: str, output: Path
     ) -> Path:
-        """Edit reference image to produce expression sticker."""
-        ref_path = reference_paths[0] if reference_paths else None
-        if not ref_path or not ref_path.exists():
-            raise FileNotFoundError(f"Reference image not found: {ref_path}")
+        """Edit reference image(s) to produce expression sticker, with multi-image to single-image fallback."""
+        valid_refs = [p for p in reference_paths if p and p.exists()]
+        if not valid_refs:
+            raise FileNotFoundError(f"Reference image not found in: {reference_paths}")
 
         url = f"{self.base_url}/images/edits"
         headers = self._get_headers()
 
-        def call():
-            with ref_path.open("rb") as fp:
-                files = {"image": (ref_path.name, fp, "image/png")}
+        def call_multi():
+            with ExitStack() as stack:
+                if len(valid_refs) > 1:
+                    files = [
+                        (
+                            "image[]",
+                            (p.name, stack.enter_context(p.open("rb")), mimetypes.guess_type(p.name)[0] or "image/png"),
+                        )
+                        for p in valid_refs
+                    ]
+                else:
+                    p = valid_refs[0]
+                    files = [
+                        (
+                            "image",
+                            (p.name, stack.enter_context(p.open("rb")), mimetypes.guess_type(p.name)[0] or "image/png"),
+                        )
+                    ]
                 data = {
                     "model": self.image_model,
                     "prompt": prompt,
                     "n": "1",
                     "size": "1024x1024",
-                    "response_format": "b64_json",
+                    "background": "transparent",
                 }
                 return self.session.post(url, headers=headers, files=files, data=data, timeout=self.timeout)
 
-        resp = self._execute_with_retry(call)
+        def call_single():
+            p = valid_refs[0]
+            mime = mimetypes.guess_type(p.name)[0] or "image/png"
+            with p.open("rb") as fp:
+                files = {"image": (p.name, fp, mime)}
+                data = {
+                    "model": self.image_model,
+                    "prompt": prompt,
+                    "n": "1",
+                    "size": "1024x1024",
+                }
+                return self.session.post(url, headers=headers, files=files, data=data, timeout=self.timeout)
+
+        try:
+            resp = self._execute_with_retry(call_multi)
+        except ProviderError as e:
+            if len(valid_refs) > 1 and "400" in str(e):
+                logger.info("Multi-reference edit rejected by endpoint (%s); downgrading to single reference.", e)
+                resp = self._execute_with_retry(call_single)
+            else:
+                raise
+
         data = resp.json()
-        b64_str = data["data"][0]["b64_json"]
-        self._write_b64_to_file(b64_str, output)
+        item_data = data["data"][0]
+        b64_str = item_data.get("b64_json")
+        if not b64_str and "url" in item_data:
+            raw_bytes = self.session.get(item_data["url"], timeout=60).content
+            output.parent.mkdir(parents=True, exist_ok=True)
+            tmp = output.with_suffix(".tmp")
+            tmp.write_bytes(raw_bytes)
+            tmp.replace(output)
+        else:
+            self._write_b64_to_file(b64_str, output)
         return output
 
     def render_native_gif(

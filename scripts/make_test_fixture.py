@@ -1,7 +1,12 @@
 """Generate test fixture images and test pack fixtures."""
 
 from pathlib import Path
+import sys
 from PIL import Image, ImageDraw
+
+repo_root = Path(__file__).resolve().parent.parent
+if str(repo_root) not in sys.path:
+    sys.path.insert(0, str(repo_root))
 
 
 def create_sample_photo(target_path: Path) -> Path:
@@ -44,8 +49,36 @@ def create_broken_pack(target_dir: Path) -> Path:
     return target_dir
 
 
+def create_good_pack(target_dir: Path) -> Path:
+    """Create a valid 8-sticker fixture pack that passes all structural and visual checks."""
+    from sticker_maker.config import get_default_font_path
+    from sticker_maker.orchestrator import StickerOrchestrator
+    from sticker_maker.providers.fake import FakeStickerProvider
+    from sticker_maker.schemas import AnimationConfig, JobConfig
+
+    sample_photo = target_dir.parent / "sample_cat.png"
+    if not sample_photo.exists():
+        create_sample_photo(sample_photo)
+
+    job = JobConfig(
+        job_id="good-pack-fixture",
+        source_image=str(sample_photo),
+        output_dir=str(target_dir),
+        mode="both",
+        count=8,
+        animation=AnimationConfig(backend="keyframes", frames=8, frame_duration_ms=180),
+        font_path=get_default_font_path(),
+    )
+    fake = FakeStickerProvider(can_native_gif=True)
+    orchestrator = StickerOrchestrator(job=job, provider=fake, native_gif_provider=fake)
+    orchestrator.run()
+    return target_dir
+
+
 if __name__ == "__main__":
-    repo_root = Path(__file__).resolve().parent.parent
-    sample = repo_root / "tests" / "fixtures" / "sample_cat.png"
+    fixtures_dir = repo_root / "tests" / "fixtures"
+    sample = fixtures_dir / "sample_cat.png"
     create_sample_photo(sample)
-    print(f"Created sample photo at {sample}")
+    create_good_pack(fixtures_dir / "good_pack")
+    create_broken_pack(fixtures_dir / "broken_pack")
+    print(f"Created fixtures in {fixtures_dir}")

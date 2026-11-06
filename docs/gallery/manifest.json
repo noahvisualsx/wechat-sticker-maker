@@ -1,0 +1,998 @@
+{
+  "description": "Real-person photographic sticker gallery only",
+  "subject_type": "human-portrait",
+  "generator": "built-in image_gen",
+  "style_count": 26,
+  "expression_categories": 14,
+  "language": "zh-CN",
+  "stickers": [
+    {
+      "key": "real-cutout__01_hello",
+      "style": "real-cutout",
+      "name": "真人写真抠图贴纸",
+      "region": "通用",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-cutout__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cutout__04_laugh",
+      "style": "real-cutout",
+      "name": "真人写真抠图贴纸",
+      "region": "通用",
+      "expression": "04_laugh",
+      "caption": "哈哈哈",
+      "category": "positive",
+      "file": "stickers/real-cutout__04_laugh.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-bobblehead__01_hello",
+      "style": "real-bobblehead",
+      "name": "真人搞怪大头贴",
+      "region": "通用",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-bobblehead__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-bobblehead__13_yay",
+      "style": "real-bobblehead",
+      "name": "真人搞怪大头贴",
+      "region": "通用",
+      "expression": "13_yay",
+      "caption": "好耶",
+      "category": "positive",
+      "file": "stickers/real-bobblehead__13_yay.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-street-cool__01_hello",
+      "style": "real-street-cool",
+      "name": "真人潮酷街拍贴纸",
+      "region": "通用",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-street-cool__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-street-cool__06_cry",
+      "style": "real-street-cool",
+      "name": "真人潮酷街拍贴纸",
+      "region": "通用",
+      "expression": "06_cry",
+      "caption": "哭哭",
+      "category": "negative",
+      "file": "stickers/real-street-cool__06_cry.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-vintage-ccd__01_hello",
+      "style": "real-vintage-ccd",
+      "name": "真人复古CCD胶片贴纸",
+      "region": "通用",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-vintage-ccd__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-vintage-ccd__07_angry",
+      "style": "real-vintage-ccd",
+      "name": "真人复古CCD胶片贴纸",
+      "region": "通用",
+      "expression": "07_angry",
+      "caption": "生气",
+      "category": "negative",
+      "file": "stickers/real-vintage-ccd__07_angry.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-work-emo__01_hello",
+      "style": "real-work-emo",
+      "name": "真人打工人纪实梗图",
+      "region": "通用",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-work-emo__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-work-emo__14_confused",
+      "style": "real-work-emo",
+      "name": "真人打工人纪实梗图",
+      "region": "通用",
+      "expression": "14_confused",
+      "caption": "疑问",
+      "category": "surprise",
+      "file": "stickers/real-work-emo__14_confused.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-high-contrast__01_hello",
+      "style": "real-high-contrast",
+      "name": "真人黑白高反差梗图",
+      "region": "通用",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-high-contrast__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-high-contrast__24_shocked",
+      "style": "real-high-contrast",
+      "name": "真人黑白高反差梗图",
+      "region": "通用",
+      "expression": "24_shocked",
+      "caption": "震惊",
+      "category": "surprise",
+      "file": "stickers/real-high-contrast__24_shocked.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-idol-selfie__01_hello",
+      "style": "real-kr-idol-selfie",
+      "name": "韩系爱豆自拍",
+      "region": "韩系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-kr-idol-selfie__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-idol-selfie__09_acknowledged",
+      "style": "real-kr-idol-selfie",
+      "name": "韩系爱豆自拍",
+      "region": "韩系",
+      "expression": "09_acknowledged",
+      "caption": "收到",
+      "category": "reply",
+      "file": "stickers/real-kr-idol-selfie__09_acknowledged.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-glass-skin__01_hello",
+      "style": "real-kr-glass-skin",
+      "name": "韩系水光肌清透",
+      "region": "韩系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-kr-glass-skin__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-glass-skin__18_wait",
+      "style": "real-kr-glass-skin",
+      "name": "韩系水光肌清透",
+      "region": "韩系",
+      "expression": "18_wait",
+      "caption": "等等",
+      "category": "reply",
+      "file": "stickers/real-kr-glass-skin__18_wait.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-photocard__01_hello",
+      "style": "real-kr-photocard",
+      "name": "韩系爱豆小卡",
+      "region": "韩系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-kr-photocard__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-photocard__11_thanks",
+      "style": "real-kr-photocard",
+      "name": "韩系爱豆小卡",
+      "region": "韩系",
+      "expression": "11_thanks",
+      "caption": "谢谢",
+      "category": "polite",
+      "file": "stickers/real-kr-photocard__11_thanks.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-cafe-film__01_hello",
+      "style": "real-kr-cafe-film",
+      "name": "韩系咖啡馆胶片",
+      "region": "韩系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-kr-cafe-film__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-cafe-film__57_sorry",
+      "style": "real-kr-cafe-film",
+      "name": "韩系咖啡馆胶片",
+      "region": "韩系",
+      "expression": "57_sorry",
+      "caption": "对不起",
+      "category": "polite",
+      "file": "stickers/real-kr-cafe-film__57_sorry.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-drama__01_hello",
+      "style": "real-kr-drama",
+      "name": "韩剧主角氛围",
+      "region": "韩系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-kr-drama__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-drama__05_shy",
+      "style": "real-kr-drama",
+      "name": "韩剧主角氛围",
+      "region": "韩系",
+      "expression": "05_shy",
+      "caption": "害羞",
+      "category": "love",
+      "file": "stickers/real-kr-drama__05_shy.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-variety__01_hello",
+      "style": "real-kr-variety",
+      "name": "韩综字幕斗图",
+      "region": "韩系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-kr-variety__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-kr-variety__16_love",
+      "style": "real-kr-variety",
+      "name": "韩综字幕斗图",
+      "region": "韩系",
+      "expression": "16_love",
+      "caption": "爱你",
+      "category": "love",
+      "file": "stickers/real-kr-variety__16_love.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-purikura__01_hello",
+      "style": "real-purikura",
+      "name": "韩系人生四格大头贴",
+      "region": "韩系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-purikura__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-purikura__10_fighting",
+      "style": "real-purikura",
+      "name": "韩系人生四格大头贴",
+      "region": "韩系",
+      "expression": "10_fighting",
+      "caption": "加油",
+      "category": "praise",
+      "file": "stickers/real-purikura__10_fighting.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-airy__01_hello",
+      "style": "real-jp-airy",
+      "name": "日系空气感清新",
+      "region": "日系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-jp-airy__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-airy__70_clap",
+      "style": "real-jp-airy",
+      "name": "日系空气感清新",
+      "region": "日系",
+      "expression": "70_clap",
+      "caption": "鼓掌",
+      "category": "praise",
+      "file": "stickers/real-jp-airy__70_clap.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-fuji-film__01_hello",
+      "style": "real-jp-fuji-film",
+      "name": "日系富士胶片",
+      "region": "日系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-jp-fuji-film__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-fuji-film__21_eating",
+      "style": "real-jp-fuji-film",
+      "name": "日系富士胶片",
+      "region": "日系",
+      "expression": "21_eating",
+      "caption": "吃饭啦",
+      "category": "daily",
+      "file": "stickers/real-jp-fuji-film__21_eating.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-purikura__01_hello",
+      "style": "real-jp-purikura",
+      "name": "日系大头贴プリクラ",
+      "region": "日系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-jp-purikura__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-purikura__22_sleeping",
+      "style": "real-jp-purikura",
+      "name": "日系大头贴プリクラ",
+      "region": "日系",
+      "expression": "22_sleeping",
+      "caption": "睡觉啦",
+      "category": "daily",
+      "file": "stickers/real-jp-purikura__22_sleeping.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-summer__01_hello",
+      "style": "real-jp-summer",
+      "name": "日系夏日逆光",
+      "region": "日系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-jp-summer__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-summer__89_slacking",
+      "style": "real-jp-summer",
+      "name": "日系夏日逆光",
+      "region": "日系",
+      "expression": "89_slacking",
+      "caption": "摸鱼",
+      "category": "work",
+      "file": "stickers/real-jp-summer__89_slacking.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-harajuku__01_hello",
+      "style": "real-jp-harajuku",
+      "name": "日系原宿街头",
+      "region": "日系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-jp-harajuku__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-harajuku__92_typing_fast",
+      "style": "real-jp-harajuku",
+      "name": "日系原宿街头",
+      "region": "日系",
+      "expression": "92_typing_fast",
+      "caption": "疯狂打字",
+      "category": "work",
+      "file": "stickers/real-jp-harajuku__92_typing_fast.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-showa__01_hello",
+      "style": "real-jp-showa",
+      "name": "日系昭和复古",
+      "region": "日系",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-jp-showa__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-jp-showa__95_eat_melon",
+      "style": "real-jp-showa",
+      "name": "日系昭和复古",
+      "region": "日系",
+      "expression": "95_eat_melon",
+      "caption": "吃瓜",
+      "category": "meme",
+      "file": "stickers/real-jp-showa__95_eat_melon.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-new-chinese__01_hello",
+      "style": "real-cn-new-chinese",
+      "name": "新中式国风写真",
+      "region": "中式",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-cn-new-chinese__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-new-chinese__98_facepalm",
+      "style": "real-cn-new-chinese",
+      "name": "新中式国风写真",
+      "region": "中式",
+      "expression": "98_facepalm",
+      "caption": "捂脸",
+      "category": "meme",
+      "file": "stickers/real-cn-new-chinese__98_facepalm.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-hk-retro__01_hello",
+      "style": "real-cn-hk-retro",
+      "name": "港风复古胶片",
+      "region": "中式",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-cn-hk-retro__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-hk-retro__106_new_year",
+      "style": "real-cn-hk-retro",
+      "name": "港风复古胶片",
+      "region": "中式",
+      "expression": "106_new_year",
+      "caption": "新年快乐",
+      "category": "festival",
+      "file": "stickers/real-cn-hk-retro__106_new_year.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-xhs-vibe__01_hello",
+      "style": "real-cn-xhs-vibe",
+      "name": "小红书氛围感",
+      "region": "中式",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-cn-xhs-vibe__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-xhs-vibe__107_red_envelope",
+      "style": "real-cn-xhs-vibe",
+      "name": "小红书氛围感",
+      "region": "中式",
+      "expression": "107_red_envelope",
+      "caption": "恭喜发财",
+      "category": "festival",
+      "file": "stickers/real-cn-xhs-vibe__107_red_envelope.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-douyin__01_hello",
+      "style": "real-cn-douyin",
+      "name": "抖音网红美颜",
+      "region": "中式",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-cn-douyin__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-douyin__115_busy",
+      "style": "real-cn-douyin",
+      "name": "抖音网红美颜",
+      "region": "中式",
+      "expression": "115_busy",
+      "caption": "忙碌中",
+      "category": "status",
+      "file": "stickers/real-cn-douyin__115_busy.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-studio-retro__01_hello",
+      "style": "real-cn-studio-retro",
+      "name": "复古影楼风",
+      "region": "中式",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-cn-studio-retro__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-studio-retro__118_tired",
+      "style": "real-cn-studio-retro",
+      "name": "复古影楼风",
+      "region": "中式",
+      "expression": "118_tired",
+      "caption": "好累",
+      "category": "status",
+      "file": "stickers/real-cn-studio-retro__118_tired.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-tw-youth__01_hello",
+      "style": "real-cn-tw-youth",
+      "name": "台式青春胶片",
+      "region": "中式",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-cn-tw-youth__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-cn-tw-youth__123_pat_pat",
+      "style": "real-cn-tw-youth",
+      "name": "台式青春胶片",
+      "region": "中式",
+      "expression": "123_pat_pat",
+      "caption": "摸摸头",
+      "category": "social",
+      "file": "stickers/real-cn-tw-youth__123_pat_pat.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-variety-meme__01_hello",
+      "style": "real-variety-meme",
+      "name": "真人综艺花字斗图",
+      "region": "中式",
+      "expression": "01_hello",
+      "caption": "你好",
+      "category": "greeting",
+      "file": "stickers/real-variety-meme__01_hello.png",
+      "subject_type": "human-portrait"
+    },
+    {
+      "key": "real-variety-meme__125_high_five",
+      "style": "real-variety-meme",
+      "name": "真人综艺花字斗图",
+      "region": "中式",
+      "expression": "125_high_five",
+      "caption": "击掌",
+      "category": "social",
+      "file": "stickers/real-variety-meme__125_high_five.png",
+      "subject_type": "human-portrait"
+    }
+  ],
+  "animations": [
+    {
+      "file": "animations/real-cutout__01_hello.gif",
+      "style": "real-cutout",
+      "name": "真人写真抠图贴纸",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/real-kr-drama__05_shy.gif",
+      "style": "real-kr-drama",
+      "name": "韩剧主角氛围",
+      "region": "韩系",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/real-jp-airy__15_bye.gif",
+      "style": "real-jp-airy",
+      "name": "日系空气感清新",
+      "region": "日系",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/real-cn-hk-retro__04_laugh.gif",
+      "style": "real-cn-hk-retro",
+      "name": "港风复古胶片",
+      "region": "中式",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/photographic__01_hello.gif",
+      "style": "real-cutout",
+      "name": "真人挥手",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/photographic__04_laugh.gif",
+      "style": "real-cutout",
+      "name": "真人大笑",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/photographic__05_shy.gif",
+      "style": "real-cutout",
+      "name": "真人害羞",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/photographic__06_cry.gif",
+      "style": "real-cutout",
+      "name": "真人擦泪",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/photographic__07_angry.gif",
+      "style": "real-cutout",
+      "name": "真人鼓腮",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes"
+    },
+    {
+      "file": "animations/photographic__08_speechless.gif",
+      "style": "real-cutout",
+      "name": "真人摊手",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes"
+    }
+  ],
+  "meme_templates": [
+    {
+      "id": "m01_ai_thinking",
+      "name": "正在思考",
+      "category": "ai-meme",
+      "png": "memes/m01_ai_thinking.png",
+      "gif": "memes/m01_ai_thinking.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m02_china_ip_blocked",
+      "name": "中国IP禁止靠近",
+      "category": "ban-warning",
+      "png": "memes/m02_china_ip_blocked.png",
+      "gif": "memes/m02_china_ip_blocked.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m03_ban_threat",
+      "name": "再说话封你号",
+      "category": "ban-warning",
+      "png": "memes/m03_ban_threat.png",
+      "gif": "memes/m03_ban_threat.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m04_account_banned",
+      "name": "账号被封了",
+      "category": "ban-warning",
+      "png": "memes/m04_account_banned.png",
+      "gif": "memes/m04_account_banned.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m05_deep_thinking",
+      "name": "想了个寂寞",
+      "category": "ai-meme",
+      "png": "memes/m05_deep_thinking.png",
+      "gif": "memes/m05_deep_thinking.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m06_rate_limited",
+      "name": "请求过于频繁",
+      "category": "ai-meme",
+      "png": "memes/m06_rate_limited.png",
+      "gif": "memes/m06_rate_limited.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m07_cpu_burning",
+      "name": "CPU干烧了",
+      "category": "ai-meme",
+      "png": "memes/m07_cpu_burning.png",
+      "gif": "memes/m07_cpu_burning.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m08_refuse",
+      "name": "我无法回答",
+      "category": "ai-meme",
+      "png": "memes/m08_refuse.png",
+      "gif": "memes/m08_refuse.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m09_muted",
+      "name": "被禁言了",
+      "category": "chat-ui",
+      "png": "memes/m09_muted.png",
+      "gif": "memes/m09_muted.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m10_typing_forever",
+      "name": "疯狂输入中",
+      "category": "chat-ui",
+      "png": "memes/m10_typing_forever.png",
+      "gif": "memes/m10_typing_forever.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m11_read_no_reply",
+      "name": "已读不回",
+      "category": "chat-ui",
+      "png": "memes/m11_read_no_reply.png",
+      "gif": "memes/m11_read_no_reply.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m12_404_brain",
+      "name": "脑子不在服务区",
+      "category": "abstract",
+      "png": "memes/m12_404_brain.png",
+      "gif": "memes/m12_404_brain.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m13_loading_brain",
+      "name": "大脑加载中",
+      "category": "ai-meme",
+      "png": "memes/m13_loading_brain.png",
+      "gif": "memes/m13_loading_brain.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m14_shock_deepfried",
+      "name": "震惊！",
+      "category": "abstract",
+      "png": "memes/m14_shock_deepfried.png",
+      "gif": "memes/m14_shock_deepfried.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m15_enlightened",
+      "name": "我悟了",
+      "category": "abstract",
+      "png": "memes/m15_enlightened.png",
+      "gif": "memes/m15_enlightened.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m16_cracked",
+      "name": "我裂开了",
+      "category": "abstract",
+      "png": "memes/m16_cracked.png",
+      "gif": "memes/m16_cracked.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m17_mental_state",
+      "name": "精神状态良好",
+      "category": "abstract",
+      "png": "memes/m17_mental_state.png",
+      "gif": "memes/m17_mental_state.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m18_patina",
+      "name": "祖传表情包",
+      "category": "classic-meme",
+      "png": "memes/m18_patina.png",
+      "gif": "memes/m18_patina.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m19_real_portrait",
+      "name": "你在教我做事？",
+      "category": "classic-meme",
+      "png": "memes/m19_real_portrait.png",
+      "gif": "memes/m19_real_portrait.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m20_impact_classic",
+      "name": "开个短会",
+      "category": "work-life",
+      "png": "memes/m20_impact_classic.png",
+      "gif": "memes/m20_impact_classic.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m21_top_bar_meme",
+      "name": "当代年轻人的精神状态",
+      "category": "abstract",
+      "png": "memes/m21_top_bar_meme.png",
+      "gif": "memes/m21_top_bar_meme.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m22_battery_low",
+      "name": "电量1%",
+      "category": "work-life",
+      "png": "memes/m22_battery_low.png",
+      "gif": "memes/m22_battery_low.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m23_question",
+      "name": "？？？",
+      "category": "abstract",
+      "png": "memes/m23_question.png",
+      "gif": "memes/m23_question.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m24_caution_hype",
+      "name": "前方高能",
+      "category": "classic-meme",
+      "png": "memes/m24_caution_hype.png",
+      "gif": "memes/m24_caution_hype.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m25_behaving_now",
+      "name": "求放过",
+      "category": "abstract",
+      "png": "memes/m25_behaving_now.png",
+      "gif": "memes/m25_behaving_now.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m26_dian",
+      "name": "典",
+      "category": "abstract",
+      "png": "memes/m26_dian.png",
+      "gif": "memes/m26_dian.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m27_cant_hold",
+      "name": "绷不住了",
+      "category": "abstract",
+      "png": "memes/m27_cant_hold.png",
+      "gif": "memes/m27_cant_hold.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m28_big_breakdown",
+      "name": "破大防了",
+      "category": "abstract",
+      "png": "memes/m28_big_breakdown.png",
+      "gif": "memes/m28_big_breakdown.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m29_thanks_sarcastic",
+      "name": "我真的会谢",
+      "category": "abstract",
+      "png": "memes/m29_thanks_sarcastic.png",
+      "gif": "memes/m29_thanks_sarcastic.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m30_zundu",
+      "name": "尊嘟假嘟",
+      "category": "abstract",
+      "png": "memes/m30_zundu.png",
+      "gif": "memes/m30_zundu.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m31_polite",
+      "name": "你礼貌吗",
+      "category": "chat-ui",
+      "png": "memes/m31_polite.png",
+      "gif": "memes/m31_polite.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m32_worker_recharge",
+      "name": "续命中",
+      "category": "work-life",
+      "png": "memes/m32_worker_recharge.png",
+      "gif": "memes/m32_worker_recharge.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m33_caught_slacking",
+      "name": "摸鱼被抓了",
+      "category": "work-life",
+      "png": "memes/m33_caught_slacking.png",
+      "gif": "memes/m33_caught_slacking.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m34_client_revision",
+      "name": "又改需求",
+      "category": "work-life",
+      "png": "memes/m34_client_revision.png",
+      "gif": "memes/m34_client_revision.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m35_no_leaving",
+      "name": "禁止下班",
+      "category": "work-life",
+      "png": "memes/m35_no_leaving.png",
+      "gif": "memes/m35_no_leaving.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m36_ai_hallucination",
+      "name": "一本正经胡说八道",
+      "category": "ai-meme",
+      "png": "memes/m36_ai_hallucination.png",
+      "gif": "memes/m36_ai_hallucination.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m37_quota_exhausted",
+      "name": "额度用完了",
+      "category": "ai-meme",
+      "png": "memes/m37_quota_exhausted.png",
+      "gif": "memes/m37_quota_exhausted.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m38_reported",
+      "name": "已截图",
+      "category": "ban-warning",
+      "png": "memes/m38_reported.png",
+      "gif": "memes/m38_reported.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    }
+  ]
+}
