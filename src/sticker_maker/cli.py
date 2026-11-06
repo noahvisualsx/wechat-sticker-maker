@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 
 from .config import AppSettings, get_default_font_path, get_profile
+from .duo import DUO_CATEGORIES, DUO_CATEGORY_LABELS, list_duo_presets
 from .orchestrator import StickerOrchestrator
 from .package import package_deliverables
 from .i18n import BUILTIN_CAPTION_LANGUAGES, describe_font_support, normalize_language
@@ -18,11 +19,12 @@ from .memes import list_memes, make_meme, meme_category_label, resolve_meme_id
 from .processing.gif_encoder import assemble_gif_from_keyframe_files, assemble_gif_from_sprite_sheet
 from .processing.optimizer import optimize_gif, optimize_png
 from .providers.fake import FakeStickerProvider
+from .providers.gemini_images import GeminiImagesProvider
 from .providers.openai_images import OpenAIImagesProvider
 from .providers.openai_native_gif import OpenAINativeGifProvider
 from .quality.report import run_full_validation
 from .schemas import AnimationConfig, JobConfig
-from .styles import STYLE_REGIONS, list_style_presets, resolve_style_preset
+from .styles import STYLE_REGIONS, infer_language_for_style, list_style_presets, resolve_style_preset
 
 logger = logging.getLogger("sticker_maker")
 
@@ -63,8 +65,14 @@ def cmd_doctor(args: argparse.Namespace) -> int:
         print(f"  [OK] OPENAI_API_KEY detected ({masked})")
         print(f"       Image Model: {settings.sticker_image_model}")
         print(f"       GIF Model:   {settings.sticker_gif_model}")
-    else:
-        print("  [INFO] No OPENAI_API_KEY detected. System is running in offline / mock provider mode.")
+    if settings.gemini_api_key:
+        masked = settings.gemini_api_key[:6] + "..." + settings.gemini_api_key[-4:]
+        print(f"  [OK] GEMINI_API_KEY detected ({masked}) -> {settings.gemini_image_model}")
+    if settings.ark_api_key:
+        masked = settings.ark_api_key[:6] + "..." + settings.ark_api_key[-4:]
+        print(f"  [OK] ARK_API_KEY detected ({masked}) -> {settings.ark_image_model}")
+    if not (settings.openai_api_key or settings.gemini_api_key or settings.ark_api_key):
+        print("  [INFO] No cloud API key detected. System is running in offline / Agent built-in image mode.")
 
     if missing:
         print("Status: Incomplete environment. Please install missing packages.")
@@ -98,6 +106,34 @@ def cmd_styles(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_duo(args: argparse.Namespace) -> int:
+    """List built-in 108 real-person duo interaction presets (闺蜜 / 情侣 / 百合)."""
+    lang = normalize_language(args.language)
+    try:
+        items = list_duo_presets(category=getattr(args, "category", None))
+    except ValueError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 2
+    if getattr(args, "json", False):
+        print(json.dumps([i.model_dump() for i in items], indent=2, ensure_ascii=False))
+        return 0
+
+    print(f"=== 双人互动真人表情包预设 ({len(items)} 套: 闺蜜36 + 情侣36 + 百合36, language={lang}) ===")
+    for cid in DUO_CATEGORIES:
+        group = [i for i in items if i.category == cid]
+        if not group:
+            continue
+        meta = DUO_CATEGORY_LABELS[cid]
+        print(f"\n[{cid}] {meta['zh']} / {meta['en']} ({len(group)}) — {meta['desc_zh']}")
+        for it in group:
+            cap, _ = localized_caption(it, lang)
+            bubble = it.bubble.texts.get(lang, "") if it.bubble else ""
+            b_tag = f" 💬[{bubble}]" if bubble else ""
+            print(f"  * {it.id:<30} {cap}{b_tag}  <{it.text_layout}> {it.mood}")
+            print(f"    pose: {it.static_pose}")
+    return 0
+
+
 def cmd_plan(args: argparse.Namespace) -> int:
     """Plan job parameters and generate job.json."""
     source_p = Path(args.input)
@@ -105,24 +141,45 @@ def cmd_plan(args: argparse.Namespace) -> int:
         print(f"Error: Source image file not found: {source_p}", file=sys.stderr)
         return 2
 
+    partner_p = None
+    if getattr(args, "partner", None):
+        partner_p = Path(args.partner)
+        if not partner_p.exists():
+            print(f"Error: Partner image file not found: {partner_p}", file=sys.stderr)
+            return 2
+
     out_p = Path(args.output)
     out_p.mkdir(parents=True, exist_ok=True)
+
+    raw_lang = args.language
+    resolved_lang = infer_language_for_style(args.style) if raw_lang.strip().lower() == "auto" else normalize_language(raw_lang)
+    extra_langs = [normalize_language(x) for x in (_split(getattr(args, "languages", None)) or [])] or None
+    duo_cats = _split(getattr(args, "duo_category", None))
+    duo_ids = _split(getattr(args, "duo_ids", None))
+    pack_type = args.pack_type
+    if (partner_p or duo_cats or duo_ids) and pack_type == "expressions":
+        pack_type = "duo"
 
     job_id = args.job_id or out_p.name
     job = JobConfig(
         job_id=job_id,
         source_image=str(source_p.resolve()),
+        partner_image=str(partner_p.resolve()) if partner_p else None,
+        partner_facts=_split(getattr(args, "partner_facts", None)),
         output_dir=str(out_p.resolve()),
         mode=args.mode,
         count=args.count,
         style=args.style,
-        language=normalize_language(args.language),
+        language=resolved_lang,
+        languages=extra_langs,
         text_layout=args.text_layout,
         bubble_shape=args.bubble_shape,
         bubble_animation=args.bubble_animation,
         categories=_split(args.categories),
         expression_ids=_split(args.expressions),
-        pack_type=args.pack_type,
+        duo_categories=duo_cats,
+        duo_ids=duo_ids,
+        pack_type=pack_type,
         meme_templates=[resolve_meme_id(m) for m in (_split(args.meme_templates) or [])] or None,
         meme_categories=_split(args.meme_categories),
         meme_texts=_parse_meme_texts(args.meme_text),
@@ -138,6 +195,8 @@ def cmd_plan(args: argparse.Namespace) -> int:
         export_profile=args.profile,
         allow_cloud_upload=args.allow_cloud_upload,
         keep_source=args.keep_source,
+        resume=getattr(args, "resume", True),
+        matting=getattr(args, "matting", "auto"),
         font_path=args.font or get_default_font_path(),
         subject_type=args.subject_type,
     )
@@ -168,11 +227,11 @@ def cmd_plan(args: argparse.Namespace) -> int:
 def _build_providers(provider_arg: str):
     provider = None
     gif_provider = None
+    settings = AppSettings()
     if provider_arg == "fake":
         provider = FakeStickerProvider()
         gif_provider = FakeStickerProvider()
     elif provider_arg == "openai":
-        settings = AppSettings()
         provider = OpenAIImagesProvider(
             api_key=settings.openai_api_key,
             base_url=settings.openai_base_url,
@@ -185,6 +244,21 @@ def _build_providers(provider_arg: str):
             gif_model=settings.sticker_gif_model,
             max_retries=settings.sticker_max_retries,
         )
+    elif provider_arg == "gemini":
+        provider = GeminiImagesProvider(
+            api_key=settings.gemini_api_key,
+            image_model=settings.gemini_image_model,
+            max_retries=settings.sticker_max_retries,
+        )
+        gif_provider = FakeStickerProvider()
+    elif provider_arg == "ark":
+        provider = OpenAIImagesProvider(
+            api_key=settings.ark_api_key,
+            base_url=settings.ark_base_url,
+            image_model=settings.ark_image_model,
+            max_retries=settings.sticker_max_retries,
+        )
+        gif_provider = FakeStickerProvider()
     return provider, gif_provider
 
 
@@ -204,9 +278,16 @@ def cmd_generate(args: argparse.Namespace) -> int:
     if getattr(args, "style", None):
         job_data["style"] = args.style
     if getattr(args, "language", None):
-        job_data["language"] = normalize_language(args.language)
+        raw_l = args.language
+        job_data["language"] = infer_language_for_style(job_data.get("style", "real-cutout")) if raw_l.strip().lower() == "auto" else normalize_language(raw_l)
+    if getattr(args, "languages", None):
+        job_data["languages"] = [normalize_language(x) for x in (_split(args.languages) or [])]
     if getattr(args, "platforms", None):
         job_data["platforms"] = resolve_platforms(args.platforms)
+    if getattr(args, "resume", None) is not None:
+        job_data["resume"] = args.resume
+    if getattr(args, "matting", None):
+        job_data["matting"] = args.matting
 
     job = JobConfig(**job_data)
     provider, gif_provider = _build_providers(args.provider)
@@ -550,22 +631,33 @@ def main() -> None:
     p_styles.add_argument("--json", action="store_true", help="Output style presets as JSON")
     p_styles.add_argument("--region", help="Filter by series: 韩系/kr, 日系/jp, 中式/cn, 通用 (comma list)")
 
+    # duo
+    p_duo = subparsers.add_parser("duo", help="List 108 real-person two-person interaction presets (闺蜜 / 情侣 / 百合)")
+    p_duo.add_argument("--category", help="Filter by duo category: 闺蜜/besties, 情侣/couple, 百合/yuri (comma list)")
+    p_duo.add_argument("--language", default="zh-CN", help="Caption language: zh-CN, zh-TW, en, ja, ko")
+    p_duo.add_argument("--json", action="store_true", help="Output duo presets as JSON")
+
     # plan
     p_plan = subparsers.add_parser("plan", help="Plan expressions and create job.json")
-    p_plan.add_argument("--input", "-i", required=True, help="Path to input photo")
+    p_plan.add_argument("--input", "-i", required=True, help="Path to input photo (Person A)")
+    p_plan.add_argument("--partner", "-p", help="Optional path to second person's photo (Person B) for two-person duo stickers")
+    p_plan.add_argument("--partner-facts", help="Optional comma-separated identity traits for Person B")
     p_plan.add_argument("--output", "-o", required=True, help="Output directory")
     p_plan.add_argument("--job-id", help="Job identifier")
     p_plan.add_argument("--mode", choices=["both", "static", "animated"], default="both")
     p_plan.add_argument("--count", type=int, default=16, help="8/16/24 for WeChat; 1-120 for other platforms")
-    p_plan.add_argument("--style", default="real-cutout", help="Real-person sticker style ID (e.g. real-cutout, real-variety-meme, real-bobblehead, real-purikura)")
-    p_plan.add_argument("--language", default="zh-CN", help="Caption language: zh-CN, zh-TW, en, ja, ko, es, fr, th, ...")
+    p_plan.add_argument("--style", default="real-cutout", help="Real-person sticker style ID (e.g. real-cutout, kr-gyaru-peace, jp-purikura-sweet, cn-hanfu-daily)")
+    p_plan.add_argument("--language", default="zh-CN", help="Caption language: zh-CN, zh-TW, en, ja, ko, or 'auto' to match style region")
+    p_plan.add_argument("--languages", help="Comma-separated list of languages to output separate 100%% single-language packs from one AI generation (e.g. zh-CN,en,ja,ko)")
     p_plan.add_argument("--text-layout", choices=["auto", "caption", "bubble", "both", "none"], default="auto")
     p_plan.add_argument("--bubble-shape", choices=["round", "oval", "thought", "shout", "rect", "heart", "whisper"])
     p_plan.add_argument("--bubble-animation", choices=["none", "pop", "typewriter", "bob"], default="none")
     p_plan.add_argument("--categories", help="Comma-separated categories (greeting,reply,meme,work,...)")
     p_plan.add_argument("--expressions", help="Comma-separated explicit expression ids")
+    p_plan.add_argument("--duo-category", help="Duo interaction category: 闺蜜/besties, 情侣/couple, 百合/yuri (comma list)")
+    p_plan.add_argument("--duo-ids", help="Explicit duo preset IDs (e.g. d01_bestie_cheek_selfie,d73_yuri_chin_lift_gaze)")
     p_plan.add_argument("--captions-file", help="JSON file with custom captions / translations")
-    p_plan.add_argument("--pack-type", choices=["expressions", "memes", "mixed"], default="expressions", help="Expression stickers, meme/abstract pack, or mixed")
+    p_plan.add_argument("--pack-type", choices=["expressions", "memes", "mixed", "duo"], default="expressions", help="Expression stickers, meme/abstract pack, mixed, or two-person duo pack")
     p_plan.add_argument("--meme-templates", help="Comma list of meme template ids/aliases (claude,中国ip,封号,m14 ...)")
     p_plan.add_argument("--meme-categories", help="ai-meme,ban-warning,chat-ui,abstract,classic-meme,work-life")
     p_plan.add_argument("--meme-text", action="append", help="Override meme text: TEMPLATE=TEXT (repeatable)")
@@ -582,6 +674,13 @@ def main() -> None:
     p_plan.add_argument("--profile", default="wechat-conservative-2026-11")
     p_plan.add_argument("--font", help="Path to Chinese TTF/OTF font")
     p_plan.add_argument("--subject-type", default="human-portrait", help="Subject type (default: human-portrait, real-person only)")
+    p_plan.add_argument("--matting", choices=["auto", "color", "rembg"], default="auto", help="Background removal engine: color flood-fill or neural rembg")
+    p_plan.add_argument(
+        "--resume",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Resume from existing raw keyframes in work/raw_static & work/raw_gif",
+    )
     p_plan.add_argument(
         "--allow-cloud-upload",
         action=argparse.BooleanOptionalAction,
@@ -598,19 +697,22 @@ def main() -> None:
     # generate
     p_gen = subparsers.add_parser("generate", help="Run generation pipeline")
     p_gen.add_argument("--job", "-j", required=True, help="Path to job.json")
-    p_gen.add_argument("--provider", choices=["auto", "fake", "openai"], default="auto")
+    p_gen.add_argument("--provider", choices=["auto", "fake", "openai", "gemini", "ark"], default="auto")
     p_gen.add_argument("--animation-backend", choices=["auto", "keyframes", "sprite-sheet", "native-gif"])
     p_gen.add_argument("--style", help="Override style preset ID or custom style JSON path")
-    p_gen.add_argument("--language", help="Override caption language")
+    p_gen.add_argument("--language", help="Override caption language (or 'auto' to match style region)")
+    p_gen.add_argument("--languages", help="Comma-separated languages for zero-extra-cost multi-pack output (e.g. zh-CN,en,ja,ko)")
     p_gen.add_argument("--platforms", help="Override target platforms (comma list / group / all)")
     p_gen.add_argument("--sample", action="store_true", help="Run sample-first mode (2 static + 1 animated)")
     p_gen.add_argument("--max-parallel", type=int, help="Override maximum parallel item workers")
+    p_gen.add_argument("--matting", choices=["auto", "color", "rembg"], help="Override background removal engine")
+    p_gen.add_argument("--resume", action=argparse.BooleanOptionalAction, default=None, help="Resume from existing raw keyframes")
 
     # regenerate
     p_regen = subparsers.add_parser("regenerate", help="Regenerate a specific single item")
     p_regen.add_argument("--job", "-j", required=True, help="Path to job.json")
     p_regen.add_argument("--item", required=True, help="Expression item ID to regenerate (e.g. 05_shy)")
-    p_regen.add_argument("--provider", choices=["auto", "fake", "openai"], default="auto")
+    p_regen.add_argument("--provider", choices=["auto", "fake", "openai", "gemini", "ark"], default="auto")
 
     # validate
     p_val = subparsers.add_parser("validate", help="Validate assets in output directory")
@@ -693,6 +795,7 @@ def main() -> None:
     cmd_map = {
         "doctor": cmd_doctor,
         "styles": cmd_styles,
+        "duo": cmd_duo,
         "plan": cmd_plan,
         "generate": cmd_generate,
         "regenerate": cmd_regenerate,

@@ -16,6 +16,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#108가지-실사-전용-사진-스타일-referencesstyle-presetsjson)
 [![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#108가지-실사-전용-사진-스타일-referencesstyle-presetsjson)
+[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-108%20Presets%20(Besties%2036%20%7C%20Couple%2036%20%7C%20Yuri%2036)-ff2d55.svg)](#108가지-2인-실사-케미-이모티콘-프리셋-절친--커플--백합)
 [![Expressions & Memes](https://img.shields.io/badge/Catalog-132%20Expressions%20%7C%2038%20Memes%20%7C%20129%20Motions-success.svg)](#14대-실사-표정-카테고리)
 [![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7가지-말풍선-디자인--5개국어-단일-언어-엄격-분리)
 [![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#23개-소셜-플랫폼-자동-변환-및-커버-생성)
@@ -178,6 +179,19 @@
 | 28 | `real-cn-guochao-street` | **국조(Guochao) 레드·틸 스트릿 플래시** | `cn-guochao-crimson-teal` · 中式国潮街头撞色 |
 | 29 | `real-cn-work-survival` | **오피스 모니터 조명 직장인 생존 짤** | `cn-office-monitor-glow` · 中式大厂打工人图鉴 |
 | 30 | `real-cn-bazi-lucky` | **행운의 비단잉어(금리) 골든 후광** | `cn-auspicious-golden-halo` · 中式锦鲤好运玄学风 |
+
+---
+
+## 108가지 2인 실사 케미 이모티콘 프리셋 (절친 / 커플 / 백합 · `references/duo-presets.json`)
+
+두 사람의 실제 사진(`-i personA.jpg -p personB.jpg`)을 입력하여 두 사람 모두의 실제 이목구비와 분위기를 보존한 2인 케미 이모티콘을 생성합니다 (`wechat-sticker-maker duo --category besties|couple|yuri --language ko`).
+
+| 분류 (`--duo-category`) | 수량 | ID 범위 | 대표 2인 인터랙션 및 한국어 단일 언어 대사 예시 |
+|---|---|---|---|
+| **👯‍♀️ 절친 케미 (`besties` / `闺蜜`)** | **36종** | `d01` – `d36` | 볼맞대기 브이 셀카 (`찐친 케미`), 합체 손하트 (`딱 붙어있자`), 버블티 건배 (`당 충전 완료`), 귓속말 폭풍 수다 (`대박 사건!`), 내 편 들어주기 (`누가 내 친구 괴롭혀`) |
+| **👩‍❤️‍👨 커플 달달 (`couple` / `情侣`)** | **36종** | `d37` – `d72` | 다정한 쓰담쓰담 (`우리 애기 착하지`), 백허그 (`충전 중`), 양볼 콕 집기 (`너무 좋아해`), 이마 맞대기 (`너만 보여`), 소매 잡고 애교 (`같이 있자`), 겨울 목도리 함께 두르기 |
+| **🌸 백합 / 트윈 여주 (`yuri` / `百合`)** | **36종** | `d73` – `d108` | 손끝 턱들기 아이컨택 (`언니, 나만 봐요`), 쌍여주 운명적 볼맞대기 (`운명 같은 우리`), 냉미녀 언니 벽치기 (`심장이 너무 뛰어...`), 어깨 기대 잠들기 (`조용히 곁에 있을게`), 붉은 실 손가락 약속 (`영원히 함께해`) |
+
 ---
 
 ## Codex AI 4프레임 모션 GIF 쇼케이스
@@ -222,31 +236,40 @@
 ## 빠른 시작 (Quick Start)
 
 ```bash
-python3 -m venv .venv
+# 원클릭 설치 (.venv 생성 및 Claude Code / Codex 스킬 자동 연결)
+./install.sh
 source .venv/bin/activate
-pip install -e '.[dev]'
 
-# 환경 점검 및 한국 감성(kr) 스타일 목록 확인
+# 환경 점검 및 108종 스타일 / 108종 2인 케미 프리셋 확인
 wechat-sticker-maker doctor
-wechat-sticker-maker styles
 wechat-sticker-maker styles --region kr
+wechat-sticker-maker duo --category yuri --language ko
 
-# 한국어(ko) 말풍선과 한국 아이돌 셀카 스타일로 이모티콘 16종 생성 계획 수립
+# 1회 AI 이미지 생성으로 한/중/영/일 4개국어 단독 언어 이모티콘 세트 동시 출력
 wechat-sticker-maker plan \
   --input photo.jpg \
   --output output/my-kr-pack \
   --mode both \
   --count 16 \
   --style real-kr-idol-selfie \
-  --language ko \
+  --language auto \
+  --languages ko,zh-CN,en,ja \
   --platforms kakaotalk,instagram,telegram,wechat
 
 wechat-sticker-maker generate --job output/my-kr-pack/job.json
 
-# 실사 밈(짤) 단건 빠른 생성
-wechat-sticker-maker meme -t claude -i photo.jpg --language ko -o output/thinking.gif
-wechat-sticker-maker meme -t m02_china_ip_blocked -i photo.jpg --language ko -o output/ip_blocked.gif
-wechat-sticker-maker meme -t m03_ban_threat -i photo.jpg --language ko -o output/ban.gif
+# 2인 케미 이모티콘 (절친 / 커플 / 백합) 생성
+wechat-sticker-maker plan \
+  --input personA.jpg \
+  --partner personB.jpg \
+  --duo-category yuri \
+  --count 16 \
+  --style real-kr-drama \
+  --language ko \
+  --languages ko,zh-CN,en,ja \
+  --output output/yuri-duo-pack
+
+wechat-sticker-maker generate --job output/yuri-duo-pack/job.json
 ```
 
 ## 테스트

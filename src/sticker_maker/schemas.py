@@ -36,13 +36,18 @@ class JobConfig(BaseModel):
     mode: Literal["static", "animated", "both"] = "both"
     count: int = 16
     style: str = "real-cutout"
-    language: str = "zh-CN"  # exactly ONE language per pack — never mix languages on a sticker
+    language: str = "zh-CN"  # exactly ONE language per pack — or "auto" to match style region
+    languages: Optional[List[str]] = None  # optional multi-pack output: 1 raw generation -> N single-language packs
     text_layout: Literal["auto", "caption", "bubble", "both", "none"] = "auto"
     bubble_shape: Optional[BubbleShape] = None
     bubble_animation: BubbleAnimation = "none"
     categories: Optional[List[str]] = None
     expression_ids: Optional[List[str]] = None
-    pack_type: Literal["expressions", "memes", "mixed"] = "expressions"
+    pack_type: Literal["expressions", "memes", "mixed", "duo"] = "expressions"
+    partner_image: Optional[str] = None
+    partner_facts: Optional[List[str]] = None
+    duo_categories: Optional[List[str]] = None
+    duo_ids: Optional[List[str]] = None
     meme_templates: Optional[List[str]] = None
     meme_categories: Optional[List[str]] = None
     meme_texts: Optional[Dict[str, str]] = None  # override main text of single-template memes
@@ -58,6 +63,8 @@ class JobConfig(BaseModel):
     font_path: Optional[str] = None
     subject_type: Optional[str] = "human-portrait"
     custom_facts: Optional[List[str]] = None
+    resume: bool = True
+    matting: Literal["auto", "color", "rembg"] = "auto"
 
     @field_validator("job_id")
     @classmethod
@@ -79,6 +86,11 @@ class JobConfig(BaseModel):
 
     @model_validator(mode="after")
     def validate_count_for_platforms(self) -> "JobConfig":
+        if self.language and self.language.strip().lower() == "auto":
+            from .styles import infer_language_for_style
+            self.language = infer_language_for_style(self.style)
+        if (self.partner_image or self.duo_categories or self.duo_ids) and self.pack_type == "expressions":
+            self.pack_type = "duo"
         if self.count < 1 or self.count > 120:
             raise ValueError(f"Count must be between 1 and 120, got {self.count}")
         if "wechat" in self.platforms and self.count not in WECHAT_ALLOWED_COUNTS:

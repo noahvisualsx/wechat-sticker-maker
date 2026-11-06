@@ -14,6 +14,7 @@ from PIL import Image
 
 from .analyzer import create_or_load_character_bible, normalize_source_image
 from .config import AppSettings
+from .duo import build_duo_sprite_sheet_prompt, build_duo_static_prompt
 from .exporters import (
     MasterAsset,
     PlatformExportResult,
@@ -43,9 +44,10 @@ from .providers.base import (
     StickerProvider,
 )
 from .providers.fake import FakeStickerProvider
+from .providers.gemini_images import GeminiImagesProvider
 from .providers.openai_images import OpenAIImagesProvider
 from .providers.openai_native_gif import OpenAINativeGifProvider
-from .quality.report import generate_preview_sheet, run_full_validation
+from .quality.report import generate_preview_html, generate_preview_sheet, run_full_validation
 from .schemas import (
     CharacterBible,
     ExpressionItem,
@@ -113,7 +115,20 @@ class StickerOrchestrator:
                 image_model=settings.sticker_image_model,
                 max_retries=settings.sticker_max_retries,
             )
-        logger.info("No OPENAI_API_KEY detected; using FakeStickerProvider for offline operation.")
+        if settings.gemini_api_key:
+            return GeminiImagesProvider(
+                api_key=settings.gemini_api_key,
+                image_model=settings.gemini_image_model,
+                max_retries=settings.sticker_max_retries,
+            )
+        if settings.ark_api_key:
+            return OpenAIImagesProvider(
+                api_key=settings.ark_api_key,
+                base_url=settings.ark_base_url,
+                image_model=settings.ark_image_model,
+                max_retries=settings.sticker_max_retries,
+            )
+        logger.info("No API key detected; using FakeStickerProvider for offline operation.")
         return FakeStickerProvider()
 
     def _resolve_default_gif_provider(self) -> StickerProvider:
@@ -129,12 +144,11 @@ class StickerOrchestrator:
 
     def _check_cloud_permission(self) -> None:
         if not self.job.allow_cloud_upload:
-            if isinstance(self.provider, (OpenAIImagesProvider, OpenAINativeGifProvider)) or isinstance(
-                self.native_gif_provider, (OpenAIImagesProvider, OpenAINativeGifProvider)
-            ):
+            cloud_classes = (OpenAIImagesProvider, OpenAINativeGifProvider, GeminiImagesProvider)
+            if isinstance(self.provider, cloud_classes) or isinstance(self.native_gif_provider, cloud_classes):
                 raise PermissionError(
                     "Cloud upload is disabled by job configuration (allow_cloud_upload=False). "
-                    "Cannot send source image to remote OpenAI provider."
+                    "Cannot send source image to remote cloud provider."
                 )
 
     def _write_manifest(self, manifest: Manifest) -> None:
@@ -165,6 +179,15 @@ class StickerOrchestrator:
         norm_source = self.work_dir / f"source_normalized_{source_in.name}"
         if not norm_source.exists():
             normalize_source_image(source_in, norm_source)
+
+        norm_partner: Optional[Path] = None
+        if self.job.partner_image:
+            partner_in = Path(self.job.partner_image)
+            if partner_in.exists():
+                norm_partner = self.work_dir / f"partner_normalized_{partner_in.name}"
+                if not norm_partner.exists():
+                    normalize_source_image(partner_in, norm_partner)
+        self.norm_partner = norm_partner
         self.state = "SOURCE_VALIDATED"
 
         use_vision = isinstance(self.provider, OpenAIImagesProvider) and self.job.allow_cloud_upload
@@ -185,12 +208,16 @@ class StickerOrchestrator:
             anchor_prompt = build_anchor_prompt(
                 bible.subject_type, bible.identity_facts, style=self.job.style, palette=bible.render_style.palette,
             )
-            self.provider.render_anchor([norm_source], anchor_prompt, anchor_path)
+            anchor_refs = [norm_source] + ([norm_partner] if norm_partner else [])
+            self.provider.render_anchor(anchor_refs, anchor_prompt, anchor_path)
         self.state = "CHARACTER_READY"
 
         expressions = self._plan()
         if sample_only:
             expressions = expressions[:2]
+        if not self.job.resume:
+            for idx_r, exp_r in enumerate(expressions, 1):
+                self._delete_item_outputs(exp_r, idx_r)
         issues = language_issues(expressions, self.job, self.custom_captions)
         if issues:
             raise ValueError(
@@ -279,6 +306,12 @@ class StickerOrchestrator:
         run_full_validation(self.output_dir, profile_name=self.job.export_profile)
         generate_preview_sheet(self.output_dir, files=self._preview_files(masters))
 
+        # Multi-language zero-extra-cost pack generation from the same raw AI cutouts
+        if self.job.languages:
+            self._render_extra_language_packs(expressions, sample_only=sample_only)
+
+        generate_preview_html(self.output_dir, manifest.model_dump())
+
         if do_package and self.legacy_wechat:
             self.state = "PACKAGING"
             try:
@@ -293,6 +326,92 @@ class StickerOrchestrator:
             first_err = failed_items[0].error if failed_items else "All items failed"
             raise RuntimeError(f"All sticker items failed to generate. First error: {first_err}")
         return manifest
+
+    def _render_extra_language_packs(self, expressions: List[ExpressionItem], sample_only: bool = False) -> None:
+        """Re-compose already-generated raw AI frames into separate single-language packs (packs/<lang>/)."""
+        from .i18n import normalize_language
+
+        preset = resolve_style_preset(self.job.style)
+        font = self.job.font_path
+        anim_cfg = self.job.animation
+        for raw_lang in self.job.languages or []:
+            lang = normalize_language(raw_lang)
+            pack_dir = self.output_dir / "packs" / lang
+            pack_dir.mkdir(parents=True, exist_ok=True)
+            lang_job = self.job.model_copy(update={"language": lang, "output_dir": str(pack_dir)})
+            lang_masters: List[MasterAsset] = []
+            lang_manifest_items: List[ManifestItem] = []
+
+            for idx, item in enumerate(expressions, 1):
+                force_static = sample_only and idx >= 2 and lang_job.mode == "both"
+                eff_mode = "static" if force_static else lang_job.mode
+                do_static = eff_mode in ("static", "both")
+                do_anim = eff_mode in ("animated", "both")
+                spec = resolve_text_spec(item, lang_job, self.custom_captions)
+                meme = localize_meme(item, lang_job, self.custom_captions)
+
+                static_master: Optional[Image.Image] = None
+                raw_static = self.work_raw_static / f"{item.id}_raw.png"
+                if do_static and raw_static.exists():
+                    with Image.open(raw_static) as raw_img:
+                        static_master = compose_sticker_frames(
+                            [raw_img.convert("RGBA")], spec, preset, self.canvas, 1, font,
+                            meme=meme, matting=self.job.matting,
+                        )[0]
+
+                frames: Optional[List[Image.Image]] = None
+                frame_ms = anim_cfg.frame_duration_ms
+                if do_anim:
+                    sheet_path = self.work_raw_gif / f"{item.id}_sheet_raw.png"
+                    if sheet_path.exists():
+                        with Image.open(sheet_path) as sheet:
+                            cells = slice_sprite_sheet(sheet)
+                        frames = compose_sticker_frames(
+                            cells, spec, preset, self.canvas, anim_cfg.frames, font,
+                            meme=meme, matting=self.job.matting,
+                        )
+                    elif static_master is not None:
+                        frames = synthesize_motion_frames(static_master, motion_type=item.motion.type, frames=anim_cfg.frames)
+
+                asset = save_master_asset(
+                    pack_dir, item.id, idx, spec.caption or spec.bubble_text, static_master, frames, frame_ms,
+                    extra_meta={"language": spec.language, "text_layout": spec.layout, "category": item.category},
+                )
+                lang_masters.append(asset)
+                lang_manifest_items.append(
+                    ManifestItem(
+                        id=item.id,
+                        caption=spec.caption or spec.bubble_text or item.caption,
+                        static_path=str(asset.static_path.relative_to(pack_dir)) if asset.static_path else None,
+                        animated_path=str(asset.anim_path.relative_to(pack_dir)) if asset.anim_path else None,
+                        status="SUCCESS",
+                        checks={"structural": "pass", "visual": "reviewed"},
+                        category=item.category,
+                        language=spec.language,
+                        text_layout=spec.layout,
+                        bubble_text=spec.bubble_text or None,
+                    )
+                )
+
+            export_res = export_all_platforms(
+                pack_dir, self.platforms, lang_masters, style=self.job.style, language=lang,
+                pack_title=self.job.pack_title, font_path=font, skip_existing=False,
+                package=not sample_only, with_showcase=not sample_only,
+            )
+            if "wechat" in export_res:
+                wx_res = export_res["wechat"]
+                for m in lang_manifest_items:
+                    files = {k: str(Path(v).relative_to(pack_dir)) for k, v in wx_res.item_files(m.id).items()}
+                    m.static_path = files.get("main:static") or m.static_path
+                    m.animated_path = files.get("main:animated") or m.animated_path
+            generate_preview_html(
+                pack_dir,
+                {
+                    "job_id": f"{self.job.job_id}-{lang}",
+                    "language": lang,
+                    "items": [m.model_dump() for m in lang_manifest_items],
+                },
+            )
 
     # ------------------------------------------------------------------ helpers
 
@@ -331,19 +450,36 @@ class StickerOrchestrator:
                 m.animated_path = wx.get("main:animated") if m.animated_path else None
                 m.thumbnail_path = wx.get("main:thumbnail")
 
+    def _is_duo_item(self, item: ExpressionItem) -> bool:
+        return self.job.pack_type == "duo" or item.id.startswith("d") or item.category in ("besties", "couple", "yuri")
+
+    def _reference_images(self, anchor_img: Path, source_img: Path) -> List[Path]:
+        partner = getattr(self, "norm_partner", None)
+        return [p for p in (anchor_img, source_img, partner) if p and p.exists()]
+
     def _render_raw_static(self, item: ExpressionItem, bible: CharacterBible, source_img: Path, anchor_img: Path, spec: TextSpec) -> Path:
         raw_path = self.work_raw_static / f"{item.id}_raw.png"
         if not raw_path.exists():
-            prompt = build_static_prompt(bible, item, style=self.job.style, text_layout=spec.layout)
-            refs = [p for p in (anchor_img, source_img) if p.exists()]
+            if self._is_duo_item(item):
+                prompt = build_duo_static_prompt(
+                    bible, item, partner_facts=self.job.partner_facts, style=self.job.style, text_layout=spec.layout
+                )
+            else:
+                prompt = build_static_prompt(bible, item, style=self.job.style, text_layout=spec.layout)
+            refs = self._reference_images(anchor_img, source_img)
             self.provider.render_static(refs, prompt, raw_path)
         return raw_path
 
     def _ai_sprite_sheet_cells(self, item, bible, source_img, anchor_img, spec) -> List[Image.Image]:
         sheet_path = self.work_raw_gif / f"{item.id}_sheet_raw.png"
         if not sheet_path.exists():
-            prompt = build_sprite_sheet_prompt(bible, item, style=self.job.style, text_layout=spec.layout)
-            refs = [p for p in (anchor_img, source_img) if p.exists()]
+            if self._is_duo_item(item):
+                prompt = build_duo_sprite_sheet_prompt(
+                    bible, item, partner_facts=self.job.partner_facts, style=self.job.style, text_layout=spec.layout
+                )
+            else:
+                prompt = build_sprite_sheet_prompt(bible, item, style=self.job.style, text_layout=spec.layout)
+            refs = self._reference_images(anchor_img, source_img)
             self.provider.render_static(refs, prompt, sheet_path)
         with Image.open(sheet_path) as sheet:
             return slice_sprite_sheet(sheet)

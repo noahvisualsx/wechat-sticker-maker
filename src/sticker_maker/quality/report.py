@@ -229,3 +229,196 @@ def generate_preview_sheet(
     out.parent.mkdir(parents=True, exist_ok=True)
     sheet.save(out, format="PNG")
     return out
+
+
+def generate_preview_html(output_dir: Path, manifest_data: dict | None = None) -> Path:
+    """Generate an interactive WeChat chat preview & mobile saving page (preview.html)."""
+    if manifest_data is None:
+        mp = output_dir / "manifest.json"
+        if mp.exists():
+            try:
+                manifest_data = json.loads(mp.read_text(encoding="utf-8"))
+            except Exception:
+                manifest_data = {}
+        else:
+            manifest_data = {}
+
+    items = manifest_data.get("items", [])
+    job_id = manifest_data.get("job_id", output_dir.name)
+    lang = manifest_data.get("language", "zh-CN")
+
+    # Discover language packs if multi-language export was used
+    packs_dir = output_dir / "packs"
+    extra_packs = []
+    if packs_dir.exists():
+        for d in sorted(packs_dir.iterdir()):
+            if d.is_dir():
+                extra_packs.append(d.name)
+
+    cards_html = []
+    for item in items:
+        if item.get("status") == "FAILED":
+            continue
+        iid = item.get("id", "")
+        cap = item.get("caption", "") or item.get("bubble_text", "") or iid
+        static_rel = item.get("static_path") or ""
+        anim_rel = item.get("animated_path") or ""
+        preview_src = anim_rel if anim_rel else static_rel
+        if not preview_src:
+            continue
+        badges = []
+        if static_rel:
+            badges.append(f'<a href="{static_rel}" download class="btn">PNG</a>')
+        if anim_rel:
+            badges.append(f'<a href="{anim_rel}" download class="btn btn-gif">GIF</a>')
+        cards_html.append(
+            f"""
+            <div class="card" onclick="sendToChat('{preview_src}', '{cap}')">
+              <div class="stage"><img src="{preview_src}" alt="{cap}" loading="lazy" /></div>
+              <div class="meta">
+                <span class="cap">{cap}</span>
+                <span class="id">{iid}</span>
+              </div>
+              <div class="actions" onclick="event.stopPropagation()">{''.join(badges)}</div>
+            </div>
+            """
+        )
+
+    pack_links = ""
+    if extra_packs:
+        links = [f'<a class="pack-pill" href="packs/{p}/preview.html">{p}</a>' for p in extra_packs]
+        pack_links = f'<div class="packs-bar"><span>多语言分包 (Multi-Language Packs):</span> {" ".join(links)}</div>'
+
+    html = f"""<!doctype html>
+<html lang="{lang}">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>WeChat Sticker Preview — {job_id} ({lang})</title>
+<style>
+  :root {{
+    --bg: #EDEDED;
+    --card-bg: #F7F7F7;
+    --text: #111111;
+    --muted: #666666;
+    --accent: #07C160;
+    --border: rgba(0,0,0,0.08);
+  }}
+  body.dark {{
+    --bg: #111111;
+    --card-bg: #1E1E1E;
+    --text: #F2F2F2;
+    --muted: #999999;
+    --border: rgba(255,255,255,0.12);
+  }}
+  body.checker .stage {{
+    background-image: linear-gradient(45deg, #ccc 25%, transparent 25%),
+      linear-gradient(-45deg, #ccc 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #ccc 75%),
+      linear-gradient(-45deg, transparent 75%, #ccc 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+  }}
+  * {{ box-sizing: border-box; }}
+  body {{
+    margin: 0; padding: 24px 16px 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif;
+    background: var(--bg); color: var(--text);
+    transition: background .2s ease, color .2s ease;
+  }}
+  .container {{ max-width: 1080px; margin: 0 auto; }}
+  header {{
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: 12px; margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--border);
+  }}
+  h1 {{ font-size: 20px; margin: 0; }}
+  .controls {{ display: flex; gap: 8px; flex-wrap: wrap; }}
+  button, .pack-pill {{
+    border: 1px solid var(--border); background: var(--card-bg); color: var(--text);
+    padding: 7px 13px; border-radius: 999px; cursor: pointer; font-size: 13px; text-decoration: none;
+  }}
+  button.active {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
+  .packs-bar {{ margin-bottom: 16px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 13px; }}
+  .layout {{ display: grid; grid-template-columns: 1fr 330px; gap: 20px; align-items: start; }}
+  @media (max-width: 820px) {{ .layout {{ grid-template-columns: 1fr; }} }}
+  .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: 14px; }}
+  .card {{
+    background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px;
+    padding: 10px; cursor: pointer; transition: transform .15s ease;
+  }}
+  .card:hover {{ transform: translateY(-2px); }}
+  .stage {{
+    width: 100%; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center;
+    background: var(--bg); border-radius: 10px; overflow: hidden;
+  }}
+  .stage img {{ width: 88%; height: 88%; object-fit: contain; }}
+  .meta {{ display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 13px; }}
+  .cap {{ font-weight: 600; }}
+  .id {{ color: var(--muted); font-size: 11px; }}
+  .actions {{ display: flex; gap: 6px; margin-top: 6px; }}
+  .btn {{
+    font-size: 11px; padding: 3px 8px; border-radius: 6px; text-decoration: none;
+    background: rgba(7,193,96,0.14); color: var(--accent); font-weight: 600;
+  }}
+  .chat-box {{
+    background: var(--bg); border: 1px solid var(--border); border-radius: 16px;
+    overflow: hidden; position: sticky; top: 16px;
+  }}
+  .chat-header {{
+    background: var(--card-bg); padding: 11px 14px; font-weight: 600; font-size: 14px;
+    border-bottom: 1px solid var(--border); display: flex; justify-content: space-between;
+  }}
+  .chat-messages {{ padding: 14px; min-height: 360px; max-height: 480px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; }}
+  .msg {{ display: flex; align-items: flex-start; gap: 8px; }}
+  .msg.self {{ flex-direction: row-reverse; }}
+  .avatar {{ width: 34px; height: 34px; border-radius: 6px; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; flex-shrink: 0; }}
+  .bubble {{ background: #95EC69; color: #111; padding: 8px 12px; border-radius: 8px; font-size: 13px; max-width: 72%; }}
+  .sticker-msg img {{ width: 128px; height: 128px; object-fit: contain; display: block; }}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div>
+      <h1>微信聊天实测预览 · {job_id} <small style="font-weight:400;color:var(--muted)">({lang})</small></h1>
+      <div style="font-size:12px;color:var(--muted);margin-top:4px">点击任意表情即可发送到右侧微信对话框实测白边与文字清晰度；手机端可长按保存图片</div>
+    </div>
+    <div class="controls">
+      <button id="btn-light" class="active" onclick="setMode('light')">微信浅色 (#EDEDED)</button>
+      <button id="btn-dark" onclick="setMode('dark')">微信深色 (#111111)</button>
+      <button id="btn-checker" onclick="setMode('checker')">透明棋盘格</button>
+    </div>
+  </header>
+  {pack_links}
+  <div class="layout">
+    <div class="grid">
+      {''.join(cards_html)}
+    </div>
+    <div class="chat-box">
+      <div class="chat-header"><span>微信对话实测窗</span><span style="color:var(--muted);font-size:12px">点击左侧表情发送</span></div>
+      <div class="chat-messages" id="chat-feed">
+        <div class="msg"><div class="avatar">友</div><div class="bubble">发张新做的真人表情包看看！</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function setMode(mode) {{
+  document.body.className = mode === 'light' ? '' : mode;
+  document.querySelectorAll('.controls button').forEach(b => b.classList.remove('active'));
+  document.getElementById('btn-' + mode).classList.add('active');
+}}
+function sendToChat(src, cap) {{
+  const feed = document.getElementById('chat-feed');
+  const div = document.createElement('div');
+  div.className = 'msg self';
+  div.innerHTML = '<div class="avatar">我</div><div class="sticker-msg"><img src="' + src + '" alt="' + cap + '"/></div>';
+  feed.appendChild(div);
+  feed.scrollTop = feed.scrollHeight;
+}}
+</script>
+</body>
+</html>"""
+    out = output_dir / "preview.html"
+    out.write_text(html, encoding="utf-8")
+    return out

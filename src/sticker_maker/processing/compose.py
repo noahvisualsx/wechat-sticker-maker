@@ -14,7 +14,7 @@ from PIL import Image
 
 from ..schemas import MemeSpec, StylePreset, TextSpec
 from ..styles import resolve_style_preset
-from .alpha import apply_die_cut_border, remove_matte_background
+from .alpha import apply_die_cut_border, remove_background_smart, remove_matte_background
 from .bubbles import (
     BubbleGeometry,
     bubble_animation_params,
@@ -76,13 +76,17 @@ def _torso_center_x(alpha: Image.Image) -> float:
     return sum(xs) / float(len(xs)) if len(xs) >= 6 else cw / 2.0
 
 
-def crop_characters(raw_frames: Sequence[Image.Image], clean: bool = True) -> List[Image.Image]:
+def crop_characters(
+    raw_frames: Sequence[Image.Image],
+    clean: bool = True,
+    matting: str = "auto",
+) -> List[Image.Image]:
     """Remove matte background (optional) and crop every keyframe to its alpha bounding box."""
     crops: List[Image.Image] = []
     for frame in raw_frames:
         rgba = frame.convert("RGBA")
         if clean:
-            rgba = remove_matte_background(rgba)
+            rgba = remove_background_smart(rgba, mode=matting)
         bbox = rgba.getchannel("A").getbbox()
         crops.append(rgba.crop(bbox) if bbox else Image.new("RGBA", (8, 8), (0, 0, 0, 0)))
     return crops
@@ -180,6 +184,7 @@ def compose_sticker_frames(
     clean: bool = True,
     die_cut_border_px: Optional[int] = None,
     meme: Optional[MemeSpec] = None,
+    matting: str = "auto",
 ) -> List[Image.Image]:
     """Full composition for one sticker: AI keyframes → layout → border → meme background →
     caption → bubble → meme overlays → meme filters.
@@ -188,7 +193,7 @@ def compose_sticker_frames(
     """
     preset = style if isinstance(style, StylePreset) else resolve_style_preset(style or "real-cutout")
     border = preset.die_cut_border_px if die_cut_border_px is None else die_cut_border_px
-    crops = crop_characters(raw_frames, clean=clean)
+    crops = crop_characters(raw_frames, clean=clean, matting=matting)
     if not crops:
         raise ValueError("No keyframes supplied")
 

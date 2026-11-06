@@ -16,6 +16,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#内蔵された108種類の実写フォトスタイル-referencesstyle-presetsjson)
 [![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#内蔵された108種類の実写フォトスタイル-referencesstyle-presetsjson)
+[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-108%20Presets%20(Besties%2036%20%7C%20Couple%2036%20%7C%20Yuri%2036)-ff2d55.svg)](#内蔵された108種類の2人ペア実写スタンププリセット-親友--カップル--百合)
 [![Expressions & Memes](https://img.shields.io/badge/Catalog-132%20Expressions%20%7C%2038%20Memes%20%7C%20129%20Motions-success.svg)](#14カテゴリーの実写表情カタログ)
 [![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7種類の吹き出しデザインと5言語の単一言語出力)
 [![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#23プラットフォームへの一括書き出しとsnsカバー生成)
@@ -178,6 +179,19 @@
 | 28 | `real-cn-guochao-street` | **国潮ストリート・朱赤×ピーコック青フラッシュ** | `cn-guochao-crimson-teal` · 中式国潮街头撞色 |
 | 29 | `real-cn-work-survival` | **オフィスモニター光・社会人リアル表情** | `cn-office-monitor-glow` · 中式大厂打工人图鉴 |
 | 30 | `real-cn-bazi-lucky` | **開運錦鯉（コイ）ゴールデンハロー柔光** | `cn-auspicious-golden-halo` · 中式锦鲤好运玄学风 |
+
+---
+
+## 内蔵された108種類の2人ペア実写スタンププリセット（親友 / カップル / 百合 · `references/duo-presets.json`）
+
+2枚の人物写真（`-i personA.jpg -p personB.jpg`）を入力し、2人それぞれの本物の顔立ち・骨格・雰囲気を100%保ったペアスタンプを生成します（`wechat-sticker-maker duo --category besties|couple|yuri --language ja`）。
+
+| カテゴリー (`--duo-category`) | 収録数 | ID範囲 | 代表的な2人アクション＆日本語単一言語セリフ例 |
+|---|---|---|---|
+| **👯‍♀️ 親友・女子会 (`besties` / `闺蜜`)** | **36種** | `d01` – `d36` | ほっぺ密着ピース自撮り (`最高の親友`)、2人でハートポーズ (`ぎゅっ`)、タピオカ乾杯 (`タピ活最高`)、ひそひそ恋バナ (`ここだけの話!`)、全力味方ハグ (`うちの子に何するの`) |
+| **👩‍❤️‍👨 カップル・恋人 (`couple` / `情侣`)** | **36種** | `d37` – `d72` | 頭ぽんぽん (`いい子いい子`)、バックハグ (`充電中`)、ほっぺむにゅ (`大好きだよ`)、おでこコツン (`君だけ見てる`)、袖クイ甘え (`一緒にいて`)、マフラー半分こ |
+| **🌸 百合・双女主 (`yuri` / `百合`)** | **36種** | `d73` – `d108` | 指先顎クイ見つめ合い (`お姉さま、私だけ見て`)、双女主の宿命感ほっぺ寄せ (`運命のふたり`)、クールお姉さま壁ドン (`ドキドキが止まらない...`)、肩借りうたた寝 (`ずっとそばにいるよ`)、赤い糸の約束 (`永遠に一緒`) |
+
 ---
 
 ## Codex AI 4フレームアニメーションGIFショーケース
@@ -222,31 +236,40 @@
 ## クイックスタート（Quick Start）
 
 ```bash
-python3 -m venv .venv
+# ワンクリックインストール（.venv作成＆Claude Code / Codexスキル自動リンク）
+./install.sh
 source .venv/bin/activate
-pip install -e '.[dev]'
 
-# 環境チェック＆日本系（jp）スタイル一覧の確認
+# 環境チェック＆108種類のフォトスタイル / 108種類の2人ペアスタンプ一覧を確認
 wechat-sticker-maker doctor
-wechat-sticker-maker styles
 wechat-sticker-maker styles --region jp
+wechat-sticker-maker duo --category yuri --language ja
 
-# 日本語（ja）と日系エアリー透明感スタイルで16個のスタンプパックを計画・生成
+# 1回のAI画像生成から日/中/英/韓の4言語別100%単一言語スタンプパックを同時出力
 wechat-sticker-maker plan \
   --input photo.jpg \
   --output output/my-jp-pack \
   --mode both \
   --count 16 \
   --style real-jp-airy \
-  --language ja \
+  --language auto \
+  --languages ja,zh-CN,en,ko \
   --platforms line,instagram,telegram,wechat
 
 wechat-sticker-maker generate --job output/my-jp-pack/job.json
 
-# 単発の実写ミームGIFを素早く生成
-wechat-sticker-maker meme -t claude -i photo.jpg --language ja -o output/thinking.gif
-wechat-sticker-maker meme -t m02_china_ip_blocked -i photo.jpg --language ja -o output/ip_blocked.gif
-wechat-sticker-maker meme -t m03_ban_threat -i photo.jpg --language ja -o output/ban.gif
+# 2人ペア実写スタンプ（親友 / カップル / 百合）の生成
+wechat-sticker-maker plan \
+  --input personA.jpg \
+  --partner personB.jpg \
+  --duo-category yuri \
+  --count 16 \
+  --style real-jp-sakura-film \
+  --language ja \
+  --languages ja,zh-CN,en,ko \
+  --output output/yuri-duo-pack
+
+wechat-sticker-maker generate --job output/yuri-duo-pack/job.json
 ```
 
 ## テスト

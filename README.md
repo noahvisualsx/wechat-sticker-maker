@@ -15,7 +15,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#内置-26-款真人专属风格referencesstyle-presetsjson)
-[![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#内置-26-款真人专属风格referencesstyle-presetsjson)
+[![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#内置-108-款真人专属风格referencesstyle-presetsjson)
+[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-108%20Presets%20(Besties%2036%20%7C%20Couple%2036%20%7C%20Yuri%2036)-ff2d55.svg)](#内置-108-套真人双人互动表情包闺蜜--情侣--百合)
 [![Expressions & Memes](https://img.shields.io/badge/Catalog-132%20Expressions%20%7C%2038%20Memes%20%7C%20129%20Motions-success.svg)](#14-大类真人表情分类)
 [![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7-种对话气泡与-5-种独立单语种支持)
 [![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#全平台自动分发与社交封面导出)
@@ -33,6 +34,9 @@
 ## 核心能力与视觉预览
 
 - **纯正真人专属风格（108 款，通用 / 韩系 / 日系 / 中式四大系列）**：默认 `real-cutout`，自动生成微信经典纯白立体模切白边，严禁把真人画成 2D 动漫或扁平卡通。
+- **108 套真人双人互动表情包（闺蜜 36 + 情侣 36 + 百合双女主 36）**：支持传入两张真人参考照（`-i personA.jpg -p personB.jpg --duo-category 闺蜜|情侣|百合`），锁定双人真实骨相与神态，内置贴脸自拍、摸头杀、清冷姐姐壁咚、挑下巴对视、宿命感贴脸等 108 套高张力双人互动。
+- **一次生图 → 直出多语言整套分包（`--languages zh-CN,en,ja,ko`）**：AI 底图只需生成 1 次（省下 75% 额度与时间），Python 自动用零误差字体渲染分别输出全中文、全英文、全韩文、全日文等多套纯净单语种表情包；支持 `--language auto` 按风格自动匹配语种（韩系→韩语、日系→日语、中式→中文、通用→英语）。
+- **多模型生图后端 + 断点续跑 + 本地聊天实测页**：内置支持 OpenAI (`OPENAI_API_KEY`)、Google Gemini Nano Banana (`GEMINI_API_KEY`)、火山方舟 Seedream (`ARK_API_KEY`) 及 Codex / Claude Code 内置生图；支持 `--resume` 断点续跑与 `preview.html` 微信深浅色聊天实测网页。
 - **Codex 自带作图能力驱动真动图**：所有挥手、眨眼、歪头、表情变化均由 Codex 自带 AI 生图工具通过 `2×2` 四连拍动作图（`build_sprite_sheet_prompt`）或多帧参考关键帧绘制，Python 仅做非破坏性抠图、躯干基线对齐、加白边、叠字与编码。
 - **全类型表情与动作**：132 个表情 × 14 大类，129 种动作库（`references/motion-library.json`），每个表情均配 4 帧 AI 动作分镜。
 - **真人梗图 / 抽象图模式**：内置 38 个梗图模板（`references/meme-templates.json`），涵盖 AI 正在思考旋转星芒、检测到中国IP禁止靠近、再说话封你号、已深度思考 999 秒、请求过于频繁、CPU 干烧了、真人黑白高反差梗图等。
@@ -180,6 +184,19 @@
 | 28 | `real-cn-guochao-street` | **中式国潮街头撞色** | 中国红与孔雀青潮流杂志闪光灯撞色，酷飒张扬的国潮青年态度。 |
 | 29 | `real-cn-work-survival` | **中式大厂打工人图鉴** | 写字楼工位冷白屏幕补光，精准拿捏早八困倦、收到、摸鱼真实神态。 |
 | 30 | `real-cn-bazi-lucky` | **中式锦鲤好运玄学风** | 暖金柔光与吉祥红金配色，适合“功德+1、好运莲莲、退退退”斗图。 |
+
+---
+
+## 内置 108 套真人双人互动表情包（闺蜜 / 情侣 / 百合 · `references/duo-presets.json`）
+
+支持传入两张真人照片（`-i photo1.jpg -p photo2.jpg`），同时锁死两个人的真实面部骨相、发型与穿搭，绝不画成卡通小人。可按分类查看：`wechat-sticker-maker duo --category 闺蜜|情侣|百合 --language zh-CN|ko|ja|en`。
+
+| 分类 (`--duo-category`) | 套数 | ID 范围 | 代表互动动作与五语单语台词示例 |
+|---|---|---|---|
+| **👯‍♀️ 闺蜜互动 (`besties` / `闺蜜`)** | **36 套** | `d01` – `d36` | 贴脸比耶自拍 (`最佳损友` / `찐친 케미`)、合体大爱心 (`贴贴`)、奶茶干杯 (`续命水`)、凑耳吃瓜八卦 (`有大瓜!`)、替你出头护短 (`谁敢欺负你`)、默契击掌 (`懂我`)、富婆抱大腿 (`富婆饿饿`) 等 |
+| **👩‍❤️‍👨 情侣互动 (`couple` / `情侣`)** | **36 套** | `d37` – `d72` | 宠溺摸头杀 (`乖啦` / `우리 애기 착하지`)、背后环抱 (`充电中`)、双手捧脸捏脸 (`好喜欢你`)、额头相抵对视 (`只看你`)、拉衣角撒娇 (`陪我嘛`)、共戴一条围巾 (`暖呼呼`)、公主抱转圈等 |
+| **🌸 百合双女主 (`yuri` / `百合`)** | **36 套** | `d73` – `d108` | 指尖轻挑下巴对视 (`姐姐看我` / `언니, 나만 봐요` / `お姉さま、私だけ見て`)、双女主宿命感贴脸 (`命中注定`)、清冷姐姐壁咚甜妹 (`心跳超标`)、借肩浅眠发丝交织 (`只属于你`)、红线绕指宿命对视 (`宿命感`)、双女主额头吻 (`晚安姐姐`)、十指紧扣约定 (`永远在一起`) 等 |
+
 ---
 
 ## Codex AI 驱动的真动图（4 帧关键帧分镜）
@@ -223,32 +240,65 @@
 
 ## 快速开始
 
+### 1. 一键安装（自动创建 `.venv` 并挂载 Claude Code / Codex Skill）
+
 ```bash
-python3 -m venv .venv
+./install.sh
 source .venv/bin/activate
-pip install -e '.[dev]'
+```
 
-# 查看环境与真人风格库
+### 2. 浏览 108 款真人风格与 108 套双人互动（闺蜜 / 情侣 / 百合）
+
+```bash
 wechat-sticker-maker doctor
-wechat-sticker-maker styles
 wechat-sticker-maker styles --region 韩系
+wechat-sticker-maker duo --category 闺蜜 --language zh-CN
+wechat-sticker-maker duo --category 情侣 --language en
+wechat-sticker-maker duo --category 百合 --language ko
+```
 
-# 规划并生成真人表情包
+### 3. 单人真人表情包（一次生图 → 自动输出中/英/日/韩 4 套分语言表情包）
+
+```bash
 wechat-sticker-maker plan \
   --input photo.jpg \
   --output output/my-portrait-pack \
   --mode both \
   --count 16 \
-  --style real-cutout \
-  --language zh-CN \
+  --style real-kr-idol-selfie \
+  --language auto \
+  --languages zh-CN,en,ja,ko \
   --platforms wechat,xiaohongshu,instagram,telegram
 
+# 支持 --provider auto|openai|gemini|ark（默认开启 --resume 断点续跑，生成后自动输出 output/my-portrait-pack/preview.html）
 wechat-sticker-maker generate --job output/my-portrait-pack/job.json
+```
 
-# 单张真人梗图快速生成
+### 4. 双人互动真人表情包（闺蜜 / 情侣 / 百合双女主）
+
+```bash
+wechat-sticker-maker plan \
+  --input personA.jpg \
+  --partner personB.jpg \
+  --duo-category 百合 \
+  --count 16 \
+  --style real-kr-drama \
+  --language ko \
+  --languages zh-CN,en,ja,ko \
+  --output output/yuri-duo-pack
+
+wechat-sticker-maker generate --job output/yuri-duo-pack/job.json
+```
+
+### 5. 单张真人梗图快速生成 & 在线交互式工作台
+
+```bash
 wechat-sticker-maker meme -t claude -i photo.jpg -o output/thinking.gif
 wechat-sticker-maker meme -t 中国ip -i photo.jpg -o output/china_ip.gif
 wechat-sticker-maker meme -t 封号 -i photo.jpg -o output/ban.gif
+
+# 直接在浏览器打开交互式工作台（含 108 风格 + 108 双人互动检索 + 免安装在线白边/气泡合成器）
+open docs/index.html
 ```
 
 ## 测试

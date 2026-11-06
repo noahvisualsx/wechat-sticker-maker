@@ -118,3 +118,27 @@ def hex_to_rgba(hex_color: str, alpha: int = 255) -> Tuple[int, int, int, int]:
         return (r, g, b, alpha)
     except ValueError:
         return (40, 40, 40, alpha)
+
+
+REGION_DEFAULT_LANGUAGE = {
+    "韩系": "ko",
+    "日系": "ja",
+    "中式": "zh-CN",
+    "通用": "en",
+}
+
+
+def infer_language_for_style(style_name_or_path: str = DEFAULT_STYLE_ID) -> str:
+    """Return the natural single language associated with a style's region (ko/ja/zh-CN/en)."""
+    presets = load_style_presets()
+    if style_name_or_path in presets:
+        return REGION_DEFAULT_LANGUAGE.get(presets[style_name_or_path].region, "zh-CN")
+    lower = (style_name_or_path or "").lower()
+    if lower.startswith("kr-"):
+        return "ko"
+    if lower.startswith("jp-"):
+        return "ja"
+    if lower.startswith("cn-"):
+        return "zh-CN"
+    preset = resolve_style_preset(style_name_or_path)
+    return REGION_DEFAULT_LANGUAGE.get(preset.region, "zh-CN")

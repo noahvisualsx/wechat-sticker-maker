@@ -127,10 +127,11 @@ def load_meme_templates(path: Path | None = None) -> List[ExpressionItem]:
 
 
 def get_item_by_id(item_id: str) -> ExpressionItem:
-    for it in load_all_presets() + load_meme_templates():
+    from .duo import load_duo_presets
+    for it in load_all_presets() + load_meme_templates() + load_duo_presets():
         if it.id == item_id:
             return it
-    raise ValueError(f"Unknown expression / meme id: {item_id}")
+    raise ValueError(f"Unknown expression / meme / duo id: {item_id}")
 
 
 def plan_memes(
@@ -160,9 +161,16 @@ def plan_memes(
 
 
 def plan_pack(job: JobConfig, strict_counts: bool = True) -> List[ExpressionItem]:
-    """Plan a pack of expressions, memes, or a mix (``job.pack_type``)."""
+    """Plan a pack of expressions, memes, duo interactions, or a mix (``job.pack_type``)."""
     if strict_counts and job.count not in WECHAT_ALLOWED_COUNTS:
         raise ValueError(f"Count must be 8, 16, or 24, got {job.count}")
+    if job.pack_type == "duo":
+        from .duo import plan_duo_expressions
+        return plan_duo_expressions(
+            job.count,
+            categories=job.duo_categories or job.categories,
+            duo_ids=job.duo_ids or job.expression_ids,
+        )
     if job.pack_type == "memes":
         return plan_memes(job.count, job.meme_templates, job.meme_categories)
     if job.pack_type == "mixed":

@@ -15,7 +15,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#26-built-in-real-person-photographic-styles-referencesstyle-presetsjson)
-[![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#26-built-in-real-person-photographic-styles-referencesstyle-presetsjson)
+[![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#108-built-in-real-person-photographic-styles-referencesstyle-presetsjson)
+[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-108%20Presets%20(Besties%2036%20%7C%20Couple%2036%20%7C%20Yuri%2036)-ff2d55.svg)](#108-two-person-real-portrait-duo-interaction-presets-referencesduo-presetsjson)
 [![Expressions & Memes](https://img.shields.io/badge/Catalog-132%20Expressions%20%7C%2038%20Memes%20%7C%20129%20Motions-success.svg)](#14-real-person-expression-categories)
 [![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7-speech-bubble-shapes--5-strict-single-language-packs)
 [![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#23-platform-export--social-media-covers)
@@ -180,6 +181,19 @@ Grouped into **General (18) / Korean (30) / Japanese (30) / Chinese (30)** serie
 | 28 | `real-cn-guochao-street` | **Guochao Vermilion & Teal Flash** | `cn-guochao-crimson-teal` · 中式国潮街头撞色 |
 | 29 | `real-cn-work-survival` | **Modern Tech-Office Monitor Glow** | `cn-office-monitor-glow` · 中式大厂打工人图鉴 |
 | 30 | `real-cn-bazi-lucky` | **Auspicious Koi Golden Halo** | `cn-auspicious-golden-halo` · 中式锦鲤好运玄学风 |
+
+---
+
+## 108 Two-Person Real-Portrait Duo Interaction Presets (`references/duo-presets.json`)
+
+Pass two real portrait photos (`-i personA.jpg -p personB.jpg`) to generate two-person real-portrait stickers while preserving BOTH people's authentic facial identity (`wechat-sticker-maker duo --category besties|couple|yuri --language en`).
+
+| Category (`--duo-category`) | Count | IDs | Signature Real-Person Interactions |
+|---|---|---|---|
+| **👯‍♀️ Besties (`besties` / `闺蜜`)** | **36** | `d01` – `d36` | Cheek-to-cheek selfie (`Besties`), Twin heart hands, Boba cheers (`Boba time`), Whispering gossip (`Hot tea!`), Protective hug (`Who bullied you?`), High-five (`Got me`) |
+| **👩‍❤️‍👨 Couple (`couple` / `情侣`)** | **36** | `d37` – `d72` | Affectionate head pat (`Good girl`), Back hug (`Recharging`), Cheek pinch (`Adore you`), Forehead touch (`Only you`), Sleeve tug (`Stay with me`), Shared winter scarf |
+| **🌸 Yuri / GL (`yuri` / `百合`)** | **36** | `d73` – `d108` | Fingertip chin-lift gaze (`Look at me, Unnie`), Cinematic cheek touch (`Meant to be`), Cool unnie kabedon (`Heart racing`), Sleeping on shoulder (`Yours only`), Red thread of fate, Eternal vow hands |
+
 ---
 
 ## Codex AI Multi-Frame Animated GIFs (4-Frame Keyframe Storyboards)
@@ -224,31 +238,40 @@ Grouped into **General (18) / Korean (30) / Japanese (30) / Chinese (30)** serie
 ## Quick Start
 
 ```bash
-python3 -m venv .venv
+# One-click installer (creates .venv and links Skill to ~/.claude/skills & ~/.codex/skills)
+./install.sh
 source .venv/bin/activate
-pip install -e '.[dev]'
 
-# Inspect environment & real-person style catalog
+# Inspect environment, 108 styles & 108 two-person duo presets
 wechat-sticker-maker doctor
-wechat-sticker-maker styles
 wechat-sticker-maker styles --region kr
+wechat-sticker-maker duo --category yuri --language en
 
-# Plan and generate a real-person sticker pack
+# Single-person pack (Generate AI cutouts ONCE -> output 4 single-language packs: zh-CN, en, ja, ko)
 wechat-sticker-maker plan \
   --input photo.jpg \
   --output output/my-portrait-pack \
   --mode both \
   --count 16 \
   --style real-cutout \
-  --language en \
+  --language auto \
+  --languages zh-CN,en,ja,ko \
   --platforms wechat,xiaohongshu,instagram,telegram
 
 wechat-sticker-maker generate --job output/my-portrait-pack/job.json
 
-# Quick single real-person meme generation
-wechat-sticker-maker meme -t claude -i photo.jpg --language en -o output/thinking.gif
-wechat-sticker-maker meme -t m02_china_ip_blocked -i photo.jpg --language en -o output/ip_blocked.gif
-wechat-sticker-maker meme -t m03_ban_threat -i photo.jpg --language en -o output/ban.gif
+# Two-person Duo pack (Besties / Couple / Yuri)
+wechat-sticker-maker plan \
+  --input personA.jpg \
+  --partner personB.jpg \
+  --duo-category yuri \
+  --count 16 \
+  --style real-kr-drama \
+  --language en \
+  --languages zh-CN,en,ja,ko \
+  --output output/yuri-duo-pack
+
+wechat-sticker-maker generate --job output/yuri-duo-pack/job.json
 ```
 
 ## Testing

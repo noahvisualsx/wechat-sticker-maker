@@ -1,9 +1,12 @@
-"""Transparency handling, background removal, and edge safety margins."""
+"""Transparency handling, background removal (color flood-fill + optional neural rembg), and edge safety margins."""
 
 from __future__ import annotations
 
 from collections import deque
+import logging
 from PIL import Image, ImageFilter
+
+logger = logging.getLogger(__name__)
 
 
 def ensure_alpha_channel(img: Image.Image) -> Image.Image:
@@ -11,6 +14,36 @@ def ensure_alpha_channel(img: Image.Image) -> Image.Image:
     if img.mode != "RGBA":
         return img.convert("RGBA")
     return img
+
+
+def remove_background_smart(
+    img: Image.Image,
+    mode: str = "auto",
+    threshold: int = 240,
+    feather: int = 12,
+) -> Image.Image:
+    """Remove background using either border-seeded flood-fill or neural matting (rembg when installed).
+
+    ``mode``:
+      - ``"color"`` / ``"auto"``: fast border-seeded flood-fill (zero external weight dependency)
+      - ``"rembg"``: try ``rembg.remove`` for hair-strand alpha matting, falling back to flood-fill if unavailable
+    """
+    rgba = ensure_alpha_channel(img)
+    alpha_extrema = rgba.getchannel("A").getextrema()
+    if alpha_extrema[0] < 10:
+        return rgba
+
+    if mode == "rembg":
+        try:
+            from rembg import remove as rembg_remove  # type: ignore
+
+            out = rembg_remove(rgba)
+            if isinstance(out, Image.Image):
+                return ensure_alpha_channel(out)
+        except Exception as e:
+            logger.debug("rembg unavailable or failed (%s); falling back to color flood-fill matting.", e)
+
+    return remove_matte_background(rgba, threshold=threshold, feather=feather)
 
 
 def remove_matte_background(
