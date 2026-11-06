@@ -237,6 +237,16 @@
 
 ![五种独立语言](images/languages.jpg)
 
+### 四大语种整套单语言表情包（每组 12 张，组内 100% 同一语言）
+
+![全中文表情包](images/pack-zh-CN.jpg)
+
+![全韩语表情包](images/pack-ko.jpg)
+
+![全日语表情包](images/pack-ja.jpg)
+
+![全英文表情包](images/pack-en.jpg)
+
 每张表情只用一种语言；上图是五套语言的并排展示。
 
 ## 真人发布素材

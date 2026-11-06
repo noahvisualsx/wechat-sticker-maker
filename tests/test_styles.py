@@ -17,7 +17,7 @@ from scripts.make_test_fixture import create_sample_photo
 
 def test_builtin_style_presets_catalog_real_person_only():
     presets = list_style_presets()
-    assert len(presets) >= 26
+    assert len(presets) >= 100
     core_ids = {
         "real-cutout",
         "real-variety-meme",
@@ -52,7 +52,7 @@ def test_korean_japanese_chinese_style_series():
         assert normalize_region(aliases[0]) == region
         for alias in aliases:
             group = list_style_presets(region=alias)
-            assert len(group) >= 6, (region, alias)
+            assert len(group) >= 30, (region, alias)
             assert all(p.region == region for p in group)
     assert {p.id for p in list_style_presets(region="kr")} >= {"real-kr-idol-selfie", "real-kr-drama", "real-purikura"}
     assert {p.id for p in list_style_presets(region="jp")} >= {"real-jp-airy", "real-jp-fuji-film", "real-jp-purikura"}
