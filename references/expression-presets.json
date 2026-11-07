@@ -1599,7 +1599,7 @@
       "ko": "뭐라고??"
     },
     "mood": "baffled",
-    "static_pose": "scratching head with puzzled face, floating curly question-mark symbols",
+    "static_pose": "scratching head or touching cheek with a puzzled confused face and raised eyebrows",
     "text_layout": "none",
     "bubble": null,
     "motion": {
@@ -1709,7 +1709,7 @@
       "ko": "기절"
     },
     "mood": "overwhelmed",
-    "static_pose": "leaning far back with arms flopped, dizzy swirl eyes, spirals above head",
+    "static_pose": "tilting head back slightly with one hand resting weakly on forehead, real half-closed dizzy exhausted eyes",
     "text_layout": "none",
     "bubble": null,
     "motion": {
