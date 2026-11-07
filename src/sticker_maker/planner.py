@@ -27,6 +27,47 @@ CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
     "festival": {"zh": "节日祝福", "en": "Festivals"},
     "status": {"zh": "状态", "en": "Status"},
     "social": {"zh": "社交互动", "en": "Social"},
+    "gaming": {"zh": "开黑电竞", "en": "Gaming & Esports"},
+    "fandom": {"zh": "追星打Call", "en": "Fandom & Stan"},
+    "wealth": {"zh": "搞钱暴富", "en": "Wealth & Red Packet"},
+    "foodie": {"zh": "干饭奶茶", "en": "Foodie & Boba"},
+    "campus": {"zh": "学生考研", "en": "Campus & Exams"},
+    "sassy": {"zh": "阴阳怪气/茶艺", "en": "Sassy & Sarcastic"},
+    "mental": {"zh": "发疯精神状态", "en": "Unhinged Mental State"},
+    "pet_collab": {"zh": "萌宠同框", "en": "Pet Collab"},
+}
+
+CATEGORY_ALIASES: Dict[str, str] = {
+    "问候": "greeting", "开心": "positive", "难过": "negative", "生气": "negative",
+    "震惊": "surprise", "回复": "reply", "礼貌": "polite", "爱意": "love", "亲密": "love",
+    "夸奖": "praise", "日常": "daily", "打工": "work", "职场": "work", "吐槽": "meme",
+    "节日": "festival", "状态": "status", "社交": "social",
+    "电竞": "gaming", "游戏": "gaming", "开黑": "gaming", "game": "gaming",
+    "追星": "fandom", "打call": "fandom", "爱豆": "fandom", "stan": "fandom",
+    "搞钱": "wealth", "暴富": "wealth", "财运": "wealth", "红包": "wealth", "money": "wealth",
+    "干饭": "foodie", "吃货": "foodie", "奶茶": "foodie", "美食": "foodie", "food": "foodie",
+    "学生": "campus", "校园": "campus", "考研": "campus", "早八": "campus", "study": "campus",
+    "阴阳怪气": "sassy", "茶艺": "sassy", "反讽": "sassy", "怼人": "sassy",
+    "发疯": "mental", "精神状态": "mental", "emo": "mental", "crazy": "mental",
+    "萌宠": "pet_collab", "猫狗": "pet_collab", "吸猫": "pet_collab", "pet": "pet_collab",
+}
+
+THEME_PACKS: Dict[str, Dict[str, object]] = {
+    "打工人": {"pack_type": "mixed", "categories": ["work", "mental", "reply"], "meme_categories": ["work-life"], "style": "real-cn-work-survival", "desc": "早八困成狗、收到、持证摸鱼、光速下班全套打工人续命包"},
+    "发疯": {"pack_type": "mixed", "categories": ["mental", "sassy", "meme"], "meme_categories": ["abstract"], "style": "real-high-contrast", "desc": "精神状态美丽、已老实求放过、发疯指数999%高能抽象包"},
+    "干饭": {"pack_type": "expressions", "categories": ["foodie", "daily", "positive"], "style": "real-kr-cafe-film", "desc": "奶茶续命、夜宵烧烤、吃饱再减肥吃货专属包"},
+    "搞钱": {"pack_type": "expressions", "categories": ["wealth", "festival", "praise"], "style": "real-cn-bazi-lucky", "desc": "接泼天富贵、红包拿来、老板大气、一夜暴富锦鲤包"},
+    "电竞": {"pack_type": "expressions", "categories": ["gaming", "meme", "sassy"], "style": "real-cyber-neon", "desc": "上号开黑、求大佬带飞、这波天秀、网卡460开黑包"},
+    "追星": {"pack_type": "expressions", "categories": ["fandom", "love", "praise"], "style": "real-kr-photocard", "desc": "为姐姐打Call、神颜暴击、嗑死我了、抢到票了追星同好包"},
+    "阴阳怪气": {"pack_type": "expressions", "categories": ["sassy", "meme"], "style": "real-vogue-editorial", "desc": "就这？那你很棒哦、品一口好茶、退退退反讽斗图包"},
+    "学生党": {"pack_type": "expressions", "categories": ["campus", "mental", "daily"], "style": "real-jp-school-rooftop", "desc": "逢考必过、极限赶DDL、早八人、论文一把过校园包"},
+    "萌宠": {"pack_type": "expressions", "categories": ["pet_collab", "love", "daily"], "style": "real-jp-airy", "desc": "吸猫续命、修勾打招呼、同步歪头杀、卑微铲屎官萌宠同框包"},
+    "闺蜜": {"pack_type": "duo", "duo_categories": ["besties"], "style": "real-purikura", "desc": "贴脸比耶、奶茶干杯、吃瓜八卦、护短抱抱闺蜜双人包"},
+    "情侣": {"pack_type": "duo", "duo_categories": ["couple"], "style": "real-kr-drama", "desc": "摸头杀、背后抱、捏脸宠溺、额头相抵情侣甜宠双人包"},
+    "百合": {"pack_type": "duo", "duo_categories": ["yuri"], "style": "real-jp-sakura-film", "desc": "指尖挑下巴、清冷姐姐壁咚、双女主宿命感贴脸百合双人包"},
+    "双男主": {"pack_type": "duo", "duo_categories": ["yaoi"], "style": "real-blue-hour", "desc": "拽领带对视、西装背靠背、雨夜共撑黑伞双男主宿命感包"},
+    "欢喜冤家": {"pack_type": "duo", "duo_categories": ["rivals"], "style": "real-variety-meme", "desc": "互相扯脸、弹脑门、偷喝奶茶、吵架秒和好相爱相杀双人包"},
+    "亲子": {"pack_type": "duo", "duo_categories": ["family"], "style": "real-film-kodak-gold", "desc": "大小同款托腮、有姐在别怕、戳乖宝脸蛋家庭温情双人包"},
 }
 
 MEME_CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
@@ -325,7 +366,7 @@ def plan_expressions(
                 selected.append(item_map[iid])
 
     if categories:
-        cats = {c.strip().lower() for c in categories if c.strip()}
+        cats = {CATEGORY_ALIASES.get(c.strip().lower(), CATEGORY_ALIASES.get(c.strip(), c.strip().lower())) for c in categories if c.strip()}
         unknown = cats - {it.category for it in all_items}
         if unknown:
             raise ValueError(f"Unknown categories: {sorted(unknown)}. Available: {sorted(CATEGORY_LABELS)}")

@@ -22,7 +22,7 @@ REAL_PERSON_NEGATIVE = (
     "no face swapping, no extra limbs, no text, no letters, no speech bubbles."
 )
 
-DUO_CATEGORIES = ("besties", "couple", "yuri")
+DUO_CATEGORIES = ("besties", "couple", "yuri", "yaoi", "rivals", "family")
 
 DUO_CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
     "besties": {
@@ -46,6 +46,27 @@ DUO_CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
         "ja": "百合・双女主",
         "desc_zh": "挑下巴对视、壁咚心动、十指紧扣、姐姐贴贴、宿命感双女主等 36 款真人百合互动",
     },
+    "yaoi": {
+        "zh": "双男主/兄弟耽美",
+        "en": "Yaoi / BL / Bromance",
+        "ko": "벨 / 브로맨스",
+        "ja": "BL・双男主・相棒",
+        "desc_zh": "指尖拽领带对视、西装背靠背、单手撑墙耳语、雨夜共撑黑伞等 20 款真人双男主互动",
+    },
+    "rivals": {
+        "zh": "欢喜冤家/相爱相杀",
+        "en": "Playful Rivals",
+        "ko": "앙숙 케미 / 티격태격",
+        "ja": "喧嘩するほど仲がいい",
+        "desc_zh": "互相扯脸颊、石头剪刀布弹脑门、偷喝奶茶、吵完秒和好等 20 款真人相爱相杀互动",
+    },
+    "family": {
+        "zh": "亲子/姐弟兄妹萌娃",
+        "en": "Family & Siblings",
+        "ko": "가족 / 남매 / 귀요미",
+        "ja": "家族・姉弟・キッズ",
+        "desc_zh": "大小同款托腮、姐姐护短、宠溺捏脸、发红包摸头等 20 款真人家庭温情互动",
+    },
 }
 
 _DUO_ALIASES: Dict[str, str] = {
@@ -55,6 +76,12 @@ _DUO_ALIASES: Dict[str, str] = {
     "情侣": "couple", "恋爱": "couple", "对象": "couple", "cp": "couple",
     "yuri": "yuri", "gl": "yuri", "girls-love": "yuri", "wlw": "yuri",
     "百合": "yuri", "双女主": "yuri", "姐姐": "yuri", "姬": "yuri",
+    "yaoi": "yaoi", "bl": "yaoi", "bromance": "yaoi", "boys-love": "yaoi",
+    "双男主": "yaoi", "耽美": "yaoi", "兄弟": "yaoi",
+    "rivals": "rivals", "rival": "rivals", "enemies": "rivals", "bicker": "rivals",
+    "欢喜冤家": "rivals", "冤家": "rivals", "相爱相杀": "rivals", "互怼": "rivals", "损友": "rivals",
+    "family": "family", "siblings": "family", "kids": "family", "parent": "family",
+    "亲子": "family", "姐弟": "family", "兄妹": "family", "萌娃": "family", "家人": "family",
 }
 
 

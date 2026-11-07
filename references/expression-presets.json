@@ -4800,5 +4800,3613 @@
         "hair_or_fur_pattern"
       ]
     }
+  },
+  {
+    "id": "133_game_log_on",
+    "category": "gaming",
+    "caption": "上号开黑",
+    "captions": {
+      "zh-CN": "上号开黑",
+      "zh-TW": "上號開黑",
+      "en": "Log on!",
+      "ja": "ログインして!",
+      "ko": "접속해!"
+    },
+    "mood": "gaming-excited",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: putting on gaming headset with one hand and beckoning excitedly toward the camera. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "上号开黑",
+        "zh-TW": "上號開黑",
+        "en": "Log on!",
+        "ja": "ログインして!",
+        "ko": "접속해!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — putting on gaming headset with one hand and beckoning excitedly toward the camera; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — putting on gaming headset with one hand and beckoning excitedly toward the camera with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — putting on gaming headset with one hand and beckoning excitedly toward the camera at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "134_game_carry_me",
+    "category": "gaming",
+    "caption": "求大佬带飞",
+    "captions": {
+      "zh-CN": "求大佬带飞",
+      "zh-TW": "求大佬帶飛",
+      "en": "Carry me pls",
+      "ja": "キャリーして",
+      "ko": "버스 태워줘"
+    },
+    "mood": "gaming-pleading",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: clasping hands together with sparkling puppy eyes begging to be carried in a game. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "求大佬带飞",
+        "zh-TW": "求大佬帶飛",
+        "en": "Carry me pls",
+        "ja": "キャリーして",
+        "ko": "버스 태워줘"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — clasping hands together with sparkling puppy eyes begging to be carried in a game; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — clasping hands together with sparkling puppy eyes begging to be carried in a game with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — clasping hands together with sparkling puppy eyes begging to be carried in a game at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "135_game_easy_win",
+    "category": "gaming",
+    "caption": "躺赢真爽",
+    "captions": {
+      "zh-CN": "躺赢真爽",
+      "zh-TW": "躺贏真爽",
+      "en": "Easy win",
+      "ja": "楽勝すぎ",
+      "ko": "누워서 이김"
+    },
+    "mood": "gaming-smug",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: leaning back lazily with hands behind head and a smug relaxed grin. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — leaning back lazily with hands behind head and a smug relaxed grin; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — leaning back lazily with hands behind head and a smug relaxed grin with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — leaning back lazily with hands behind head and a smug relaxed grin at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "136_game_lag_460",
+    "category": "gaming",
+    "caption": "网卡460了",
+    "captions": {
+      "zh-CN": "网卡460了",
+      "zh-TW": "網卡460了",
+      "en": "Lagging!",
+      "ja": "ラグい!",
+      "ko": "렉 걸렸어!"
+    },
+    "mood": "gaming-frustrated",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: staring blankly at phone held up in hand, tapping screen in frustration. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "网卡460了",
+        "zh-TW": "網卡460了",
+        "en": "Lagging!",
+        "ja": "ラグい!",
+        "ko": "렉 걸렸어!"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — staring blankly at phone held up in hand, tapping screen in frustration; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — staring blankly at phone held up in hand, tapping screen in frustration with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — staring blankly at phone held up in hand, tapping screen in frustration at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "137_game_clutch_play",
+    "category": "gaming",
+    "caption": "这波天秀",
+    "captions": {
+      "zh-CN": "这波天秀",
+      "zh-TW": "這波天秀",
+      "en": "Godlike play",
+      "ja": "今の神プレイ",
+      "ko": "방금 미쳤다"
+    },
+    "mood": "gaming-proud",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: blowing imaginary smoke off fingertips with a cool confident smirk. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — blowing imaginary smoke off fingertips with a cool confident smirk; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — blowing imaginary smoke off fingertips with a cool confident smirk with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — blowing imaginary smoke off fingertips with a cool confident smirk at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "138_game_teammates",
+    "category": "gaming",
+    "caption": "真带不动",
+    "captions": {
+      "zh-CN": "真带不动",
+      "zh-TW": "真帶不動",
+      "en": "Can't carry",
+      "ja": "味方が重い",
+      "ko": "팀운 실화냐"
+    },
+    "mood": "gaming-exhausted",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: pinching the bridge of the nose with eyes closed in deep gaming despair. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "真带不动",
+        "zh-TW": "真帶不動",
+        "en": "Can't carry",
+        "ja": "味方が重い",
+        "ko": "팀운 실화냐"
+      },
+      "shape": "oval",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — pinching the bridge of the nose with eyes closed in deep gaming despair; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — pinching the bridge of the nose with eyes closed in deep gaming despair with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — pinching the bridge of the nose with eyes closed in deep gaming despair at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "139_game_one_more",
+    "category": "gaming",
+    "caption": "最后亿把",
+    "captions": {
+      "zh-CN": "最后亿把",
+      "zh-TW": "最後億把",
+      "en": "One last match",
+      "ja": "あと1戦だけ!",
+      "ko": "진짜 막판!"
+    },
+    "mood": "gaming-determined",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding up one index finger with dark eye circles and fiery determination. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "最后亿把",
+        "zh-TW": "最後億把",
+        "en": "One last match",
+        "ja": "あと1戦だけ!",
+        "ko": "진짜 막판!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding up one index finger with dark eye circles and fiery determination; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding up one index finger with dark eye circles and fiery determination with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding up one index finger with dark eye circles and fiery determination at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "140_game_gg_wp",
+    "category": "gaming",
+    "caption": "打得不错",
+    "captions": {
+      "zh-CN": "打得不错",
+      "zh-TW": "打得不錯",
+      "en": "GGWP!",
+      "ja": "ナイスゲーム!",
+      "ko": "수고했어!"
+    },
+    "mood": "gaming-respect",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: giving a clean respectful two-finger salute with a warm smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — giving a clean respectful two-finger salute with a warm smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — giving a clean respectful two-finger salute with a warm smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — giving a clean respectful two-finger salute with a warm smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "141_game_rage_quit",
+    "category": "gaming",
+    "caption": "心态崩了",
+    "captions": {
+      "zh-CN": "心态崩了",
+      "zh-TW": "心態崩了",
+      "en": "Tilted",
+      "ja": "メンタル崩壊",
+      "ko": "멘탈 터짐"
+    },
+    "mood": "gaming-tilted",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: ruffling own hair with both hands and a dramatic meltdown expression. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "心态崩了",
+        "zh-TW": "心態崩了",
+        "en": "Tilted",
+        "ja": "メンタル崩壊",
+        "ko": "멘탈 터짐"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — ruffling own hair with both hands and a dramatic meltdown expression; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — ruffling own hair with both hands and a dramatic meltdown expression with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — ruffling own hair with both hands and a dramatic meltdown expression at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "142_game_loot_gold",
+    "category": "gaming",
+    "caption": "出金了!",
+    "captions": {
+      "zh-CN": "出金了!",
+      "zh-TW": "出金了!",
+      "en": "SSR Drop!",
+      "ja": "SSR出た!",
+      "ko": "전설 떴다!"
+    },
+    "mood": "gaming-ecstatic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: gasping with both hands covering mouth and eyes wide at a golden phone glow. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "出金了!",
+        "zh-TW": "出金了!",
+        "en": "SSR Drop!",
+        "ja": "SSR出た!",
+        "ko": "전설 떴다!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — gasping with both hands covering mouth and eyes wide at a golden phone glow; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — gasping with both hands covering mouth and eyes wide at a golden phone glow with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — gasping with both hands covering mouth and eyes wide at a golden phone glow at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "143_game_afk_sleep",
+    "category": "gaming",
+    "caption": "挂机睡觉",
+    "captions": {
+      "zh-CN": "挂机睡觉",
+      "zh-TW": "掛機睡覺",
+      "en": "Going AFK",
+      "ja": "放置寝落ち",
+      "ko": "잠수 탄다"
+    },
+    "mood": "gaming-sleepy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: resting chin on desk with headset sliding off one ear and eyelids drooping. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — resting chin on desk with headset sliding off one ear and eyelids drooping; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — resting chin on desk with headset sliding off one ear and eyelids drooping with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — resting chin on desk with headset sliding off one ear and eyelids drooping at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "144_fan_lightstick",
+    "category": "fandom",
+    "caption": "为姐姐打CALL",
+    "captions": {
+      "zh-CN": "为姐姐打CALL",
+      "zh-TW": "為姐姐打CALL",
+      "en": "Stan forever!",
+      "ja": "一生推す!",
+      "ko": "언니 사랑해!"
+    },
+    "mood": "fandom-cheering",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: waving a glowing concert lightstick with starry-eyed excitement. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "为姐姐打CALL",
+        "zh-TW": "為姐姐打CALL",
+        "en": "Stan forever!",
+        "ja": "一生推す!",
+        "ko": "언니 사랑해!"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — waving a glowing concert lightstick with starry-eyed excitement; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — waving a glowing concert lightstick with starry-eyed excitement with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — waving a glowing concert lightstick with starry-eyed excitement at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "145_fan_visual_shock",
+    "category": "fandom",
+    "caption": "神颜暴击",
+    "captions": {
+      "zh-CN": "神颜暴击",
+      "zh-TW": "神顏暴擊",
+      "en": "Visual attack!",
+      "ja": "顔面国宝すぎ",
+      "ko": "미모 실화냐"
+    },
+    "mood": "fandom-stunned",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: clutching chest dramatically as if pierced through the heart by beauty. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — clutching chest dramatically as if pierced through the heart by beauty; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — clutching chest dramatically as if pierced through the heart by beauty with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — clutching chest dramatically as if pierced through the heart by beauty at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "146_fan_got_tickets",
+    "category": "fandom",
+    "caption": "抢到票了!",
+    "captions": {
+      "zh-CN": "抢到票了!",
+      "zh-TW": "搶到票了!",
+      "en": "Got tickets!",
+      "ja": "神席当選!",
+      "ko": "티켓팅 성공!"
+    },
+    "mood": "fandom-triumph",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: pumping both fists in the air with tears of pure joy. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "抢到票了!",
+        "zh-TW": "搶到票了!",
+        "en": "Got tickets!",
+        "ja": "神席当選!",
+        "ko": "티켓팅 성공!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — pumping both fists in the air with tears of pure joy; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — pumping both fists in the air with tears of pure joy with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — pumping both fists in the air with tears of pure joy at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "147_fan_ship_otp",
+    "category": "fandom",
+    "caption": "嗑死我了",
+    "captions": {
+      "zh-CN": "嗑死我了",
+      "zh-TW": "嗑死我了",
+      "en": "My OTP!",
+      "ja": "尊すぎて無理",
+      "ko": "이 주식 산다"
+    },
+    "mood": "fandom-fangirl",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: hiding lower face behind both hands while peeking with a huge giddy grin. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "嗑死我了",
+        "zh-TW": "嗑死我了",
+        "en": "My OTP!",
+        "ja": "尊すぎて無理",
+        "ko": "이 주식 산다"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — hiding lower face behind both hands while peeking with a huge giddy grin; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — hiding lower face behind both hands while peeking with a huge giddy grin with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — hiding lower face behind both hands while peeking with a huge giddy grin at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "148_fan_front_row",
+    "category": "fandom",
+    "caption": "前排围观",
+    "captions": {
+      "zh-CN": "前排围观",
+      "zh-TW": "前排圍觀",
+      "en": "Front row!",
+      "ja": "最前列待機",
+      "ko": "1열 직관 중"
+    },
+    "mood": "fandom-eager",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: leaning forward resting chin on palms with binoculars-like finger rings. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — leaning forward resting chin on palms with binoculars-like finger rings; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — leaning forward resting chin on palms with binoculars-like finger rings with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — leaning forward resting chin on palms with binoculars-like finger rings at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "149_fan_screaming",
+    "category": "fandom",
+    "caption": "啊啊啊太美了",
+    "captions": {
+      "zh-CN": "啊啊啊太美了",
+      "zh-TW": "啊啊啊太美了",
+      "en": "Screaming!!",
+      "ja": "ビジュ爆発!",
+      "ko": "미쳤다 진짜!"
+    },
+    "mood": "fandom-scream",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: cupping hands around mouth shouting praises with sparkling eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "啊啊啊太美了",
+        "zh-TW": "啊啊啊太美了",
+        "en": "Screaming!!",
+        "ja": "ビジュ爆発!",
+        "ko": "미쳤다 진짜!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — cupping hands around mouth shouting praises with sparkling eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — cupping hands around mouth shouting praises with sparkling eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — cupping hands around mouth shouting praises with sparkling eyes at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "150_fan_camera_snap",
+    "category": "fandom",
+    "caption": "狂按快门",
+    "captions": {
+      "zh-CN": "狂按快门",
+      "zh-TW": "狂按快門",
+      "en": "Taking 999 pics",
+      "ja": "連写止まらん",
+      "ko": "연사 찍는 중"
+    },
+    "mood": "fandom-focused",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding up a camera lens at eye level with intense focused devotion. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding up a camera lens at eye level with intense focused devotion; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding up a camera lens at eye level with intense focused devotion with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding up a camera lens at eye level with intense focused devotion at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "151_fan_crying_beauty",
+    "category": "fandom",
+    "caption": "美哭我了",
+    "captions": {
+      "zh-CN": "美哭我了",
+      "zh-TW": "美哭我了",
+      "en": "So pretty I cry",
+      "ja": "美しすぎて泣く",
+      "ko": "예뻐서 눈물나"
+    },
+    "mood": "fandom-moved",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: dabbing the corner of one eye with a tissue while smiling lovingly. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "美哭我了",
+        "zh-TW": "美哭我了",
+        "en": "So pretty I cry",
+        "ja": "美しすぎて泣く",
+        "ko": "예뻐서 눈물나"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — dabbing the corner of one eye with a tissue while smiling lovingly; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — dabbing the corner of one eye with a tissue while smiling lovingly with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — dabbing the corner of one eye with a tissue while smiling lovingly at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "152_fan_banner_up",
+    "category": "fandom",
+    "caption": "排面拉满",
+    "captions": {
+      "zh-CN": "排面拉满",
+      "zh-TW": "排面拉滿",
+      "en": "Full support!",
+      "ja": "全力応援!",
+      "ko": "응원 준비 끝!"
+    },
+    "mood": "fandom-proud",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding both hands above head as if displaying a cheering slogan banner. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding both hands above head as if displaying a cheering slogan banner; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding both hands above head as if displaying a cheering slogan banner with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding both hands above head as if displaying a cheering slogan banner at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "153_fan_fancall_shy",
+    "category": "fandom",
+    "caption": "签售会紧张",
+    "captions": {
+      "zh-CN": "签售会紧张",
+      "zh-TW": "簽售會緊張",
+      "en": "So nervous~",
+      "ja": "ヨントン緊張",
+      "ko": "영통 팬싸 떨려"
+    },
+    "mood": "fandom-shy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: fanning blushing cheeks with both hands before a video call. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "签售会紧张",
+        "zh-TW": "簽售會緊張",
+        "en": "So nervous~",
+        "ja": "ヨントン緊張",
+        "ko": "영통 팬싸 떨려"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — fanning blushing cheeks with both hands before a video call; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — fanning blushing cheeks with both hands before a video call with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — fanning blushing cheeks with both hands before a video call at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "154_fan_protect_idol",
+    "category": "fandom",
+    "caption": "守护全世界最好的你",
+    "captions": {
+      "zh-CN": "守护全世界最好的你",
+      "zh-TW": "守護全世界最好的你",
+      "en": "Must protect",
+      "ja": "全力で守る",
+      "ko": "절대 지켜"
+    },
+    "mood": "fandom-protective",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: spreading both arms wide in a warm protective stance. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "守护全世界最好的你",
+        "zh-TW": "守護全世界最好的你",
+        "en": "Must protect",
+        "ja": "全力で守る",
+        "ko": "절대 지켜"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — spreading both arms wide in a warm protective stance; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — spreading both arms wide in a warm protective stance with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — spreading both arms wide in a warm protective stance at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "155_wealth_get_rich",
+    "category": "wealth",
+    "caption": "接泼天富贵",
+    "captions": {
+      "zh-CN": "接泼天富贵",
+      "zh-TW": "接潑天富貴",
+      "en": "Manifesting wealth",
+      "ja": "金運爆上がり!",
+      "ko": "대박 기원!"
+    },
+    "mood": "wealth-hopeful",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: opening both palms upward toward the sky to catch falling fortune. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "接泼天富贵",
+        "zh-TW": "接潑天富貴",
+        "en": "Manifesting wealth",
+        "ja": "金運爆上がり!",
+        "ko": "대박 기원!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — opening both palms upward toward the sky to catch falling fortune; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — opening both palms upward toward the sky to catch falling fortune with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — opening both palms upward toward the sky to catch falling fortune at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "156_wealth_make_money",
+    "category": "wealth",
+    "caption": "搞钱要紧",
+    "captions": {
+      "zh-CN": "搞钱要紧",
+      "zh-TW": "搞錢要緊",
+      "en": "Hustle time",
+      "ja": "稼ぐぞ!",
+      "ko": "돈 벌러 간다"
+    },
+    "mood": "wealth-focused",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: adjusting sunglasses with a sharp determined business smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — adjusting sunglasses with a sharp determined business smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — adjusting sunglasses with a sharp determined business smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — adjusting sunglasses with a sharp determined business smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "157_wealth_red_packet",
+    "category": "wealth",
+    "caption": "红包拿来",
+    "captions": {
+      "zh-CN": "红包拿来",
+      "zh-TW": "紅包拿來",
+      "en": "Red packet pls",
+      "ja": "お年玉ちょうだい",
+      "ko": "세뱃돈 주세요"
+    },
+    "mood": "wealth-playful",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: extending both hands palms-up with a cheeky expectant wink. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "红包拿来",
+        "zh-TW": "紅包拿來",
+        "en": "Red packet pls",
+        "ja": "お年玉ちょうだい",
+        "ko": "세뱃돈 주세요"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — extending both hands palms-up with a cheeky expectant wink; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — extending both hands palms-up with a cheeky expectant wink with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — extending both hands palms-up with a cheeky expectant wink at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "158_wealth_boss_generous",
+    "category": "wealth",
+    "caption": "老板大气!",
+    "captions": {
+      "zh-CN": "老板大气!",
+      "zh-TW": "老闆大氣!",
+      "en": "Boss is generous!",
+      "ja": "太っ腹!",
+      "ko": "사장님 최고!"
+    },
+    "mood": "wealth-flattering",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: giving two enthusiastic thumbs-up with a deep appreciative bow. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "老板大气!",
+        "zh-TW": "老闆大氣!",
+        "en": "Boss is generous!",
+        "ja": "太っ腹!",
+        "ko": "사장님 최고!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — giving two enthusiastic thumbs-up with a deep appreciative bow; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — giving two enthusiastic thumbs-up with a deep appreciative bow with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — giving two enthusiastic thumbs-up with a deep appreciative bow at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "159_wealth_one_cent",
+    "category": "wealth",
+    "caption": "才抢一分钱",
+    "captions": {
+      "zh-CN": "才抢一分钱",
+      "zh-TW": "才搶一分錢",
+      "en": "Only 1 cent?!",
+      "ja": "たった1円?!",
+      "ko": "겨우 10원?!"
+    },
+    "mood": "wealth-shocked",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: squinting closely at thumb and index finger pinched tiny bit apart. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "才抢一分钱",
+        "zh-TW": "才搶一分錢",
+        "en": "Only 1 cent?!",
+        "ja": "たった1円?!",
+        "ko": "겨우 10원?!"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — squinting closely at thumb and index finger pinched tiny bit apart; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — squinting closely at thumb and index finger pinched tiny bit apart with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — squinting closely at thumb and index finger pinched tiny bit apart at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "160_wealth_broke_dirt",
+    "category": "wealth",
+    "caption": "钱包空空",
+    "captions": {
+      "zh-CN": "钱包空空",
+      "zh-TW": "錢包空空",
+      "en": "Flat broke",
+      "ja": "金欠すぎる",
+      "ko": "텅장 됐어..."
+    },
+    "mood": "wealth-broke",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: turning empty pockets inside out with a pitiful pout. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — turning empty pockets inside out with a pitiful pout; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — turning empty pockets inside out with a pitiful pout with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — turning empty pockets inside out with a pitiful pout at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "161_wealth_v_me_50",
+    "category": "wealth",
+    "caption": "V我50看看实力",
+    "captions": {
+      "zh-CN": "V我50看看实力",
+      "zh-TW": "V我50看看實力",
+      "en": "Send $50",
+      "ja": "500円送って",
+      "ko": "치킨값 쏴봐"
+    },
+    "mood": "wealth-teasing",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: making a 5 and 0 gesture with both hands and raising one eyebrow. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "V我50看看实力",
+        "zh-TW": "V我50看看實力",
+        "en": "Send $50",
+        "ja": "500円送って",
+        "ko": "치킨값 쏴봐"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — making a 5 and 0 gesture with both hands and raising one eyebrow; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — making a 5 and 0 gesture with both hands and raising one eyebrow with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — making a 5 and 0 gesture with both hands and raising one eyebrow at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "162_wealth_payday_joy",
+    "category": "wealth",
+    "caption": "发工资啦!",
+    "captions": {
+      "zh-CN": "发工资啦!",
+      "zh-TW": "發工資啦!",
+      "en": "Payday!!",
+      "ja": "給料日キター!",
+      "ko": "월급날이다!"
+    },
+    "mood": "wealth-ecstatic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: throwing arms up in celebration with a radiant carefree laugh. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "发工资啦!",
+        "zh-TW": "發工資啦!",
+        "en": "Payday!!",
+        "ja": "給料日キター!",
+        "ko": "월급날이다!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — throwing arms up in celebration with a radiant carefree laugh; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — throwing arms up in celebration with a radiant carefree laugh with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — throwing arms up in celebration with a radiant carefree laugh at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "163_wealth_sugar_friend",
+    "category": "wealth",
+    "caption": "富婆抱抱我",
+    "captions": {
+      "zh-CN": "富婆抱抱我",
+      "zh-TW": "富婆抱抱我",
+      "en": "Spoil me pls",
+      "ja": "貢いでほしい",
+      "ko": "부자 언니 안아줘"
+    },
+    "mood": "wealth-clingy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: reaching arms out for a hug with shameless adorable puppy eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "富婆抱抱我",
+        "zh-TW": "富婆抱抱我",
+        "en": "Spoil me pls",
+        "ja": "貢いでほしい",
+        "ko": "부자 언니 안아줘"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — reaching arms out for a hug with shameless adorable puppy eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — reaching arms out for a hug with shameless adorable puppy eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — reaching arms out for a hug with shameless adorable puppy eyes at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "164_wealth_lottery_pray",
+    "category": "wealth",
+    "caption": "一夜暴富",
+    "captions": {
+      "zh-CN": "一夜暴富",
+      "zh-TW": "一夜暴富",
+      "en": "Instant millionaire",
+      "ja": "一攫千金",
+      "ko": "로또 1등 기원"
+    },
+    "mood": "wealth-praying",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: pressing palms together in earnest prayer with eyes tightly shut. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — pressing palms together in earnest prayer with eyes tightly shut; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — pressing palms together in earnest prayer with eyes tightly shut with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — pressing palms together in earnest prayer with eyes tightly shut at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "165_wealth_bill_shock",
+    "category": "wealth",
+    "caption": "账单刺客",
+    "captions": {
+      "zh-CN": "账单刺客",
+      "zh-TW": "帳單刺客",
+      "en": "Bill shock!",
+      "ja": "請求書エグい",
+      "ko": "카드값 실화냐"
+    },
+    "mood": "wealth-horrified",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: recoiling backward holding chest while staring at a long receipt. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "账单刺客",
+        "zh-TW": "帳單刺客",
+        "en": "Bill shock!",
+        "ja": "請求書エグい",
+        "ko": "카드값 실화냐"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — recoiling backward holding chest while staring at a long receipt; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — recoiling backward holding chest while staring at a long receipt with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — recoiling backward holding chest while staring at a long receipt at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "166_food_boba_gulp",
+    "category": "foodie",
+    "caption": "奶茶续命",
+    "captions": {
+      "zh-CN": "奶茶续命",
+      "zh-TW": "奶茶續命",
+      "en": "Boba life",
+      "ja": "タピオカ最高",
+      "ko": "버블티 수혈"
+    },
+    "mood": "foodie-bliss",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: happily sipping a large boba milk tea with cheeks puffed up. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "奶茶续命",
+        "zh-TW": "奶茶續命",
+        "en": "Boba life",
+        "ja": "タピオカ最高",
+        "ko": "버블티 수혈"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — happily sipping a large boba milk tea with cheeks puffed up; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — happily sipping a large boba milk tea with cheeks puffed up with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — happily sipping a large boba milk tea with cheeks puffed up at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "167_food_late_snack",
+    "category": "foodie",
+    "caption": "吃夜宵吗?",
+    "captions": {
+      "zh-CN": "吃夜宵吗?",
+      "zh-TW": "吃宵夜嗎?",
+      "en": "Late-night snack?",
+      "ja": "夜食いく?",
+      "ko": "야식 먹을래?"
+    },
+    "mood": "foodie-tempting",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: leaning in conspiratorially with a mischievous foodie grin. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "吃夜宵吗?",
+        "zh-TW": "吃宵夜嗎?",
+        "en": "Late-night snack?",
+        "ja": "夜食いく?",
+        "ko": "야식 먹을래?"
+      },
+      "shape": "whisper",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — leaning in conspiratorially with a mischievous foodie grin; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — leaning in conspiratorially with a mischievous foodie grin with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — leaning in conspiratorially with a mischievous foodie grin at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "168_food_diet_tomorrow",
+    "category": "foodie",
+    "caption": "吃饱再减肥",
+    "captions": {
+      "zh-CN": "吃饱再减肥",
+      "zh-TW": "吃飽再減肥",
+      "en": "Diet starts tmr",
+      "ja": "明日から痩せる",
+      "ko": "다이어트는 내일부터"
+    },
+    "mood": "foodie-guilty",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: patting belly contentedly with a carefree shameless smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — patting belly contentedly with a carefree shameless smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — patting belly contentedly with a carefree shameless smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — patting belly contentedly with a carefree shameless smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "169_food_feed_me",
+    "category": "foodie",
+    "caption": "饿饿饭饭",
+    "captions": {
+      "zh-CN": "饿饿饭饭",
+      "zh-TW": "餓餓飯飯",
+      "en": "Feed me pls",
+      "ja": "お腹すいた〜",
+      "ko": "배고파 밥 줘"
+    },
+    "mood": "foodie-hungry",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding chopsticks upright and looking at the viewer with hungry eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "饿饿饭饭",
+        "zh-TW": "餓餓飯飯",
+        "en": "Feed me pls",
+        "ja": "お腹すいた〜",
+        "ko": "배고파 밥 줘"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding chopsticks upright and looking at the viewer with hungry eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding chopsticks upright and looking at the viewer with hungry eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding chopsticks upright and looking at the viewer with hungry eyes at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "170_food_so_yummy",
+    "category": "foodie",
+    "caption": "香迷糊了",
+    "captions": {
+      "zh-CN": "香迷糊了",
+      "zh-TW": "香迷糊了",
+      "en": "So yummy!",
+      "ja": "うますぎる!",
+      "ko": "존맛탱!!"
+    },
+    "mood": "foodie-delighted",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: cupping one cheek in bliss with eyes curved into happy crescents. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — cupping one cheek in bliss with eyes curved into happy crescents; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — cupping one cheek in bliss with eyes curved into happy crescents with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — cupping one cheek in bliss with eyes curved into happy crescents at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "171_food_hotpot_call",
+    "category": "foodie",
+    "caption": "走，吃火锅!",
+    "captions": {
+      "zh-CN": "走，吃火锅!",
+      "zh-TW": "走，吃火鍋!",
+      "en": "Hotpot tonight!",
+      "ja": "鍋パしよう!",
+      "ko": "훠궈 먹으러 가자!"
+    },
+    "mood": "foodie-energetic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: waving one arm forward like leading a charge to a restaurant. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "走，吃火锅!",
+        "zh-TW": "走，吃火鍋!",
+        "en": "Hotpot tonight!",
+        "ja": "鍋パしよう!",
+        "ko": "훠궈 먹으러 가자!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — waving one arm forward like leading a charge to a restaurant; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — waving one arm forward like leading a charge to a restaurant with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — waving one arm forward like leading a charge to a restaurant at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "172_food_coffee_iv",
+    "category": "foodie",
+    "caption": "冰美式续命",
+    "captions": {
+      "zh-CN": "冰美式续命",
+      "zh-TW": "冰美式續命",
+      "en": "Iced Americano IV",
+      "ja": "カフェイン補給",
+      "ko": "아아 수혈 중"
+    },
+    "mood": "foodie-tired",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding an iced coffee cup against forehead with half-awake eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding an iced coffee cup against forehead with half-awake eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding an iced coffee cup against forehead with half-awake eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding an iced coffee cup against forehead with half-awake eyes at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "173_food_too_spicy",
+    "category": "foodie",
+    "caption": "斯哈斯哈好辣",
+    "captions": {
+      "zh-CN": "斯哈斯哈好辣",
+      "zh-TW": "斯哈斯哈好辣",
+      "en": "So spicy!!",
+      "ja": "辛すぎて無理!",
+      "ko": "습하습하 매워!"
+    },
+    "mood": "foodie-spicy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: fanning open mouth with one hand with flushed cheeks. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "斯哈斯哈好辣",
+        "zh-TW": "斯哈斯哈好辣",
+        "en": "So spicy!!",
+        "ja": "辛すぎて無理!",
+        "ko": "습하습하 매워!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — fanning open mouth with one hand with flushed cheeks; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — fanning open mouth with one hand with flushed cheeks with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — fanning open mouth with one hand with flushed cheeks at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "174_food_full_coma",
+    "category": "foodie",
+    "caption": "撑到走不动",
+    "captions": {
+      "zh-CN": "撑到走不动",
+      "zh-TW": "撐到走不動",
+      "en": "Food coma",
+      "ja": "お腹いっぱい",
+      "ko": "배불러서 못 걸어"
+    },
+    "mood": "foodie-stuffed",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: slouching back in chair rubbing stomach in a blissful food coma. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — slouching back in chair rubbing stomach in a blissful food coma; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — slouching back in chair rubbing stomach in a blissful food coma with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — slouching back in chair rubbing stomach in a blissful food coma at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "175_food_share_bite",
+    "category": "foodie",
+    "caption": "分你一口",
+    "captions": {
+      "zh-CN": "分你一口",
+      "zh-TW": "分你一口",
+      "en": "Have a bite~",
+      "ja": "一口あげる",
+      "ko": "한 입 줄게~"
+    },
+    "mood": "foodie-sweet",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: offering a spoonful forward toward the camera with a sweet smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "分你一口",
+        "zh-TW": "分你一口",
+        "en": "Have a bite~",
+        "ja": "一口あげる",
+        "ko": "한 입 줄게~"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — offering a spoonful forward toward the camera with a sweet smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — offering a spoonful forward toward the camera with a sweet smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — offering a spoonful forward toward the camera with a sweet smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "176_food_cheers_drink",
+    "category": "foodie",
+    "caption": "吨吨吨干杯",
+    "captions": {
+      "zh-CN": "吨吨吨干杯",
+      "zh-TW": "噸噸噸乾杯",
+      "en": "Bottoms up!",
+      "ja": "カンパーイ!",
+      "ko": "원샷 노브레이크!"
+    },
+    "mood": "foodie-festive",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: raising a glass high toward the camera with a bright toast smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — raising a glass high toward the camera with a bright toast smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — raising a glass high toward the camera with a bright toast smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — raising a glass high toward the camera with a bright toast smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "177_camp_cramming",
+    "category": "campus",
+    "caption": "疯狂背书中",
+    "captions": {
+      "zh-CN": "疯狂背书中",
+      "zh-TW": "瘋狂背書中",
+      "en": "Cramming hard",
+      "ja": "一夜漬け中",
+      "ko": "벼락치기 중"
+    },
+    "mood": "campus-panic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: flipping through a thick notebook rapidly with wide panicked eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "疯狂背书中",
+        "zh-TW": "瘋狂背書中",
+        "en": "Cramming hard",
+        "ja": "一夜漬け中",
+        "ko": "벼락치기 중"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — flipping through a thick notebook rapidly with wide panicked eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — flipping through a thick notebook rapidly with wide panicked eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — flipping through a thick notebook rapidly with wide panicked eyes at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "178_camp_pass_exam",
+    "category": "campus",
+    "caption": "逢考必过!",
+    "captions": {
+      "zh-CN": "逢考必过!",
+      "zh-TW": "逢考必過!",
+      "en": "Ace the exam!",
+      "ja": "絶対合格!",
+      "ko": "무조건 합격!"
+    },
+    "mood": "campus-confident",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: making an energetic double V-sign with a bright confident smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "逢考必过!",
+        "zh-TW": "逢考必過!",
+        "en": "Ace the exam!",
+        "ja": "絶対合格!",
+        "ko": "무조건 합격!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — making an energetic double V-sign with a bright confident smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — making an energetic double V-sign with a bright confident smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — making an energetic double V-sign with a bright confident smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "179_camp_8am_class",
+    "category": "campus",
+    "caption": "早八人早八魂",
+    "captions": {
+      "zh-CN": "早八人早八魂",
+      "zh-TW": "早八人早八魂",
+      "en": "8 AM zombie",
+      "ja": "1限つらい",
+      "ko": "1교시 실화냐"
+    },
+    "mood": "campus-zombie",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: resting chin on a stack of textbooks with sleepy half-closed eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — resting chin on a stack of textbooks with sleepy half-closed eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — resting chin on a stack of textbooks with sleepy half-closed eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — resting chin on a stack of textbooks with sleepy half-closed eyes at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "180_camp_thesis_pass",
+    "category": "campus",
+    "caption": "论文一把过",
+    "captions": {
+      "zh-CN": "论文一把过",
+      "zh-TW": "論文一把過",
+      "en": "Thesis approved!",
+      "ja": "卒論クリア!",
+      "ko": "논문 통과!!"
+    },
+    "mood": "campus-relieved",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: hugging a laptop tightly with a huge relieved smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "论文一把过",
+        "zh-TW": "論文一把過",
+        "en": "Thesis approved!",
+        "ja": "卒論クリア!",
+        "ko": "논문 통과!!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — hugging a laptop tightly with a huge relieved smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — hugging a laptop tightly with a huge relieved smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — hugging a laptop tightly with a huge relieved smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "181_camp_ddl_rush",
+    "category": "campus",
+    "caption": "极限赶DDL",
+    "captions": {
+      "zh-CN": "极限赶DDL",
+      "zh-TW": "極限趕DDL",
+      "en": "Fighting DDL",
+      "ja": "締切ヤバい",
+      "ko": "마감 직전 질주"
+    },
+    "mood": "campus-frantic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: typing furiously in mid-air with wind-blown hair. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — typing furiously in mid-air with wind-blown hair; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — typing furiously in mid-air with wind-blown hair with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — typing furiously in mid-air with wind-blown hair at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "182_camp_smart_glasses",
+    "category": "campus",
+    "caption": "这题我会",
+    "captions": {
+      "zh-CN": "这题我会",
+      "zh-TW": "這題我會",
+      "en": "Easy question",
+      "ja": "この問題は余裕",
+      "ko": "이 문제는 알지"
+    },
+    "mood": "campus-nerdy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: pushing up glasses on the bridge of the nose with a clever grin. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "这题我会",
+        "zh-TW": "這題我會",
+        "en": "Easy question",
+        "ja": "この問題は余裕",
+        "ko": "이 문제는 알지"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — pushing up glasses on the bridge of the nose with a clever grin; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — pushing up glasses on the bridge of the nose with a clever grin with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — pushing up glasses on the bridge of the nose with a clever grin at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "183_camp_vacation_free",
+    "category": "campus",
+    "caption": "终于放假啦!",
+    "captions": {
+      "zh-CN": "终于放假啦!",
+      "zh-TW": "終於放假啦!",
+      "en": "Vacation time!",
+      "ja": "やっと休みだ!",
+      "ko": "드디어 방학!"
+    },
+    "mood": "campus-free",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: tossing a notebook aside and stretching arms wide in freedom. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "终于放假啦!",
+        "zh-TW": "終於放假啦!",
+        "en": "Vacation time!",
+        "ja": "やっと休みだ!",
+        "ko": "드디어 방학!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — tossing a notebook aside and stretching arms wide in freedom; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — tossing a notebook aside and stretching arms wide in freedom with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — tossing a notebook aside and stretching arms wide in freedom at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "184_camp_brain_empty",
+    "category": "campus",
+    "caption": "大脑一片空白",
+    "captions": {
+      "zh-CN": "大脑一片空白",
+      "zh-TW": "大腦一片空白",
+      "en": "Brain empty",
+      "ja": "頭真っ白",
+      "ko": "머리가 새하얘"
+    },
+    "mood": "campus-blank",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: staring into space with a dazed hollow smile holding a pen. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — staring into space with a dazed hollow smile holding a pen; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — staring into space with a dazed hollow smile holding a pen with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — staring into space with a dazed hollow smile holding a pen at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "185_camp_roommate_call",
+    "category": "campus",
+    "caption": "帮我带份饭",
+    "captions": {
+      "zh-CN": "帮我带份饭",
+      "zh-TW": "幫我帶份飯",
+      "en": "Bring me food pls",
+      "ja": "購買で買ってきて",
+      "ko": "학식 포장 좀"
+    },
+    "mood": "campus-lazy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: peeking out from a cozy blanket with pleading eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "帮我带份饭",
+        "zh-TW": "幫我帶份飯",
+        "en": "Bring me food pls",
+        "ja": "購買で買ってきて",
+        "ko": "학식 포장 좀"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — peeking out from a cozy blanket with pleading eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — peeking out from a cozy blanket with pleading eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — peeking out from a cozy blanket with pleading eyes at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "186_camp_library_study",
+    "category": "campus",
+    "caption": "泡图书馆",
+    "captions": {
+      "zh-CN": "泡图书馆",
+      "zh-TW": "泡圖書館",
+      "en": "Studying quiet",
+      "ja": "図書館こもり中",
+      "ko": "도서관 열공 모드"
+    },
+    "mood": "campus-quiet",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding a finger to lips in a quiet library shush while holding a book. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding a finger to lips in a quiet library shush while holding a book; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding a finger to lips in a quiet library shush while holding a book with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding a finger to lips in a quiet library shush while holding a book at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "187_camp_high_score",
+    "category": "campus",
+    "caption": "绩点拉满",
+    "captions": {
+      "zh-CN": "绩点拉满",
+      "zh-TW": "績點拉滿",
+      "en": "Straight A+!",
+      "ja": "フル単確定!",
+      "ko": "학점 만점!"
+    },
+    "mood": "campus-proud",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: forming an A+ shape with fingers and winking proudly. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "绩点拉满",
+        "zh-TW": "績點拉滿",
+        "en": "Straight A+!",
+        "ja": "フル単確定!",
+        "ko": "학점 만점!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — forming an A+ shape with fingers and winking proudly; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — forming an A+ shape with fingers and winking proudly with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — forming an A+ shape with fingers and winking proudly at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "188_sass_just_this",
+    "category": "sassy",
+    "caption": "就这?",
+    "captions": {
+      "zh-CN": "就这?",
+      "zh-TW": "就這?",
+      "en": "That's it?",
+      "ja": "たったそれだけ?",
+      "ko": "겨우 이거?"
+    },
+    "mood": "sassy-unimpressed",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: tilting chin up slightly with half-lidded unimpressed eyes and a tiny smirk. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "就这?",
+        "zh-TW": "就這?",
+        "en": "That's it?",
+        "ja": "たったそれだけ?",
+        "ko": "겨우 이거?"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — tilting chin up slightly with half-lidded unimpressed eyes and a tiny smirk; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — tilting chin up slightly with half-lidded unimpressed eyes and a tiny smirk with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — tilting chin up slightly with half-lidded unimpressed eyes and a tiny smirk at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "189_sass_clap_slow",
+    "category": "sassy",
+    "caption": "那你很棒哦",
+    "captions": {
+      "zh-CN": "那你很棒哦",
+      "zh-TW": "那你很棒哦",
+      "en": "Good for you~",
+      "ja": "すごいですね棒",
+      "ko": "참 잘했어요~"
+    },
+    "mood": "sassy-sarcastic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: clapping hands slowly at chest level with a deadpan expression. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "那你很棒哦",
+        "zh-TW": "那你很棒哦",
+        "en": "Good for you~",
+        "ja": "すごいですね棒",
+        "ko": "참 잘했어요~"
+      },
+      "shape": "oval",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — clapping hands slowly at chest level with a deadpan expression; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — clapping hands slowly at chest level with a deadpan expression with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — clapping hands slowly at chest level with a deadpan expression at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "190_sass_eye_roll",
+    "category": "sassy",
+    "caption": "给你个眼神",
+    "captions": {
+      "zh-CN": "给你个眼神",
+      "zh-TW": "給你個眼神",
+      "en": "Side-eyeing you",
+      "ja": "察してね",
+      "ko": "눈빛으로 말함"
+    },
+    "mood": "sassy-sideeye",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: crossing arms and giving a sharp dramatic sideways glance. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — crossing arms and giving a sharp dramatic sideways glance; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — crossing arms and giving a sharp dramatic sideways glance with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — crossing arms and giving a sharp dramatic sideways glance at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "191_sass_no_way",
+    "category": "sassy",
+    "caption": "不会吧不会吧",
+    "captions": {
+      "zh-CN": "不会吧不会吧",
+      "zh-TW": "不會吧不會吧",
+      "en": "Surely not~",
+      "ja": "まさかね〜",
+      "ko": "설마 아니겠지~"
+    },
+    "mood": "sassy-teasing",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: covering mouth lightly with fingertips while eyes gleam with teasing amusement. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "不会吧不会吧",
+        "zh-TW": "不會吧不會吧",
+        "en": "Surely not~",
+        "ja": "まさかね〜",
+        "ko": "설마 아니겠지~"
+      },
+      "shape": "whisper",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — covering mouth lightly with fingertips while eyes gleam with teasing amusement; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — covering mouth lightly with fingertips while eyes gleam with teasing amusement with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — covering mouth lightly with fingertips while eyes gleam with teasing amusement at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "192_sass_so_scared",
+    "category": "sassy",
+    "caption": "我好怕怕哦",
+    "captions": {
+      "zh-CN": "我好怕怕哦",
+      "zh-TW": "我好怕怕哦",
+      "en": "Sooo scared~",
+      "ja": "こわ〜い(棒)",
+      "ko": "어머 무서워라~"
+    },
+    "mood": "sassy-mocking",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: patting chest in exaggerated fake fright with a playful smirk. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "我好怕怕哦",
+        "zh-TW": "我好怕怕哦",
+        "en": "Sooo scared~",
+        "ja": "こわ〜い(棒)",
+        "ko": "어머 무서워라~"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — patting chest in exaggerated fake fright with a playful smirk; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — patting chest in exaggerated fake fright with a playful smirk with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — patting chest in exaggerated fake fright with a playful smirk at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "193_sass_polite_hehe",
+    "category": "sassy",
+    "caption": "礼貌微笑",
+    "captions": {
+      "zh-CN": "礼貌微笑",
+      "zh-TW": "禮貌微笑",
+      "en": "Polite smile",
+      "ja": "愛想笑い",
+      "ko": "비즈니스 미소"
+    },
+    "mood": "sassy-fake-smile",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: curving lips into a textbook customer-service smile while eyes stay icy. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — curving lips into a textbook customer-service smile while eyes stay icy; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — curving lips into a textbook customer-service smile while eyes stay icy with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — curving lips into a textbook customer-service smile while eyes stay icy at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "194_sass_sip_tea",
+    "category": "sassy",
+    "caption": "品一口好茶",
+    "captions": {
+      "zh-CN": "品一口好茶",
+      "zh-TW": "品一口好茶",
+      "en": "Sipping tea",
+      "ja": "お茶がうまい",
+      "ko": "조용히 구경 중"
+    },
+    "mood": "sassy-watching",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: gracefully holding a teacup near lips while watching drama unfold. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "品一口好茶",
+        "zh-TW": "品一口好茶",
+        "en": "Sipping tea",
+        "ja": "お茶がうまい",
+        "ko": "조용히 구경 중"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — gracefully holding a teacup near lips while watching drama unfold; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — gracefully holding a teacup near lips while watching drama unfold with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — gracefully holding a teacup near lips while watching drama unfold at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "195_sass_tui_tui",
+    "category": "sassy",
+    "caption": "退!退!退!",
+    "captions": {
+      "zh-CN": "退!退!退!",
+      "zh-TW": "退!退!退!",
+      "en": "Back off!",
+      "ja": "悪霊退散!",
+      "ko": "물러가라 훠이!"
+    },
+    "mood": "sassy-warding",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: thrusting one arm forward in a dramatic fencing-like warding pose. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "退!退!退!",
+        "zh-TW": "退!退!退!",
+        "en": "Back off!",
+        "ja": "悪霊退散!",
+        "ko": "물러가라 훠이!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — thrusting one arm forward in a dramatic fencing-like warding pose; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — thrusting one arm forward in a dramatic fencing-like warding pose with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — thrusting one arm forward in a dramatic fencing-like warding pose at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "196_sass_listen_nonsense",
+    "category": "sassy",
+    "caption": "听君一席话",
+    "captions": {
+      "zh-CN": "听君一席话",
+      "zh-TW": "聽君一席話",
+      "en": "Pure nonsense",
+      "ja": "何も言ってない",
+      "ko": "말이야 방구야"
+    },
+    "mood": "sassy-speechless",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: cupping one ear with a baffled amused expression. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — cupping one ear with a baffled amused expression; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — cupping one ear with a baffled amused expression with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — cupping one ear with a baffled amused expression at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "197_sass_blame_me",
+    "category": "sassy",
+    "caption": "怪我咯?",
+    "captions": {
+      "zh-CN": "怪我咯?",
+      "zh-TW": "怪我咯?",
+      "en": "My fault then?",
+      "ja": "私のせい?",
+      "ko": "내 탓이라고?"
+    },
+    "mood": "sassy-innocent",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: pointing at own nose with both index fingers and shrugging innocently. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "怪我咯?",
+        "zh-TW": "怪我咯?",
+        "en": "My fault then?",
+        "ja": "私のせい?",
+        "ko": "내 탓이라고?"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — pointing at own nose with both index fingers and shrugging innocently; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — pointing at own nose with both index fingers and shrugging innocently with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — pointing at own nose with both index fingers and shrugging innocently at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "198_sass_keep_acting",
+    "category": "sassy",
+    "caption": "请开始你的表演",
+    "captions": {
+      "zh-CN": "请开始你的表演",
+      "zh-TW": "請開始你的表演",
+      "en": "Go on, perform",
+      "ja": "どうぞ続けて",
+      "ko": "계속해 봐~"
+    },
+    "mood": "sassy-audience",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: gesturing an open palm forward like inviting someone onto a stage. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "请开始你的表演",
+        "zh-TW": "請開始你的表演",
+        "en": "Go on, perform",
+        "ja": "どうぞ続けて",
+        "ko": "계속해 봐~"
+      },
+      "shape": "oval",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — gesturing an open palm forward like inviting someone onto a stage; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — gesturing an open palm forward like inviting someone onto a stage with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — gesturing an open palm forward like inviting someone onto a stage at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "199_ment_stable_fine",
+    "category": "mental",
+    "caption": "精神状态美丽",
+    "captions": {
+      "zh-CN": "精神状态美丽",
+      "zh-TW": "精神狀態美麗",
+      "en": "Totally sane",
+      "ja": "メンタル絶好調",
+      "ko": "정신줄 안녕함"
+    },
+    "mood": "mental-chaotic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: making double peace signs with a wildly unhinged cheerful smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "精神状态美丽",
+        "zh-TW": "精神狀態美麗",
+        "en": "Totally sane",
+        "ja": "メンタル絶好調",
+        "ko": "정신줄 안녕함"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — making double peace signs with a wildly unhinged cheerful smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — making double peace signs with a wildly unhinged cheerful smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — making double peace signs with a wildly unhinged cheerful smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "200_ment_behaving_now",
+    "category": "mental",
+    "caption": "已老实求放过",
+    "captions": {
+      "zh-CN": "已老实求放过",
+      "zh-TW": "已老實求放過",
+      "en": "I'll behave",
+      "ja": "おとなしくします",
+      "ko": "얌전히 있을게요"
+    },
+    "mood": "mental-meek",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: sitting upright with hands neatly on knees and an overly obedient expression. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — sitting upright with hands neatly on knees and an overly obedient expression; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — sitting upright with hands neatly on knees and an overly obedient expression with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — sitting upright with hands neatly on knees and an overly obedient expression at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "201_ment_destroy_all",
+    "category": "mental",
+    "caption": "毁灭吧累了",
+    "captions": {
+      "zh-CN": "毁灭吧累了",
+      "zh-TW": "毀滅吧累了",
+      "en": "Done with everything",
+      "ja": "もう全部どうでもいい",
+      "ko": "다 귀찮아..."
+    },
+    "mood": "mental-numb",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: tilting head back staring blankly at the ceiling in total exhaustion. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "毁灭吧累了",
+        "zh-TW": "毀滅吧累了",
+        "en": "Done with everything",
+        "ja": "もう全部どうでもいい",
+        "ko": "다 귀찮아..."
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — tilting head back staring blankly at the ceiling in total exhaustion; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — tilting head back staring blankly at the ceiling in total exhaustion with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — tilting head back staring blankly at the ceiling in total exhaustion at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "202_ment_ascended",
+    "category": "mental",
+    "caption": "已升天勿扰",
+    "captions": {
+      "zh-CN": "已升天勿扰",
+      "zh-TW": "已升天勿擾",
+      "en": "Soul left body",
+      "ja": "召されました",
+      "ko": "영혼 가출 중"
+    },
+    "mood": "mental-peaceful",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: closing eyes peacefully with hands crossed over chest like floating away. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — closing eyes peacefully with hands crossed over chest like floating away; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — closing eyes peacefully with hands crossed over chest like floating away with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — closing eyes peacefully with hands crossed over chest like floating away at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "203_ment_calm_crazy",
+    "category": "mental",
+    "caption": "平静地发疯",
+    "captions": {
+      "zh-CN": "平静地发疯",
+      "zh-TW": "平靜地發瘋",
+      "en": "Calmly losing it",
+      "ja": "静かに発狂中",
+      "ko": "차분하게 돌아버림"
+    },
+    "mood": "mental- eerie",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: tilting head 30 degrees with a serene frozen smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "平静地发疯",
+        "zh-TW": "平靜地發瘋",
+        "en": "Calmly losing it",
+        "ja": "静かに発狂中",
+        "ko": "차분하게 돌아버림"
+      },
+      "shape": "whisper",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — tilting head 30 degrees with a serene frozen smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — tilting head 30 degrees with a serene frozen smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — tilting head 30 degrees with a serene frozen smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "204_ment_force_reboot",
+    "category": "mental",
+    "caption": "强行开机中",
+    "captions": {
+      "zh-CN": "强行开机中",
+      "zh-TW": "強行開機中",
+      "en": "Force rebooting",
+      "ja": "強制起動中",
+      "ko": "강제 부팅 중"
+    },
+    "mood": "mental-lagging",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: tapping own temple repeatedly to wake up the brain. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — tapping own temple repeatedly to wake up the brain; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — tapping own temple repeatedly to wake up the brain with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — tapping own temple repeatedly to wake up the brain at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "205_ment_scream_pillow",
+    "category": "mental",
+    "caption": "无声尖叫",
+    "captions": {
+      "zh-CN": "无声尖叫",
+      "zh-TW": "無聲尖叫",
+      "en": "Silent scream",
+      "ja": "無言の絶叫",
+      "ko": "음소거 비명"
+    },
+    "mood": "mental-scream",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: framing cheeks with both hands like Munch's Scream in comedic real-person style. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "无声尖叫",
+        "zh-TW": "無聲尖叫",
+        "en": "Silent scream",
+        "ja": "無言の絶叫",
+        "ko": "음소거 비명"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — framing cheeks with both hands like Munch's Scream in comedic real-person style; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — framing cheeks with both hands like Munch's Scream in comedic real-person style with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — framing cheeks with both hands like Munch's Scream in comedic real-person style at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "206_ment_no_sorrow",
+    "category": "mental",
+    "caption": "大悲无泪",
+    "captions": {
+      "zh-CN": "大悲无泪",
+      "zh-TW": "大悲無淚",
+      "en": "Beyond tears",
+      "ja": "泣く気力もない",
+      "ko": "웃프다 진짜"
+    },
+    "mood": "mental-hollow",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: staring straight at camera with a hollow Zen smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — staring straight at camera with a hollow Zen smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — staring straight at camera with a hollow Zen smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — staring straight at camera with a hollow Zen smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "207_ment_social_battery_0",
+    "category": "mental",
+    "caption": "社交电量0%",
+    "captions": {
+      "zh-CN": "社交电量0%",
+      "zh-TW": "社交電量0%",
+      "en": "Social battery 0%",
+      "ja": "充電切れ0%",
+      "ko": "기가 다 빨림"
+    },
+    "mood": "mental-drained",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: slumping forward with head resting on arms and a drained pout. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "社交电量0%",
+        "zh-TW": "社交電量0%",
+        "en": "Social battery 0%",
+        "ja": "充電切れ0%",
+        "ko": "기가 다 빨림"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — slumping forward with head resting on arms and a drained pout; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — slumping forward with head resting on arms and a drained pout with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — slumping forward with head resting on arms and a drained pout at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "208_ment_touch_grass",
+    "category": "mental",
+    "caption": "需要吸点氧",
+    "captions": {
+      "zh-CN": "需要吸点氧",
+      "zh-TW": "需要吸點氧",
+      "en": "Need fresh air",
+      "ja": "酸素くれ",
+      "ko": "산소 부족해"
+    },
+    "mood": "mental-gasping",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: stretching neck upward taking a deep dramatic breath. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — stretching neck upward taking a deep dramatic breath; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — stretching neck upward taking a deep dramatic breath with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — stretching neck upward taking a deep dramatic breath at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "209_ment_dont_care",
+    "category": "mental",
+    "caption": "随便吧都行",
+    "captions": {
+      "zh-CN": "随便吧都行",
+      "zh-TW": "隨便吧都行",
+      "en": "Whatever works",
+      "ja": "なんでもいいや",
+      "ko": "아무렴 어때"
+    },
+    "mood": "mental-indifferent",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: waving one hand dismissively with a carefree half-smile. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "随便吧都行",
+        "zh-TW": "隨便吧都行",
+        "en": "Whatever works",
+        "ja": "なんでもいいや",
+        "ko": "아무렴 어때"
+      },
+      "shape": "oval",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — waving one hand dismissively with a carefree half-smile; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — waving one hand dismissively with a carefree half-smile with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — waving one hand dismissively with a carefree half-smile at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "210_pet_hug_cat",
+    "category": "pet_collab",
+    "caption": "吸猫续命",
+    "captions": {
+      "zh-CN": "吸猫续命",
+      "zh-TW": "吸貓續命",
+      "en": "Cat therapy",
+      "ja": "猫吸い最高",
+      "ko": "고양이 수혈"
+    },
+    "mood": "pet-loving",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: gently cradling a fluffy real cat in arms and pressing cheek softly against it. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "吸猫续命",
+        "zh-TW": "吸貓續命",
+        "en": "Cat therapy",
+        "ja": "猫吸い最高",
+        "ko": "고양이 수혈"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — gently cradling a fluffy real cat in arms and pressing cheek softly against it; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — gently cradling a fluffy real cat in arms and pressing cheek softly against it with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — gently cradling a fluffy real cat in arms and pressing cheek softly against it at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "211_pet_puppy_wave",
+    "category": "pet_collab",
+    "caption": "修勾打招呼",
+    "captions": {
+      "zh-CN": "修勾打招呼",
+      "zh-TW": "修勾打招呼",
+      "en": "Puppy says hi!",
+      "ja": "わんこから挨拶",
+      "ko": "멈머 인사해~"
+    },
+    "mood": "pet-playful",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding a cute real puppy and gently waving its front paw at the camera. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "修勾打招呼",
+        "zh-TW": "修勾打招呼",
+        "en": "Puppy says hi!",
+        "ja": "わんこから挨拶",
+        "ko": "멈머 인사해~"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding a cute real puppy and gently waving its front paw at the camera; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding a cute real puppy and gently waving its front paw at the camera with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding a cute real puppy and gently waving its front paw at the camera at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "212_pet_cat_boss",
+    "category": "pet_collab",
+    "caption": "猫主子驾到",
+    "captions": {
+      "zh-CN": "猫主子驾到",
+      "zh-TW": "貓主子駕到",
+      "en": "Boss Cat here",
+      "ja": "猫様のお通り",
+      "ko": "고양이 주인님"
+    },
+    "mood": "pet-proud",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: lifting a smug real cat up proudly like Simba while smiling. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — lifting a smug real cat up proudly like Simba while smiling; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — lifting a smug real cat up proudly like Simba while smiling with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — lifting a smug real cat up proudly like Simba while smiling at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "213_pet_sync_tilt",
+    "category": "pet_collab",
+    "caption": "同步歪头杀",
+    "captions": {
+      "zh-CN": "同步歪头杀",
+      "zh-TW": "同步歪頭殺",
+      "en": "Twin head-tilt",
+      "ja": "シンクロ首かしげ",
+      "ko": "같이 갸우뚱"
+    },
+    "mood": "pet-cute",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: tilting head at the exact same angle as a cute puppy held beside the shoulder. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — tilting head at the exact same angle as a cute puppy held beside the shoulder; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — tilting head at the exact same angle as a cute puppy held beside the shoulder with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — tilting head at the exact same angle as a cute puppy held beside the shoulder at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "214_pet_meow_paws",
+    "category": "pet_collab",
+    "caption": "喵呜贴贴",
+    "captions": {
+      "zh-CN": "喵呜贴贴",
+      "zh-TW": "喵嗚貼貼",
+      "en": "Meow cuddle~",
+      "ja": "にゃんこポーズ",
+      "ko": "야옹 애교"
+    },
+    "mood": "pet-aegyo",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: curling both hands into cute cat paws beside cheeks while a kitten sits on shoulder. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "喵呜贴贴",
+        "zh-TW": "喵嗚貼貼",
+        "en": "Meow cuddle~",
+        "ja": "にゃんこポーズ",
+        "ko": "야옹 애교"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — curling both hands into cute cat paws beside cheeks while a kitten sits on shoulder; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — curling both hands into cute cat paws beside cheeks while a kitten sits on shoulder with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — curling both hands into cute cat paws beside cheeks while a kitten sits on shoulder at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "215_pet_serve_treat",
+    "category": "pet_collab",
+    "caption": "卑微铲屎官",
+    "captions": {
+      "zh-CN": "卑微铲屎官",
+      "zh-TW": "卑微鏟屎官",
+      "en": "Humble servant",
+      "ja": "下僕の務め",
+      "ko": "집사의 하루"
+    },
+    "mood": "pet-humble",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: offering a cat treat stick respectfully to a cat in arms. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — offering a cat treat stick respectfully to a cat in arms; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — offering a cat treat stick respectfully to a cat in arms with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — offering a cat treat stick respectfully to a cat in arms at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "216_pet_dog_kisses",
+    "category": "pet_collab",
+    "caption": "小狗热情贴贴",
+    "captions": {
+      "zh-CN": "小狗热情贴贴",
+      "zh-TW": "小狗熱情貼貼",
+      "en": "Puppy kisses!",
+      "ja": "わんこ猛アタック",
+      "ko": "강아지 뽀뽀 세례"
+    },
+    "mood": "pet-laughing",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: laughing brightly while a happy puppy licks the cheek. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "小狗热情贴贴",
+        "zh-TW": "小狗熱情貼貼",
+        "en": "Puppy kisses!",
+        "ja": "わんこ猛アタック",
+        "ko": "강아지 뽀뽀 세례"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — laughing brightly while a happy puppy licks the cheek; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — laughing brightly while a happy puppy licks the cheek with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — laughing brightly while a happy puppy licks the cheek at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "217_pet_sleep_together",
+    "category": "pet_collab",
+    "caption": "抱宠午睡",
+    "captions": {
+      "zh-CN": "抱宠午睡",
+      "zh-TW": "抱寵午睡",
+      "en": "Nap with kitty",
+      "ja": "猫とお昼寝",
+      "ko": "냥이랑 낮잠"
+    },
+    "mood": "pet-cozy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: resting chin on arms with eyes closed while a sleepy cat curls up beside. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "caption",
+    "bubble": null,
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — resting chin on arms with eyes closed while a sleepy cat curls up beside; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — resting chin on arms with eyes closed while a sleepy cat curls up beside with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — resting chin on arms with eyes closed while a sleepy cat curls up beside at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "218_pet_judge_stare",
+    "category": "pet_collab",
+    "caption": "人和猫一起嫌弃",
+    "captions": {
+      "zh-CN": "人和猫一起嫌弃",
+      "zh-TW": "人和貓一起嫌棄",
+      "en": "Both judging you",
+      "ja": "猫と一緒にジト目",
+      "ko": "둘 다 한심하게 봄"
+    },
+    "mood": "pet-sassy",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: giving a synchronized unimpressed side-eye together with the cat in arms. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "人和猫一起嫌弃",
+        "zh-TW": "人和貓一起嫌棄",
+        "en": "Both judging you",
+        "ja": "猫と一緒にジト目",
+        "ko": "둘 다 한심하게 봄"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — giving a synchronized unimpressed side-eye together with the cat in arms; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — giving a synchronized unimpressed side-eye together with the cat in arms with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — giving a synchronized unimpressed side-eye together with the cat in arms at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "219_pet_walk_time",
+    "category": "pet_collab",
+    "caption": "出门遛弯啦",
+    "captions": {
+      "zh-CN": "出门遛弯啦",
+      "zh-TW": "出門遛彎啦",
+      "en": "Walkie time!",
+      "ja": "お散歩いくよ!",
+      "ko": "산책 가자!"
+    },
+    "mood": "pet-energetic",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: holding up a cute puppy excitedly ready for a walk. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "出门遛弯啦",
+        "zh-TW": "出門遛彎啦",
+        "en": "Walkie time!",
+        "ja": "お散歩いくよ!",
+        "ko": "산책 가자!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — holding up a cute puppy excitedly ready for a walk; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — holding up a cute puppy excitedly ready for a walk with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — holding up a cute puppy excitedly ready for a walk at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
+  },
+  {
+    "id": "220_pet_goodnight_paw",
+    "category": "pet_collab",
+    "caption": "和毛孩子晚安",
+    "captions": {
+      "zh-CN": "和毛孩子晚安",
+      "zh-TW": "和毛孩子晚安",
+      "en": "Night from us~",
+      "ja": "ふたりでおやすみ",
+      "ko": "우리 둘 다 잘 자요"
+    },
+    "mood": "pet-warm",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: waving goodnight softly while holding a sleepy puppy wrapped in a soft blanket. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "和毛孩子晚安",
+        "zh-TW": "和毛孩子晚安",
+        "en": "Night from us~",
+        "ja": "ふたりでおやすみ",
+        "ko": "우리 둘 다 잘 자요"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (Top-Left): Starting real-person pose — waving goodnight softly while holding a sleepy puppy wrapped in a soft blanket; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — waving goodnight softly while holding a sleepy puppy wrapped in a soft blanket with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — waving goodnight softly while holding a sleepy puppy wrapped in a soft blanket at full expressive intensity; lower torso anchored.",
+        "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    }
   }
 ]

@@ -16,8 +16,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#内蔵された108種類の実写フォトスタイル-referencesstyle-presetsjson)
 [![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#内蔵された108種類の実写フォトスタイル-referencesstyle-presetsjson)
-[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-108%20Presets%20(Besties%2036%20%7C%20Couple%2036%20%7C%20Yuri%2036)-ff2d55.svg)](#内蔵された108種類の2人ペア実写スタンププリセット-親友--カップル--百合)
-[![Expressions & Memes](https://img.shields.io/badge/Catalog-132%20Expressions%20%7C%2038%20Memes%20%7C%20129%20Motions-success.svg)](#14カテゴリーの実写表情カタログ)
+[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-168%20Presets%20(6%20Categories)-ff2d55.svg)](#内蔵された168種類の2人ペア実写スタンププリセット-親友--カップル--百合)
+[![Expressions & Memes](https://img.shields.io/badge/Catalog-220%20Expressions%20%7C%2060%20Memes%20%7C%2015%20Themes-success.svg)](#22カテゴリーの実写表情カタログ)
 [![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7種類の吹き出しデザインと5言語の単一言語出力)
 [![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#23プラットフォームへの一括書き出しとsnsカバー生成)
 

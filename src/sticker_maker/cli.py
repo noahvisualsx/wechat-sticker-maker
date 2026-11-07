@@ -13,7 +13,7 @@ from .duo import DUO_CATEGORIES, DUO_CATEGORY_LABELS, list_duo_presets
 from .orchestrator import StickerOrchestrator
 from .package import package_deliverables
 from .i18n import BUILTIN_CAPTION_LANGUAGES, describe_font_support, normalize_language
-from .planner import CATEGORY_LABELS, list_categories, load_all_presets, localized_caption, plan_expressions, translation_template
+from .planner import CATEGORY_LABELS, THEME_PACKS, list_categories, load_all_presets, localized_caption, plan_expressions, translation_template
 from .platforms import load_platform_profiles, platform_groups, resolve_platforms
 from .memes import list_memes, make_meme, meme_category_label, resolve_meme_id
 from .processing.gif_encoder import assemble_gif_from_keyframe_files, assemble_gif_from_sprite_sheet
@@ -24,6 +24,7 @@ from .providers.openai_images import OpenAIImagesProvider
 from .providers.openai_native_gif import OpenAINativeGifProvider
 from .quality.report import run_full_validation
 from .schemas import AnimationConfig, JobConfig
+from .studio import generate_social_posters, remix_captions, resolve_theme_preset
 from .styles import STYLE_REGIONS, infer_language_for_style, list_style_presets, resolve_style_preset
 
 logger = logging.getLogger("sticker_maker")
@@ -118,7 +119,7 @@ def cmd_duo(args: argparse.Namespace) -> int:
         print(json.dumps([i.model_dump() for i in items], indent=2, ensure_ascii=False))
         return 0
 
-    print(f"=== 双人互动真人表情包预设 ({len(items)} 套: 闺蜜36 + 情侣36 + 百合36, language={lang}) ===")
+    print(f"=== 双人互动真人表情包预设 ({len(items)} 套: 闺蜜36 + 情侣36 + 百合36 + 双男主20 + 欢喜冤家20 + 亲子20, language={lang}) ===")
     for cid in DUO_CATEGORIES:
         group = [i for i in items if i.category == cid]
         if not group:
@@ -131,6 +132,65 @@ def cmd_duo(args: argparse.Namespace) -> int:
             b_tag = f" 💬[{bubble}]" if bubble else ""
             print(f"  * {it.id:<30} {cap}{b_tag}  <{it.text_layout}> {it.mood}")
             print(f"    pose: {it.static_pose}")
+    return 0
+
+
+def cmd_themes(args: argparse.Namespace) -> int:
+    """List built-in one-click theme packs."""
+    if getattr(args, "json", False):
+        print(json.dumps(THEME_PACKS, indent=2, ensure_ascii=False))
+        return 0
+    print(f"=== 内置一键主题盲盒卡包 ({len(THEME_PACKS)} 套，使用 `plan --theme <主题名>` 一键套用) ===")
+    for name, cfg in THEME_PACKS.items():
+        print(f"  * {name:<8} [mode={cfg['pack_type']}, style={cfg['style']}] — {cfg['desc']}")
+    return 0
+
+
+def cmd_remix_text(args: argparse.Namespace) -> int:
+    """Zero-cost caption & bubble text remixing without re-running AI generation."""
+    job_p = Path(args.job)
+    if not job_p.exists():
+        print(f"Error: job.json not found: {job_p}", file=sys.stderr)
+        return 2
+    cap_map = {}
+    for kv in args.set or []:
+        if "=" not in kv:
+            print(f"Error: --set expects ITEM_ID=NEW_TEXT, got {kv!r}", file=sys.stderr)
+            return 2
+        k, v = kv.split("=", 1)
+        cap_map[k.strip()] = v.strip()
+    bub_map = {}
+    for kv in args.bubble or []:
+        if "=" not in kv:
+            print(f"Error: --bubble expects ITEM_ID=NEW_BUBBLE, got {kv!r}", file=sys.stderr)
+            return 2
+        k, v = kv.split("=", 1)
+        bub_map[k.strip()] = v.strip()
+    preview_p = remix_captions(
+        job_p,
+        caption_overrides=cap_map or None,
+        bubble_overrides=bub_map or None,
+        language=getattr(args, "language", None),
+    )
+    print(f"Remixed captions/bubbles in place (0 AI tokens used). Preview updated: {preview_p}")
+    return 0
+
+
+def cmd_collage(args: argparse.Namespace) -> int:
+    """Generate social promotional posters (Xiaohongshu 3:4, Story 9:16, Grid 1:1) & store submission copy."""
+    out_p = Path(args.output)
+    if not out_p.exists():
+        print(f"Error: Output directory not found: {out_p}", file=sys.stderr)
+        return 2
+    res = generate_social_posters(
+        out_p,
+        title=getattr(args, "title", None),
+        subtitle=getattr(args, "subtitle", None),
+        style=getattr(args, "style", "real-cutout") or "real-cutout",
+        language=normalize_language(getattr(args, "language", "zh-CN") or "zh-CN"),
+    )
+    for k, p in res.items():
+        print(f"Generated {k}: {p}")
     return 0
 
 
@@ -151,12 +211,32 @@ def cmd_plan(args: argparse.Namespace) -> int:
     out_p = Path(args.output)
     out_p.mkdir(parents=True, exist_ok=True)
 
-    raw_lang = args.language
-    resolved_lang = infer_language_for_style(args.style) if raw_lang.strip().lower() == "auto" else normalize_language(raw_lang)
-    extra_langs = [normalize_language(x) for x in (_split(getattr(args, "languages", None)) or [])] or None
+    style = args.style
+    categories = _split(args.categories)
     duo_cats = _split(getattr(args, "duo_category", None))
     duo_ids = _split(getattr(args, "duo_ids", None))
+    meme_cats = _split(args.meme_categories)
     pack_type = args.pack_type
+
+    if getattr(args, "theme", None):
+        try:
+            tcfg = resolve_theme_preset(args.theme)
+        except ValueError as e:
+            print(f"Error: {e}", file=sys.stderr)
+            return 2
+        pack_type = str(tcfg.get("pack_type", pack_type))
+        if style == "real-cutout" and tcfg.get("style"):
+            style = str(tcfg["style"])
+        if not categories and tcfg.get("categories"):
+            categories = list(tcfg["categories"])  # type: ignore
+        if not duo_cats and tcfg.get("duo_categories"):
+            duo_cats = list(tcfg["duo_categories"])  # type: ignore
+        if not meme_cats and tcfg.get("meme_categories"):
+            meme_cats = list(tcfg["meme_categories"])  # type: ignore
+
+    raw_lang = args.language
+    resolved_lang = infer_language_for_style(style) if raw_lang.strip().lower() == "auto" else normalize_language(raw_lang)
+    extra_langs = [normalize_language(x) for x in (_split(getattr(args, "languages", None)) or [])] or None
     if (partner_p or duo_cats or duo_ids) and pack_type == "expressions":
         pack_type = "duo"
 
@@ -169,19 +249,19 @@ def cmd_plan(args: argparse.Namespace) -> int:
         output_dir=str(out_p.resolve()),
         mode=args.mode,
         count=args.count,
-        style=args.style,
+        style=style,
         language=resolved_lang,
         languages=extra_langs,
         text_layout=args.text_layout,
         bubble_shape=args.bubble_shape,
         bubble_animation=args.bubble_animation,
-        categories=_split(args.categories),
+        categories=categories,
         expression_ids=_split(args.expressions),
         duo_categories=duo_cats,
         duo_ids=duo_ids,
         pack_type=pack_type,
         meme_templates=[resolve_meme_id(m) for m in (_split(args.meme_templates) or [])] or None,
-        meme_categories=_split(args.meme_categories),
+        meme_categories=meme_cats,
         meme_texts=_parse_meme_texts(args.meme_text),
         captions_file=str(Path(args.captions_file).resolve()) if args.captions_file else None,
         platforms=resolve_platforms(args.platforms),
@@ -632,16 +712,36 @@ def main() -> None:
     p_styles.add_argument("--region", help="Filter by series: 韩系/kr, 日系/jp, 中式/cn, 通用 (comma list)")
 
     # duo
-    p_duo = subparsers.add_parser("duo", help="List 108 real-person two-person interaction presets (闺蜜 / 情侣 / 百合)")
-    p_duo.add_argument("--category", help="Filter by duo category: 闺蜜/besties, 情侣/couple, 百合/yuri (comma list)")
+    p_duo = subparsers.add_parser("duo", help="List 168 real-person two-person interaction presets (闺蜜/情侣/百合/双男主/欢喜冤家/亲子)")
+    p_duo.add_argument("--category", help="Filter by duo category: 闺蜜/besties, 情侣/couple, 百合/yuri, 双男主/yaoi, 欢喜冤家/rivals, 亲子/family")
     p_duo.add_argument("--language", default="zh-CN", help="Caption language: zh-CN, zh-TW, en, ja, ko")
     p_duo.add_argument("--json", action="store_true", help="Output duo presets as JSON")
+
+    # themes
+    p_themes = subparsers.add_parser("themes", help="List 15 one-click themed sticker packs (打工人/发疯/干饭/搞钱/电竞/追星/闺蜜/情侣/百合/双男主...)")
+    p_themes.add_argument("--json", action="store_true")
+
+    # remix-text
+    p_remix = subparsers.add_parser("remix-text", help="Zero-cost caption & bubble text replacement on already-generated stickers (no AI re-generation)")
+    p_remix.add_argument("--job", "-j", required=True, help="Path to job.json")
+    p_remix.add_argument("--set", action="append", help="Override bottom caption: ITEM_ID=NEW_TEXT (repeatable)")
+    p_remix.add_argument("--bubble", action="append", help="Override speech bubble text: ITEM_ID=NEW_BUBBLE (repeatable)")
+    p_remix.add_argument("--language", help="Switch pack language and re-compose in place")
+
+    # collage
+    p_col = subparsers.add_parser("collage", help="Generate Xiaohongshu 3:4, Story 9:16, Grid 1:1 promotional posters + store submission copy")
+    p_col.add_argument("--output", "-o", required=True, help="Output directory containing generated stickers")
+    p_col.add_argument("--title", help="Custom poster main title")
+    p_col.add_argument("--subtitle", help="Custom poster subtitle")
+    p_col.add_argument("--style", default="real-cutout")
+    p_col.add_argument("--language", default="zh-CN")
 
     # plan
     p_plan = subparsers.add_parser("plan", help="Plan expressions and create job.json")
     p_plan.add_argument("--input", "-i", required=True, help="Path to input photo (Person A)")
     p_plan.add_argument("--partner", "-p", help="Optional path to second person's photo (Person B) for two-person duo stickers")
     p_plan.add_argument("--partner-facts", help="Optional comma-separated identity traits for Person B")
+    p_plan.add_argument("--theme", help="One-click themed pack: 打工人,发疯,干饭,搞钱,电竞,追星,阴阳怪气,学生党,萌宠,闺蜜,情侣,百合,双男主,欢喜冤家,亲子")
     p_plan.add_argument("--output", "-o", required=True, help="Output directory")
     p_plan.add_argument("--job-id", help="Job identifier")
     p_plan.add_argument("--mode", choices=["both", "static", "animated"], default="both")
@@ -796,6 +896,9 @@ def main() -> None:
         "doctor": cmd_doctor,
         "styles": cmd_styles,
         "duo": cmd_duo,
+        "themes": cmd_themes,
+        "remix-text": cmd_remix_text,
+        "collage": cmd_collage,
         "plan": cmd_plan,
         "generate": cmd_generate,
         "regenerate": cmd_regenerate,

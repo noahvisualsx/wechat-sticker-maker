@@ -4966,5 +4966,2765 @@
         "outfit"
       ]
     }
+  },
+  {
+    "id": "d109_yaoi_tie_pull_gaze",
+    "name_zh": "指尖拽领带对视",
+    "category": "yaoi",
+    "caption": "哥哥别躲",
+    "captions": {
+      "zh-CN": "哥哥别躲",
+      "zh-TW": "哥哥別躲",
+      "en": "Don't look away",
+      "ko": "형, 피하지 마",
+      "ja": "兄さん、逃げないで"
+    },
+    "mood": "yaoi: 指尖拽领带对视",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men in sharp tailored shirts: Person A gently pulling Person B's necktie closer, locking eyes with intense magnetic tension. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "哥哥别躲",
+        "zh-TW": "哥哥別躲",
+        "en": "Don't look away",
+        "ko": "형, 피하지 마",
+        "ja": "兄さん、逃げないで"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men in sharp tailored shirts: Person A gently pulling Person B's necktie closer, locking eyes with intense magnetic tension. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (指尖拽领带对视), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '指尖拽领带对视', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d110_yaoi_back_to_back_suit",
+    "name_zh": "双男主西装背靠背",
+    "category": "yaoi",
+    "caption": "并肩作战",
+    "captions": {
+      "zh-CN": "并肩作战",
+      "zh-TW": "並肩作戰",
+      "en": "Watch my back",
+      "ko": "등 뒤는 맡긴다",
+      "ja": "背中は任せた"
+    },
+    "mood": "yaoi: 双男主西装背靠背",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men in dark suits standing back-to-back with cool composed expressions and cinematic rim lighting. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "并肩作战",
+        "zh-TW": "並肩作戰",
+        "en": "Watch my back",
+        "ko": "등 뒤는 맡긴다",
+        "ja": "背中は任せた"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men in dark suits standing back-to-back with cool composed expressions and cinematic rim lighting. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (双男主西装背靠背), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '双男主西装背靠背', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d111_yaoi_wall_whisper",
+    "name_zh": "单手撑墙低声耳语",
+    "category": "yaoi",
+    "caption": "听我的",
+    "captions": {
+      "zh-CN": "听我的",
+      "zh-TW": "聽我的",
+      "en": "Listen to me",
+      "ko": "내 말 들어",
+      "ja": "俺の言う通りにして"
+    },
+    "mood": "yaoi: 单手撑墙低声耳语",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B leaning one hand against the wall beside Person A and whispering low near his ear. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "听我的",
+        "zh-TW": "聽我的",
+        "en": "Listen to me",
+        "ko": "내 말 들어",
+        "ja": "俺の言う通りにして"
+      },
+      "shape": "whisper",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B leaning one hand against the wall beside Person A and whispering low near his ear. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (单手撑墙低声耳语), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '单手撑墙低声耳语', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d112_yaoi_shoulder_nap",
+    "name_zh": "安静借肩小憩",
+    "category": "yaoi",
+    "caption": "借个肩膀",
+    "captions": {
+      "zh-CN": "借个肩膀",
+      "zh-TW": "借個肩膀",
+      "en": "Rest on me",
+      "ko": "어깨 빌려줄게",
+      "ja": "肩を貸すよ"
+    },
+    "mood": "yaoi: 安静借肩小憩",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A resting his head quietly on Person B's shoulder while Person B looks down with soft protective eyes. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "借个肩膀",
+        "zh-TW": "借個肩膀",
+        "en": "Rest on me",
+        "ko": "어깨 빌려줄게",
+        "ja": "肩を貸すよ"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A resting his head quietly on Person B's shoulder while Person B looks down with soft protective eyes. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (安静借肩小憩), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '安静借肩小憩', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d113_yaoi_collar_fix",
+    "name_zh": "替对方整理衣领",
+    "category": "yaoi",
+    "caption": "领口乱了",
+    "captions": {
+      "zh-CN": "领口乱了",
+      "zh-TW": "領口亂了",
+      "en": "Hold still",
+      "ko": "가만히 있어 봐",
+      "ja": "じっとしてて"
+    },
+    "mood": "yaoi: 替对方整理衣领",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B reaching out with both hands to neatly straighten Person A's shirt collar at close range. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "领口乱了",
+        "zh-TW": "領口亂了",
+        "en": "Hold still",
+        "ko": "가만히 있어 봐",
+        "ja": "じっとしてて"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B reaching out with both hands to neatly straighten Person A's shirt collar at close range. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (替对方整理衣领), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '替对方整理衣领', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d114_yaoi_black_umbrella",
+    "name_zh": "雨夜共撑黑伞",
+    "category": "yaoi",
+    "caption": "伞往你那边倾斜",
+    "captions": {
+      "zh-CN": "伞往你那边倾斜",
+      "zh-TW": "傘往你那邊傾斜",
+      "en": "Under one umbrella",
+      "ko": "우산 같이 쓰자",
+      "ja": "相合い傘しよう"
+    },
+    "mood": "yaoi: 雨夜共撑黑伞",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men standing close under a black umbrella in soft rain light, Person B tilting the umbrella toward Person A. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "伞往你那边倾斜",
+        "zh-TW": "傘往你那邊傾斜",
+        "en": "Under one umbrella",
+        "ko": "우산 같이 쓰자",
+        "ja": "相合い傘しよう"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men standing close under a black umbrella in soft rain light, Person B tilting the umbrella toward Person A. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (雨夜共撑黑伞), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '雨夜共撑黑伞', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d115_yaoi_chin_touch_smirk",
+    "name_zh": "拇指轻擦嘴角",
+    "category": "yaoi",
+    "caption": "沾到东西了",
+    "captions": {
+      "zh-CN": "沾到东西了",
+      "zh-TW": "沾到東西了",
+      "en": "Got something there",
+      "ko": "입가에 묻었어",
+      "ja": "口元についてるよ"
+    },
+    "mood": "yaoi: 拇指轻擦嘴角",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B brushing his thumb lightly across the corner of Person A's lip with a subtle teasing smirk. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "沾到东西了",
+        "zh-TW": "沾到東西了",
+        "en": "Got something there",
+        "ko": "입가에 묻었어",
+        "ja": "口元についてるよ"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B brushing his thumb lightly across the corner of Person A's lip with a subtle teasing smirk. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (拇指轻擦嘴角), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '拇指轻擦嘴角', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d116_yaoi_forehead_temp",
+    "name_zh": "贴额头试体温",
+    "category": "yaoi",
+    "caption": "没发烧吧",
+    "captions": {
+      "zh-CN": "没发烧吧",
+      "zh-TW": "沒發燒吧",
+      "en": "Checking fever",
+      "ko": "열나는 거 아니야?",
+      "ja": "熱はないか?"
+    },
+    "mood": "yaoi: 贴额头试体温",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B pressing his forehead gently against Person A's forehead to check his temperature. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "没发烧吧",
+        "zh-TW": "沒發燒吧",
+        "en": "Checking fever",
+        "ko": "열나는 거 아니야?",
+        "ja": "熱はないか?"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B pressing his forehead gently against Person A's forehead to check his temperature. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (贴额头试体温), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '贴额头试体温', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d117_yaoi_wrist_grab_stay",
+    "name_zh": "反手扣住手腕挽留",
+    "category": "yaoi",
+    "caption": "不准走",
+    "captions": {
+      "zh-CN": "不准走",
+      "zh-TW": "不准走",
+      "en": "Stay right here",
+      "ko": "가지 마",
+      "ja": "行かないで"
+    },
+    "mood": "yaoi: 反手扣住手腕挽留",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A turning slightly while Person B catches his wrist firmly with a deep emotional gaze. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "不准走",
+        "zh-TW": "不准走",
+        "en": "Stay right here",
+        "ko": "가지 마",
+        "ja": "行かないで"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A turning slightly while Person B catches his wrist firmly with a deep emotional gaze. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (反手扣住手腕挽留), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '反手扣住手腕挽留', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d118_yaoi_coffee_clink",
+    "name_zh": "冰美式碰杯相视一笑",
+    "category": "yaoi",
+    "caption": "默契满分",
+    "captions": {
+      "zh-CN": "默契满分",
+      "zh-TW": "默契滿分",
+      "en": "Cheers, partner",
+      "ko": "역시 내 파트너",
+      "ja": "最高の相棒"
+    },
+    "mood": "yaoi: 冰美式碰杯相视一笑",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men clinking iced coffee cups together and sharing a warm knowing smile. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "默契满分",
+        "zh-TW": "默契滿分",
+        "en": "Cheers, partner",
+        "ko": "역시 내 파트너",
+        "ja": "最高の相棒"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men clinking iced coffee cups together and sharing a warm knowing smile. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (冰美式碰杯相视一笑), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '冰美式碰杯相视一笑', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d119_yaoi_earphone_share",
+    "name_zh": "一人一半耳机听歌",
+    "category": "yaoi",
+    "caption": "同一首歌",
+    "captions": {
+      "zh-CN": "同一首歌",
+      "zh-TW": "同一首歌",
+      "en": "Our song",
+      "ko": "같은 노래 듣는 중",
+      "ja": "同じ曲を聴こう"
+    },
+    "mood": "yaoi: 一人一半耳机听歌",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men sitting close side-by-side sharing a pair of earbuds with relaxed smiles. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "同一首歌",
+        "zh-TW": "同一首歌",
+        "en": "Our song",
+        "ko": "같은 노래 듣는 중",
+        "ja": "同じ曲を聴こう"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men sitting close side-by-side sharing a pair of earbuds with relaxed smiles. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一人一半耳机听歌), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一人一半耳机听歌', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d120_yaoi_coat_drape",
+    "name_zh": "披上宽大西装外套",
+    "category": "yaoi",
+    "caption": "别着凉",
+    "captions": {
+      "zh-CN": "别着凉",
+      "zh-TW": "別著涼",
+      "en": "Take my coat",
+      "ko": "감기 걸려, 걸쳐",
+      "ja": "風邪ひくぞ"
+    },
+    "mood": "yaoi: 披上宽大西装外套",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B draping his tailored jacket over Person A's shoulders from behind. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "别着凉",
+        "zh-TW": "別著涼",
+        "en": "Take my coat",
+        "ko": "감기 걸려, 걸쳐",
+        "ja": "風邪ひくぞ"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B draping his tailored jacket over Person A's shoulders from behind. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (披上宽大西装外套), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '披上宽大西装外套', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d121_yaoi_glasses_remove",
+    "name_zh": "伸手摘下对方眼镜",
+    "category": "yaoi",
+    "caption": "看着我",
+    "captions": {
+      "zh-CN": "看着我",
+      "zh-TW": "看著我",
+      "en": "Look at me",
+      "ko": "나만 봐",
+      "ja": "俺だけ見て"
+    },
+    "mood": "yaoi: 伸手摘下对方眼镜",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A gently removing Person B's wire-rimmed glasses while looking straight into his eyes. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "看着我",
+        "zh-TW": "看著我",
+        "en": "Look at me",
+        "ko": "나만 봐",
+        "ja": "俺だけ見て"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A gently removing Person B's wire-rimmed glasses while looking straight into his eyes. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (伸手摘下对方眼镜), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '伸手摘下对方眼镜', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d122_yaoi_fist_bump_promise",
+    "name_zh": "双拳轻碰生死契约",
+    "category": "yaoi",
+    "caption": "一言为定",
+    "captions": {
+      "zh-CN": "一言为定",
+      "zh-TW": "一言為定",
+      "en": "Deal is sealed",
+      "ko": "약속한 거다",
+      "ja": "約束だぞ"
+    },
+    "mood": "yaoi: 双拳轻碰生死契约",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men bumping fists at chest level with unwavering trust in their eyes. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "一言为定",
+        "zh-TW": "一言為定",
+        "en": "Deal is sealed",
+        "ko": "약속한 거다",
+        "ja": "約束だぞ"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men bumping fists at chest level with unwavering trust in their eyes. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (双拳轻碰生死契约), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '双拳轻碰生死契约', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d123_yaoi_head_ruffle",
+    "name_zh": "揉乱对方头发宠溺笑",
+    "category": "yaoi",
+    "caption": "拿你没辙",
+    "captions": {
+      "zh-CN": "拿你没辙",
+      "zh-TW": "拿你沒轍",
+      "en": "Can't say no to you",
+      "ko": "너한테는 못 당해",
+      "ja": "お前には敵わない"
+    },
+    "mood": "yaoi: 揉乱对方头发宠溺笑",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B ruffling Person A's hair affectionately while Person A smiles brightly. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "拿你没辙",
+        "zh-TW": "拿你沒轍",
+        "en": "Can't say no to you",
+        "ko": "너한테는 못 당해",
+        "ja": "お前には敵わない"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B ruffling Person A's hair affectionately while Person A smiles brightly. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (揉乱对方头发宠溺笑), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '揉乱对方头发宠溺笑', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d124_yaoi_scarf_pull",
+    "name_zh": "冬日拉近围巾对视",
+    "category": "yaoi",
+    "caption": "离近点暖和",
+    "captions": {
+      "zh-CN": "离近点暖和",
+      "zh-TW": "離近點暖和",
+      "en": "Come closer",
+      "ko": "가까이 와, 추워",
+      "ja": "もっと近くに来いよ"
+    },
+    "mood": "yaoi: 冬日拉近围巾对视",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men sharing a knit winter scarf, gently pulling each other closer. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "离近点暖和",
+        "zh-TW": "離近點暖和",
+        "en": "Come closer",
+        "ko": "가까이 와, 추워",
+        "ja": "もっと近くに来いよ"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men sharing a knit winter scarf, gently pulling each other closer. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (冬日拉近围巾对视), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '冬日拉近围巾对视', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d125_yaoi_gaming_couch",
+    "name_zh": "并肩手柄打游戏较劲",
+    "category": "yaoi",
+    "caption": "这局算你赢",
+    "captions": {
+      "zh-CN": "这局算你赢",
+      "zh-TW": "這局算你贏",
+      "en": "Letting you win",
+      "ko": "이번엔 봐줬다",
+      "ja": "今回は負けといてやる"
+    },
+    "mood": "yaoi: 并肩手柄打游戏较劲",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men holding game controllers shoulder-to-shoulder, leaning into each other playfully. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "这局算你赢",
+        "zh-TW": "這局算你贏",
+        "en": "Letting you win",
+        "ko": "이번엔 봐줬다",
+        "ja": "今回は負けといてやる"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men holding game controllers shoulder-to-shoulder, leaning into each other playfully. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (并肩手柄打游戏较劲), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '并肩手柄打游戏较劲', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d126_yaoi_bandage_cheek",
+    "name_zh": "轻贴创可贴心疼对视",
+    "category": "yaoi",
+    "caption": "下次小心点",
+    "captions": {
+      "zh-CN": "下次小心点",
+      "zh-TW": "下次小心點",
+      "en": "Be careful",
+      "ko": "다치지 마",
+      "ja": "無茶するなよ"
+    },
+    "mood": "yaoi: 轻贴创可贴心疼对视",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A carefully applying a small bandage to Person B's cheek with gentle concern. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "下次小心点",
+        "zh-TW": "下次小心點",
+        "en": "Be careful",
+        "ko": "다치지 마",
+        "ja": "無茶するなよ"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A carefully applying a small bandage to Person B's cheek with gentle concern. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (轻贴创可贴心疼对视), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '轻贴创可贴心疼对视', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d127_yaoi_rooftop_breeze",
+    "name_zh": "天台晚风并肩远眺",
+    "category": "yaoi",
+    "caption": "有你在就好",
+    "captions": {
+      "zh-CN": "有你在就好",
+      "zh-TW": "有你在就好",
+      "en": "Glad you're here",
+      "ko": "네가 있어서 다행이야",
+      "ja": "お前がいてよかった"
+    },
+    "mood": "yaoi: 天台晚风并肩远眺",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men standing side-by-side in golden sunset breeze looking at each other warmly. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "有你在就好",
+        "zh-TW": "有你在就好",
+        "en": "Glad you're here",
+        "ko": "네가 있어서 다행이야",
+        "ja": "お前がいてよかった"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men standing side-by-side in golden sunset breeze looking at each other warmly. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (天台晚风并肩远眺), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '天台晚风并肩远眺', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d128_yaoi_pinky_lock",
+    "name_zh": "宿命感拉钩勾约定",
+    "category": "yaoi",
+    "caption": "下辈子也一起",
+    "captions": {
+      "zh-CN": "下辈子也一起",
+      "zh-TW": "下輩子也一起",
+      "en": "Forever bound",
+      "ko": "다음 생에도 함께",
+      "ja": "来世でも一緒に"
+    },
+    "mood": "yaoi: 宿命感拉钩勾约定",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real men locking pinky fingers in foreground focus with soft emotional smiles. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "下辈子也一起",
+        "zh-TW": "下輩子也一起",
+        "en": "Forever bound",
+        "ko": "다음 생에도 함께",
+        "ja": "来世でも一緒に"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real men locking pinky fingers in foreground focus with soft emotional smiles. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (宿命感拉钩勾约定), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '宿命感拉钩勾约定', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d129_rival_pinch_cheeks",
+    "name_zh": "互相扯脸颊肉较劲",
+    "category": "rivals",
+    "caption": "互相伤害",
+    "captions": {
+      "zh-CN": "互相伤害",
+      "zh-TW": "互相傷害",
+      "en": "Mutual destruction!",
+      "ko": "피차일반이거든!",
+      "ja": "お互い様でしょ!"
+    },
+    "mood": "rivals: 互相扯脸颊肉较劲",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A and Person B pinching and stretching each other's cheeks at the same time with funny competitive faces. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "互相伤害",
+        "zh-TW": "互相傷害",
+        "en": "Mutual destruction!",
+        "ko": "피차일반이거든!",
+        "ja": "お互い様でしょ!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A and Person B pinching and stretching each other's cheeks at the same time with funny competitive faces. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (互相扯脸颊肉较劲), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '互相扯脸颊肉较劲', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d130_rival_forehead_flick",
+    "name_zh": "石头剪刀布输了弹脑门",
+    "category": "rivals",
+    "caption": "愿赌服输!",
+    "captions": {
+      "zh-CN": "愿赌服输!",
+      "zh-TW": "願賭服輸!",
+      "en": "Pay up!",
+      "ko": "내기 졌으니 맞아라!",
+      "ja": "罰ゲーム決定!"
+    },
+    "mood": "rivals: 石头剪刀布输了弹脑门",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B aiming a playful finger-flick at Person A's forehead while Person A squints and covers forehead. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "愿赌服输!",
+        "zh-TW": "願賭服輸!",
+        "en": "Pay up!",
+        "ko": "내기 졌으니 맞아라!",
+        "ja": "罰ゲーム決定!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B aiming a playful finger-flick at Person A's forehead while Person A squints and covers forehead. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (石头剪刀布输了弹脑门), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '石头剪刀布输了弹脑门', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d131_rival_steal_boba",
+    "name_zh": "偷喝对方最后一口奶茶",
+    "category": "rivals",
+    "caption": "最后一口归我!",
+    "captions": {
+      "zh-CN": "最后一口归我!",
+      "zh-TW": "最後一口歸我!",
+      "en": "Mine now!",
+      "ko": "마지막 한 입은 내 거!",
+      "ja": "最後の一口いただき!"
+    },
+    "mood": "rivals: 偷喝对方最后一口奶茶",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A sneaking a sip from Person B's boba straw while Person B gasps in betrayal. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "最后一口归我!",
+        "zh-TW": "最後一口歸我!",
+        "en": "Mine now!",
+        "ko": "마지막 한 입은 내 거!",
+        "ja": "最後の一口いただき!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A sneaking a sip from Person B's boba straw while Person B gasps in betrayal. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (偷喝对方最后一口奶茶), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '偷喝对方最后一口奶茶', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d132_rival_back_sulking",
+    "name_zh": "背对背抱臂假装冷战",
+    "category": "rivals",
+    "caption": "哼，绝交三分钟",
+    "captions": {
+      "zh-CN": "哼，绝交三分钟",
+      "zh-TW": "哼，絕交三分鐘",
+      "en": "Hmph, ignoring you",
+      "ko": "흥, 3분 동안 절교!",
+      "ja": "ふん、3分間絶交!"
+    },
+    "mood": "rivals: 背对背抱臂假装冷战",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people standing back-to-back with arms crossed pouting, yet secretly peeking back at each other. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "哼，绝交三分钟",
+        "zh-TW": "哼，絕交三分鐘",
+        "en": "Hmph, ignoring you",
+        "ko": "흥, 3분 동안 절교!",
+        "ja": "ふん、3分間絶交!"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people standing back-to-back with arms crossed pouting, yet secretly peeking back at each other. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (背对背抱臂假装冷战), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '背对背抱臂假装冷战', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d133_rival_headlock_tease",
+    "name_zh": "锁喉功揽脖子打闹",
+    "category": "rivals",
+    "caption": "服不服?!",
+    "captions": {
+      "zh-CN": "服不服?!",
+      "zh-TW": "服不服?!",
+      "en": "Say uncle!",
+      "ko": "항복해 안 해?!",
+      "ja": "参ったか!"
+    },
+    "mood": "rivals: 锁喉功揽脖子打闹",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B playfully wrapping an arm around Person A's neck in a friendly headlock while both laugh. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "服不服?!",
+        "zh-TW": "服不服?!",
+        "en": "Say uncle!",
+        "ko": "항복해 안 해?!",
+        "ja": "参ったか!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B playfully wrapping an arm around Person A's neck in a friendly headlock while both laugh. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (锁喉功揽脖子打闹), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '锁喉功揽脖子打闹', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d134_rival_nag_cover_ears",
+    "name_zh": "一个碎碎念一个捂耳朵",
+    "category": "rivals",
+    "caption": "不听不听王八念经",
+    "captions": {
+      "zh-CN": "不听不听王八念经",
+      "zh-TW": "不聽不聽王八念經",
+      "en": "Blah blah can't hear",
+      "ko": "안 들려 안 들려~",
+      "ja": "聞こえませーん!"
+    },
+    "mood": "rivals: 一个碎碎念一个捂耳朵",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B wagging a finger lecturing while Person A covers both ears making a cheeky face. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "不听不听王八念经",
+        "zh-TW": "不聽不聽王八念經",
+        "en": "Blah blah can't hear",
+        "ko": "안 들려 안 들려~",
+        "ja": "聞こえませーん!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B wagging a finger lecturing while Person A covers both ears making a cheeky face. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一个碎碎念一个捂耳朵), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一个碎碎念一个捂耳朵', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d135_rival_blame_each_other",
+    "name_zh": "同时指对方甩锅",
+    "category": "rivals",
+    "caption": "都怪你!",
+    "captions": {
+      "zh-CN": "都怪你!",
+      "zh-TW": "都怪你!",
+      "en": "All your fault!",
+      "ko": "다 너 때문이야!",
+      "ja": "全部あんたのせい!"
+    },
+    "mood": "rivals: 同时指对方甩锅",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A and Person B pointing accusingly at each other at the exact same time. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "都怪你!",
+        "zh-TW": "都怪你!",
+        "en": "All your fault!",
+        "ko": "다 너 때문이야!",
+        "ja": "全部あんたのせい!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A and Person B pointing accusingly at each other at the exact same time. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (同时指对方甩锅), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '同时指对方甩锅', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d136_rival_fake_punch",
+    "name_zh": "假装挥小拳拳吓唬",
+    "category": "rivals",
+    "caption": "信不信揍你",
+    "captions": {
+      "zh-CN": "信不信揍你",
+      "zh-TW": "信不信揍你",
+      "en": "Wanna fight?!",
+      "ko": "한 대 맞을래?!",
+      "ja": "パンチするぞ!"
+    },
+    "mood": "rivals: 假装挥小拳拳吓唬",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A raising a playful fist while Person B exaggeratedly cowers with a teasing grin. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "信不信揍你",
+        "zh-TW": "信不信揍你",
+        "en": "Wanna fight?!",
+        "ko": "한 대 맞을래?!",
+        "ja": "パンチするぞ!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A raising a playful fist while Person B exaggeratedly cowers with a teasing grin. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (假装挥小拳拳吓唬), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '假装挥小拳拳吓唬', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d137_rival_peace_horns",
+    "name_zh": "合照偷偷在对方头上比兔耳",
+    "category": "rivals",
+    "caption": "暗中捣乱",
+    "captions": {
+      "zh-CN": "暗中捣乱",
+      "zh-TW": "暗中搗亂",
+      "en": "Photobomb!",
+      "ko": "몰래 장난치기",
+      "ja": "後ろでいたずら"
+    },
+    "mood": "rivals: 合照偷偷在对方头上比兔耳",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A posing nicely while Person B sneaks bunny-ear fingers behind Person A's head. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "暗中捣乱",
+        "zh-TW": "暗中搗亂",
+        "en": "Photobomb!",
+        "ko": "몰래 장난치기",
+        "ja": "後ろでいたずら"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A posing nicely while Person B sneaks bunny-ear fingers behind Person A's head. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (合照偷偷在对方头上比兔耳), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '合照偷偷在对方头上比兔耳', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d138_rival_push_away_face",
+    "name_zh": "单手推开凑近的大脸",
+    "category": "rivals",
+    "caption": "莫挨老子",
+    "captions": {
+      "zh-CN": "莫挨老子",
+      "zh-TW": "莫挨老子",
+      "en": "Personal space pls",
+      "ko": "저리 가 질척대지 마",
+      "ja": "近いってば!"
+    },
+    "mood": "rivals: 单手推开凑近的大脸",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A trying to lean in for a hug while Person B playfully pushes Person A's face back with one palm. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "莫挨老子",
+        "zh-TW": "莫挨老子",
+        "en": "Personal space pls",
+        "ko": "저리 가 질척대지 마",
+        "ja": "近いってば!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A trying to lean in for a hug while Person B playfully pushes Person A's face back with one palm. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (单手推开凑近的大脸), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '单手推开凑近的大脸', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d139_rival_smug_vs_mad",
+    "name_zh": "一个得瑟挑眉一个咬牙切齿",
+    "category": "rivals",
+    "caption": "气死你略略略",
+    "captions": {
+      "zh-CN": "气死你略略略",
+      "zh-TW": "氣死你略略略",
+      "en": "Stay mad~",
+      "ko": "약오르지 메롱~",
+      "ja": "悔しいでしょ〜"
+    },
+    "mood": "rivals: 一个得瑟挑眉一个咬牙切齿",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A sticking tongue out smugly while Person B puffs cheeks in comical rage. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "气死你略略略",
+        "zh-TW": "氣死你略略略",
+        "en": "Stay mad~",
+        "ko": "약오르지 메롱~",
+        "ja": "悔しいでしょ〜"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A sticking tongue out smugly while Person B puffs cheeks in comical rage. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一个得瑟挑眉一个咬牙切齿), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一个得瑟挑眉一个咬牙切齿', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d140_rival_tug_of_snack",
+    "name_zh": "争抢同一包薯片",
+    "category": "rivals",
+    "caption": "放手是我的!",
+    "captions": {
+      "zh-CN": "放手是我的!",
+      "zh-TW": "放手是我的!",
+      "en": "Hands off my snack!",
+      "ko": "내 과자 손 떼!",
+      "ja": "私のお菓子返して!"
+    },
+    "mood": "rivals: 争抢同一包薯片",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people pulling on opposite ends of a snack bag refusing to let go. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "放手是我的!",
+        "zh-TW": "放手是我的!",
+        "en": "Hands off my snack!",
+        "ko": "내 과자 손 떼!",
+        "ja": "私のお菓子返して!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people pulling on opposite ends of a snack bag refusing to let go. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (争抢同一包薯片), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '争抢同一包薯片', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d141_rival_eye_squint_duel",
+    "name_zh": "鼻子贴鼻子瞪眼比赛",
+    "category": "rivals",
+    "caption": "谁先眨眼谁请客",
+    "captions": {
+      "zh-CN": "谁先眨眼谁请客",
+      "zh-TW": "誰先眨眼誰請客",
+      "en": "Staring contest!",
+      "ko": "눈 먼저 깜빡이면 쏘기!",
+      "ja": "まばたきしたら奢り!"
+    },
+    "mood": "rivals: 鼻子贴鼻子瞪眼比赛",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Two real people leaning nose-to-nose in an intense funny staring contest. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "谁先眨眼谁请客",
+        "zh-TW": "誰先眨眼誰請客",
+        "en": "Staring contest!",
+        "ko": "눈 먼저 깜빡이면 쏘기!",
+        "ja": "まばたきしたら奢り!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Two real people leaning nose-to-nose in an intense funny staring contest. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (鼻子贴鼻子瞪眼比赛), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '鼻子贴鼻子瞪眼比赛', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d142_rival_bribe_milk_tea",
+    "name_zh": "递上一杯奶茶求原谅",
+    "category": "rivals",
+    "caption": "大人不记小人过",
+    "captions": {
+      "zh-CN": "大人不记小人过",
+      "zh-TW": "大人不記小人過",
+      "en": "Peace offering~",
+      "ko": "이거 먹고 풀어~",
+      "ja": "これで許して〜"
+    },
+    "mood": "rivals: 递上一杯奶茶求原谅",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B offering a milk tea with an apologetic grin while Person A looks away trying not to smile. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "大人不记小人过",
+        "zh-TW": "大人不記小人過",
+        "en": "Peace offering~",
+        "ko": "이거 먹고 풀어~",
+        "ja": "これで許して〜"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B offering a milk tea with an apologetic grin while Person A looks away trying not to smile. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (递上一杯奶茶求原谅), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '递上一杯奶茶求原谅', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d143_rival_step_on_shadow",
+    "name_zh": "凑在一起看对方黑历史照片",
+    "category": "rivals",
+    "caption": "公开处刑!",
+    "captions": {
+      "zh-CN": "公开处刑!",
+      "zh-TW": "公開處刑!",
+      "en": "Blackmail material!",
+      "ko": "흑역사 박제 완료!",
+      "ja": "黒歴史発見!"
+    },
+    "mood": "rivals: 凑在一起看对方黑历史照片",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B holding up a phone laughing while Person A reaches desperately to grab it. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "公开处刑!",
+        "zh-TW": "公開處刑!",
+        "en": "Blackmail material!",
+        "ko": "흑역사 박제 완료!",
+        "ja": "黒歴史発見!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B holding up a phone laughing while Person A reaches desperately to grab it. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (凑在一起看对方黑历史照片), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '凑在一起看对方黑历史照片', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d144_rival_sync_facepalm",
+    "name_zh": "两人同时扶额无语",
+    "category": "rivals",
+    "caption": "没眼看",
+    "captions": {
+      "zh-CN": "没眼看",
+      "zh-TW": "沒眼看",
+      "en": "Double facepalm",
+      "ko": "둘 다 할 말 잃음",
+      "ja": "同時に頭抱える"
+    },
+    "mood": "rivals: 两人同时扶额无语",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both Person A and Person B doing a synchronized facepalm with identical speechless expressions. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "没眼看",
+        "zh-TW": "沒眼看",
+        "en": "Double facepalm",
+        "ko": "둘 다 할 말 잃음",
+        "ja": "同時に頭抱える"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both Person A and Person B doing a synchronized facepalm with identical speechless expressions. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (两人同时扶额无语), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '两人同时扶额无语', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d145_rival_poke_cheek_annoy",
+    "name_zh": "疯狂戳对方脸颊肉",
+    "category": "rivals",
+    "caption": "戳戳戳理我!",
+    "captions": {
+      "zh-CN": "戳戳戳理我!",
+      "zh-TW": "戳戳戳理我!",
+      "en": "Poke poke!",
+      "ko": "콕콕 나 좀 봐줘!",
+      "ja": "ツンツン構って!"
+    },
+    "mood": "rivals: 疯狂戳对方脸颊肉",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A repeatedly poking Person B's cheek with both index fingers while Person B sighs. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "戳戳戳理我!",
+        "zh-TW": "戳戳戳理我!",
+        "en": "Poke poke!",
+        "ko": "콕콕 나 좀 봐줘!",
+        "ja": "ツンツン構って!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A repeatedly poking Person B's cheek with both index fingers while Person B sighs. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (疯狂戳对方脸颊肉), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '疯狂戳对方脸颊肉', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d146_rival_fake_cry_tattle",
+    "name_zh": "一个假哭告状一个慌张捂嘴",
+    "category": "rivals",
+    "caption": "别嚎了祖宗!",
+    "captions": {
+      "zh-CN": "别嚎了祖宗!",
+      "zh-TW": "別嚎了祖宗!",
+      "en": "Shh don't snitch!",
+      "ko": "야 울지 마 조용히 해!",
+      "ja": "泣かないでよ〜!"
+    },
+    "mood": "rivals: 一个假哭告状一个慌张捂嘴",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A pretending to wail dramatically while Person B panics trying to cover Person A's mouth. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "别嚎了祖宗!",
+        "zh-TW": "別嚎了祖宗!",
+        "en": "Shh don't snitch!",
+        "ko": "야 울지 마 조용히 해!",
+        "ja": "泣かないでよ〜!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A pretending to wail dramatically while Person B panics trying to cover Person A's mouth. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一个假哭告状一个慌张捂嘴), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一个假哭告状一个慌张捂嘴', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d147_rival_high_five_miss",
+    "name_zh": "假装击掌突然收回手",
+    "category": "rivals",
+    "caption": "溜了溜了",
+    "captions": {
+      "zh-CN": "溜了溜了",
+      "zh-TW": "溜了溜了",
+      "en": "Too slow~",
+      "ko": "속았지롱~",
+      "ja": "残念でした〜"
+    },
+    "mood": "rivals: 假装击掌突然收回手",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A pulling hand back to smooth hair right as Person B goes for a high-five. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "溜了溜了",
+        "zh-TW": "溜了溜了",
+        "en": "Too slow~",
+        "ko": "속았지롱~",
+        "ja": "残念でした〜"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A pulling hand back to smooth hair right as Person B goes for a high-five. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (假装击掌突然收回手), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '假装击掌突然收回手', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d148_rival_make_up_hug",
+    "name_zh": "吵完架秒和好抱抱",
+    "category": "rivals",
+    "caption": "还是你最好",
+    "captions": {
+      "zh-CN": "还是你最好",
+      "zh-TW": "還是你最好",
+      "en": "Still best friends",
+      "ko": "그래도 네가 최고야",
+      "ja": "やっぱり仲良し"
+    },
+    "mood": "rivals: 吵完架秒和好抱抱",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people hugging warmly and laughing right after a silly argument. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "还是你最好",
+        "zh-TW": "還是你最好",
+        "en": "Still best friends",
+        "ko": "그래도 네가 최고야",
+        "ja": "やっぱり仲良し"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people hugging warmly and laughing right after a silly argument. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (吵完架秒和好抱抱), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '吵完架秒和好抱抱', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d149_fam_copy_paste_pose",
+    "name_zh": "大小同款双手托腮歪头",
+    "category": "family",
+    "caption": "复制粘贴",
+    "captions": {
+      "zh-CN": "复制粘贴",
+      "zh-TW": "複製粘貼",
+      "en": "Copy & paste",
+      "ko": "붕어빵 가족",
+      "ja": "そっくりそのまま"
+    },
+    "mood": "family: 大小同款双手托腮歪头",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people resting chins in their palms at the exact same angle with matching bright smiles. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "复制粘贴",
+        "zh-TW": "複製粘貼",
+        "en": "Copy & paste",
+        "ko": "붕어빵 가족",
+        "ja": "そっくりそのまま"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people resting chins in their palms at the exact same angle with matching bright smiles. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (大小同款双手托腮歪头), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '大小同款双手托腮歪头', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d150_fam_sister_shield",
+    "name_zh": "姐姐霸气把弟妹护在身后",
+    "category": "family",
+    "caption": "有姐在别怕",
+    "captions": {
+      "zh-CN": "有姐在别怕",
+      "zh-TW": "有姐在別怕",
+      "en": "Big sis got you",
+      "ko": "누나만 믿어!",
+      "ja": "お姉ちゃんに任せて!"
+    },
+    "mood": "family: 姐姐霸气把弟妹护在身后",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A standing protectively in front while Person B peeks out from behind her shoulder. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "有姐在别怕",
+        "zh-TW": "有姐在別怕",
+        "en": "Big sis got you",
+        "ko": "누나만 믿어!",
+        "ja": "お姉ちゃんに任せて!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A standing protectively in front while Person B peeks out from behind her shoulder. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (姐姐霸气把弟妹护在身后), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '姐姐霸气把弟妹护在身后', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d151_fam_pinch_soft_cheek",
+    "name_zh": "宠溺轻捏软乎乎脸蛋",
+    "category": "family",
+    "caption": "我们家乖宝",
+    "captions": {
+      "zh-CN": "我们家乖宝",
+      "zh-TW": "我們家乖寶",
+      "en": "Cutie pie",
+      "ko": "우리 집 귀요미",
+      "ja": "うちの可愛い子"
+    },
+    "mood": "family: 宠溺轻捏软乎乎脸蛋",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A gently pinching Person B's soft cheek with a warm doting smile. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "我们家乖宝",
+        "zh-TW": "我們家乖寶",
+        "en": "Cutie pie",
+        "ko": "우리 집 귀요미",
+        "ja": "うちの可愛い子"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A gently pinching Person B's soft cheek with a warm doting smile. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (宠溺轻捏软乎乎脸蛋), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '宠溺轻捏软乎乎脸蛋', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d152_fam_red_envelope_pat",
+    "name_zh": "发红包摸摸头祝福",
+    "category": "family",
+    "caption": "岁岁平安长大",
+    "captions": {
+      "zh-CN": "岁岁平安长大",
+      "zh-TW": "歲歲平安長大",
+      "en": "Grow up happy!",
+      "ko": "건강하게만 자라다오",
+      "ja": "すくすく育ってね"
+    },
+    "mood": "family: 发红包摸摸头祝福",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A handing a festive red packet to Person B while patting their head warmly. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "岁岁平安长大",
+        "zh-TW": "歲歲平安長大",
+        "en": "Grow up happy!",
+        "ko": "건강하게만 자라다오",
+        "ja": "すくすく育ってね"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A handing a festive red packet to Person B while patting their head warmly. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (发红包摸摸头祝福), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '发红包摸摸头祝福', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d153_fam_piggyback_joy",
+    "name_zh": "背着弟妹欢快比耶",
+    "category": "family",
+    "caption": "出发咯!",
+    "captions": {
+      "zh-CN": "出发咯!",
+      "zh-TW": "出發咯!",
+      "en": "Off we go!",
+      "ko": "출발한다 꽉 잡아!",
+      "ja": "しゅっぱーつ!"
+    },
+    "mood": "family: 背着弟妹欢快比耶",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B giving Person A a cheerful piggyback ride while both flash peace signs. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "出发咯!",
+        "zh-TW": "出發咯!",
+        "en": "Off we go!",
+        "ko": "출발한다 꽉 잡아!",
+        "ja": "しゅっぱーつ!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B giving Person A a cheerful piggyback ride while both flash peace signs. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (背着弟妹欢快比耶), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '背着弟妹欢快比耶', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d154_fam_wipe_mouth_snack",
+    "name_zh": "帮小吃货擦嘴角残渣",
+    "category": "family",
+    "caption": "慢点吃没人抢",
+    "captions": {
+      "zh-CN": "慢点吃没人抢",
+      "zh-TW": "慢點吃沒人搶",
+      "en": "Eat slowly~",
+      "ko": "천천히 먹어~",
+      "ja": "ゆっくり食べなさい"
+    },
+    "mood": "family: 帮小吃货擦嘴角残渣",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A wiping the corner of Person B's mouth with a handkerchief while Person B grins. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "慢点吃没人抢",
+        "zh-TW": "慢點吃沒人搶",
+        "en": "Eat slowly~",
+        "ko": "천천히 먹어~",
+        "ja": "ゆっくり食べなさい"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A wiping the corner of Person B's mouth with a handkerchief while Person B grins. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (帮小吃货擦嘴角残渣), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '帮小吃货擦嘴角残渣', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d155_fam_measure_height",
+    "name_zh": "手比头顶量身高",
+    "category": "family",
+    "caption": "又长高啦!",
+    "captions": {
+      "zh-CN": "又长高啦!",
+      "zh-TW": "又長高啦!",
+      "en": "Grew taller!",
+      "ko": "키 많이 컸네!",
+      "ja": "背が伸びたね!"
+    },
+    "mood": "family: 手比头顶量身高",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A holding a flat hand over Person B's head to measure their height with pride. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "又长高啦!",
+        "zh-TW": "又長高啦!",
+        "en": "Grew taller!",
+        "ko": "키 많이 컸네!",
+        "ja": "背が伸びたね!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A holding a flat hand over Person B's head to measure their height with pride. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (手比头顶量身高), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '手比头顶量身高', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d156_fam_homework_sigh",
+    "name_zh": "辅导作业血压飙升",
+    "category": "family",
+    "caption": "深呼吸亲生的",
+    "captions": {
+      "zh-CN": "深呼吸亲生的",
+      "zh-TW": "深呼吸親生的",
+      "en": "Breathe... family...",
+      "ko": "참자 내 동생이다...",
+      "ja": "深呼吸…大事な家族…"
+    },
+    "mood": "family: 辅导作业血压飙升",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A pointing at a notebook while pressing one hand to forehead in comedic tutoring stress. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "深呼吸亲生的",
+        "zh-TW": "深呼吸親生的",
+        "en": "Breathe... family...",
+        "ko": "참자 내 동생이다...",
+        "ja": "深呼吸…大事な家族…"
+      },
+      "shape": "thought",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A pointing at a notebook while pressing one hand to forehead in comedic tutoring stress. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (辅导作业血压飙升), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '辅导作业血压飙升', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d157_fam_praise_thumbs_up",
+    "name_zh": "双手竖大拇指夸奖宝贝",
+    "category": "family",
+    "caption": "太争气了!",
+    "captions": {
+      "zh-CN": "太争气了!",
+      "zh-TW": "太爭氣了!",
+      "en": "So proud of you!",
+      "ko": "우리 장하다 최고!",
+      "ja": "よく頑張ったね!"
+    },
+    "mood": "family: 双手竖大拇指夸奖宝贝",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A giving double thumbs-up and beaming with pride at Person B. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "太争气了!",
+        "zh-TW": "太爭氣了!",
+        "en": "So proud of you!",
+        "ko": "우리 장하다 최고!",
+        "ja": "よく頑張ったね!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A giving double thumbs-up and beaming with pride at Person B. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (双手竖大拇指夸奖宝贝), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '双手竖大拇指夸奖宝贝', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d158_fam_share_ice_cream",
+    "name_zh": "一人一口冰淇淋甜笑",
+    "category": "family",
+    "caption": "甜甜的日常",
+    "captions": {
+      "zh-CN": "甜甜的日常",
+      "zh-TW": "甜甜的日常",
+      "en": "Sweet day",
+      "ko": "달콤한 일상",
+      "ja": "甘いひととき"
+    },
+    "mood": "family: 一人一口冰淇淋甜笑",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people holding ice cream cones close together with happy summer smiles. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "甜甜的日常",
+        "zh-TW": "甜甜的日常",
+        "en": "Sweet day",
+        "ko": "달콤한 일상",
+        "ja": "甘いひととき"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people holding ice cream cones close together with happy summer smiles. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一人一口冰淇淋甜笑), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一人一口冰淇淋甜笑', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d159_fam_whisper_secret",
+    "name_zh": "手拢嘴边说悄悄话",
+    "category": "family",
+    "caption": "别告诉爸妈哦",
+    "captions": {
+      "zh-CN": "别告诉爸妈哦",
+      "zh-TW": "別告訴爸媽哦",
+      "en": "Our little secret",
+      "ko": "엄마한테는 비밀이야",
+      "ja": "ママには内緒だよ"
+    },
+    "mood": "family: 手拢嘴边说悄悄话",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A whispering a secret into Person B's ear with a playful wink. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "别告诉爸妈哦",
+        "zh-TW": "別告訴爸媽哦",
+        "en": "Our little secret",
+        "ko": "엄마한테는 비밀이야",
+        "ja": "ママには内緒だよ"
+      },
+      "shape": "whisper",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A whispering a secret into Person B's ear with a playful wink. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (手拢嘴边说悄悄话), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '手拢嘴边说悄悄话', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d160_fam_warm_shoulder_hug",
+    "name_zh": "一左一右揽肩全家福笑",
+    "category": "family",
+    "caption": "相亲相爱一家人",
+    "captions": {
+      "zh-CN": "相亲相爱一家人",
+      "zh-TW": "相親相愛一家人",
+      "en": "Family love",
+      "ko": "사랑하는 우리 가족",
+      "ja": "仲良しファミリー"
+    },
+    "mood": "family: 一左一右揽肩全家福笑",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people standing close with arms around each other's shoulders in a warm family portrait. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "相亲相爱一家人",
+        "zh-TW": "相親相愛一家人",
+        "en": "Family love",
+        "ko": "사랑하는 우리 가족",
+        "ja": "仲良しファミリー"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people standing close with arms around each other's shoulders in a warm family portrait. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一左一右揽肩全家福笑), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一左一右揽肩全家福笑', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d161_fam_fix_hair_clip",
+    "name_zh": "温柔帮整理刘海发卡",
+    "category": "family",
+    "caption": "打扮得美美的",
+    "captions": {
+      "zh-CN": "打扮得美美的",
+      "zh-TW": "打扮得美美的",
+      "en": "All pretty now",
+      "ko": "예쁘게 단장 끝!",
+      "ja": "可愛くなったよ"
+    },
+    "mood": "family: 温柔帮整理刘海发卡",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A gently adjusting a hair clip on Person B's bangs with a tender smile. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "打扮得美美的",
+        "zh-TW": "打扮得美美的",
+        "en": "All pretty now",
+        "ko": "예쁘게 단장 끝!",
+        "ja": "可愛くなったよ"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A gently adjusting a hair clip on Person B's bangs with a tender smile. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (温柔帮整理刘海发卡), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '温柔帮整理刘海发卡', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d162_fam_cheer_pom_pom",
+    "name_zh": "一起挥拳加油打气",
+    "category": "family",
+    "caption": "冲鸭必胜!",
+    "captions": {
+      "zh-CN": "冲鸭必胜!",
+      "zh-TW": "衝鴨必勝!",
+      "en": "You got this!",
+      "ko": "파이팅 할 수 있어!",
+      "ja": "絶対勝てるよ!"
+    },
+    "mood": "family: 一起挥拳加油打气",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people pumping fists together in synchronized family cheering. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "冲鸭必胜!",
+        "zh-TW": "衝鴨必勝!",
+        "en": "You got this!",
+        "ko": "파이팅 할 수 있어!",
+        "ja": "絶対勝てるよ!"
+      },
+      "shape": "shout",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people pumping fists together in synchronized family cheering. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一起挥拳加油打气), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一起挥拳加油打气', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d163_fam_sleepy_lean",
+    "name_zh": "困困靠在姐姐肩头揉眼",
+    "category": "family",
+    "caption": "困困要抱抱",
+    "captions": {
+      "zh-CN": "困困要抱抱",
+      "zh-TW": "困困要抱抱",
+      "en": "Sleepy cuddle",
+      "ko": "졸려 안아줘~",
+      "ja": "眠い〜抱っこ"
+    },
+    "mood": "family: 困困靠在姐姐肩头揉眼",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B rubbing sleepy eyes while leaning against Person A's comforting shoulder. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "困困要抱抱",
+        "zh-TW": "困困要抱抱",
+        "en": "Sleepy cuddle",
+        "ko": "졸려 안아줘~",
+        "ja": "眠い〜抱っこ"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person B rubbing sleepy eyes while leaning against Person A's comforting shoulder. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (困困靠在姐姐肩头揉眼), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '困困靠在姐姐肩头揉眼', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d164_fam_funny_glasses",
+    "name_zh": "一起戴搞怪眼镜比耶",
+    "category": "family",
+    "caption": "快乐加倍",
+    "captions": {
+      "zh-CN": "快乐加倍",
+      "zh-TW": "快樂加倍",
+      "en": "Double fun!",
+      "ko": "즐거움도 두 배!",
+      "ja": "楽しさ2倍!"
+    },
+    "mood": "family: 一起戴搞怪眼镜比耶",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people making finger-glasses over their eyes with big goofy grins. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "快乐加倍",
+        "zh-TW": "快樂加倍",
+        "en": "Double fun!",
+        "ko": "즐거움도 두 배!",
+        "ja": "楽しさ2倍!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people making finger-glasses over their eyes with big goofy grins. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一起戴搞怪眼镜比耶), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一起戴搞怪眼镜比耶', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d165_fam_umbrella_pickup",
+    "name_zh": "下雨天撑伞来接你",
+    "category": "family",
+    "caption": "接你回家啦",
+    "captions": {
+      "zh-CN": "接你回家啦",
+      "zh-TW": "接你回家啦",
+      "en": "Let's go home",
+      "ko": "집에 가자 데리러 왔어",
+      "ja": "お迎えに来たよ"
+    },
+    "mood": "family: 下雨天撑伞来接你",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A holding an umbrella over Person B with a warm welcoming smile. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "接你回家啦",
+        "zh-TW": "接你回家啦",
+        "en": "Let's go home",
+        "ko": "집에 가자 데리러 왔어",
+        "ja": "お迎えに来たよ"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A holding an umbrella over Person B with a warm welcoming smile. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (下雨天撑伞来接你), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '下雨天撑伞来接你', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d166_fam_cooking_taste",
+    "name_zh": "拿勺子喂尝一口美味",
+    "category": "family",
+    "caption": "尝尝咸淡",
+    "captions": {
+      "zh-CN": "尝尝咸淡",
+      "zh-TW": "嚐嚐鹹淡",
+      "en": "Taste this!",
+      "ko": "간 좀 봐봐 맛있다!",
+      "ja": "味見してみて!"
+    },
+    "mood": "family: 拿勺子喂尝一口美味",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A holding a tasting spoon for Person B who leans in eagerly. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "尝尝咸淡",
+        "zh-TW": "嚐嚐鹹淡",
+        "en": "Taste this!",
+        "ko": "간 좀 봐봐 맛있다!",
+        "ja": "味見してみて!"
+      },
+      "shape": "round",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Person A holding a tasting spoon for Person B who leans in eagerly. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (拿勺子喂尝一口美味), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '拿勺子喂尝一口美味', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d167_fam_Wrap_blanket",
+    "name_zh": "把俩人裹进同一条毛毯",
+    "category": "family",
+    "caption": "暖呼呼过冬",
+    "captions": {
+      "zh-CN": "暖呼呼过冬",
+      "zh-TW": "暖呼呼過冬",
+      "en": "Cozy together",
+      "ko": "따뜻하게 꽁꽁",
+      "ja": "ぬくぬく一緒"
+    },
+    "mood": "family: 把俩人裹进同一条毛毯",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people wrapped snugly together inside one soft fluffy blanket. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "caption",
+    "bubble": {
+      "texts": {
+        "zh-CN": "暖呼呼过冬",
+        "zh-TW": "暖呼呼過冬",
+        "en": "Cozy together",
+        "ko": "따뜻하게 꽁꽁",
+        "ja": "ぬくぬく一緒"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people wrapped snugly together inside one soft fluffy blanket. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (把俩人裹进同一条毛毯), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '把俩人裹进同一条毛毯', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
+  },
+  {
+    "id": "d168_fam_heart_crown",
+    "name_zh": "一高一低合体头顶比心",
+    "category": "family",
+    "caption": "爱你一万年",
+    "captions": {
+      "zh-CN": "爱你一万年",
+      "zh-TW": "愛你一萬年",
+      "en": "Love you lots!",
+      "ko": "사랑해 우리 가족!",
+      "ja": "ずっと大好き!"
+    },
+    "mood": "family: 一高一低合体头顶比心",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Both people forming a big heart over their heads together with radiant smiles. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "text_layout": "bubble",
+    "bubble": {
+      "texts": {
+        "zh-CN": "爱你一万年",
+        "zh-TW": "愛你一萬年",
+        "en": "Love you lots!",
+        "ko": "사랑해 우리 가족!",
+        "ja": "ずっと大好き!"
+      },
+      "shape": "heart",
+      "position": "auto",
+      "animation": "pop"
+    },
+    "motion": {
+      "type": "duo_interaction",
+      "duration_ms": 600,
+      "frames": 8,
+      "loop": "pingpong",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (top-left): Starting pose — Both people forming a big heart over their heads together with radiant smiles. Both real people maintain exact facial likeness.",
+        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (一高一低合体头顶比心), natural eye blink and warm micro-expressions.",
+        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '一高一低合体头顶比心', authentic chemistry and lively hand/head movement.",
+        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "camera_frame",
+        "identities"
+      ]
+    }
   }
 ]

@@ -16,8 +16,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#内置-26-款真人专属风格referencesstyle-presetsjson)
 [![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#内置-108-款真人专属风格referencesstyle-presetsjson)
-[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-108%20Presets%20(Besties%2036%20%7C%20Couple%2036%20%7C%20Yuri%2036)-ff2d55.svg)](#内置-108-套真人双人互动表情包闺蜜--情侣--百合)
-[![Expressions & Memes](https://img.shields.io/badge/Catalog-132%20Expressions%20%7C%2038%20Memes%20%7C%20129%20Motions-success.svg)](#14-大类真人表情分类)
+[![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-168%20Presets%20(6%20Categories)-ff2d55.svg)](#内置-168-套真人双人互动表情包6-大关系referencesduo-presetsjson)
+[![Expressions & Memes](https://img.shields.io/badge/Catalog-220%20Expressions%20%7C%2060%20Memes%20%7C%2015%20Themes-success.svg)](#22-大类真人表情分类220-款)
 [![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7-种对话气泡与-5-种独立单语种支持)
 [![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#全平台自动分发与社交封面导出)
 
@@ -25,7 +25,7 @@
 
 ![真人表情包展示](docs/gallery/images/hero.jpg)
 
-> **[查看完整真人图库（108 款风格 / 10 款真动图 / 38 款梗图 / 14 类表情） → `docs/gallery/README.md`](docs/gallery/README.md)**
+> **[查看完整真人图库（108 款风格 / 168 款双人互动 / 60 款梗图 / 22 类 220 款单人表情） → `docs/gallery/README.md`](docs/gallery/README.md)**
 
 支持同时导出到**微信及全部 23 个主流社交 / 聊天平台**：微信、QQ、抖音/快手、小红书、Soul、微博、钉钉、飞书、Telegram、WhatsApp、LINE、KakaoTalk、Discord、Slack、iMessage、Signal、Viber、GIPHY（Instagram / TikTok / Snapchat 贴纸来源）、Instagram、TikTok、X、Facebook 以及通用格式包。
 
@@ -34,14 +34,14 @@
 ## 核心能力与视觉预览
 
 - **纯正真人专属风格（108 款，通用 / 韩系 / 日系 / 中式四大系列）**：默认 `real-cutout`，自动生成微信经典纯白立体模切白边，严禁把真人画成 2D 动漫或扁平卡通。
-- **108 套真人双人互动表情包（闺蜜 36 + 情侣 36 + 百合双女主 36）**：支持传入两张真人参考照（`-i personA.jpg -p personB.jpg --duo-category 闺蜜|情侣|百合`），锁定双人真实骨相与神态，内置贴脸自拍、摸头杀、清冷姐姐壁咚、挑下巴对视、宿命感贴脸等 108 套高张力双人互动。
+- **168 套真人双人互动表情包（6 大关系：闺蜜 36 + 情侣 36 + 百合双女主 36 + 双男主/兄弟耽美 20 + 欢喜冤家/相爱相杀 20 + 亲子/姐弟萌娃 20）**：支持传入两张真人参考照（`-i personA.jpg -p personB.jpg --duo-category 闺蜜|情侣|百合|双男主|欢喜冤家|亲子`），锁定双人真实骨相与神态。
+- **22 大类 220 个单人高频动作（`references/expression-presets.json`）**：除基础问候/职场/撒娇外，完整覆盖 **🎮 开黑电竞**、**💖 追星打Call**、**🧧 搞钱暴富**、**🧋 干饭奶茶**、**📚 学生考研**、**🍵 阴阳怪气/茶艺**、**🌋 发疯精神状态**、**🐱 萌宠同框** 8 大热门聊天场景。
+- **60 款真人热梗与抽象图模板（`references/meme-templates.json`）**：涵盖 Claude 正在思考、检测到中国IP、再说话封你号、MBTI 快乐小狗/INTJ、赛博木鱼功德+1、社交电量 1%、微信转账 ¥520、60 秒语音方阵轰炸、已老实求放过、发疯指数 999%、尊嘟假嘟、偷感很重、硬控 10 秒、仅三天可见、已读不回、泼天的富贵、确诊恋爱脑、智商余额不足、禁止画饼、持证摸鱼、光速下班、AI 一本正经胡说八道等。
+- **15 套一键主题卡包（`wechat-sticker-maker themes` / `plan --theme <主题名>`）**：内置 `打工人`、`发疯`、`干饭`、`搞钱`、`电竞`、`追星`、`阴阳怪气`、`学生党`、`萌宠`、`闺蜜`、`情侣`、`百合`、`双男主`、`欢喜冤家`、`亲子` 15 套黄金配比卡包，一键自动匹配最佳摄影风格、动作分类与热梗。
+- **0 成本秒级改字/改气泡（`wechat-sticker-maker remix-text`）**：基于已生成的 `work/raw_static` 透明底图，0 Token、2 秒内自由替换任意表情的底部字幕或对话气泡，无需重新调用 AI 生图。
+- **小红书/抖音宣发海报 + 官方上架文案生成（`wechat-sticker-maker collage`）**：一键渲染小红书 `3:4` 封面海报、抖音/IG Story `9:16` 竖版海报、`1:1` 九宫格预览图，并自动生成中/英/韩/日四语种微信表情开放平台 / LINE / KakaoTalk 上架标题、一句话简介、致谢词与标签 (`submission-copy.json`)。
 - **一次生图 → 直出多语言整套分包（`--languages zh-CN,en,ja,ko`）**：AI 底图只需生成 1 次（省下 75% 额度与时间），Python 自动用零误差字体渲染分别输出全中文、全英文、全韩文、全日文等多套纯净单语种表情包；支持 `--language auto` 按风格自动匹配语种（韩系→韩语、日系→日语、中式→中文、通用→英语）。
 - **多模型生图后端 + 断点续跑 + 本地聊天实测页**：内置支持 OpenAI (`OPENAI_API_KEY`)、Google Gemini Nano Banana (`GEMINI_API_KEY`)、火山方舟 Seedream (`ARK_API_KEY`) 及 Codex / Claude Code 内置生图；支持 `--resume` 断点续跑与 `preview.html` 微信深浅色聊天实测网页。
-- **Codex 自带作图能力驱动真动图**：所有挥手、眨眼、歪头、表情变化均由 Codex 自带 AI 生图工具通过 `2×2` 四连拍动作图（`build_sprite_sheet_prompt`）或多帧参考关键帧绘制，Python 仅做非破坏性抠图、躯干基线对齐、加白边、叠字与编码。
-- **全类型表情与动作**：132 个表情 × 14 大类，129 种动作库（`references/motion-library.json`），每个表情均配 4 帧 AI 动作分镜。
-- **真人梗图 / 抽象图模式**：内置 38 个梗图模板（`references/meme-templates.json`），涵盖 AI 正在思考旋转星芒、检测到中国IP禁止靠近、再说话封你号、已深度思考 999 秒、请求过于频繁、CPU 干烧了、真人黑白高反差梗图等。
-- **文字气泡 + 严格单语种**：支持 `caption` 底部字幕 / `bubble` 对话气泡 / `both` / `none` 及 7 种气泡形状；内置 `zh-CN` / `zh-TW` / `en` / `ja` / `ko` 五语口语化文案；**每张表情只用单一语言，绝不双语混排**。
-- **全平台母版一键分发**：每个表情生成一次 720px 母版，自动导出 23 个平台的专属尺寸、格式、体积与社交展示图（小红书 3:4 封面、INS Story/Reels、抖音/TikTok 竖版视频、微博九宫格）。
 
 详见 [`references/text-bubbles-and-languages.md`](references/text-bubbles-and-languages.md)、[`references/memes.md`](references/memes.md) 与 [`references/platform-export.md`](references/platform-export.md)。
 
@@ -187,15 +187,18 @@
 
 ---
 
-## 内置 108 套真人双人互动表情包（闺蜜 / 情侣 / 百合 · `references/duo-presets.json`）
+## 内置 168 套真人双人互动表情包（6 大关系 · `references/duo-presets.json`）
 
-支持传入两张真人照片（`-i photo1.jpg -p photo2.jpg`），同时锁死两个人的真实面部骨相、发型与穿搭，绝不画成卡通小人。可按分类查看：`wechat-sticker-maker duo --category 闺蜜|情侣|百合 --language zh-CN|ko|ja|en`。
+支持传入两张真人照片（`-i photo1.jpg -p photo2.jpg`），同时锁死两个人的真实面部骨相、发型与穿搭，绝不画成卡通小人。可按分类查看：`wechat-sticker-maker duo --category 闺蜜|情侣|百合|双男主|欢喜冤家|亲子 --language zh-CN|ko|ja|en`。
 
 | 分类 (`--duo-category`) | 套数 | ID 范围 | 代表互动动作与五语单语台词示例 |
 |---|---|---|---|
 | **👯‍♀️ 闺蜜互动 (`besties` / `闺蜜`)** | **36 套** | `d01` – `d36` | 贴脸比耶自拍 (`最佳损友` / `찐친 케미`)、合体大爱心 (`贴贴`)、奶茶干杯 (`续命水`)、凑耳吃瓜八卦 (`有大瓜!`)、替你出头护短 (`谁敢欺负你`)、默契击掌 (`懂我`)、富婆抱大腿 (`富婆饿饿`) 等 |
 | **👩‍❤️‍👨 情侣互动 (`couple` / `情侣`)** | **36 套** | `d37` – `d72` | 宠溺摸头杀 (`乖啦` / `우리 애기 착하지`)、背后环抱 (`充电中`)、双手捧脸捏脸 (`好喜欢你`)、额头相抵对视 (`只看你`)、拉衣角撒娇 (`陪我嘛`)、共戴一条围巾 (`暖呼呼`)、公主抱转圈等 |
 | **🌸 百合双女主 (`yuri` / `百合`)** | **36 套** | `d73` – `d108` | 指尖轻挑下巴对视 (`姐姐看我` / `언니, 나만 봐요` / `お姉さま、私だけ見て`)、双女主宿命感贴脸 (`命中注定`)、清冷姐姐壁咚甜妹 (`心跳超标`)、借肩浅眠发丝交织 (`只属于你`)、红线绕指宿命对视 (`宿命感`)、双女主额头吻 (`晚安姐姐`)、十指紧扣约定 (`永远在一起`) 等 |
+| **🕶️ 双男主/兄弟耽美 (`yaoi` / `双男主`)** | **20 套** | `d109` – `d128` | 指尖拽领带对视 (`哥哥别躲` / `형, 피하지 마`)、西装背靠背 (`并肩作战`)、单手撑墙低声耳语 (`听我的`)、雨夜共撑黑伞 (`伞往你那边倾斜`)、反手扣腕挽留 (`不准走`)、宿命感拉钩勾 (`下辈子也一起`) 等 |
+| **💥 欢喜冤家/相爱相杀 (`rivals` / `欢喜冤家`)** | **20 套** | `d129` – `d148` | 互相扯脸颊肉较劲 (`互相伤害`)、石头剪刀布输了弹脑门 (`愿赌服输!`)、偷喝最后一口奶茶 (`最后一口归我!`)、锁喉功打闹 (`服不服?!`)、同时指对方甩锅 (`都怪你!`)、吵完秒和好抱抱 (`还是你最好`) 等 |
+| **🧸 亲子/姐弟兄妹萌娃 (`family` / `亲子`)** | **20 套** | `d149` – `d168` | 大小同款托腮歪头 (`复制粘贴`)、姐姐霸气护短 (`有姐在别怕`)、宠溺捏软脸蛋 (`我们家乖宝`)、发红包摸摸头 (`岁岁平安长大`)、辅导作业血压飙升 (`深呼吸亲生的`)、合体头顶比心 (`爱你一万年`) 等 |
 
 ---
 
@@ -205,14 +208,24 @@
 
 ---
 
-## 14 大类真人表情分类
+## 22 大类真人表情分类（220 款）
+
+除原有 14 大类日常表情（问候、礼貌、答应、拒绝、开心、难过、生气、震惊、疲惫、职场、撒娇、加油、睡觉、节日）外，全新扩展 **8 大高频社交与垂直场景（共 220 款）**：
+- **🎮 开黑电竞 (`gaming`)**：`上号开黑`、`求大佬带飞`、`躺赢真爽`、`网卡460了`、`这波天秀`、`真带不动`、`最后亿把`、`打得不错`、`心态崩了`、`出金了!`、`挂机睡觉`
+- **💖 追星打Call (`fandom`)**：`为姐姐打CALL`、`神颜暴击`、`抢到票了!`、`嗑死我了`、`前排围观`、`啊啊啊太美了`、`狂按快门`、`美哭我了`、`排面拉满`、`签售会紧张`、`守护全世界最好的你`
+- **🧧 搞钱暴富 (`wealth`)**：`接泼天富贵`、`搞钱要紧`、`红包拿来`、`老板大气!`、`才抢一分钱`、`钱包空空`、`V我50看看实力`、`发工资啦!`、`富婆抱抱我`、`一夜暴富`、`账单刺客`
+- **🧋 干饭奶茶 (`foodie`)**：`奶茶续命`、`吃夜宵吗?`、`吃饱再减肥`、`饿饿饭饭`、`香迷糊了`、`走，吃火锅!`、`冰美式续命`、`斯哈斯哈好辣`、`撑到走不动`、`分你一口`、`吨吨吨干杯`
+- **📚 学生考研 (`campus`)**：`疯狂背书中`、`逢考必过!`、`早八人早八魂`、`论文一把过`、`极限赶DDL`、`这题我会`、`终于放假啦!`、`大脑一片空白`、`帮我带份饭`、`泡图书馆`、`绩点拉满`
+- **🍵 阴阳怪气/茶艺 (`sassy`)**：`就这?`、`那你很棒哦`、`给你个眼神`、`不会吧不会吧`、`我好怕怕哦`、`礼貌微笑`、`品一口好茶`、`退!退!退!`、`听君一席话`、`怪我咯?`、`请开始你的表演`
+- **🌋 发疯精神状态 (`mental`)**：`精神状态美丽`、`已老实求放过`、`毁灭吧累了`、`已升天勿扰`、`平静地发疯`、`强行开机中`、`无声尖叫`、`大悲无泪`、`社交电量0%`、`需要吸点氧`、`随便吧都行`
+- **🐱 萌宠同框 (`pet_collab`)**：`吸猫续命`、`修勾打招呼`、`猫主子驾到`、`同步歪头杀`、`喵呜贴贴`、`卑微铲屎官`、`小狗热情贴贴`、`抱宠午睡`、`人和猫一起嫌弃`、`出门遛弯啦`、`和毛孩子晚安`
 
 ![真人表情分类 1/2](docs/gallery/images/expressions-01.jpg)
 ![真人表情分类 2/2](docs/gallery/images/expressions-02.jpg)
 
 ---
 
-## 38 款真人梗图与抽象图（6 大类）
+## 60 款真人梗图与抽象图（6 大类）
 
 ![真人梗图与抽象图总览](docs/gallery/images/memes-overview.jpg)
 
@@ -247,34 +260,34 @@
 source .venv/bin/activate
 ```
 
-### 2. 浏览 108 款真人风格与 108 套双人互动（闺蜜 / 情侣 / 百合）
+### 2. 浏览 108 款真人风格、168 套双人互动与 15 套一键主题卡包
 
 ```bash
 wechat-sticker-maker doctor
+wechat-sticker-maker themes
 wechat-sticker-maker styles --region 韩系
 wechat-sticker-maker duo --category 闺蜜 --language zh-CN
-wechat-sticker-maker duo --category 情侣 --language en
 wechat-sticker-maker duo --category 百合 --language ko
+wechat-sticker-maker duo --category 双男主 --language zh-CN
+wechat-sticker-maker duo --category 欢喜冤家 --language ja
 ```
 
-### 3. 单人真人表情包（一次生图 → 自动输出中/英/日/韩 4 套分语言表情包）
+### 3. 一键主题卡包 & 单人多语言分包生成
 
 ```bash
+# 直接用 --theme 选择 15 套主题包（打工人 / 发疯 / 干饭 / 搞钱 / 电竞 / 追星 / 阴阳怪气 / 学生党 / 萌宠 / 闺蜜 / 情侣 / 百合 / 双男主 / 欢喜冤家 / 亲子）
 wechat-sticker-maker plan \
   --input photo.jpg \
-  --output output/my-portrait-pack \
-  --mode both \
-  --count 16 \
-  --style real-kr-idol-selfie \
+  --theme 发疯 \
   --language auto \
   --languages zh-CN,en,ja,ko \
-  --platforms wechat,xiaohongshu,instagram,telegram
+  --output output/crazy-pack
 
-# 支持 --provider auto|openai|gemini|ark（默认开启 --resume 断点续跑，生成后自动输出 output/my-portrait-pack/preview.html）
-wechat-sticker-maker generate --job output/my-portrait-pack/job.json
+# 支持 --provider auto|openai|gemini|ark（默认开启 --resume 断点续跑，生成后自动输出 preview.html）
+wechat-sticker-maker generate --job output/crazy-pack/job.json
 ```
 
-### 4. 双人互动真人表情包（闺蜜 / 情侣 / 百合双女主）
+### 4. 双人互动真人表情包（闺蜜 / 情侣 / 百合 / 双男主 / 欢喜冤家 / 亲子）
 
 ```bash
 wechat-sticker-maker plan \
@@ -290,14 +303,31 @@ wechat-sticker-maker plan \
 wechat-sticker-maker generate --job output/yuri-duo-pack/job.json
 ```
 
-### 5. 单张真人梗图快速生成 & 在线交互式工作台
+### 5. 0 成本秒级改字 (`remix-text`) & 小红书/抖音海报与上架文案 (`collage`)
+
+```bash
+# 不重新跑 AI 生图（0 Token，<2秒），直接替换已有表情包的字幕或气泡词！
+wechat-sticker-maker remix-text \
+  --job output/yuri-duo-pack/job.json \
+  --set d73_yuri_chin_lift_gaze="姐姐只看我" \
+  --bubble d73_yuri_chin_lift_gaze="心跳超标💗"
+
+# 一键输出小红书 3:4 封面海报、抖音/Story 9:16 竖版海报、九宫格及 4 国语言官方商店上架文案 JSON
+wechat-sticker-maker collage \
+  --dir output/yuri-duo-pack \
+  --title "双女主宿命感贴贴包" \
+  --subtitle "100% 真人实拍 · 168套双人互动"
+```
+
+### 6. 单张真人梗图（60 款）& 在线交互式工作台
 
 ```bash
 wechat-sticker-maker meme -t claude -i photo.jpg -o output/thinking.gif
-wechat-sticker-maker meme -t 中国ip -i photo.jpg -o output/china_ip.gif
-wechat-sticker-maker meme -t 封号 -i photo.jpg -o output/ban.gif
+wechat-sticker-maker meme -t 木鱼 -i photo.jpg -o output/karma.gif
+wechat-sticker-maker meme -t 转账520 -i photo.jpg -o output/transfer520.gif
+wechat-sticker-maker meme -t 已老实 -i photo.jpg -o output/behaving.gif
 
-# 直接在浏览器打开交互式工作台（含 108 风格 + 108 双人互动检索 + 免安装在线白边/气泡合成器）
+# 直接在浏览器打开交互式工作台（含 108 风格 + 168 双人互动检索 + 免安装在线白边/气泡合成器）
 open docs/index.html
 ```
 

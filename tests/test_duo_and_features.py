@@ -29,23 +29,32 @@ def _make_dummy_photo(path: Path, color=(220, 180, 170)) -> Path:
     return path
 
 
-def test_duo_catalog_108_presets_and_categories():
+def test_duo_catalog_168_presets_and_categories():
     all_duo = load_duo_presets()
-    assert len(all_duo) == 108
+    assert len(all_duo) == 168
 
     besties = list_duo_presets("闺蜜")
     couple = list_duo_presets("情侣")
     yuri = list_duo_presets("百合")
+    yaoi = list_duo_presets("双男主")
+    rivals = list_duo_presets("欢喜冤家")
+    family = list_duo_presets("亲子")
     assert len(besties) == 36
     assert len(couple) == 36
     assert len(yuri) == 36
+    assert len(yaoi) == 20
+    assert len(rivals) == 20
+    assert len(family) == 20
 
     assert normalize_duo_category("姐妹") == "besties"
     assert normalize_duo_category("对象") == "couple"
     assert normalize_duo_category("双女主") == "yuri"
     assert normalize_duo_category("gl") == "yuri"
+    assert normalize_duo_category("bl") == "yaoi"
+    assert normalize_duo_category("损友") == "rivals"
+    assert normalize_duo_category("萌娃") == "family"
 
-    # Verify all 108 duo presets have 5 single-language captions & bubbles (zh-CN, zh-TW, en, ko, ja)
+    # Verify all 168 duo presets have 5 single-language captions & bubbles (zh-CN, zh-TW, en, ko, ja)
     for lang in ("zh-CN", "zh-TW", "en", "ko", "ja"):
         dummy_job = JobConfig(
             job_id=f"duo-check-{lang}",
@@ -56,6 +65,16 @@ def test_duo_catalog_108_presets_and_categories():
         )
         issues = language_issues(all_duo, dummy_job)
         assert not issues, f"Language issues in duo presets for {lang}: {issues}"
+
+
+def test_expanded_catalogs_220_expressions_and_60_memes():
+    from sticker_maker.planner import CATEGORY_LABELS, load_all_presets, load_meme_templates
+
+    exprs = load_all_presets()
+    memes = load_meme_templates()
+    assert len(exprs) == 220
+    assert len(CATEGORY_LABELS) == 22
+    assert len(memes) == 60
 
 
 def test_duo_planning_and_prompts():
@@ -127,3 +146,29 @@ def test_duo_and_multilang_orchestrator_end_to_end(tmp_path: Path):
         assert pack_dir.exists()
         assert (pack_dir / "preview.html").exists()
         assert len(list((pack_dir / "static").glob("*.png"))) == 2
+
+    # Test 0-Token Remix Captions & Social Poster Generator
+    import json
+    from sticker_maker.studio import generate_social_posters, list_theme_presets, remix_captions, resolve_theme_preset
+
+    assert len(list_theme_presets()) == 15
+    assert resolve_theme_preset("电竞")["style"] == "real-cyber-neon"
+    assert resolve_theme_preset("双男主")["pack_type"] == "duo"
+
+    job_file = out_dir / "job.json"
+    job_file.write_text(json.dumps(job.model_dump(), ensure_ascii=False, indent=2), encoding="utf-8")
+
+    first_id = planned[0].id
+    preview_html = remix_captions(
+        job_file,
+        caption_overrides={first_id: "自定义新台词!"},
+        bubble_overrides={first_id: "只贴贴你"},
+        language="zh-CN",
+    )
+    assert preview_html.exists()
+
+    poster_res = generate_social_posters(out_dir, title="百合双女主贴贴包", subtitle="真人实拍 · 168套双人互动")
+    assert poster_res["xhs_3x4"].exists()
+    assert poster_res["story_9x16"].exists()
+    assert poster_res["grid_1x1"].exists()
+    assert poster_res["submission_copy"].exists()

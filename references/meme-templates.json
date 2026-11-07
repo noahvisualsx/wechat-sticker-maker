@@ -2141,5 +2141,1237 @@
         }
       ]
     }
+  },
+  {
+    "id": "m39_mbti_enfp",
+    "name_zh": "MBTI快乐小狗标签",
+    "category": "abstract",
+    "caption": "ENFP快乐小狗",
+    "captions": {
+      "zh-CN": "ENFP快乐小狗",
+      "zh-TW": "ENFP快樂小狗",
+      "en": "ENFP Golden Retriever",
+      "ja": "ENFPハッピーわんこ",
+      "ko": "ENFP 해피 강아지"
+    },
+    "mood": "energetic",
+    "static_pose": "beaming with a huge puppy-like smile and waving both hands excitedly",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: beaming with a huge puppy-like smile and waving both hands excitedly; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (MBTI快乐小狗标签), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for MBTI快乐小狗标签; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for MBTI快乐小狗标签, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "MBTI: ENFP",
+            "zh-TW": "MBTI: ENFP",
+            "en": "MBTI: ENFP",
+            "ja": "MBTI: ENFP",
+            "ko": "MBTI: ENFP"
+          }
+        },
+        {
+          "type": "notice",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "快乐小狗 摇尾入场",
+            "zh-TW": "快樂小狗 搖尾入場",
+            "en": "PURE GOLDEN RETRIEVER ENERGY",
+            "ja": "ハッピーわんこ登場",
+            "ko": "인간 리트리버 등장"
+          },
+          "color": "#10B981"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m40_mbti_intj",
+    "name_zh": "MBTI冷漠学霸标签",
+    "category": "abstract",
+    "caption": "INTJ莫挨老子",
+    "captions": {
+      "zh-CN": "INTJ莫挨老子",
+      "zh-TW": "INTJ莫挨老子",
+      "en": "INTJ Do Not Disturb",
+      "ja": "INTJ話しかけるな",
+      "ko": "INTJ 말 걸지 마"
+    },
+    "mood": "cold",
+    "static_pose": "crossing arms with an icy composed stare and raised chin",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: crossing arms with an icy composed stare and raised chin; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (MBTI冷漠学霸标签), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for MBTI冷漠学霸标签; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for MBTI冷漠学霸标签, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "MBTI: INTJ",
+            "zh-TW": "MBTI: INTJ",
+            "en": "MBTI: INTJ",
+            "ja": "MBTI: INTJ",
+            "ko": "MBTI: INTJ"
+          }
+        },
+        {
+          "type": "notice",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "生人勿近 正在布局",
+            "zh-TW": "生人勿近 正在佈局",
+            "en": "CALCULATING — DO NOT DISTURB",
+            "ja": "思考中につき接近禁止",
+            "ko": "접근 금지 · 뇌 풀가동"
+          },
+          "color": "#6366F1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m41_cyber_wooden_fish",
+    "name_zh": "赛博木鱼功德+1",
+    "category": "abstract",
+    "caption": "功德+1",
+    "captions": {
+      "zh-CN": "功德+1",
+      "zh-TW": "功德+1",
+      "en": "Karma +1",
+      "ja": "徳+1",
+      "ko": "공덕 +1"
+    },
+    "mood": "zen",
+    "static_pose": "pressing palms together in calm mock-piety with eyes peacefully closed",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: pressing palms together in calm mock-piety with eyes peacefully closed; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (赛博木鱼功德+1), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 赛博木鱼功德+1; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 赛博木鱼功德+1, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-right",
+          "text": {
+            "zh-CN": "功德 +1",
+            "zh-TW": "功德 +1",
+            "en": "KARMA +1",
+            "ja": "功徳 +1",
+            "ko": "공덕 +1"
+          },
+          "color": "#F59E0B"
+        },
+        {
+          "type": "notice",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "敲碎赛博木鱼 佛祖原谅我",
+            "zh-TW": "敲碎賽博木魚 佛祖原諒我",
+            "en": "CYBER WOODEN FISH: FORGIVE ME",
+            "ja": "サイバー木魚ポクポク",
+            "ko": "사이버 목탁 톡톡"
+          },
+          "color": "#D97706"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m42_battery_1_percent",
+    "name_zh": "社交电量仅剩1%",
+    "category": "chat-ui",
+    "caption": "电量1%",
+    "captions": {
+      "zh-CN": "电量1%",
+      "zh-TW": "電量1%",
+      "en": "Battery 1%",
+      "ja": "残量1%",
+      "ko": "배터리 1%"
+    },
+    "mood": "drained",
+    "static_pose": "slumping forward with half-closed eyes and a completely drained expression",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: slumping forward with half-closed eyes and a completely drained expression; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (社交电量仅剩1%), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 社交电量仅剩1%; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 社交电量仅剩1%, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "top_bar",
+          "position": "top",
+          "text": {
+            "zh-CN": "⚠️ 社交电量仅剩 1%",
+            "zh-TW": "⚠️ 社交電量僅剩 1%",
+            "en": "⚠️ SOCIAL BATTERY 1%",
+            "ja": "⚠️ 社交バッテリー残り1%",
+            "ko": "⚠️ 소셜 배터리 1%"
+          },
+          "color": "#EF4444"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m43_wechat_transfer_520",
+    "name_zh": "微信转账520待收款",
+    "category": "chat-ui",
+    "caption": "请收款520",
+    "captions": {
+      "zh-CN": "请收款520",
+      "zh-TW": "請收款520",
+      "en": "Transfer $520",
+      "ja": "送金¥52000",
+      "ko": "52만원 송금"
+    },
+    "mood": "generous",
+    "static_pose": "extending one hand forward with a suave generous smile",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: extending one hand forward with a suave generous smile; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (微信转账520待收款), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 微信转账520待收款; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 微信转账520待收款, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "notice",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "💴 转账 ¥520.00 请收款",
+            "zh-TW": "💴 轉帳 ¥520.00 請收款",
+            "en": "💸 TRANSFER $520.00 SENT",
+            "ja": "💴 送金を受け取ってください",
+            "ko": "💸 송금 도착 · 받기"
+          },
+          "color": "#F97316"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m44_voice_msg_60s",
+    "name_zh": "60秒语音方阵轰炸",
+    "category": "chat-ui",
+    "caption": "60秒语音轰炸",
+    "captions": {
+      "zh-CN": "60秒语音轰炸",
+      "zh-TW": "60秒語音轟炸",
+      "en": "60s Voice Note",
+      "ja": "60秒ボイス爆撃",
+      "ko": "60초 음성폭격"
+    },
+    "mood": "talkative",
+    "static_pose": "holding phone to mouth speaking non-stop with animated hand gestures",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: holding phone to mouth speaking non-stop with animated hand gestures; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (60秒语音方阵轰炸), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 60秒语音方阵轰炸; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 60秒语音方阵轰炸, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "(( 60'' ████████ •",
+            "zh-TW": "(( 60'' ████████ •",
+            "en": "(( 60s ████████ •",
+            "ja": "(( 60秒 ████████ •",
+            "ko": "(( 60초 ████████ •"
+          },
+          "color": "#22C55E"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m45_behaving_stamp",
+    "name_zh": "已老实求放过红章",
+    "category": "ban-warning",
+    "caption": "已老实求放过",
+    "captions": {
+      "zh-CN": "已老实求放过",
+      "zh-TW": "已老實求放過",
+      "en": "Behaving Now",
+      "ja": "反省してます",
+      "ko": "반성 중입니다"
+    },
+    "mood": "meek",
+    "static_pose": "looking up with big obedient puppy eyes and hands neatly folded",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: looking up with big obedient puppy eyes and hands neatly folded; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (已老实求放过红章), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 已老实求放过红章; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 已老实求放过红章, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "stamp",
+          "position": "bottom-right",
+          "text": {
+            "zh-CN": "已老实",
+            "zh-TW": "已老實",
+            "en": "BEHAVING",
+            "ja": "反省済",
+            "ko": "순해짐"
+          },
+          "color": "#DC2626",
+          "angle": -15,
+          "animate": "slam"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m46_crazy_meter_999",
+    "name_zh": "发疯指数999%检测仪",
+    "category": "abstract",
+    "caption": "发疯指数999%",
+    "captions": {
+      "zh-CN": "发疯指数999%",
+      "zh-TW": "發瘋指數999%",
+      "en": "Sanity 0%",
+      "ja": "狂気度999%",
+      "ko": "광기 지수 999%"
+    },
+    "mood": "unhinged",
+    "static_pose": "laughing wildly with hands in hair and chaotic energy",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: laughing wildly with hands in hair and chaotic energy; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (发疯指数999%检测仪), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 发疯指数999%检测仪; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 发疯指数999%检测仪, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "top_bar",
+          "position": "top",
+          "text": {
+            "zh-CN": "🚨 精神发疯指数：999%",
+            "zh-TW": "🚨 精神發瘋指數：999%",
+            "en": "🚨 CHAOS LEVEL: 999%",
+            "ja": "🚨 テンション異常値 999%",
+            "ko": "🚨 텐션 폭주 999%"
+          },
+          "color": "#E11D48"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m47_tui_tui_barrier",
+    "name_zh": "退退退红字结界",
+    "category": "classic-meme",
+    "caption": "退!退!退!",
+    "captions": {
+      "zh-CN": "退!退!退!",
+      "zh-TW": "退!退!退!",
+      "en": "BACK OFF!",
+      "ja": "悪霊退散!",
+      "ko": "물러가라!"
+    },
+    "mood": "fierce",
+    "static_pose": "thrusting one arm forward in a dramatic fencing warding stance",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: thrusting one arm forward in a dramatic fencing warding stance; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (退退退红字结界), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 退退退红字结界; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 退退退红字结界, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "stamp",
+          "position": "top-right",
+          "text": {
+            "zh-CN": "退！退！退！",
+            "zh-TW": "退！退！退！",
+            "en": "BACK OFF!",
+            "ja": "退散！",
+            "ko": "물러가라!"
+          },
+          "color": "#DC2626",
+          "angle": 10,
+          "animate": "slam"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m48_sweating_bro",
+    "name_zh": "汗流浃背了吧老弟",
+    "category": "classic-meme",
+    "caption": "汗流浃背了吧",
+    "captions": {
+      "zh-CN": "汗流浃背了吧",
+      "zh-TW": "汗流浹背了吧",
+      "en": "Sweating yet?",
+      "ja": "冷や汗かいてる?",
+      "ko": "식은땀 나지?"
+    },
+    "mood": "smug",
+    "static_pose": "pointing at the camera with a teasing knowing grin",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: pointing at the camera with a teasing knowing grin; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (汗流浃背了吧老弟), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 汗流浃背了吧老弟; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 汗流浃背了吧老弟, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "notice",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "汗流浃背了吧老弟",
+            "zh-TW": "汗流浹背了吧老弟",
+            "en": "SWEATING BULLETS YET?",
+            "ja": "冷や汗かいてるでしょ",
+            "ko": "식은땀 좀 흘렸겠는데?"
+          },
+          "color": "#0284C7"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m49_zundu_jiadu",
+    "name_zh": "尊嘟假嘟O.o弹窗",
+    "category": "classic-meme",
+    "caption": "尊嘟假嘟O.o",
+    "captions": {
+      "zh-CN": "尊嘟假嘟O.o",
+      "zh-TW": "尊嘟假嘟O.o",
+      "en": "For real?! O.o",
+      "ja": "マ?! O.o",
+      "ko": "진짜루?! O.o"
+    },
+    "mood": "curious",
+    "static_pose": "tilting head with one eyebrow raised and big curious eyes",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: tilting head with one eyebrow raised and big curious eyes; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (尊嘟假嘟O.o弹窗), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 尊嘟假嘟O.o弹窗; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 尊嘟假嘟O.o弹窗, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "尊嘟假嘟 O.o",
+            "zh-TW": "尊嘟假嘟 O.o",
+            "en": "For real?! O.o",
+            "ja": "ホントに?! O.o",
+            "ko": "진짜루?! O.o"
+          },
+          "color": "#EC4899"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m50_heavy_stealth",
+    "name_zh": "偷感很重探测框",
+    "category": "abstract",
+    "caption": "偷感很重",
+    "captions": {
+      "zh-CN": "偷感很重",
+      "zh-TW": "偷感很重",
+      "en": "Sneaky mode",
+      "ja": "こっそり感満載",
+      "ko": "몰래 온 손님"
+    },
+    "mood": "sneaky",
+    "static_pose": "tiptoeing and glancing sideways with a funny guilty expression",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: tiptoeing and glancing sideways with a funny guilty expression; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (偷感很重探测框), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 偷感很重探测框; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 偷感很重探测框, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-right",
+          "text": {
+            "zh-CN": "🔍 偷感很重",
+            "zh-TW": "🔍 偷感很重",
+            "en": "🔍 SNEAKY VIBES",
+            "ja": "🔍 こっそりモード",
+            "ko": "🔍 은밀한 기운"
+          },
+          "color": "#475569"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m51_hard_control_10s",
+    "name_zh": "硬控全场10秒",
+    "category": "ai-meme",
+    "caption": "硬控我10秒",
+    "captions": {
+      "zh-CN": "硬控我10秒",
+      "zh-TW": "硬控我10秒",
+      "en": "Stunned for 10s",
+      "ja": "10秒間フリーズ",
+      "ko": "10초간 정지"
+    },
+    "mood": "stunned",
+    "static_pose": "frozen mid-gesture with wide eyes and jaw slightly dropped",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: frozen mid-gesture with wide eyes and jaw slightly dropped; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (硬控全场10秒), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 硬控全场10秒; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 硬控全场10秒, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "spinner",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "硬控中 10.0s...",
+            "zh-TW": "硬控中 10.0s...",
+            "en": "STUNNED 10.0s...",
+            "ja": "硬直中 10.0秒...",
+            "ko": "홀딩 중 10.0초..."
+          },
+          "color": "#8B5CF6"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m52_three_days_visible",
+    "name_zh": "仅三天可见锁头",
+    "category": "chat-ui",
+    "caption": "仅三天可见",
+    "captions": {
+      "zh-CN": "仅三天可见",
+      "zh-TW": "僅三天可見",
+      "en": "Last 3 Days Only",
+      "ja": "3日間のみ公開",
+      "ko": "최근 3일만 공개"
+    },
+    "mood": "aloof",
+    "static_pose": "turning slightly away with a cool mysterious half-smile",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: turning slightly away with a cool mysterious half-smile; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (仅三天可见锁头), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 仅三天可见锁头; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 仅三天可见锁头, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "notice",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "🔒 朋友仅展示最近三天的朋友圈",
+            "zh-TW": "🔒 朋友僅展示最近三天的朋友圈",
+            "en": "🔒 MOMENTS: LAST 3 DAYS ONLY",
+            "ja": "🔒 直近3日間の投稿のみ表示",
+            "ko": "🔒 최근 3일 게시물만 표시"
+          },
+          "color": "#64748B"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m53_read_no_reply",
+    "name_zh": "已读不回暴击印章",
+    "category": "work-life",
+    "caption": "已读不回",
+    "captions": {
+      "zh-CN": "已读不回",
+      "zh-TW": "已讀不回",
+      "en": "Left on Read",
+      "ja": "既読スルー",
+      "ko": "읽씹 완료"
+    },
+    "mood": "indifferent",
+    "static_pose": "glancing down at phone and casually tossing it aside",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: glancing down at phone and casually tossing it aside; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (已读不回暴击印章), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 已读不回暴击印章; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 已读不回暴击印章, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "stamp",
+          "position": "bottom-right",
+          "text": {
+            "zh-CN": "已读不回",
+            "zh-TW": "已讀不回",
+            "en": "READ · NO REPLY",
+            "ja": "既読スルー",
+            "ko": "읽씹"
+          },
+          "color": "#EA580C",
+          "angle": -12,
+          "animate": "slam"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m54_god_of_wealth_feed",
+    "name_zh": "泼天的富贵砸中我",
+    "category": "work-life",
+    "caption": "泼天的富贵",
+    "captions": {
+      "zh-CN": "泼天的富贵",
+      "zh-TW": "潑天的富貴",
+      "en": "Sudden Jackpot",
+      "ja": "爆益到来",
+      "ko": "대박 행운 당첨"
+    },
+    "mood": "blessed",
+    "static_pose": "opening arms wide looking upward with a radiant blessed smile",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: opening arms wide looking upward with a radiant blessed smile; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (泼天的富贵砸中我), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 泼天的富贵砸中我; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 泼天的富贵砸中我, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "notice",
+          "position": "bottom",
+          "text": {
+            "zh-CN": "✨ 接住这波泼天的富贵 ✨",
+            "zh-TW": "✨ 接住這波潑天的富貴 ✨",
+            "en": "✨ CATCHING MASSIVE FORTUNE ✨",
+            "ja": "✨ 最高の金運キャッチ ✨",
+            "ko": "✨ 대박 행운 접수 완료 ✨"
+          },
+          "color": "#EAB308"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m55_love_brain_cert",
+    "name_zh": "确诊恋爱脑诊断书",
+    "category": "abstract",
+    "caption": "确诊恋爱脑",
+    "captions": {
+      "zh-CN": "确诊恋爱脑",
+      "zh-TW": "確診戀愛腦",
+      "en": "Certified Simp",
+      "ja": "恋愛脳確定",
+      "ko": "연애세포 과다"
+    },
+    "mood": "lovestruck",
+    "static_pose": "cupping blushing cheeks with heart-struck dreamy eyes",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: cupping blushing cheeks with heart-struck dreamy eyes; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (确诊恋爱脑诊断书), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 确诊恋爱脑诊断书; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 确诊恋爱脑诊断书, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "stamp",
+          "position": "top-right",
+          "text": {
+            "zh-CN": "确诊恋爱脑",
+            "zh-TW": "確診戀愛腦",
+            "en": "LOVE BRAIN",
+            "ja": "恋愛脳確定",
+            "ko": "사랑꾼 확정"
+          },
+          "color": "#F43F5E",
+          "angle": 12,
+          "animate": "slam"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m56_iq_insufficient",
+    "name_zh": "智商余额不足弹窗",
+    "category": "ai-meme",
+    "caption": "智商余额不足",
+    "captions": {
+      "zh-CN": "智商余额不足",
+      "zh-TW": "智商餘額不足",
+      "en": "IQ Low Balance",
+      "ja": "知能残高不足",
+      "ko": "뇌 용량 부족"
+    },
+    "mood": "derp",
+    "static_pose": "scratching head with a cute blank confused smile",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: scratching head with a cute blank confused smile; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (智商余额不足弹窗), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 智商余额不足弹窗; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 智商余额不足弹窗, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "top_bar",
+          "position": "top",
+          "text": {
+            "zh-CN": "⚠️ 您的智商余额不足 请及时充值",
+            "zh-TW": "⚠️ 您的智商餘額不足 請及時充值",
+            "en": "⚠️ IQ BALANCE LOW — PLEASE RECHARGE",
+            "ja": "⚠️ 思考回路の残高が不足しています",
+            "ko": "⚠️ 뇌 용량이 부족합니다"
+          },
+          "color": "#F59E0B"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m57_no_empty_promises",
+    "name_zh": "禁止画饼警示牌",
+    "category": "work-life",
+    "caption": "禁止画饼",
+    "captions": {
+      "zh-CN": "禁止画饼",
+      "zh-TW": "禁止畫餅",
+      "en": "No Empty Promises",
+      "ja": "口約束禁止",
+      "ko": "희망고문 금지"
+    },
+    "mood": "stern",
+    "static_pose": "holding up both hands in an X gesture with a deadpan office look",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: holding up both hands in an X gesture with a deadpan office look; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (禁止画饼警示牌), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 禁止画饼警示牌; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 禁止画饼警示牌, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "prohibition",
+          "position": "top-right",
+          "text": {
+            "zh-CN": "禁止画饼",
+            "zh-TW": "禁止畫餅",
+            "en": "NO HYPE",
+            "ja": "空手形禁止",
+            "ko": "빈말 금지"
+          },
+          "color": "#DC2626"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m58_slacking_permit",
+    "name_zh": "官方持证摸鱼印章",
+    "category": "work-life",
+    "caption": "持证摸鱼",
+    "captions": {
+      "zh-CN": "持证摸鱼",
+      "zh-TW": "持證摸魚",
+      "en": "Licensed Slacker",
+      "ja": "公認サボり中",
+      "ko": "합법적 농땡이"
+    },
+    "mood": "relaxed",
+    "static_pose": "leaning back sipping tea leisurely at work with a peaceful grin",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: leaning back sipping tea leisurely at work with a peaceful grin; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (官方持证摸鱼印章), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 官方持证摸鱼印章; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 官方持证摸鱼印章, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "stamp",
+          "position": "bottom-right",
+          "text": {
+            "zh-CN": "持证摸鱼",
+            "zh-TW": "持證摸魚",
+            "en": "SLACK PERMIT",
+            "ja": "サボり許可証",
+            "ko": "농땡이 허가"
+          },
+          "color": "#16A34A",
+          "angle": -10,
+          "animate": "slam"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m59_clock_out_timer",
+    "name_zh": "光速下班倒计时",
+    "category": "work-life",
+    "caption": "光速下班",
+    "captions": {
+      "zh-CN": "光速下班",
+      "zh-TW": "光速下班",
+      "en": "Clocking Out!",
+      "ja": "定時ダッシュ",
+      "ko": "칼퇴근 준비"
+    },
+    "mood": "eager",
+    "static_pose": "checking wristwatch and poised like a sprinter at the starting line",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: checking wristwatch and poised like a sprinter at the starting line; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (光速下班倒计时), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for 光速下班倒计时; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for 光速下班倒计时, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "chip",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "⏱️ 下班倒计时 00:01",
+            "zh-TW": "⏱️ 下班倒計時 00:01",
+            "en": "⏱️ CLOCK OUT 00:01",
+            "ja": "⏱️ 定時まで 00:01",
+            "ko": "⏱️ 퇴근 1초 전"
+          },
+          "color": "#0EA5E9"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m60_ai_hallucination",
+    "name_zh": "AI一本正经胡说八道",
+    "category": "ai-meme",
+    "caption": "一本正经胡说",
+    "captions": {
+      "zh-CN": "一本正经胡说",
+      "zh-TW": "一本正經胡說",
+      "en": "Confident Hallucination",
+      "ja": "堂々とデタラメ",
+      "ko": "뻔뻔한 아무말"
+    },
+    "mood": "confident",
+    "static_pose": "gesturing like a professor giving a lecture with a totally confident poker face",
+    "text_layout": "none",
+    "bubble": null,
+    "motion": {
+      "type": "nod",
+      "duration_ms": 1280,
+      "frames": 8,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1: gesturing like a professor giving a lecture with a totally confident poker face; eyes open, lower body stays in place.",
+        "Frame 2: Mid-action shift in expression (AI一本正经胡说八道), natural blink; lower body stays in place.",
+        "Frame 3: Peak reaction for AI一本正经胡说八道; lower body stays in place.",
+        "Frame 4: Smooth return to Frame 1; lower body stays in place."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "outfit",
+        "hair_or_fur_pattern"
+      ]
+    },
+    "meme": {
+      "style_hint": "Expressive real-person reaction for AI一本正经胡说八道, no text in raster image",
+      "background": null,
+      "filters": [],
+      "elements": [
+        {
+          "type": "spinner",
+          "position": "top-left",
+          "text": {
+            "zh-CN": "AI 正在编造事实...",
+            "zh-TW": "AI 正在編造事實...",
+            "en": "AI HALLUCINATING...",
+            "ja": "もっともらしい嘘を生成中...",
+            "ko": "그럴싸한 아무말 생성 중..."
+          },
+          "color": "#D97757"
+        }
+      ]
+    }
   }
 ]

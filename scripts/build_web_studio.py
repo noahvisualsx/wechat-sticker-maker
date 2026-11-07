@@ -80,7 +80,7 @@ def build() -> None:
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>WeChat Real-Person Sticker Maker Studio · 真人表情包工作台 (108风格 + 108双人互动)</title>
+<title>WeChat Real-Person Sticker Maker Studio · 真人表情包工作台 (108风格 + 168双人互动 + 220单人动作 + 60热梗)</title>
 <style>
   :root {
     --bg: #F5F5F7;
@@ -219,9 +219,9 @@ def build() -> None:
       <p>100% 真人五官锁死（拒绝卡通化）· 单张严格单语 · 一次生图直出中/英/日/韩 4 套分语言表情包 + 26 平台规范</p>
       <div class="badges">
         <span class="badge">108 款真人实拍风格 (通用18/韩30/日30/中30)</span>
-        <span class="badge pink">108 套双人互动 (闺蜜36 / 情侣36 / 百合36)</span>
-        <span class="badge purple">132 个高频动作 + 38 梗图模板</span>
-        <span class="badge blue">26 个国内外社交平台一键打包</span>
+        <span class="badge pink">168 套双人互动 (闺蜜36/情侣36/百合36/双男主20/冤家20/亲子20)</span>
+        <span class="badge purple">220 个单人动作 (22大类) + 60 梗图模板</span>
+        <span class="badge blue">15 套一键主题卡包 · 0成本改字 · 26平台导出</span>
       </div>
     </div>
     <div>
@@ -230,20 +230,23 @@ def build() -> None:
   </header>
 
   <div class="tabs">
-    <button class="tab active" onclick="switchTab('duo')">👩‍❤️‍👩 108 双人互动 (闺蜜/情侣/百合)</button>
+    <button class="tab active" onclick="switchTab('duo')">👩‍❤️‍👩 168 双人互动 (6大关系)</button>
     <button class="tab" onclick="switchTab('styles')">📸 108 单人实拍风格库</button>
     <button class="tab" onclick="switchTab('prompt')">⚡ AI 提示词 & CLI 生成器</button>
     <button class="tab" onclick="switchTab('composer')">🎨 在线白边+气泡合成器 (Canvas)</button>
     <button class="tab" onclick="switchTab('gallery')">🖼️ 实拍效果画廊</button>
   </div>
 
-  <!-- TAB 1: 108 DUO INTERACTIONS -->
+  <!-- TAB 1: 168 DUO INTERACTIONS -->
   <section id="tab-duo" class="panel active">
     <div class="filter-bar">
-      <button class="pill-btn active" onclick="setDuoCat('all', this)">全部 (108)</button>
+      <button class="pill-btn active" onclick="setDuoCat('all', this)">全部 (168)</button>
       <button class="pill-btn" onclick="setDuoCat('besties', this)">👯‍♀️ 闺蜜互动 (36)</button>
       <button class="pill-btn" onclick="setDuoCat('couple', this)">👩‍❤️‍👨 情侣互动 (36)</button>
       <button class="pill-btn" onclick="setDuoCat('yuri', this)">🌸 百合双女主 (36)</button>
+      <button class="pill-btn" onclick="setDuoCat('yaoi', this)">🕶️ 双男主/耽美 (20)</button>
+      <button class="pill-btn" onclick="setDuoCat('rivals', this)">💥 欢喜冤家 (20)</button>
+      <button class="pill-btn" onclick="setDuoCat('family', this)">🧸 亲子/姐弟 (20)</button>
       <select id="duo-lang" onchange="renderDuos()">
         <option value="zh-CN">字幕语言: 简体中文 (zh-CN)</option>
         <option value="ko">字幕语言: 한국어 (ko)</option>
@@ -277,9 +280,9 @@ def build() -> None:
         <div class="form-group">
           <label>模式 (Pack Mode)</label>
           <select id="pb-mode" onchange="updatePromptBuilder()" style="width:100%">
-            <option value="duo">👩‍❤️‍👩 双人真人互动 (闺蜜 / 情侣 / 百合 108套)</option>
-            <option value="single">🙋‍♀️ 单人真人日常表情 (132个高频动作)</option>
-            <option value="meme">🔥 单人热梗/抽象模板 (38款)</option>
+            <option value="duo">👩‍❤️‍👩 双人真人互动 (闺蜜/情侣/百合/双男主/欢喜冤家/亲子 168套)</option>
+            <option value="single">🙋‍♀️ 单人真人日常表情 (22大类 220个高频动作)</option>
+            <option value="meme">🔥 单人热梗/抽象模板 (60款)</option>
           </select>
         </div>
         <div class="form-group">
@@ -457,7 +460,10 @@ function setStyleRegion(reg, btn) {
 const CAT_BADGE = {
   besties: { label: '👯‍♀️ 闺蜜互动', cls: 'badge' },
   couple:  { label: '👩‍❤️‍👨 情侣互动', cls: 'badge pink' },
-  yuri:    { label: '🌸 百合双女主', cls: 'badge purple' }
+  yuri:    { label: '🌸 百合双女主', cls: 'badge purple' },
+  yaoi:    { label: '🕶️ 双男主/耽美', cls: 'badge blue' },
+  rivals:  { label: '💥 欢喜冤家', cls: 'badge pink' },
+  family:  { label: '🧸 亲子/姐弟', cls: 'badge' }
 };
 
 function renderDuos() {

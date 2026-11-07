@@ -1,20 +1,23 @@
 ---
 name: wechat-sticker-maker
-description: Create consistent real-person photorealistic static PNG and animated sticker packs (真人表情包 & 双人互动表情包 & 真人梗图) from 1 or 2 user portrait photos for WeChat and every social/chat platform (QQ, Douyin, Xiaohongshu, Soul, Weibo, Telegram, WhatsApp, LINE, KakaoTalk, Discord, Slack, iMessage, Signal, GIPHY/Instagram/TikTok, X ...), with 108 real-person styles, 108 two-person duo interactions (闺蜜 36 / 情侣 36 / 百合 36), 132 single-person expressions, 38 meme templates, speech bubbles, single-language multilingual captions (中文/繁中/English/日本語/한국어 + any language), and zero-extra-cost multi-language pack output (`--languages zh-CN,en,ja,ko`).
+description: Create consistent real-person photorealistic static PNG and animated sticker packs (真人表情包 & 双人互动表情包 & 真人梗图) from 1 or 2 user portrait photos for WeChat and every social/chat platform (QQ, Douyin, Xiaohongshu, Soul, Weibo, Telegram, WhatsApp, LINE, KakaoTalk, Discord, Slack, iMessage, Signal, GIPHY/Instagram/TikTok, X ...), with 108 real-person styles, 168 two-person duo interactions (闺蜜 36 / 情侣 36 / 百合 36 / 双男主 20 / 欢喜冤家 20 / 亲子 20), 220 single-person expressions across 22 categories, 60 meme templates, 15 one-click theme packs, zero-cost text remix (`remix-text`), social poster generator (`collage`), speech bubbles, single-language multilingual captions (中文/繁中/English/日本語/한국어 + any language), and zero-extra-cost multi-language pack output (`--languages zh-CN,en,ja,ko`).
 ---
 
-# Real-Person Sticker, Duo Interaction & Meme Maker (真人专属 · 单人/双人闺蜜情侣百合 · 全平台 · 单语种)
+# Real-Person Sticker, Duo Interaction & Meme Maker (真人专属 · 单人220/双人168/热梗60 · 全平台 · 单语种)
 
 ## Trigger
-Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺蜜表情包 / 情侣表情包 / 百合双女主表情包 / 真人梗图 / スタンプ / 이모티콘 / reaction GIFs from 1 or 2 photos, or wants an existing pack exported for another platform or language.
+Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺蜜表情包 / 情侣表情包 / 百合双女主表情包 / 双男主表情包 / 欢喜冤家表情包 / 亲子姐弟表情包 / 真人梗图 / スタンプ / 이모티콘 / reaction GIFs from 1 or 2 photos, or wants an existing pack remixed (`remix-text`), turned into social posters (`collage`), or exported for another platform or language.
 
 ## Core Rules & Defaults
 - **REAL-PERSON ONLY (`只做真人表情包`)**: Every sticker and meme MUST preserve the reference person(s)' authentic photorealistic facial identity, bone structure, real skin texture, eyes/nose/lips, hairstyle, and outfit (`subject_type="human-portrait"`). **NEVER cartoonize or turn the person into 2D anime, flat illustration, chibi drawing, 3D doll, or panda head.**
-- **108 Two-Person Duo Interaction Presets (`双人互动表情包`, `references/duo-presets.json`)**:
+- **168 Two-Person Duo Interaction Presets across 6 Categories (`双人互动表情包`, `references/duo-presets.json`)**:
   - `besties` (`闺蜜互动`, 36 presets: `d01_bestie_cheek_selfie` .. `d36_bestie_number_one_hug`): 贴脸自拍、合体比心、干杯奶茶、吃瓜八卦、护短抱抱等
   - `couple` (`情侣互动`, 36 presets: `d37_couple_head_pat` .. `d72_couple_goodnight_hug`): 摸头杀、背后抱、捏脸宠溺、额头贴贴、围巾共戴等
   - `yuri` (`百合双女主`, 36 presets: `d73_yuri_chin_lift_gaze` .. `d108_yuri_eternal_vow_hands`): 指尖挑下巴对视、清冷姐姐壁咚、借肩浅眠发丝交织、红线绕指宿命对视、双女主十指紧扣等
-  - Pass `--partner photo2.jpg --duo-category 闺蜜|情侣|百合` (or `--pack-type duo`).
+  - `yaoi` (`双男主/兄弟耽美`, 20 presets: `d109_yaoi_tie_pull_gaze` .. `d128_yaoi_pinky_lock`): 指尖拽领带对视、西装背靠背、单手撑墙低声耳语、雨夜共撑黑伞、反手扣腕挽留等
+  - `rivals` (`欢喜冤家/相爱相杀`, 20 presets: `d129_rival_pinch_cheeks` .. `d148_rival_make_up_hug`): 互相扯脸颊、石头剪刀布弹脑门、偷喝奶茶、吵完秒和好抱抱等
+  - `family` (`亲子/姐弟兄妹萌娃`, 20 presets: `d149_fam_copy_paste_pose` .. `d168_fam_heart_crown`): 大小同款托腮、姐姐护短、宠溺捏软脸蛋、发红包摸摸头、辅导作业血压飙升等
+  - Pass `--partner photo2.jpg --duo-category 闺蜜|情侣|百合|双男主|欢喜冤家|亲子` (or `--pack-type duo`).
 - Default style: `real-cutout`. 108 built-in real-person styles in 4 series (`wechat-sticker-maker styles --region <series>`):
   - 通用 (18): `real-cutout`, `real-bobblehead`, `real-street-cool`, `real-vintage-ccd`, `real-work-emo`, `real-high-contrast`, `real-polaroid-instant`, `real-fisheye-y2k`, `real-paparazzi-flash`, `real-golden-hour`, `real-blue-hour`, `real-cyber-neon`, `real-film-kodak-gold`, `real-film-cinestill-800t`, `real-vogue-editorial`, `real-french-effortless`, `real-american-yearbook`, `real-thermal-ir`
   - 韩系 (`kr`, 30): `real-kr-idol-selfie`, `real-kr-glass-skin`, `real-kr-photocard`, `real-kr-cafe-film`, `real-kr-drama`, `real-kr-variety`, `real-purikura`, `real-kr-music-bank`, `real-kr-fansign-soft`, `real-kr-airport-snap`, `real-kr-hongdae-street`, `real-kr-seongsu-industrial`, `real-kr-hannam-oldmoney`, `real-kr-apgujeong-glam`, `real-kr-jeju-breeze`, `real-kr-hanok-sunlight`, `real-kr-winter-snow`, `real-kr-cherry-blossom`, `real-kr-rainy-pocha`, `real-kr-high-teen`, `real-kr-y2k-metallic`, `real-kr-balletcore`, `real-kr-clean-fit`, `real-kr-id-photo`, `real-kr-high-angle-booth`, `real-kr-bw-fourcut`, `real-kr-practice-mirror`, `real-kr-convenience-night`, `real-kr-magazine-dazed`, `real-kr-webtoon-real`
@@ -27,7 +30,7 @@ Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺
 ## Workflow
 1. Identify the source portrait photo; check permissions and available tools (image generation, Python, ffmpeg).
 2. Read `references/character-consistency.md`; build the real-person character bible + neutral portrait anchor (Codex built-in image generation).
-3. Plan expressions from `references/expression-presets.json` (132 expressions, 14 categories: greeting, positive, negative, surprise, reply, polite, love, praise, daily, work, meme, festival, status, social; motions in `references/motion-library.json`). Pick by `--categories` / `--expressions` or the curated defaults.
+3. Plan expressions from `references/expression-presets.json` (220 expressions, 22 categories: greeting, positive, negative, surprise, reply, polite, love, praise, daily, work, meme, festival, status, social, gaming, fandom, wealth, foodie, campus, sassy, mental, pet_collab; motions in `references/motion-library.json`). Pick by `--theme`, `--categories`, `--expressions` or the curated defaults.
 4. Read `references/text-bubbles-and-languages.md`:
    - each expression has a text layout: `caption` (bottom text), `bubble` (speech bubble), `both`, or `none`;
    - bubble shapes: round, oval, thought, shout, rect, heart, whisper — for static AND animated stickers;
@@ -35,7 +38,7 @@ Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺
    - **ONE language per pack**: every caption, bubble and meme element on every sticker uses only the job language (`--language`). Never mix languages (no `"你好 / Hi there!"`). The pipeline refuses to run if a translation is missing or a text mixes languages; short acronyms in chat slang (`IP`, `CPU`, `OK`, `BAN`) are fine.
    - **Never ask the image model to draw text or bubbles.** Prompts reserve empty space; Python overlays text.
 5. Static stickers: generate each real-person pose with `build_static_prompt` (enforces `[REAL_PERSON_HARD_LOCK]` and layout composition hint).
-   Memes / abstract images (真人梗图、抽象图, e.g. `"AI 正在思考"` with a spinner on the head, `"检测到中国IP 禁止靠近"`, `"再说话封你号"`): read `references/memes.md`; use `--pack-type memes|mixed` or the one-shot `wechat-sticker-maker meme -t <template|alias> -i char.png -o out.gif`. AI draws only the real-person character; all meme UI/text/stamps/signs/filters are overlaid by code.
+   Memes / abstract images (真人梗图、抽象图, 60 built-in templates in `references/meme-templates.json`, e.g. `"AI 正在思考"`, `"检测到中国IP"`, `"再说话封你号"`, `"MBTI快乐小狗"`, `"赛博木鱼功德+1"`, `"转账520"`, `"已老实求放过"`): read `references/memes.md`; use `--pack-type memes|mixed` or the one-shot `wechat-sticker-maker meme -t <template|alias> -i char.png -o out.gif`. AI draws only the real-person character; all meme UI/text/stamps/signs/filters are overlaid by code.
 6. Animated stickers — read `references/animation-policy.md`:
    - **STRICT BAN**: never animate by floating/bobbing/shaking one static image, scaling the caption, or warping/painting the face with PIL.
    - Use Codex built-in image generation to draw **real multi-frame human actions**: one `2×2` 4-frame action sheet (`build_sprite_sheet_prompt`) or 2–4 sequential keyframes referencing frame 1 (`build_keyframe_sequence_prompts`).
@@ -46,13 +49,16 @@ Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺
 
 ## CLI quick reference
 ```bash
+wechat-sticker-maker themes                              # list 15 one-click theme packs (打工人/发疯/电竞/追星/闺蜜/情侣/百合/双男主/欢喜冤家/亲子...)
 wechat-sticker-maker styles --region 韩系               # list 108 real-person styles (韩系/日系/中式/通用)
-wechat-sticker-maker duo --category 百合 --language ko  # browse 108 two-person duo presets (闺蜜/情侣/百合)
-wechat-sticker-maker expressions --language ko          # browse 132 single-person expressions
-wechat-sticker-maker memes --language zh-CN             # browse 38 real-person meme templates
+wechat-sticker-maker duo --category 百合 --language ko  # browse 168 two-person duo presets across 6 categories
+wechat-sticker-maker expressions --language ko          # browse 220 single-person expressions across 22 categories
+wechat-sticker-maker memes --language zh-CN             # browse 60 real-person meme templates
 wechat-sticker-maker plan -i photo1.jpg -p photo2.jpg --duo-category 百合 -o out \
   --style real-kr-idol-selfie --language auto --languages zh-CN,en,ja,ko --count 16
 wechat-sticker-maker generate -j out/job.json --provider auto
+wechat-sticker-maker remix-text -j out/job.json --set d73_yuri_chin_lift_gaze="姐姐只看我"
+wechat-sticker-maker collage -d out --title "双女主贴贴包"
 wechat-sticker-maker export -j out/job.json --platforms all
 ```
 

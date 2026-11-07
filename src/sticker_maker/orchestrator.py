@@ -14,7 +14,7 @@ from PIL import Image
 
 from .analyzer import create_or_load_character_bible, normalize_source_image
 from .config import AppSettings
-from .duo import build_duo_sprite_sheet_prompt, build_duo_static_prompt
+from .duo import DUO_CATEGORIES, build_duo_sprite_sheet_prompt, build_duo_static_prompt
 from .exporters import (
     MasterAsset,
     PlatformExportResult,
@@ -451,7 +451,7 @@ class StickerOrchestrator:
                 m.thumbnail_path = wx.get("main:thumbnail")
 
     def _is_duo_item(self, item: ExpressionItem) -> bool:
-        return self.job.pack_type == "duo" or item.id.startswith("d") or item.category in ("besties", "couple", "yuri")
+        return self.job.pack_type == "duo" or item.id.startswith("d") or item.category in DUO_CATEGORIES
 
     def _reference_images(self, anchor_img: Path, source_img: Path) -> List[Path]:
         partner = getattr(self, "norm_partner", None)
