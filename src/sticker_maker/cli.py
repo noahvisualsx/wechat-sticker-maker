@@ -108,7 +108,7 @@ def cmd_styles(args: argparse.Namespace) -> int:
 
 
 def cmd_duo(args: argparse.Namespace) -> int:
-    """List built-in 108 real-person duo interaction presets (闺蜜 / 情侣 / 百合)."""
+    """List built-in 168 real-person duo interaction presets (闺蜜 / 情侣 / 百合 / 双男主 / 欢喜冤家 / 亲子)."""
     lang = normalize_language(args.language)
     try:
         items = list_duo_presets(category=getattr(args, "category", None))
@@ -754,7 +754,7 @@ def main() -> None:
     p_plan.add_argument("--bubble-animation", choices=["none", "pop", "typewriter", "bob"], default="none")
     p_plan.add_argument("--categories", help="Comma-separated categories (greeting,reply,meme,work,...)")
     p_plan.add_argument("--expressions", help="Comma-separated explicit expression ids")
-    p_plan.add_argument("--duo-category", help="Duo interaction category: 闺蜜/besties, 情侣/couple, 百合/yuri (comma list)")
+    p_plan.add_argument("--duo-category", help="Duo interaction category: 闺蜜/besties, 情侣/couple, 百合/yuri, 双男主/yaoi, 欢喜冤家/rivals, 亲子/family (comma list)")
     p_plan.add_argument("--duo-ids", help="Explicit duo preset IDs (e.g. d01_bestie_cheek_selfie,d73_yuri_chin_lift_gaze)")
     p_plan.add_argument("--captions-file", help="JSON file with custom captions / translations")
     p_plan.add_argument("--pack-type", choices=["expressions", "memes", "mixed", "duo"], default="expressions", help="Expression stickers, meme/abstract pack, mixed, or two-person duo pack")

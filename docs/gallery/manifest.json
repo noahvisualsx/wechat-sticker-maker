@@ -2,8 +2,12 @@
   "description": "Real-person photographic sticker gallery only",
   "subject_type": "human-portrait",
   "generator": "built-in image_gen",
-  "style_count": 26,
-  "expression_categories": 14,
+  "style_count": 46,
+  "total_style_presets": 108,
+  "duo_presets": 168,
+  "expression_categories": 22,
+  "expression_presets": 220,
+  "meme_count": 60,
   "language": "zh-CN",
   "stickers": [
     {
@@ -1357,9 +1361,204 @@
       "gif": "memes/m38_reported.gif",
       "subject_type": "human-portrait",
       "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m39_mbti_enfp",
+      "name": "ENFP快乐小狗",
+      "category": "abstract",
+      "png": "memes/m39_mbti_enfp.png",
+      "gif": "memes/m39_mbti_enfp.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m40_mbti_intj",
+      "name": "INTJ莫挨老子",
+      "category": "abstract",
+      "png": "memes/m40_mbti_intj.png",
+      "gif": "memes/m40_mbti_intj.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m41_cyber_wooden_fish",
+      "name": "功德+1",
+      "category": "abstract",
+      "png": "memes/m41_cyber_wooden_fish.png",
+      "gif": "memes/m41_cyber_wooden_fish.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m42_battery_1_percent",
+      "name": "电量1%",
+      "category": "chat-ui",
+      "png": "memes/m42_battery_1_percent.png",
+      "gif": "memes/m42_battery_1_percent.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m43_wechat_transfer_520",
+      "name": "请收款520",
+      "category": "chat-ui",
+      "png": "memes/m43_wechat_transfer_520.png",
+      "gif": "memes/m43_wechat_transfer_520.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m44_voice_msg_60s",
+      "name": "60秒语音轰炸",
+      "category": "chat-ui",
+      "png": "memes/m44_voice_msg_60s.png",
+      "gif": "memes/m44_voice_msg_60s.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m45_behaving_stamp",
+      "name": "已老实求放过",
+      "category": "ban-warning",
+      "png": "memes/m45_behaving_stamp.png",
+      "gif": "memes/m45_behaving_stamp.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m46_crazy_meter_999",
+      "name": "发疯指数999%",
+      "category": "abstract",
+      "png": "memes/m46_crazy_meter_999.png",
+      "gif": "memes/m46_crazy_meter_999.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m47_tui_tui_barrier",
+      "name": "退!退!退!",
+      "category": "classic-meme",
+      "png": "memes/m47_tui_tui_barrier.png",
+      "gif": "memes/m47_tui_tui_barrier.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m48_sweating_bro",
+      "name": "汗流浃背了吧",
+      "category": "classic-meme",
+      "png": "memes/m48_sweating_bro.png",
+      "gif": "memes/m48_sweating_bro.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m49_zundu_jiadu",
+      "name": "尊嘟假嘟O.o",
+      "category": "classic-meme",
+      "png": "memes/m49_zundu_jiadu.png",
+      "gif": "memes/m49_zundu_jiadu.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m50_heavy_stealth",
+      "name": "偷感很重",
+      "category": "abstract",
+      "png": "memes/m50_heavy_stealth.png",
+      "gif": "memes/m50_heavy_stealth.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m51_hard_control_10s",
+      "name": "硬控我10秒",
+      "category": "ai-meme",
+      "png": "memes/m51_hard_control_10s.png",
+      "gif": "memes/m51_hard_control_10s.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m52_three_days_visible",
+      "name": "仅三天可见",
+      "category": "chat-ui",
+      "png": "memes/m52_three_days_visible.png",
+      "gif": "memes/m52_three_days_visible.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m53_read_no_reply",
+      "name": "已读不回",
+      "category": "work-life",
+      "png": "memes/m53_read_no_reply.png",
+      "gif": "memes/m53_read_no_reply.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m54_god_of_wealth_feed",
+      "name": "泼天的富贵",
+      "category": "work-life",
+      "png": "memes/m54_god_of_wealth_feed.png",
+      "gif": "memes/m54_god_of_wealth_feed.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m55_love_brain_cert",
+      "name": "确诊恋爱脑",
+      "category": "abstract",
+      "png": "memes/m55_love_brain_cert.png",
+      "gif": "memes/m55_love_brain_cert.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m56_iq_insufficient",
+      "name": "智商余额不足",
+      "category": "ai-meme",
+      "png": "memes/m56_iq_insufficient.png",
+      "gif": "memes/m56_iq_insufficient.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m57_no_empty_promises",
+      "name": "禁止画饼",
+      "category": "work-life",
+      "png": "memes/m57_no_empty_promises.png",
+      "gif": "memes/m57_no_empty_promises.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m58_slacking_permit",
+      "name": "持证摸鱼",
+      "category": "work-life",
+      "png": "memes/m58_slacking_permit.png",
+      "gif": "memes/m58_slacking_permit.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m59_clock_out_timer",
+      "name": "光速下班",
+      "category": "work-life",
+      "png": "memes/m59_clock_out_timer.png",
+      "gif": "memes/m59_clock_out_timer.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
+    },
+    {
+      "id": "m60_ai_hallucination",
+      "name": "一本正经胡说",
+      "category": "ai-meme",
+      "png": "memes/m60_ai_hallucination.png",
+      "gif": "memes/m60_ai_hallucination.gif",
+      "subject_type": "human-portrait",
+      "animation": "Four actual AI-drawn human poses + code overlays"
     }
-  ],
-  "style_count_total_catalog": 108,
-  "style_count_rendered": 46,
-  "sticker_count_rendered": 72
+  ]
 }

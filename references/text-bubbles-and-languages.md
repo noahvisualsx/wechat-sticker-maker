@@ -18,7 +18,7 @@
 - 颜色来自风格预设 `bubble`（缺省时：白底 + 风格字色描边；`shout` 淡黄、`heart` 淡粉、`whisper` 淡紫）。
 
 ## 3. 支持的语言
-- **内置手写文案（132 个表情 × 5 种语言）**：`zh-CN` 简体中文、`zh-TW` 繁體中文、`en` English、`ja` 日本語、`ko` 한국어。文案是各地聊天习惯的口语（LINE スタンプ / 카톡 이모티콘 风格），不是机翻。
+- **内置手写文案（220 个单人表情 + 168 套双人互动 + 60 款梗图 × 5 种语言）**：`zh-CN` 简体中文、`zh-TW` 繁體中文、`en` English、`ja` 日本語、`ko` 한국어。文案是各地聊天习惯的口语（LINE スタンプ / 카톡 이모티콘 风格），不是机翻。
 - **任意其他语言**（es/fr/de/it/pt/nl/pl/tr/vi/id/ms/fil/ru/uk/el/th/he/ar/fa/hi …）：
   1. `wechat-sticker-maker captions-template --language es -o captions_es.json`
   2. 由 Codex/ChatGPT 按每个表情的 `_source`（五语原文）与 `_mood` 写**地道、简短、口语化**的翻译填入 `caption`/`bubble`

@@ -1,9 +1,12 @@
 """Two-person (Duo) real-person sticker catalog and prompt builder.
 
-Covers 108 built-in real-person interaction presets across three categories:
+Covers 168 built-in real-person interaction presets across six categories:
 - ``besties`` (闺蜜互动 · 36 套)
 - ``couple``  (情侣互动 · 36 套)
 - ``yuri``    (百合/双女主互动 · 36 套)
+- ``yaoi``    (双男主/兄弟耽美 · 20 套)
+- ``rivals``  (欢喜冤家/相爱相杀 · 20 套)
+- ``family``  (亲子/姐弟兄妹萌娃 · 20 套)
 """
 
 from __future__ import annotations
@@ -98,14 +101,14 @@ def normalize_duo_category(cat: str) -> str:
     resolved = _DUO_ALIASES.get(key) or _DUO_ALIASES.get(key.lower())
     if not resolved:
         raise ValueError(
-            f"Unknown duo category '{cat}'. Use one of: besties (闺蜜), couple (情侣), yuri (百合)"
+            f"Unknown duo category '{cat}'. Use one of: besties (闺蜜), couple (情侣), yuri (百合), yaoi (双男主), rivals (欢喜冤家), family (亲子)"
         )
     return resolved
 
 
 @lru_cache(maxsize=2)
 def load_duo_presets(path: Path | None = None) -> List[ExpressionItem]:
-    """Load all 108 built-in real-person duo interaction presets."""
+    """Load all 168 built-in real-person duo interaction presets."""
     p = path or get_default_duo_path()
     with p.open("r", encoding="utf-8") as f:
         data = json.load(f)

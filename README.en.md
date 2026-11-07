@@ -183,15 +183,18 @@ Grouped into **General (18) / Korean (30) / Japanese (30) / Chinese (30)** serie
 
 ---
 
-## 108 Two-Person Real-Portrait Duo Interaction Presets (`references/duo-presets.json`)
+## 168 Two-Person Real-Portrait Duo Interaction Presets (`references/duo-presets.json`)
 
-Pass two real portrait photos (`-i personA.jpg -p personB.jpg`) to generate two-person real-portrait stickers while preserving BOTH people's authentic facial identity (`wechat-sticker-maker duo --category besties|couple|yuri --language en`).
+Pass two real portrait photos (`-i personA.jpg -p personB.jpg`) to generate two-person real-portrait stickers while preserving BOTH people's authentic facial identity (`wechat-sticker-maker duo --category besties|couple|yuri|yaoi|rivals|family --language en`).
 
 | Category (`--duo-category`) | Count | IDs | Signature Real-Person Interactions |
 |---|---|---|---|
 | **👯‍♀️ Besties (`besties` / `闺蜜`)** | **36** | `d01` – `d36` | Cheek-to-cheek selfie (`Besties`), Twin heart hands, Boba cheers (`Boba time`), Whispering gossip (`Hot tea!`), Protective hug (`Who bullied you?`), High-five (`Got me`) |
 | **👩‍❤️‍👨 Couple (`couple` / `情侣`)** | **36** | `d37` – `d72` | Affectionate head pat (`Good girl`), Back hug (`Recharging`), Cheek pinch (`Adore you`), Forehead touch (`Only you`), Sleeve tug (`Stay with me`), Shared winter scarf |
-| **🌸 Yuri / GL (`yuri` / `百合`)** | **36** | `d73` – `d108` | Fingertip chin-lift gaze (`Look at me, Unnie`), Cinematic cheek touch (`Meant to be`), Cool unnie kabedon (`Heart racing`), Sleeping on shoulder (`Yours only`), Red thread of fate, Eternal vow hands |
+| **🌸 Yuri / GL (`yuri` / `百合`)** | **36** | `d73` – `d108` | Fingertip chin-lift gaze (`Look at me, Unnie`), Cinematic cheek touch (`Meant to be`), Cool unnie kabedon (`Heart racing`), Sleeping on shoulder (`Yours only`), Red thread of fate |
+| **🥂 Yaoi / Bromance (`yaoi` / `双男主`)** | **20** | `d109` – `d128` | Tie-pull gaze (`Closer`), Back-to-back suits (`Got your back`), One-hand wall lean (`Listen to me`), Shared black umbrella in rain (`Come here`), Wrist grab (`Don't go`) |
+| **⚡ Playful Rivals (`rivals` / `欢喜冤家`)** | **20** | `d129` – `d148` | Mutual cheek pull (`Fight me!`), Forehead flick (`Pay up`), Stealing a sip of boba (`Mine!`), Side-eye stare-off (`Hmph`), Instant truce over food (`Peace for now`) |
+| **🧸 Family & Siblings (`family` / `亲子/姐弟`)** | **20** | `d149` – `d168` | Mini-me synchronized chin rest (`Copy-paste`), Big sister protective hug (`Behind me`), Spoiling cheek squish (`Cutie pie`), Red envelope head pat (`Happy New Year`) |
 
 ---
 
@@ -201,14 +204,24 @@ Pass two real portrait photos (`-i personA.jpg -p personB.jpg`) to generate two-
 
 ---
 
-## 14 Real-Person Expression Categories
+## 22 Real-Person Expression Categories (220 Expressions)
+
+In addition to the 14 daily categories (Greeting, Polite, Agree, Refuse, Happy, Sad, Angry, Shocked, Tired, Work, Cute, Cheer, Sleep, Festival), includes **8 high-frequency vertical & subculture categories**:
+- **🎮 Gaming & Esports (`gaming`)**: `GGWP`, `Carry me!`, `One more game`, `Lagging!!`, `MVP moment`, `AFK`
+- **💖 Fandom & Idol (`fandom`)**: `My bias is unreal`, `Lightstick wave`, `Crying at concert`, `Photocard pull`, `Protect at all costs`
+- **💰 Wealth & Luck (`wealth`)**: `Manifesting wealth`, `Payday glow`, `Red envelope magnet`, `Broke until Friday`, `Instant rich`
+- **🧋 Boba & Foodie (`foodie`)**: `Boba saves lives`, `Late-night ramen`, `Diet starts tomorrow`, `First bite heaven`, `Iced Americano IV`
+- **📚 Campus & Exams (`campus`)**: `8AM lecture zombie`, `Thesis survival`, `Passing prayer`, `Library all-nighter`, `Finally vacaciones`
+- **💅 Sassy & Tea (`sassy`)**: `Oh really?`, `Bombastic side-eye`, `Sipping tea`, `Polite fake smile`, `Not my problem`
+- **🌀 Chaotic Mental State (`mental`)**: `Soul leaving body`, `Peacefully unhinged`, `Wooden fish karma +1`, `Brain buffering`, `Screaming internally`
+- **🐾 Pet Collab (`pet_collab`)**: `Cat paw cuddle`, `Humble cat servant`, `Puppy kisses`, `Synchronized judging stare`
 
 ![Real-Person Expressions 1/2](docs/gallery/images/expressions-01.jpg)
 ![Real-Person Expressions 2/2](docs/gallery/images/expressions-02.jpg)
 
 ---
 
-## 38 Real-Person Meme & Abstract Templates (6 Categories)
+## 60 Real-Person Meme & Abstract Templates (6 Categories)
 
 ![Real-Person Memes Overview](docs/gallery/images/memes-overview.jpg)
 
@@ -241,10 +254,20 @@ Pass two real portrait photos (`-i personA.jpg -p personB.jpg`) to generate two-
 ./install.sh
 source .venv/bin/activate
 
-# Inspect environment, 108 styles & 108 two-person duo presets
+# Inspect environment, 108 styles, 168 duo presets & 15 one-click theme packs
 wechat-sticker-maker doctor
 wechat-sticker-maker styles --region kr
 wechat-sticker-maker duo --category yuri --language en
+wechat-sticker-maker themes
+
+# One-click themed pack (--theme auto-configures style, curated expressions & memes)
+wechat-sticker-maker plan -i photo.jpg --theme 电竞 -o output/gamer-pack
+
+# Zero-cost caption & bubble text remix (0 AI tokens, <2s in-place re-composition)
+wechat-sticker-maker remix-text -j output/my-portrait-pack/job.json --set 01_hello="Wassup!" --bubble 05_shy="Stop looking~"
+
+# Generate Xiaohongshu 3:4 / Story 9:16 / Grid 1:1 promotional posters + store copy
+wechat-sticker-maker collage -o output/my-portrait-pack --title "My Real-Person Pack"
 
 # Single-person pack (Generate AI cutouts ONCE -> output 4 single-language packs: zh-CN, en, ja, ko)
 wechat-sticker-maker plan \
