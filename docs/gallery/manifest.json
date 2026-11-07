@@ -2,27 +2,16 @@
   "description": "Real-person photographic sticker gallery only",
   "subject_type": "human-portrait",
   "generator": "built-in image_gen",
-  "style_count": 46,
+  "style_count": 108,
   "total_style_presets": 108,
   "duo_presets": 168,
+  "duo_showcase_count": 16,
   "expression_categories": 22,
   "expression_presets": 220,
+  "pet_presets": 40,
   "meme_count": 60,
   "language": "zh-CN",
   "stickers": [
-    {
-      "key": "real-cutout__01_hello",
-      "style": "real-cutout",
-      "name": "真人写真抠图贴纸",
-      "region": "通用",
-      "language": "en",
-      "expression": "01_hello",
-      "caption": "你好",
-      "localized_text": "Hi there!",
-      "category": "greeting",
-      "file": "stickers/real-cutout__01_hello.png",
-      "subject_type": "human-portrait"
-    },
     {
       "key": "real-cutout__04_laugh",
       "style": "real-cutout",
@@ -34,33 +23,8 @@
       "localized_text": "LOL",
       "category": "positive",
       "file": "stickers/real-cutout__04_laugh.png",
-      "subject_type": "human-portrait"
-    },
-    {
-      "key": "real-variety-meme__01_hello",
-      "style": "real-variety-meme",
-      "name": "真人综艺花字斗图",
-      "region": "中式",
-      "language": "zh-CN",
-      "expression": "01_hello",
-      "caption": "你好",
-      "localized_text": "你好",
-      "category": "greeting",
-      "file": "stickers/real-variety-meme__01_hello.png",
-      "subject_type": "human-portrait"
-    },
-    {
-      "key": "real-variety-meme__125_high_five",
-      "style": "real-variety-meme",
-      "name": "真人综艺花字斗图",
-      "region": "中式",
-      "language": "zh-CN",
-      "expression": "125_high_five",
-      "caption": "击掌",
-      "localized_text": "击掌",
-      "category": "social",
-      "file": "stickers/real-variety-meme__125_high_five.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-bobblehead__01_hello",
@@ -73,7 +37,8 @@
       "localized_text": "Hi there!",
       "category": "greeting",
       "file": "stickers/real-bobblehead__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-bobblehead__13_yay",
@@ -86,33 +51,8 @@
       "localized_text": "Yay!",
       "category": "positive",
       "file": "stickers/real-bobblehead__13_yay.png",
-      "subject_type": "human-portrait"
-    },
-    {
-      "key": "real-purikura__01_hello",
-      "style": "real-purikura",
-      "name": "韩系人生四格大头贴",
-      "region": "韩系",
-      "language": "ko",
-      "expression": "01_hello",
-      "caption": "你好",
-      "localized_text": "안녕!",
-      "category": "greeting",
-      "file": "stickers/real-purikura__01_hello.png",
-      "subject_type": "human-portrait"
-    },
-    {
-      "key": "real-purikura__10_fighting",
-      "style": "real-purikura",
-      "name": "韩系人生四格大头贴",
-      "region": "韩系",
-      "language": "ko",
-      "expression": "10_fighting",
-      "caption": "加油",
-      "localized_text": "화이팅!",
-      "category": "praise",
-      "file": "stickers/real-purikura__10_fighting.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-street-cool__01_hello",
@@ -125,7 +65,8 @@
       "localized_text": "Hi there!",
       "category": "greeting",
       "file": "stickers/real-street-cool__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-street-cool__06_cry",
@@ -138,7 +79,8 @@
       "localized_text": "Waaah",
       "category": "negative",
       "file": "stickers/real-street-cool__06_cry.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-vintage-ccd__01_hello",
@@ -151,7 +93,8 @@
       "localized_text": "Hi there!",
       "category": "greeting",
       "file": "stickers/real-vintage-ccd__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-vintage-ccd__07_angry",
@@ -161,10 +104,11 @@
       "language": "en",
       "expression": "07_angry",
       "caption": "生气",
-      "localized_text": "Grrr!",
+      "localized_text": "So mad!",
       "category": "negative",
       "file": "stickers/real-vintage-ccd__07_angry.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-work-emo__01_hello",
@@ -177,7 +121,8 @@
       "localized_text": "Hi there!",
       "category": "greeting",
       "file": "stickers/real-work-emo__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-work-emo__14_confused",
@@ -190,7 +135,8 @@
       "localized_text": "Huh?",
       "category": "surprise",
       "file": "stickers/real-work-emo__14_confused.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-high-contrast__01_hello",
@@ -203,7 +149,8 @@
       "localized_text": "Hi there!",
       "category": "greeting",
       "file": "stickers/real-high-contrast__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-high-contrast__24_shocked",
@@ -216,7 +163,8 @@
       "localized_text": "Shocked!",
       "category": "surprise",
       "file": "stickers/real-high-contrast__24_shocked.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-idol-selfie__01_hello",
@@ -229,7 +177,8 @@
       "localized_text": "안녕!",
       "category": "greeting",
       "file": "stickers/real-kr-idol-selfie__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-idol-selfie__09_acknowledged",
@@ -242,7 +191,8 @@
       "localized_text": "넵!",
       "category": "reply",
       "file": "stickers/real-kr-idol-selfie__09_acknowledged.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-glass-skin__01_hello",
@@ -255,7 +205,8 @@
       "localized_text": "안녕!",
       "category": "greeting",
       "file": "stickers/real-kr-glass-skin__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-glass-skin__18_wait",
@@ -268,7 +219,8 @@
       "localized_text": "잠깐만!",
       "category": "reply",
       "file": "stickers/real-kr-glass-skin__18_wait.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-photocard__01_hello",
@@ -281,7 +233,8 @@
       "localized_text": "안녕!",
       "category": "greeting",
       "file": "stickers/real-kr-photocard__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-photocard__11_thanks",
@@ -294,7 +247,8 @@
       "localized_text": "고마워!",
       "category": "polite",
       "file": "stickers/real-kr-photocard__11_thanks.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-cafe-film__01_hello",
@@ -307,7 +261,8 @@
       "localized_text": "안녕!",
       "category": "greeting",
       "file": "stickers/real-kr-cafe-film__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-cafe-film__57_sorry",
@@ -320,7 +275,8 @@
       "localized_text": "미안해…",
       "category": "polite",
       "file": "stickers/real-kr-cafe-film__57_sorry.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-drama__01_hello",
@@ -333,20 +289,8 @@
       "localized_text": "안녕!",
       "category": "greeting",
       "file": "stickers/real-kr-drama__01_hello.png",
-      "subject_type": "human-portrait"
-    },
-    {
-      "key": "real-kr-drama__05_shy",
-      "style": "real-kr-drama",
-      "name": "韩剧主角氛围",
-      "region": "韩系",
-      "language": "ko",
-      "expression": "05_shy",
-      "caption": "害羞",
-      "localized_text": "부끄부끄",
-      "category": "love",
-      "file": "stickers/real-kr-drama__05_shy.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-variety__01_hello",
@@ -359,7 +303,8 @@
       "localized_text": "안녕!",
       "category": "greeting",
       "file": "stickers/real-kr-variety__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-variety__16_love",
@@ -372,7 +317,36 @@
       "localized_text": "사랑해!",
       "category": "love",
       "file": "stickers/real-kr-variety__16_love.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-purikura__01_hello",
+      "style": "real-purikura",
+      "name": "韩系人生四格大头贴",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "01_hello",
+      "caption": "你好",
+      "localized_text": "안녕!",
+      "category": "greeting",
+      "file": "stickers/real-purikura__01_hello.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-purikura__10_fighting",
+      "style": "real-purikura",
+      "name": "韩系人生四格大头贴",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "10_fighting",
+      "caption": "加油",
+      "localized_text": "화이팅!",
+      "category": "praise",
+      "file": "stickers/real-purikura__10_fighting.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-airy__01_hello",
@@ -385,7 +359,8 @@
       "localized_text": "こんにちは！",
       "category": "greeting",
       "file": "stickers/real-jp-airy__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-airy__70_clap",
@@ -398,7 +373,8 @@
       "localized_text": "パチパチ",
       "category": "praise",
       "file": "stickers/real-jp-airy__70_clap.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-fuji-film__01_hello",
@@ -411,7 +387,8 @@
       "localized_text": "こんにちは！",
       "category": "greeting",
       "file": "stickers/real-jp-fuji-film__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-fuji-film__21_eating",
@@ -424,7 +401,8 @@
       "localized_text": "ごはんだ〜",
       "category": "daily",
       "file": "stickers/real-jp-fuji-film__21_eating.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-purikura__01_hello",
@@ -437,7 +415,8 @@
       "localized_text": "こんにちは！",
       "category": "greeting",
       "file": "stickers/real-jp-purikura__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-purikura__22_sleeping",
@@ -450,7 +429,8 @@
       "localized_text": "寝るね〜",
       "category": "daily",
       "file": "stickers/real-jp-purikura__22_sleeping.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-summer__01_hello",
@@ -463,7 +443,8 @@
       "localized_text": "こんにちは！",
       "category": "greeting",
       "file": "stickers/real-jp-summer__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-summer__89_slacking",
@@ -476,7 +457,8 @@
       "localized_text": "サボり中",
       "category": "work",
       "file": "stickers/real-jp-summer__89_slacking.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-harajuku__01_hello",
@@ -489,7 +471,8 @@
       "localized_text": "こんにちは！",
       "category": "greeting",
       "file": "stickers/real-jp-harajuku__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-harajuku__92_typing_fast",
@@ -502,7 +485,8 @@
       "localized_text": "カタカタ…",
       "category": "work",
       "file": "stickers/real-jp-harajuku__92_typing_fast.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-showa__01_hello",
@@ -515,7 +499,8 @@
       "localized_text": "こんにちは！",
       "category": "greeting",
       "file": "stickers/real-jp-showa__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-jp-showa__95_eat_melon",
@@ -528,7 +513,8 @@
       "localized_text": "高みの見物",
       "category": "meme",
       "file": "stickers/real-jp-showa__95_eat_melon.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-new-chinese__01_hello",
@@ -541,7 +527,8 @@
       "localized_text": "你好",
       "category": "greeting",
       "file": "stickers/real-cn-new-chinese__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-new-chinese__98_facepalm",
@@ -554,7 +541,8 @@
       "localized_text": "",
       "category": "meme",
       "file": "stickers/real-cn-new-chinese__98_facepalm.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-hk-retro__01_hello",
@@ -567,7 +555,8 @@
       "localized_text": "你好",
       "category": "greeting",
       "file": "stickers/real-cn-hk-retro__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-hk-retro__106_new_year",
@@ -580,7 +569,8 @@
       "localized_text": "新年快乐",
       "category": "festival",
       "file": "stickers/real-cn-hk-retro__106_new_year.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-xhs-vibe__01_hello",
@@ -593,7 +583,8 @@
       "localized_text": "你好",
       "category": "greeting",
       "file": "stickers/real-cn-xhs-vibe__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-xhs-vibe__107_red_envelope",
@@ -603,10 +594,11 @@
       "language": "zh-CN",
       "expression": "107_red_envelope",
       "caption": "恭喜发财",
-      "localized_text": "红包拿来",
+      "localized_text": "恭喜发财",
       "category": "festival",
       "file": "stickers/real-cn-xhs-vibe__107_red_envelope.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-douyin__01_hello",
@@ -619,7 +611,8 @@
       "localized_text": "你好",
       "category": "greeting",
       "file": "stickers/real-cn-douyin__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-douyin__115_busy",
@@ -632,7 +625,8 @@
       "localized_text": "忙碌中",
       "category": "status",
       "file": "stickers/real-cn-douyin__115_busy.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-studio-retro__01_hello",
@@ -645,7 +639,8 @@
       "localized_text": "你好",
       "category": "greeting",
       "file": "stickers/real-cn-studio-retro__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-studio-retro__118_tired",
@@ -655,10 +650,11 @@
       "language": "zh-CN",
       "expression": "118_tired",
       "caption": "好累",
-      "localized_text": "想躺平…",
+      "localized_text": "好累",
       "category": "status",
       "file": "stickers/real-cn-studio-retro__118_tired.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-tw-youth__01_hello",
@@ -671,7 +667,8 @@
       "localized_text": "你好",
       "category": "greeting",
       "file": "stickers/real-cn-tw-youth__01_hello.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cn-tw-youth__123_pat_pat",
@@ -684,7 +681,36 @@
       "localized_text": "摸摸头",
       "category": "social",
       "file": "stickers/real-cn-tw-youth__123_pat_pat.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-variety-meme__01_hello",
+      "style": "real-variety-meme",
+      "name": "真人综艺花字斗图",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "01_hello",
+      "caption": "你好",
+      "localized_text": "你好",
+      "category": "greeting",
+      "file": "stickers/real-variety-meme__01_hello.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-variety-meme__125_high_five",
+      "style": "real-variety-meme",
+      "name": "真人综艺花字斗图",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "125_high_five",
+      "caption": "击掌",
+      "localized_text": "击掌",
+      "category": "social",
+      "file": "stickers/real-variety-meme__125_high_five.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-polaroid-instant__02_morning",
@@ -697,7 +723,8 @@
       "localized_text": "Good morning!",
       "category": "greeting",
       "file": "stickers/real-polaroid-instant__02_morning.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-fisheye-y2k__03_goodnight",
@@ -710,7 +737,8 @@
       "localized_text": "Good night~",
       "category": "greeting",
       "file": "stickers/real-fisheye-y2k__03_goodnight.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-paparazzi-flash__08_speechless",
@@ -723,7 +751,8 @@
       "localized_text": "Speechless...",
       "category": "surprise",
       "file": "stickers/real-paparazzi-flash__08_speechless.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-golden-hour__12_hug",
@@ -736,7 +765,8 @@
       "localized_text": "Hugs~",
       "category": "love",
       "file": "stickers/real-golden-hour__12_hug.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-blue-hour__15_bye",
@@ -749,7 +779,8 @@
       "localized_text": "Bye-bye!",
       "category": "greeting",
       "file": "stickers/real-blue-hour__15_bye.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-cyber-neon__17_are_you_there",
@@ -762,7 +793,8 @@
       "localized_text": "You there?",
       "category": "social",
       "file": "stickers/real-cyber-neon__17_are_you_there.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-film-kodak-gold__19_ok",
@@ -775,7 +807,8 @@
       "localized_text": "OK!",
       "category": "reply",
       "file": "stickers/real-film-kodak-gold__19_ok.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-film-cinestill-800t__20_please",
@@ -788,7 +821,8 @@
       "localized_text": "Pretty please",
       "category": "polite",
       "file": "stickers/real-film-cinestill-800t__20_please.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-vogue-editorial__23_aggrieved",
@@ -801,7 +835,8 @@
       "localized_text": "So unfair...",
       "category": "negative",
       "file": "stickers/real-vogue-editorial__23_aggrieved.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-french-effortless__25_long_time_no_see",
@@ -814,7 +849,8 @@
       "localized_text": "Long time no see!",
       "category": "greeting",
       "file": "stickers/real-french-effortless__25_long_time_no_see.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-american-yearbook__26_welcome",
@@ -827,7 +863,8 @@
       "localized_text": "Welcome!",
       "category": "greeting",
       "file": "stickers/real-american-yearbook__26_welcome.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-thermal-ir__27_see_you_tomorrow",
@@ -840,7 +877,8 @@
       "localized_text": "See you tomorrow",
       "category": "greeting",
       "file": "stickers/real-thermal-ir__27_see_you_tomorrow.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-music-bank__28_im_back",
@@ -853,7 +891,8 @@
       "localized_text": "나 왔어!",
       "category": "greeting",
       "file": "stickers/real-kr-music-bank__28_im_back.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-fansign-soft__29_good_afternoon",
@@ -866,7 +905,8 @@
       "localized_text": "좋은 오후!",
       "category": "greeting",
       "file": "stickers/real-kr-fansign-soft__29_good_afternoon.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-airport-snap__30_excited",
@@ -876,10 +916,11 @@
       "language": "ko",
       "expression": "30_excited",
       "caption": "激动",
-      "localized_text": "꺄악!",
+      "localized_text": "신난다!",
       "category": "positive",
       "file": "stickers/real-kr-airport-snap__30_excited.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-hongdae-street__31_proud",
@@ -892,7 +933,8 @@
       "localized_text": "뿌듯해!",
       "category": "positive",
       "file": "stickers/real-kr-hongdae-street__31_proud.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-seongsu-industrial__32_relieved",
@@ -905,7 +947,8 @@
       "localized_text": "다행이다~",
       "category": "positive",
       "file": "stickers/real-kr-seongsu-industrial__32_relieved.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-hannam-oldmoney__33_cool",
@@ -918,7 +961,8 @@
       "localized_text": "멋지지?",
       "category": "positive",
       "file": "stickers/real-kr-hannam-oldmoney__33_cool.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-apgujeong-glam__34_dance",
@@ -931,7 +975,8 @@
       "localized_text": "춤추자!",
       "category": "positive",
       "file": "stickers/real-kr-apgujeong-glam__34_dance.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
     },
     {
       "key": "real-kr-jeju-breeze__35_giggle",
@@ -944,37 +989,1636 @@
       "localized_text": "",
       "category": "positive",
       "file": "stickers/real-kr-jeju-breeze__35_giggle.png",
-      "subject_type": "human-portrait"
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-hanok-sunlight__36_happy",
+      "style": "real-kr-hanok-sunlight",
+      "name": "韩系北村韩屋暖阳",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "36_happy",
+      "caption": "开心",
+      "localized_text": "행복해!",
+      "category": "positive",
+      "file": "stickers/real-kr-hanok-sunlight__36_happy.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-winter-snow__37_heartbroken",
+      "style": "real-kr-winter-snow",
+      "name": "韩系初雪围巾恋歌",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "37_heartbroken",
+      "caption": "心碎",
+      "localized_text": "마음 아파",
+      "category": "negative",
+      "file": "stickers/real-kr-winter-snow__37_heartbroken.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-cherry-blossom__38_emo",
+      "style": "real-kr-cherry-blossom",
+      "name": "韩系汝矣岛樱花柔光",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "38_emo",
+      "caption": "emo了",
+      "localized_text": "우울해",
+      "category": "negative",
+      "file": "stickers/real-kr-cherry-blossom__38_emo.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-rainy-pocha__39_jealous",
+      "style": "real-kr-rainy-pocha",
+      "name": "韩系雨夜布帐马车",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "39_jealous",
+      "caption": "酸了",
+      "localized_text": "부럽다…",
+      "category": "negative",
+      "file": "stickers/real-kr-rainy-pocha__39_jealous.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-high-teen__40_hmph",
+      "style": "real-kr-high-teen",
+      "name": "韩系High-Teen复古校园",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "40_hmph",
+      "caption": "哼",
+      "localized_text": "흥!",
+      "category": "negative",
+      "file": "stickers/real-kr-high-teen__40_hmph.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-y2k-metallic__41_table_flip",
+      "style": "real-kr-y2k-metallic",
+      "name": "韩系Y2K千禧银光",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "41_table_flip",
+      "caption": "掀桌",
+      "localized_text": "상 엎어!",
+      "category": "negative",
+      "file": "stickers/real-kr-y2k-metallic__41_table_flip.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-balletcore__42_wail",
+      "style": "real-kr-balletcore",
+      "name": "韩系芭蕾风柔粉写真",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "42_wail",
+      "caption": "哇哇大哭",
+      "localized_text": "엉엉",
+      "category": "negative",
+      "file": "stickers/real-kr-balletcore__42_wail.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-clean-fit__43_so_sad",
+      "style": "real-kr-clean-fit",
+      "name": "韩系Clean-Fit极简白棚",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "43_so_sad",
+      "caption": "好难过",
+      "localized_text": "너무 슬퍼",
+      "category": "negative",
+      "file": "stickers/real-kr-clean-fit__43_so_sad.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-id-photo__44_omg",
+      "style": "real-kr-id-photo",
+      "name": "韩系最美证件照精修",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "44_omg",
+      "caption": "我的天",
+      "localized_text": "세상에!",
+      "category": "surprise",
+      "file": "stickers/real-kr-id-photo__44_omg.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-high-angle-booth__45_question_marks",
+      "style": "real-kr-high-angle-booth",
+      "name": "韩系俯拍高角度四格",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "45_question_marks",
+      "caption": "问号脸",
+      "localized_text": "",
+      "category": "surprise",
+      "file": "stickers/real-kr-high-angle-booth__45_question_marks.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-bw-fourcut__46_cant_believe",
+      "style": "real-kr-bw-fourcut",
+      "name": "韩系黑白胶片四格",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "46_cant_believe",
+      "caption": "不敢相信",
+      "localized_text": "말도 안 돼",
+      "category": "surprise",
+      "file": "stickers/real-kr-bw-fourcut__46_cant_believe.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-practice-mirror__47_scared",
+      "style": "real-kr-practice-mirror",
+      "name": "韩系练习室对镜自拍",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "47_scared",
+      "caption": "好怕怕",
+      "localized_text": "무서워…",
+      "category": "surprise",
+      "file": "stickers/real-kr-practice-mirror__47_scared.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-convenience-night__48_faint",
+      "style": "real-kr-convenience-night",
+      "name": "韩系深夜便利店霓虹",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "48_faint",
+      "caption": "晕倒",
+      "localized_text": "",
+      "category": "surprise",
+      "file": "stickers/real-kr-convenience-night__48_faint.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-magazine-dazed__49_no",
+      "style": "real-kr-magazine-dazed",
+      "name": "韩系先锋画报冷冽光",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "49_no",
+      "caption": "不要",
+      "localized_text": "싫어!",
+      "category": "reply",
+      "file": "stickers/real-kr-magazine-dazed__49_no.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-webtoon-real__50_on_my_way",
+      "style": "real-kr-webtoon-real",
+      "name": "韩系漫改主角神颜光",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "50_on_my_way",
+      "caption": "马上到",
+      "localized_text": "지금 가는 중",
+      "category": "reply",
+      "file": "stickers/real-kr-webtoon-real__50_on_my_way.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-rinko-pastel__51_sure",
+      "style": "real-jp-rinko-pastel",
+      "name": "日系川内伦子风淡彩",
+      "region": "日系",
+      "language": "ja",
+      "expression": "51_sure",
+      "caption": "好的呀",
+      "localized_text": "いいよ〜",
+      "category": "reply",
+      "file": "stickers/real-jp-rinko-pastel__51_sure.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-hideaki-clean__52_let_me_think",
+      "style": "real-jp-hideaki-clean",
+      "name": "日系滨田英明风清透",
+      "region": "日系",
+      "language": "ja",
+      "expression": "52_let_me_think",
+      "caption": "让我想想",
+      "localized_text": "うーん…",
+      "category": "reply",
+      "file": "stickers/real-jp-hideaki-clean__52_let_me_think.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-moriyama-bw__53_got_it",
+      "style": "real-jp-moriyama-bw",
+      "name": "日系森山大道粗颗粒黑白",
+      "region": "日系",
+      "language": "ja",
+      "expression": "53_got_it",
+      "caption": "懂了",
+      "localized_text": "なるほど！",
+      "category": "reply",
+      "file": "stickers/real-jp-moriyama-bw__53_got_it.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-ninagawa-vivid__54_really",
+      "style": "real-jp-ninagawa-vivid",
+      "name": "日系蜷川实花浓郁花影",
+      "region": "日系",
+      "language": "ja",
+      "expression": "54_really",
+      "caption": "真的吗",
+      "localized_text": "マジで？",
+      "category": "reply",
+      "file": "stickers/real-jp-ninagawa-vivid__54_really.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-shibuya-neon__55_whatever",
+      "style": "real-jp-shibuya-neon",
+      "name": "日系涩谷十字路口霓虹",
+      "region": "日系",
+      "language": "ja",
+      "expression": "55_whatever",
+      "caption": "随便",
+      "localized_text": "どっちでも",
+      "category": "reply",
+      "file": "stickers/real-jp-shibuya-neon__55_whatever.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-shimokita-vintage__56_call_me",
+      "style": "real-jp-shimokita-vintage",
+      "name": "日系下北泽古着胶片",
+      "region": "日系",
+      "language": "ja",
+      "expression": "56_call_me",
+      "caption": "打给我",
+      "localized_text": "電話して！",
+      "category": "reply",
+      "file": "stickers/real-jp-shimokita-vintage__56_call_me.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-daikanyama-morning__58_youre_welcome",
+      "style": "real-jp-daikanyama-morning",
+      "name": "日系代官山晨光书店",
+      "region": "日系",
+      "language": "ja",
+      "expression": "58_youre_welcome",
+      "caption": "不客气",
+      "localized_text": "いえいえ〜",
+      "category": "polite",
+      "file": "stickers/real-jp-daikanyama-morning__58_youre_welcome.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-ginza-luxury__59_excuse_me",
+      "style": "real-jp-ginza-luxury",
+      "name": "日系银座夜色流光",
+      "region": "日系",
+      "language": "ja",
+      "expression": "59_excuse_me",
+      "caption": "打扰了",
+      "localized_text": "失礼します",
+      "category": "polite",
+      "file": "stickers/real-jp-ginza-luxury__59_excuse_me.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-kyoto-komorebi__60_thanks_boss",
+      "style": "real-jp-kyoto-komorebi",
+      "name": "日系京都木漏日和风",
+      "region": "日系",
+      "language": "ja",
+      "expression": "60_thanks_boss",
+      "caption": "谢谢老板",
+      "localized_text": "社長あざっす！",
+      "category": "polite",
+      "file": "stickers/real-jp-kyoto-komorebi__60_thanks_boss.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-hokkaido-snow__61_good_work",
+      "style": "real-jp-hokkaido-snow",
+      "name": "日系北海道情书雪景",
+      "region": "日系",
+      "language": "ja",
+      "expression": "61_good_work",
+      "caption": "辛苦了",
+      "localized_text": "おつかれさま",
+      "category": "polite",
+      "file": "stickers/real-jp-hokkaido-snow__61_good_work.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-okinawa-sun__62_miss_you",
+      "style": "real-jp-okinawa-sun",
+      "name": "日系冲绳盛夏海盐",
+      "region": "日系",
+      "language": "ja",
+      "expression": "62_miss_you",
+      "caption": "想你了",
+      "localized_text": "会いたい…",
+      "category": "love",
+      "file": "stickers/real-jp-okinawa-sun__62_miss_you.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-sakura-film__63_kiss",
+      "style": "real-jp-sakura-film",
+      "name": "日系樱花季春光胶片",
+      "region": "日系",
+      "language": "ja",
+      "expression": "63_kiss",
+      "caption": "亲亲",
+      "localized_text": "チュッ♡",
+      "category": "love",
+      "file": "stickers/real-jp-sakura-film__63_kiss.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-autumn-icho__64_finger_heart",
+      "style": "real-jp-autumn-icho",
+      "name": "日系银杏大道秋日暖光",
+      "region": "日系",
+      "language": "ja",
+      "expression": "64_finger_heart",
+      "caption": "比心",
+      "localized_text": "指ハート",
+      "category": "love",
+      "file": "stickers/real-jp-autumn-icho__64_finger_heart.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-rainy-hydrangea__65_mwah",
+      "style": "real-jp-rainy-hydrangea",
+      "name": "日系镰仓梅雨紫阳花",
+      "region": "日系",
+      "language": "ja",
+      "expression": "65_mwah",
+      "caption": "么么哒",
+      "localized_text": "ちゅー♡",
+      "category": "love",
+      "file": "stickers/real-jp-rainy-hydrangea__65_mwah.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-onsen-steam__66_snuggle",
+      "style": "real-jp-onsen-steam",
+      "name": "日系温泉旅馆暖雾",
+      "region": "日系",
+      "language": "ja",
+      "expression": "66_snuggle",
+      "caption": "贴贴",
+      "localized_text": "すりすり",
+      "category": "love",
+      "file": "stickers/real-jp-onsen-steam__66_snuggle.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-izakaya-warm__67_sending_love",
+      "style": "real-jp-izakaya-warm",
+      "name": "日系深夜食堂居酒屋",
+      "region": "日系",
+      "language": "ja",
+      "expression": "67_sending_love",
+      "caption": "送你爱心",
+      "localized_text": "愛を送る♡",
+      "category": "love",
+      "file": "stickers/real-jp-izakaya-warm__67_sending_love.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-kissaten-retro__68_heart_flutter",
+      "style": "real-jp-kissaten-retro",
+      "name": "日系纯喫茶昭和咖啡",
+      "region": "日系",
+      "language": "ja",
+      "expression": "68_heart_flutter",
+      "caption": "心动",
+      "localized_text": "",
+      "category": "love",
+      "file": "stickers/real-jp-kissaten-retro__68_heart_flutter.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-school-rooftop__69_six_six_six",
+      "style": "real-jp-school-rooftop",
+      "name": "日系青春天台晴空",
+      "region": "日系",
+      "language": "ja",
+      "expression": "69_six_six_six",
+      "caption": "666",
+      "localized_text": "神すぎ",
+      "category": "praise",
+      "file": "stickers/real-jp-school-rooftop__69_six_six_six.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-matsuri-fireworks__71_like",
+      "style": "real-jp-matsuri-fireworks",
+      "name": "日系夏日祭花火微光",
+      "region": "日系",
+      "language": "ja",
+      "expression": "71_like",
+      "caption": "点赞",
+      "localized_text": "いいね！",
+      "category": "praise",
+      "file": "stickers/real-jp-matsuri-fireworks__71_like.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-nonno-magazine__72_genius",
+      "style": "real-jp-nonno-magazine",
+      "name": "日系甜美日杂画报",
+      "region": "日系",
+      "language": "ja",
+      "expression": "72_genius",
+      "caption": "天才",
+      "localized_text": "天才か！",
+      "category": "praise",
+      "file": "stickers/real-jp-nonno-magazine__72_genius.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-popeye-cityboy__73_you_can_do_it",
+      "style": "real-jp-popeye-cityboy",
+      "name": "日系CityBoy街头画报",
+      "region": "日系",
+      "language": "ja",
+      "expression": "73_you_can_do_it",
+      "caption": "你可以的",
+      "localized_text": "できるよ！",
+      "category": "praise",
+      "file": "stickers/real-jp-popeye-cityboy__73_you_can_do_it.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-utsurundesu__74_respect",
+      "style": "real-jp-utsurundesu",
+      "name": "日系写ルンです一次性胶片",
+      "region": "日系",
+      "language": "ja",
+      "expression": "74_respect",
+      "caption": "敬礼",
+      "localized_text": "敬礼！",
+      "category": "praise",
+      "file": "stickers/real-jp-utsurundesu__74_respect.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-drama-subtitle__75_awesome",
+      "style": "real-jp-drama-subtitle",
+      "name": "日剧黄金档电影感剧照",
+      "region": "日系",
+      "language": "ja",
+      "expression": "75_awesome",
+      "caption": "太强了",
+      "localized_text": "すごすぎ！",
+      "category": "praise",
+      "file": "stickers/real-jp-drama-subtitle__75_awesome.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-variety-telop__76_chow_time",
+      "style": "real-jp-variety-telop",
+      "name": "日综夸张大字报斗图",
+      "region": "日系",
+      "language": "ja",
+      "expression": "76_chow_time",
+      "caption": "干饭人",
+      "localized_text": "いただきます！",
+      "category": "daily",
+      "file": "stickers/real-jp-variety-telop__76_chow_time.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-jiangnan-mist__77_hungry",
+      "style": "real-cn-jiangnan-mist",
+      "name": "中式江南烟雨清冷",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "77_hungry",
+      "caption": "饿了",
+      "localized_text": "饿了",
+      "category": "daily",
+      "file": "stickers/real-cn-jiangnan-mist__77_hungry.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-palace-redwall__78_coffee",
+      "style": "real-cn-palace-redwall",
+      "name": "中式红墙琉璃暖阳",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "78_coffee",
+      "caption": "续命咖啡",
+      "localized_text": "续命咖啡",
+      "category": "daily",
+      "file": "stickers/real-cn-palace-redwall__78_coffee.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-song-minimal__79_bath_time",
+      "style": "real-cn-song-minimal",
+      "name": "中式宋韵极简留白",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "79_bath_time",
+      "caption": "洗澡去",
+      "localized_text": "洗澡去",
+      "category": "daily",
+      "file": "stickers/real-cn-song-minimal__79_bath_time.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-tang-splendor__80_shopping",
+      "style": "real-cn-tang-splendor",
+      "name": "中式盛唐鎏金夜宴",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "80_shopping",
+      "caption": "买买买",
+      "localized_text": "买买买",
+      "category": "daily",
+      "file": "stickers/real-cn-tang-splendor__80_shopping.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-dunhuang-sunset__81_gaming",
+      "style": "real-cn-dunhuang-sunset",
+      "name": "中式敦煌大漠流沙",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "81_gaming",
+      "caption": "打游戏",
+      "localized_text": "打游戏",
+      "category": "daily",
+      "file": "stickers/real-cn-dunhuang-sunset__81_gaming.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-ink-wash-light__82_workout",
+      "style": "real-cn-ink-wash-light",
+      "name": "中式水墨光影写真",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "82_workout",
+      "caption": "健身",
+      "localized_text": "健身",
+      "category": "daily",
+      "file": "stickers/real-cn-ink-wash-light__82_workout.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-republican-velvet__83_five_more_minutes",
+      "style": "real-cn-republican-velvet",
+      "name": "中式民国复古画报",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "83_five_more_minutes",
+      "caption": "赖床",
+      "localized_text": "赖床",
+      "category": "daily",
+      "file": "stickers/real-cn-republican-velvet__83_five_more_minutes.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-shanghai-bund__84_commuting",
+      "style": "real-cn-shanghai-bund",
+      "name": "中式外滩流光夜色",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "84_commuting",
+      "caption": "通勤中",
+      "localized_text": "通勤中",
+      "category": "daily",
+      "file": "stickers/real-cn-shanghai-bund__84_commuting.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-hk-tvb-90s__85_meeting",
+      "style": "real-cn-hk-tvb-90s",
+      "name": "港风90年代TVB剧照",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "85_meeting",
+      "caption": "开会中",
+      "localized_text": "开会中",
+      "category": "work",
+      "file": "stickers/real-cn-hk-tvb-90s__85_meeting.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-hk-cyber-rain__86_overtime",
+      "style": "real-cn-hk-cyber-rain",
+      "name": "港风旺角雨夜霓虹",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "86_overtime",
+      "caption": "加班",
+      "localized_text": "加班",
+      "category": "work",
+      "file": "stickers/real-cn-hk-cyber-rain__86_overtime.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-tw-nightmarket__87_payday",
+      "style": "real-cn-tw-nightmarket",
+      "name": "台式夜市烟火霓虹",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "87_payday",
+      "caption": "发工资啦",
+      "localized_text": "发工资啦",
+      "category": "work",
+      "file": "stickers/real-cn-tw-nightmarket__87_payday.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-chengdu-teahouse__88_deadline",
+      "style": "real-cn-chengdu-teahouse",
+      "name": "中式成都竹椅茶馆",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "88_deadline",
+      "caption": "赶DDL",
+      "localized_text": "赶DDL",
+      "category": "work",
+      "file": "stickers/real-cn-chengdu-teahouse__88_deadline.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-chongqing-cyber__90_studying",
+      "style": "real-cn-chongqing-cyber",
+      "name": "中式重庆山城迷雾夜",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "90_studying",
+      "caption": "学习中",
+      "localized_text": "学习中",
+      "category": "work",
+      "file": "stickers/real-cn-chongqing-cyber__90_studying.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-dali-sunshine__91_exam_week",
+      "style": "real-cn-dali-sunshine",
+      "name": "中式大理洱海慢生活",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "91_exam_week",
+      "caption": "考试周",
+      "localized_text": "考试周",
+      "category": "work",
+      "file": "stickers/real-cn-dali-sunshine__91_exam_week.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-hulunbuir-wind__93_off_work",
+      "style": "real-cn-hulunbuir-wind",
+      "name": "中式草原旷野清风",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "93_off_work",
+      "caption": "下班啦",
+      "localized_text": "下班啦",
+      "category": "work",
+      "file": "stickers/real-cn-hulunbuir-wind__93_off_work.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-80s-factory__94_grind",
+      "style": "real-cn-80s-factory",
+      "name": "中式80年代怀旧胶片",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "94_grind",
+      "caption": "打工人",
+      "localized_text": "打工人",
+      "category": "work",
+      "file": "stickers/real-cn-80s-factory__94_grind.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-90s-calendar__96_lie_flat",
+      "style": "real-cn-90s-calendar",
+      "name": "中式90年代挂历画报",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "96_lie_flat",
+      "caption": "躺平",
+      "localized_text": "躺平",
+      "category": "meme",
+      "file": "stickers/real-cn-90s-calendar__96_lie_flat.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-cny-festive__97_side_eye",
+      "style": "real-cn-cny-festive",
+      "name": "中式新春贺岁红金",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "97_side_eye",
+      "caption": "斜眼",
+      "localized_text": "",
+      "category": "meme",
+      "file": "stickers/real-cn-cny-festive__97_side_eye.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-wuxia-breeze__99_thats_it",
+      "style": "real-cn-wuxia-breeze",
+      "name": "中式武侠清风江湖",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "99_thats_it",
+      "caption": "就这？",
+      "localized_text": "就这？",
+      "category": "meme",
+      "file": "stickers/real-cn-wuxia-breeze__99_thats_it.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-tea-zen__100_im_fine",
+      "style": "real-cn-tea-zen",
+      "name": "中式围炉煮茶禅意",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "100_im_fine",
+      "caption": "我没事",
+      "localized_text": "我没事",
+      "category": "meme",
+      "file": "stickers/real-cn-tea-zen__100_im_fine.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-guochao-street__101_broken",
+      "style": "real-cn-guochao-street",
+      "name": "中式国潮街头撞色",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "101_broken",
+      "caption": "破防了",
+      "localized_text": "破防了",
+      "category": "meme",
+      "file": "stickers/real-cn-guochao-street__101_broken.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-work-survival__102_popcorn",
+      "style": "real-cn-work-survival",
+      "name": "中式大厂打工人图鉴",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "102_popcorn",
+      "caption": "坐等后续",
+      "localized_text": "坐等后续",
+      "category": "meme",
+      "file": "stickers/real-cn-work-survival__102_popcorn.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-bazi-lucky__103_mic_drop",
+      "style": "real-cn-bazi-lucky",
+      "name": "中式锦鲤好运玄学风",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "103_mic_drop",
+      "caption": "我说完了",
+      "localized_text": "我说完了",
+      "category": "meme",
+      "file": "stickers/real-cn-bazi-lucky__103_mic_drop.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cyber-neon__133_game_log_on",
+      "style": "real-cyber-neon",
+      "name": "真人赛博霓虹夜景",
+      "region": "通用",
+      "language": "en",
+      "expression": "133_game_log_on",
+      "caption": "上号开黑",
+      "localized_text": "Log on!",
+      "category": "gaming",
+      "file": "stickers/real-cyber-neon__133_game_log_on.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-idol-selfie__142_game_loot_gold",
+      "style": "real-kr-idol-selfie",
+      "name": "韩系爱豆自拍",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "142_game_loot_gold",
+      "caption": "出金了!",
+      "localized_text": "전설 떴다!",
+      "category": "gaming",
+      "file": "stickers/real-kr-idol-selfie__142_game_loot_gold.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-photocard__144_fan_lightstick",
+      "style": "real-kr-photocard",
+      "name": "韩系爱豆小卡",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "144_fan_lightstick",
+      "caption": "为姐姐打CALL",
+      "localized_text": "언니 사랑해!",
+      "category": "fandom",
+      "file": "stickers/real-kr-photocard__144_fan_lightstick.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-fansign-soft__147_fan_ship_otp",
+      "style": "real-kr-fansign-soft",
+      "name": "韩系签售会奶油柔光",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "147_fan_ship_otp",
+      "caption": "嗑死我了",
+      "localized_text": "이 주식 산다",
+      "category": "fandom",
+      "file": "stickers/real-kr-fansign-soft__147_fan_ship_otp.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-bazi-lucky__155_wealth_get_rich",
+      "style": "real-cn-bazi-lucky",
+      "name": "中式锦鲤好运玄学风",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "155_wealth_get_rich",
+      "caption": "接泼天富贵",
+      "localized_text": "接泼天富贵",
+      "category": "wealth",
+      "file": "stickers/real-cn-bazi-lucky__155_wealth_get_rich.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-cny-festive__162_wealth_payday_joy",
+      "style": "real-cn-cny-festive",
+      "name": "中式新春贺岁红金",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "162_wealth_payday_joy",
+      "caption": "发工资啦!",
+      "localized_text": "发工资啦!",
+      "category": "wealth",
+      "file": "stickers/real-cn-cny-festive__162_wealth_payday_joy.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-kr-cafe-film__166_food_boba_gulp",
+      "style": "real-kr-cafe-film",
+      "name": "韩系咖啡馆胶片",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "166_food_boba_gulp",
+      "caption": "奶茶续命",
+      "localized_text": "버블티 수혈",
+      "category": "foodie",
+      "file": "stickers/real-kr-cafe-film__166_food_boba_gulp.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-tw-nightmarket__171_food_hotpot_call",
+      "style": "real-cn-tw-nightmarket",
+      "name": "台式夜市烟火霓虹",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "171_food_hotpot_call",
+      "caption": "走，吃火锅!",
+      "localized_text": "走，吃火锅!",
+      "category": "foodie",
+      "file": "stickers/real-cn-tw-nightmarket__171_food_hotpot_call.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-school-rooftop__178_camp_pass_exam",
+      "style": "real-jp-school-rooftop",
+      "name": "日系青春天台晴空",
+      "region": "日系",
+      "language": "ja",
+      "expression": "178_camp_pass_exam",
+      "caption": "逢考必过!",
+      "localized_text": "絶対合格!",
+      "category": "campus",
+      "file": "stickers/real-jp-school-rooftop__178_camp_pass_exam.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-american-yearbook__181_camp_ddl_rush",
+      "style": "real-american-yearbook",
+      "name": "真人美式复古毕业年鉴",
+      "region": "通用",
+      "language": "en",
+      "expression": "181_camp_ddl_rush",
+      "caption": "极限赶DDL",
+      "localized_text": "Fighting DDL",
+      "category": "campus",
+      "file": "stickers/real-american-yearbook__181_camp_ddl_rush.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-vogue-editorial__188_sass_just_this",
+      "style": "real-vogue-editorial",
+      "name": "真人高定时尚杂志封面",
+      "region": "通用",
+      "language": "en",
+      "expression": "188_sass_just_this",
+      "caption": "就这?",
+      "localized_text": "That's it?",
+      "category": "sassy",
+      "file": "stickers/real-vogue-editorial__188_sass_just_this.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-cn-chengdu-teahouse__194_sass_sip_tea",
+      "style": "real-cn-chengdu-teahouse",
+      "name": "中式成都竹椅茶馆",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "194_sass_sip_tea",
+      "caption": "品一口好茶",
+      "localized_text": "品一口好茶",
+      "category": "sassy",
+      "file": "stickers/real-cn-chengdu-teahouse__194_sass_sip_tea.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-work-emo__199_ment_stable_fine",
+      "style": "real-work-emo",
+      "name": "真人打工人纪实梗图",
+      "region": "通用",
+      "language": "en",
+      "expression": "199_ment_stable_fine",
+      "caption": "精神状态美丽",
+      "localized_text": "Totally sane",
+      "category": "mental",
+      "file": "stickers/real-work-emo__199_ment_stable_fine.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-high-contrast__200_ment_behaving_now",
+      "style": "real-high-contrast",
+      "name": "真人黑白高反差梗图",
+      "region": "通用",
+      "language": "en",
+      "expression": "200_ment_behaving_now",
+      "caption": "已老实求放过",
+      "localized_text": "I'll behave",
+      "category": "mental",
+      "file": "stickers/real-high-contrast__200_ment_behaving_now.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-jp-airy__210_pet_hug_cat",
+      "style": "real-jp-airy",
+      "name": "日系空气感清新",
+      "region": "日系",
+      "language": "ja",
+      "expression": "210_pet_hug_cat",
+      "caption": "吸猫续命",
+      "localized_text": "猫吸い最高",
+      "category": "pet_collab",
+      "file": "stickers/real-jp-airy__210_pet_hug_cat.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-film-kodak-gold__211_pet_puppy_wave",
+      "style": "real-film-kodak-gold",
+      "name": "真人柯达Gold200胶片",
+      "region": "通用",
+      "language": "en",
+      "expression": "211_pet_puppy_wave",
+      "caption": "修勾打招呼",
+      "localized_text": "Puppy says hi!",
+      "category": "pet_collab",
+      "file": "stickers/real-film-kodak-gold__211_pet_puppy_wave.png",
+      "subject_type": "human-portrait",
+      "pack_type": "expressions"
+    },
+    {
+      "key": "real-purikura__d01_bestie_cheek_selfie",
+      "style": "real-purikura",
+      "name": "韩系人生四格大头贴",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d01_bestie_cheek_selfie",
+      "caption": "贴贴！",
+      "localized_text": "절친 볼 맞대고 셀카!",
+      "category": "besties",
+      "file": "stickers/real-purikura__d01_bestie_cheek_selfie.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-cafe-film__d02_bestie_milk_tea_cheers",
+      "style": "real-kr-cafe-film",
+      "name": "韩系咖啡馆胶片",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d02_bestie_milk_tea_cheers",
+      "caption": "奶茶续命",
+      "localized_text": "밀크티 건배!",
+      "category": "besties",
+      "file": "stickers/real-kr-cafe-film__d02_bestie_milk_tea_cheers.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-idol-selfie__d03_bestie_hype_queen",
+      "style": "real-kr-idol-selfie",
+      "name": "韩系爱豆自拍",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d03_bestie_hype_queen",
+      "caption": "绝美！",
+      "localized_text": "완전 여신!",
+      "category": "besties",
+      "file": "stickers/real-kr-idol-selfie__d03_bestie_hype_queen.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-drama__d37_couple_head_pat",
+      "style": "real-kr-drama",
+      "name": "韩剧主角氛围",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d37_couple_head_pat",
+      "caption": "乖啦~",
+      "localized_text": "우쭈쭈 잘했어~",
+      "category": "couple",
+      "file": "stickers/real-kr-drama__d37_couple_head_pat.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-golden-hour__d38_couple_back_hug",
+      "style": "real-golden-hour",
+      "name": "真人落日夕阳逆光",
+      "region": "通用",
+      "language": "en",
+      "expression": "d38_couple_back_hug",
+      "caption": "抱紧你",
+      "localized_text": "Holding you close",
+      "category": "couple",
+      "file": "stickers/real-golden-hour__d38_couple_back_hug.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-winter-snow__d41_couple_forehead_touch",
+      "style": "real-kr-winter-snow",
+      "name": "韩系初雪围巾恋歌",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d41_couple_forehead_touch",
+      "caption": "只看着你",
+      "localized_text": "너만 보여",
+      "category": "couple",
+      "file": "stickers/real-kr-winter-snow__d41_couple_forehead_touch.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-drama__d73_yuri_chin_lift_gaze",
+      "style": "real-kr-drama",
+      "name": "韩剧主角氛围",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d73_yuri_chin_lift_gaze",
+      "caption": "姐姐看着我",
+      "localized_text": "언니, 나만 봐요",
+      "category": "yuri",
+      "file": "stickers/real-kr-drama__d73_yuri_chin_lift_gaze.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-jp-sakura-film__d74_yuri_destiny_cheek_touch",
+      "style": "real-jp-sakura-film",
+      "name": "日系樱花季春光胶片",
+      "region": "日系",
+      "language": "ja",
+      "expression": "d74_yuri_destiny_cheek_touch",
+      "caption": "命中注定",
+      "localized_text": "運命のふたり",
+      "category": "yuri",
+      "file": "stickers/real-jp-sakura-film__d74_yuri_destiny_cheek_touch.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-vogue-editorial__d75_yuri_cool_unnie_kabedon",
+      "style": "real-vogue-editorial",
+      "name": "真人高定时尚杂志封面",
+      "region": "通用",
+      "language": "en",
+      "expression": "d75_yuri_cool_unnie_kabedon",
+      "caption": "心跳好快...",
+      "localized_text": "Heart racing...",
+      "category": "yuri",
+      "file": "stickers/real-vogue-editorial__d75_yuri_cool_unnie_kabedon.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-golden-hour__d76_yuri_hair_intertwine_sleep",
+      "style": "real-golden-hour",
+      "name": "真人落日夕阳逆光",
+      "region": "通用",
+      "language": "en",
+      "expression": "d76_yuri_hair_intertwine_sleep",
+      "caption": "安静陪着你",
+      "localized_text": "Right beside you",
+      "category": "yuri",
+      "file": "stickers/real-golden-hour__d76_yuri_hair_intertwine_sleep.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-blue-hour__d109_yaoi_tie_pull_gaze",
+      "style": "real-blue-hour",
+      "name": "真人蓝调时刻电影感",
+      "region": "通用",
+      "language": "en",
+      "expression": "d109_yaoi_tie_pull_gaze",
+      "caption": "哥哥别躲",
+      "localized_text": "Don't look away",
+      "category": "yaoi",
+      "file": "stickers/real-blue-hour__d109_yaoi_tie_pull_gaze.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-film-cinestill-800t__d110_yaoi_back_to_back_suit",
+      "style": "real-film-cinestill-800t",
+      "name": "真人CineStill钨丝灯胶片",
+      "region": "通用",
+      "language": "en",
+      "expression": "d110_yaoi_back_to_back_suit",
+      "caption": "并肩作战",
+      "localized_text": "Watch my back",
+      "category": "yaoi",
+      "file": "stickers/real-film-cinestill-800t__d110_yaoi_back_to_back_suit.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-variety-meme__d129_rival_pinch_cheeks",
+      "style": "real-variety-meme",
+      "name": "真人综艺花字斗图",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "d129_rival_pinch_cheeks",
+      "caption": "互相伤害",
+      "localized_text": "互相伤害",
+      "category": "rivals",
+      "file": "stickers/real-variety-meme__d129_rival_pinch_cheeks.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-variety__d131_rival_steal_boba",
+      "style": "real-kr-variety",
+      "name": "韩综字幕斗图",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d131_rival_steal_boba",
+      "caption": "最后一口归我!",
+      "localized_text": "마지막 한 입은 내 거!",
+      "category": "rivals",
+      "file": "stickers/real-kr-variety__d131_rival_steal_boba.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-film-kodak-gold__d149_fam_copy_paste_pose",
+      "style": "real-film-kodak-gold",
+      "name": "真人柯达Gold200胶片",
+      "region": "通用",
+      "language": "en",
+      "expression": "d149_fam_copy_paste_pose",
+      "caption": "复制粘贴",
+      "localized_text": "Copy & paste",
+      "category": "family",
+      "file": "stickers/real-film-kodak-gold__d149_fam_copy_paste_pose.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-cn-xhs-vibe__d150_fam_sister_shield",
+      "style": "real-cn-xhs-vibe",
+      "name": "小红书氛围感",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "d150_fam_sister_shield",
+      "caption": "有姐在别怕",
+      "localized_text": "有姐在别怕",
+      "category": "family",
+      "file": "stickers/real-cn-xhs-vibe__d150_fam_sister_shield.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    }
+  ],
+  "duo_stickers": [
+    {
+      "key": "real-purikura__d01_bestie_cheek_selfie",
+      "style": "real-purikura",
+      "name": "韩系人生四格大头贴",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d01_bestie_cheek_selfie",
+      "caption": "贴贴！",
+      "localized_text": "절친 볼 맞대고 셀카!",
+      "category": "besties",
+      "file": "stickers/real-purikura__d01_bestie_cheek_selfie.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-cafe-film__d02_bestie_milk_tea_cheers",
+      "style": "real-kr-cafe-film",
+      "name": "韩系咖啡馆胶片",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d02_bestie_milk_tea_cheers",
+      "caption": "奶茶续命",
+      "localized_text": "밀크티 건배!",
+      "category": "besties",
+      "file": "stickers/real-kr-cafe-film__d02_bestie_milk_tea_cheers.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-idol-selfie__d03_bestie_hype_queen",
+      "style": "real-kr-idol-selfie",
+      "name": "韩系爱豆自拍",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d03_bestie_hype_queen",
+      "caption": "绝美！",
+      "localized_text": "완전 여신!",
+      "category": "besties",
+      "file": "stickers/real-kr-idol-selfie__d03_bestie_hype_queen.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-drama__d37_couple_head_pat",
+      "style": "real-kr-drama",
+      "name": "韩剧主角氛围",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d37_couple_head_pat",
+      "caption": "乖啦~",
+      "localized_text": "우쭈쭈 잘했어~",
+      "category": "couple",
+      "file": "stickers/real-kr-drama__d37_couple_head_pat.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-golden-hour__d38_couple_back_hug",
+      "style": "real-golden-hour",
+      "name": "真人落日夕阳逆光",
+      "region": "通用",
+      "language": "en",
+      "expression": "d38_couple_back_hug",
+      "caption": "抱紧你",
+      "localized_text": "Holding you close",
+      "category": "couple",
+      "file": "stickers/real-golden-hour__d38_couple_back_hug.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-winter-snow__d41_couple_forehead_touch",
+      "style": "real-kr-winter-snow",
+      "name": "韩系初雪围巾恋歌",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d41_couple_forehead_touch",
+      "caption": "只看着你",
+      "localized_text": "너만 보여",
+      "category": "couple",
+      "file": "stickers/real-kr-winter-snow__d41_couple_forehead_touch.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-drama__d73_yuri_chin_lift_gaze",
+      "style": "real-kr-drama",
+      "name": "韩剧主角氛围",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d73_yuri_chin_lift_gaze",
+      "caption": "姐姐看着我",
+      "localized_text": "언니, 나만 봐요",
+      "category": "yuri",
+      "file": "stickers/real-kr-drama__d73_yuri_chin_lift_gaze.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-jp-sakura-film__d74_yuri_destiny_cheek_touch",
+      "style": "real-jp-sakura-film",
+      "name": "日系樱花季春光胶片",
+      "region": "日系",
+      "language": "ja",
+      "expression": "d74_yuri_destiny_cheek_touch",
+      "caption": "命中注定",
+      "localized_text": "運命のふたり",
+      "category": "yuri",
+      "file": "stickers/real-jp-sakura-film__d74_yuri_destiny_cheek_touch.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-vogue-editorial__d75_yuri_cool_unnie_kabedon",
+      "style": "real-vogue-editorial",
+      "name": "真人高定时尚杂志封面",
+      "region": "通用",
+      "language": "en",
+      "expression": "d75_yuri_cool_unnie_kabedon",
+      "caption": "心跳好快...",
+      "localized_text": "Heart racing...",
+      "category": "yuri",
+      "file": "stickers/real-vogue-editorial__d75_yuri_cool_unnie_kabedon.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-golden-hour__d76_yuri_hair_intertwine_sleep",
+      "style": "real-golden-hour",
+      "name": "真人落日夕阳逆光",
+      "region": "通用",
+      "language": "en",
+      "expression": "d76_yuri_hair_intertwine_sleep",
+      "caption": "安静陪着你",
+      "localized_text": "Right beside you",
+      "category": "yuri",
+      "file": "stickers/real-golden-hour__d76_yuri_hair_intertwine_sleep.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-blue-hour__d109_yaoi_tie_pull_gaze",
+      "style": "real-blue-hour",
+      "name": "真人蓝调时刻电影感",
+      "region": "通用",
+      "language": "en",
+      "expression": "d109_yaoi_tie_pull_gaze",
+      "caption": "哥哥别躲",
+      "localized_text": "Don't look away",
+      "category": "yaoi",
+      "file": "stickers/real-blue-hour__d109_yaoi_tie_pull_gaze.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-film-cinestill-800t__d110_yaoi_back_to_back_suit",
+      "style": "real-film-cinestill-800t",
+      "name": "真人CineStill钨丝灯胶片",
+      "region": "通用",
+      "language": "en",
+      "expression": "d110_yaoi_back_to_back_suit",
+      "caption": "并肩作战",
+      "localized_text": "Watch my back",
+      "category": "yaoi",
+      "file": "stickers/real-film-cinestill-800t__d110_yaoi_back_to_back_suit.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-variety-meme__d129_rival_pinch_cheeks",
+      "style": "real-variety-meme",
+      "name": "真人综艺花字斗图",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "d129_rival_pinch_cheeks",
+      "caption": "互相伤害",
+      "localized_text": "互相伤害",
+      "category": "rivals",
+      "file": "stickers/real-variety-meme__d129_rival_pinch_cheeks.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-kr-variety__d131_rival_steal_boba",
+      "style": "real-kr-variety",
+      "name": "韩综字幕斗图",
+      "region": "韩系",
+      "language": "ko",
+      "expression": "d131_rival_steal_boba",
+      "caption": "最后一口归我!",
+      "localized_text": "마지막 한 입은 내 거!",
+      "category": "rivals",
+      "file": "stickers/real-kr-variety__d131_rival_steal_boba.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-film-kodak-gold__d149_fam_copy_paste_pose",
+      "style": "real-film-kodak-gold",
+      "name": "真人柯达Gold200胶片",
+      "region": "通用",
+      "language": "en",
+      "expression": "d149_fam_copy_paste_pose",
+      "caption": "复制粘贴",
+      "localized_text": "Copy & paste",
+      "category": "family",
+      "file": "stickers/real-film-kodak-gold__d149_fam_copy_paste_pose.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
+    },
+    {
+      "key": "real-cn-xhs-vibe__d150_fam_sister_shield",
+      "style": "real-cn-xhs-vibe",
+      "name": "小红书氛围感",
+      "region": "中式",
+      "language": "zh-CN",
+      "expression": "d150_fam_sister_shield",
+      "caption": "有姐在别怕",
+      "localized_text": "有姐在别怕",
+      "category": "family",
+      "file": "stickers/real-cn-xhs-vibe__d150_fam_sister_shield.png",
+      "subject_type": "human-portrait",
+      "pack_type": "duo"
     }
   ],
   "animations": [
     {
       "file": "animations/real-cutout__01_hello.gif",
       "style": "real-cutout",
-      "name": "真人写真抠图贴纸",
+      "name": "真人写真抠图贴纸 · 你好",
       "region": "通用",
-      "method": "Four AI-drawn human keyframes"
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
     },
     {
       "file": "animations/real-kr-drama__05_shy.gif",
       "style": "real-kr-drama",
-      "name": "韩剧主角氛围",
+      "name": "韩剧主角氛围 · 害羞",
       "region": "韩系",
-      "method": "Four AI-drawn human keyframes"
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
     },
     {
       "file": "animations/real-jp-airy__15_bye.gif",
       "style": "real-jp-airy",
-      "name": "日系空气感清新",
+      "name": "日系空气感清新 · 拜拜",
       "region": "日系",
-      "method": "Four AI-drawn human keyframes"
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
     },
     {
       "file": "animations/real-cn-hk-retro__04_laugh.gif",
       "style": "real-cn-hk-retro",
-      "name": "港风复古胶片",
+      "name": "港风复古胶片 · 哈哈哈",
       "region": "中式",
-      "method": "Four AI-drawn human keyframes"
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-polaroid-instant__13_yay.gif",
+      "style": "real-polaroid-instant",
+      "name": "真人拍立得即时相纸 · 好耶",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-golden-hour__16_love.gif",
+      "style": "real-golden-hour",
+      "name": "真人落日夕阳逆光 · 爱你",
+      "region": "通用",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-kr-music-bank__09_acknowledged.gif",
+      "style": "real-kr-music-bank",
+      "name": "韩系打歌舞台Ending妖精 · 收到",
+      "region": "韩系",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-kr-high-angle-booth__11_thanks.gif",
+      "style": "real-kr-high-angle-booth",
+      "name": "韩系俯拍高角度四格 · 谢谢",
+      "region": "韩系",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-jp-rinko-pastel__70_clap.gif",
+      "style": "real-jp-rinko-pastel",
+      "name": "日系川内伦子风淡彩 · 鼓掌",
+      "region": "日系",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-jp-matsuri-fireworks__106_new_year.gif",
+      "style": "real-jp-matsuri-fireworks",
+      "name": "日系夏日祭花火微光 · 新年快乐",
+      "region": "日系",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-cn-jiangnan-mist__123_pat_pat.gif",
+      "style": "real-cn-jiangnan-mist",
+      "name": "中式江南烟雨清冷 · 摸摸头",
+      "region": "中式",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
+    },
+    {
+      "file": "animations/real-cn-shanghai-bund__107_red_envelope.gif",
+      "style": "real-cn-shanghai-bund",
+      "name": "中式外滩流光夜色 · 恭喜发财",
+      "region": "中式",
+      "method": "Four AI-drawn human keyframes (2x2 sprite sheet)"
     },
     {
       "file": "animations/photographic__01_hello.gif",

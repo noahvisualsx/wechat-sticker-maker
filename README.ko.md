@@ -185,6 +185,8 @@
 
 두 사람의 실제 사진(`-i personA.jpg -p personB.jpg`)을 입력하여 두 사람 모두의 실제 이목구비와 분위기를 보존한 2인 케미 이모티콘을 생성합니다 (`wechat-sticker-maker duo --category besties|couple|yuri|yaoi|rivals|family --language ko`).
 
+![168가지 2인 실사 케미 쇼케이스](docs/gallery/images/duo-showcase.jpg)
+
 | 분류 (`--duo-category`) | 수량 | ID 범위 | 대표 2인 인터랙션 및 한국어 단일 언어 대사 예시 |
 |---|---|---|---|
 | **👯‍♀️ 절친 케미 (`besties` / `闺蜜`)** | **36종** | `d01` – `d36` | 볼맞대기 브이 셀카 (`찐친 케미`), 합체 손하트 (`딱 붙어있자`), 버블티 건배 (`당 충전 완료`), 귓속말 폭풍 수다 (`대박 사건!`), 내 편 들어주기 (`누가 내 친구 괴롭혀`) |
@@ -206,8 +208,9 @@
 
 기존 14개 일상 카테고리에 더해 **8대 고빈도 트렌드·서브컬처 카테고리**가 추가되었습니다: 게이밍/e스포츠(`gaming`), 아이돌 덕질/응원(`fandom`), 부자/재물운(`wealth`), 먹방/버블티(`foodie`), 캠퍼스/시험(`campus`), 팩폭/사이다(`sassy`), 멘붕/정신상태(`mental`), 반려동물 케미(`pet_collab`).
 
-![실사 표정 분류 1/2](docs/gallery/images/expressions-01.jpg)
-![실사 표정 분류 2/2](docs/gallery/images/expressions-02.jpg)
+![실사 표정 분류 1/3](docs/gallery/images/expressions-01.jpg)
+![실사 표정 분류 2/3](docs/gallery/images/expressions-02.jpg)
+![실사 표정 분류 3/3](docs/gallery/images/expressions-03.jpg)
 
 ---
 

@@ -195,6 +195,8 @@
 
 支持传入两张真人照片（`-i photo1.jpg -p photo2.jpg`），同时锁死两个人的真实面部骨相、发型与穿搭，绝不画成卡通小人。可按分类查看：`wechat-sticker-maker duo --category 闺蜜|情侣|百合|双男主|欢喜冤家|亲子 --language zh-CN|ko|ja|en`。
 
+![168 套真人双人互动实拍展示](docs/gallery/images/duo-showcase.jpg)
+
 | 分类 (`--duo-category`) | 套数 | ID 范围 | 代表互动动作与五语单语台词示例 |
 |---|---|---|---|
 | **👯‍♀️ 闺蜜互动 (`besties` / `闺蜜`)** | **36 套** | `d01` – `d36` | 贴脸比耶自拍 (`最佳损友` / `찐친 케미`)、合体大爱心 (`贴贴`)、奶茶干杯 (`续命水`)、凑耳吃瓜八卦 (`有大瓜!`)、替你出头护短 (`谁敢欺负你`)、默契击掌 (`懂我`)、富婆抱大腿 (`富婆饿饿`) 等 |
@@ -224,8 +226,9 @@
 - **🌋 发疯精神状态 (`mental`)**：`精神状态美丽`、`已老实求放过`、`毁灭吧累了`、`已升天勿扰`、`平静地发疯`、`强行开机中`、`无声尖叫`、`大悲无泪`、`社交电量0%`、`需要吸点氧`、`随便吧都行`
 - **🐱 萌宠同框 (`pet_collab`)**：`吸猫续命`、`修勾打招呼`、`猫主子驾到`、`同步歪头杀`、`喵呜贴贴`、`卑微铲屎官`、`小狗热情贴贴`、`抱宠午睡`、`人和猫一起嫌弃`、`出门遛弯啦`、`和毛孩子晚安`
 
-![真人表情分类 1/2](docs/gallery/images/expressions-01.jpg)
-![真人表情分类 2/2](docs/gallery/images/expressions-02.jpg)
+![真人表情分类 1/3](docs/gallery/images/expressions-01.jpg)
+![真人表情分类 2/3](docs/gallery/images/expressions-02.jpg)
+![真人表情分类 3/3](docs/gallery/images/expressions-03.jpg)
 
 ---
 

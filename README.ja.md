@@ -185,6 +185,8 @@
 
 2枚の人物写真（`-i personA.jpg -p personB.jpg`）を入力し、2人それぞれの本物の顔立ち・骨格・雰囲気を100%保ったペアスタンプを生成します（`wechat-sticker-maker duo --category besties|couple|yuri|yaoi|rivals|family --language ja`）。
 
+![168種類の2人ペア実写スタンプショーケース](docs/gallery/images/duo-showcase.jpg)
+
 | カテゴリー (`--duo-category`) | 収録数 | ID範囲 | 代表的な2人アクション＆日本語単一言語セリフ例 |
 |---|---|---|---|
 | **👯‍♀️ 親友・女子会 (`besties` / `闺蜜`)** | **36種** | `d01` – `d36` | ほっぺ密着ピース自撮り (`最高の親友`)、2人でハートポーズ (`ぎゅっ`)、タピオカ乾杯 (`タピ活最高`)、ひそひそ恋バナ (`ここだけの話!`)、全力味方ハグ (`うちの子に何するの`) |
@@ -206,8 +208,9 @@
 
 日常14カテゴリーに加え、**8つのトレンド＆サブカルチャーカテゴリー**を収録：ゲーム・eスポーツ（`gaming`）、推し活・アイドル応援（`fandom`）、金運・開運（`wealth`）、タピ活・グルメ（`foodie`）、キャンパス・試験（`campus`）、辛口・あおり（`sassy`）、メンタル状態（`mental`）、ペット共演（`pet_collab`）。
 
-![実写表情カテゴリー 1/2](docs/gallery/images/expressions-01.jpg)
-![実写表情カテゴリー 2/2](docs/gallery/images/expressions-02.jpg)
+![実写表情カテゴリー 1/3](docs/gallery/images/expressions-01.jpg)
+![実写表情カテゴリー 2/3](docs/gallery/images/expressions-02.jpg)
+![実写表情カテゴリー 3/3](docs/gallery/images/expressions-03.jpg)
 
 ---
 

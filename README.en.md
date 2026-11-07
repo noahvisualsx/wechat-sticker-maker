@@ -187,6 +187,8 @@ Grouped into **General (18) / Korean (30) / Japanese (30) / Chinese (30)** serie
 
 Pass two real portrait photos (`-i personA.jpg -p personB.jpg`) to generate two-person real-portrait stickers while preserving BOTH people's authentic facial identity (`wechat-sticker-maker duo --category besties|couple|yuri|yaoi|rivals|family --language en`).
 
+![168 Two-Person Real-Portrait Duo Showcase](docs/gallery/images/duo-showcase.jpg)
+
 | Category (`--duo-category`) | Count | IDs | Signature Real-Person Interactions |
 |---|---|---|---|
 | **👯‍♀️ Besties (`besties` / `闺蜜`)** | **36** | `d01` – `d36` | Cheek-to-cheek selfie (`Besties`), Twin heart hands, Boba cheers (`Boba time`), Whispering gossip (`Hot tea!`), Protective hug (`Who bullied you?`), High-five (`Got me`) |
@@ -216,8 +218,9 @@ In addition to the 14 daily categories (Greeting, Polite, Agree, Refuse, Happy, 
 - **🌀 Chaotic Mental State (`mental`)**: `Soul leaving body`, `Peacefully unhinged`, `Wooden fish karma +1`, `Brain buffering`, `Screaming internally`
 - **🐾 Pet Collab (`pet_collab`)**: `Cat paw cuddle`, `Humble cat servant`, `Puppy kisses`, `Synchronized judging stare`
 
-![Real-Person Expressions 1/2](docs/gallery/images/expressions-01.jpg)
-![Real-Person Expressions 2/2](docs/gallery/images/expressions-02.jpg)
+![Real-Person Expressions 1/3](docs/gallery/images/expressions-01.jpg)
+![Real-Person Expressions 2/3](docs/gallery/images/expressions-02.jpg)
+![Real-Person Expressions 3/3](docs/gallery/images/expressions-03.jpg)
 
 ---
 
