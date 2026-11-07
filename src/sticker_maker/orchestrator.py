@@ -15,6 +15,7 @@ from PIL import Image
 from .analyzer import create_or_load_character_bible, normalize_source_image
 from .config import AppSettings
 from .duo import DUO_CATEGORIES, build_duo_sprite_sheet_prompt, build_duo_static_prompt
+from .pets import PET_CATEGORIES, build_pet_sprite_sheet_prompt, build_pet_static_prompt
 from .exporters import (
     MasterAsset,
     PlatformExportResult,
@@ -453,6 +454,9 @@ class StickerOrchestrator:
     def _is_duo_item(self, item: ExpressionItem) -> bool:
         return self.job.pack_type == "duo" or item.id.startswith("d") or item.category in DUO_CATEGORIES
 
+    def _is_pet_item(self, item: ExpressionItem) -> bool:
+        return self.job.pack_type == "pet" or item.id.startswith("p") or item.category in PET_CATEGORIES
+
     def _reference_images(self, anchor_img: Path, source_img: Path) -> List[Path]:
         partner = getattr(self, "norm_partner", None)
         return [p for p in (anchor_img, source_img, partner) if p and p.exists()]
@@ -463,6 +467,10 @@ class StickerOrchestrator:
             if self._is_duo_item(item):
                 prompt = build_duo_static_prompt(
                     bible, item, partner_facts=self.job.partner_facts, style=self.job.style, text_layout=spec.layout
+                )
+            elif self._is_pet_item(item):
+                prompt = build_pet_static_prompt(
+                    bible, item, style=self.job.style, text_layout=spec.layout
                 )
             else:
                 prompt = build_static_prompt(bible, item, style=self.job.style, text_layout=spec.layout)
@@ -476,6 +484,10 @@ class StickerOrchestrator:
             if self._is_duo_item(item):
                 prompt = build_duo_sprite_sheet_prompt(
                     bible, item, partner_facts=self.job.partner_facts, style=self.job.style, text_layout=spec.layout
+                )
+            elif self._is_pet_item(item):
+                prompt = build_pet_sprite_sheet_prompt(
+                    bible, item, style=self.job.style, text_layout=spec.layout
                 )
             else:
                 prompt = build_sprite_sheet_prompt(bible, item, style=self.job.style, text_layout=spec.layout)

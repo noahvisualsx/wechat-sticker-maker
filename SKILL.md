@@ -49,16 +49,19 @@ Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺
 
 ## CLI quick reference
 ```bash
-wechat-sticker-maker themes                              # list 15 one-click theme packs (打工人/发疯/电竞/追星/闺蜜/情侣/百合/双男主/欢喜冤家/亲子...)
+wechat-sticker-maker themes                              # list 18 one-click theme packs (打工人/发疯/电竞/追星/猫主子/快乐修勾/闺蜜/情侣/百合/双男主/欢喜冤家/亲子...)
 wechat-sticker-maker styles --region 韩系               # list 108 real-person styles (韩系/日系/中式/通用)
 wechat-sticker-maker duo --category 百合 --language ko  # browse 168 two-person duo presets across 6 categories
+wechat-sticker-maker pets --category 猫主子             # browse 40 real-pet presets across 4 categories
 wechat-sticker-maker expressions --language ko          # browse 220 single-person expressions across 22 categories
 wechat-sticker-maker memes --language zh-CN             # browse 60 real-person meme templates
 wechat-sticker-maker plan -i photo1.jpg -p photo2.jpg --duo-category 百合 -o out \
   --style real-kr-idol-selfie --language auto --languages zh-CN,en,ja,ko --count 16
 wechat-sticker-maker generate -j out/job.json --provider auto
 wechat-sticker-maker remix-text -j out/job.json --set d73_yuri_chin_lift_gaze="姐姐只看我"
-wechat-sticker-maker collage -d out --title "双女主贴贴包"
+wechat-sticker-maker collage -o out --title "双女主贴贴包" --animated --wechat-kit
+wechat-sticker-maker publish-telegram -o out --name my_real_pack --title "My Real Pack" --dry-run
+wechat-sticker-maker serve --port 7860
 wechat-sticker-maker export -j out/job.json --platforms all
 ```
 

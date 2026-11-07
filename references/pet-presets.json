@@ -1,0 +1,1714 @@
+[
+  {
+    "id": "p01_cat_judge_stare",
+    "name_zh": "蔑视眼神",
+    "caption": "愚蠢的人类",
+    "mood": "cat_boss: 蔑视眼神",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: sitting upright looking down with half-closed judgmental eyes and a regal expression. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "愚蠢的人类",
+      "zh-TW": "愚蠢的人類",
+      "en": "Pathetic human",
+      "ja": "愚かな人間め",
+      "ko": "한심한 집사야"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "愚蠢的人类",
+        "zh-TW": "愚蠢的人類",
+        "en": "Pathetic human",
+        "ja": "愚かな人間め",
+        "ko": "한심한 집사야"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): sitting upright looking down with half-closed judgmental eyes and a regal expression — initial alert ears and eye contact.",
+        "Frame 2 (approach): sitting upright looking down with half-closed judgmental eyes and a regal expression — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): sitting upright looking down with half-closed judgmental eyes and a regal expression — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): sitting upright looking down with half-closed judgmental eyes and a regal expression — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p02_cat_airplane_ears",
+    "name_zh": "飞机耳哈气",
+    "caption": "莫挨老子",
+    "mood": "cat_boss: 飞机耳哈气",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: flattening ears into airplane mode with a fierce warning hiss expression. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "莫挨老子",
+      "zh-TW": "莫挨老子",
+      "en": "Do not touch me!",
+      "ja": "触るなニャ！",
+      "ko": "건들지 마라!"
+    },
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "莫挨老子",
+        "zh-TW": "莫挨老子",
+        "en": "Do not touch me!",
+        "ja": "触るなニャ！",
+        "ko": "건들지 마라!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): flattening ears into airplane mode with a fierce warning hiss expression — initial alert ears and eye contact.",
+        "Frame 2 (approach): flattening ears into airplane mode with a fierce warning hiss expression — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): flattening ears into airplane mode with a fierce warning hiss expression — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): flattening ears into airplane mode with a fierce warning hiss expression — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p03_cat_making_biscuits",
+    "name_zh": "踩奶营业",
+    "caption": "今日份营业",
+    "mood": "cat_boss: 踩奶营业",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: kneading a soft plush blanket rhythmically with front paws and half-closed purring eyes. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "今日份营业",
+      "zh-TW": "今日份營業",
+      "en": "Making biscuits~",
+      "ja": "ふみふみ営業中",
+      "ko": "꾹꾹이 영업 중"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): kneading a soft plush blanket rhythmically with front paws and half-closed purring eyes — initial alert ears and eye contact.",
+        "Frame 2 (approach): kneading a soft plush blanket rhythmically with front paws and half-closed purring eyes — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): kneading a soft plush blanket rhythmically with front paws and half-closed purring eyes — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): kneading a soft plush blanket rhythmically with front paws and half-closed purring eyes — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p04_cat_loaf_chill",
+    "name_zh": "揣手手农民揣",
+    "caption": "岁月静好",
+    "mood": "cat_boss: 揣手手农民揣",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: tucking both front paws neatly under chest in a perfect loaf posture with calm eyes. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "岁月静好",
+      "zh-TW": "歲月靜好",
+      "en": "Loaf mode on",
+      "ja": "香箱座りでまったり",
+      "ko": "식빵 굽는 중"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): tucking both front paws neatly under chest in a perfect loaf posture with calm eyes — initial alert ears and eye contact.",
+        "Frame 2 (approach): tucking both front paws neatly under chest in a perfect loaf posture with calm eyes — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): tucking both front paws neatly under chest in a perfect loaf posture with calm eyes — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): tucking both front paws neatly under chest in a perfect loaf posture with calm eyes — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p05_cat_peek_observe",
+    "name_zh": "暗中观察",
+    "caption": "盯——",
+    "mood": "cat_boss: 暗中观察",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: peeking half of face from behind a corner with huge round dilated pupils. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "盯——",
+      "zh-TW": "盯——",
+      "en": "Watching you...",
+      "ja": "じーっ…",
+      "ko": "지켜보고 있다..."
+    },
+    "bubble": {
+      "shape": "whisper",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "盯——",
+        "zh-TW": "盯——",
+        "en": "Watching you...",
+        "ja": "じーっ…",
+        "ko": "지켜보고 있다..."
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): peeking half of face from behind a corner with huge round dilated pupils — initial alert ears and eye contact.",
+        "Frame 2 (approach): peeking half of face from behind a corner with huge round dilated pupils — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): peeking half of face from behind a corner with huge round dilated pupils — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): peeking half of face from behind a corner with huge round dilated pupils — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p06_cat_liquid_stretch",
+    "name_zh": "流液体躺平",
+    "caption": "废猫一条",
+    "mood": "cat_boss: 流液体躺平",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: stretching out long and flat like melted liquid with zero bones. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "废猫一条",
+      "zh-TW": "廢貓一條",
+      "en": "Cats are liquid",
+      "ja": "猫は液体です",
+      "ko": "녹아내리는 중"
+    },
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): stretching out long and flat like melted liquid with zero bones — initial alert ears and eye contact.",
+        "Frame 2 (approach): stretching out long and flat like melted liquid with zero bones — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): stretching out long and flat like melted liquid with zero bones — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): stretching out long and flat like melted liquid with zero bones — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p07_cat_demand_treat",
+    "name_zh": "拍桌讨罐罐",
+    "caption": "罐罐呢？",
+    "mood": "cat_boss: 拍桌讨罐罐",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: patting a food bowl impatiently with one paw while meowing up at the camera. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "罐罐呢？",
+      "zh-TW": "罐罐呢？",
+      "en": "Where is my treat?",
+      "ja": "ちゅーるまだ？",
+      "ko": "츄르 내놔라!"
+    },
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "罐罐呢？",
+        "zh-TW": "罐罐呢？",
+        "en": "Where is my treat?",
+        "ja": "ちゅーるまだ？",
+        "ko": "츄르 내놔라!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): patting a food bowl impatiently with one paw while meowing up at the camera — initial alert ears and eye contact.",
+        "Frame 2 (approach): patting a food bowl impatiently with one paw while meowing up at the camera — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): patting a food bowl impatiently with one paw while meowing up at the camera — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): patting a food bowl impatiently with one paw while meowing up at the camera — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p08_cat_knock_cup",
+    "name_zh": "打翻水杯",
+    "caption": "杯子先动的手",
+    "mood": "cat_boss: 打翻水杯",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: extending one mischievous paw to push a plastic cup off the table edge while staring at camera. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "杯子先动的手",
+      "zh-TW": "杯子先動的手",
+      "en": "The cup started it",
+      "ja": "コップが先に動いた",
+      "ko": "컵이 먼저 시비 걸었음"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "杯子先动的手",
+        "zh-TW": "杯子先動的手",
+        "en": "The cup started it",
+        "ja": "コップが先に動いた",
+        "ko": "컵이 먼저 시비 걸었음"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): extending one mischievous paw to push a plastic cup off the table edge while staring at camera — initial alert ears and eye contact.",
+        "Frame 2 (approach): extending one mischievous paw to push a plastic cup off the table edge while staring at camera — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): extending one mischievous paw to push a plastic cup off the table edge while staring at camera — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): extending one mischievous paw to push a plastic cup off the table edge while staring at camera — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p09_cat_puffed_shock",
+    "name_zh": "炸毛震惊",
+    "caption": "喵？？",
+    "mood": "cat_boss: 炸毛震惊",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: standing wide-eyed with puffed-up fur and a completely shocked expression. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "喵？？",
+      "zh-TW": "喵？？",
+      "en": "MEOW?!",
+      "ja": "にゃんですって！？",
+      "ko": "냐옹?!"
+    },
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "喵？？",
+        "zh-TW": "喵？？",
+        "en": "MEOW?!",
+        "ja": "にゃんですって！？",
+        "ko": "냐옹?!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): standing wide-eyed with puffed-up fur and a completely shocked expression — initial alert ears and eye contact.",
+        "Frame 2 (approach): standing wide-eyed with puffed-up fur and a completely shocked expression — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): standing wide-eyed with puffed-up fur and a completely shocked expression — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): standing wide-eyed with puffed-up fur and a completely shocked expression — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p10_cat_belly_trap",
+    "name_zh": "翻肚皮诱惑",
+    "caption": "给摸五秒",
+    "mood": "cat_boss: 翻肚皮诱惑",
+    "category": "cat_boss",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: rolling onto back showing fluffy belly with paws curled up invitingly. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "给摸五秒",
+      "zh-TW": "給摸五秒",
+      "en": "Five seconds only",
+      "ja": "5秒だけ撫でていいよ",
+      "ko": "딱 5초만 만지게 해줌"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "给摸五秒",
+        "zh-TW": "給摸五秒",
+        "en": "Five seconds only",
+        "ja": "5秒だけ撫でていいよ",
+        "ko": "딱 5초만 만지게 해줌"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): rolling onto back showing fluffy belly with paws curled up invitingly — initial alert ears and eye contact.",
+        "Frame 2 (approach): rolling onto back showing fluffy belly with paws curled up invitingly — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): rolling onto back showing fluffy belly with paws curled up invitingly — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): rolling onto back showing fluffy belly with paws curled up invitingly — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p11_dog_head_tilt",
+    "name_zh": "歪头杀疑问",
+    "caption": "汪？",
+    "mood": "dog_happy: 歪头杀疑问",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: tilting head 45 degrees curiously with perked ears and bright shining eyes. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "汪？",
+      "zh-TW": "汪？",
+      "en": "Woof?",
+      "ja": "わん？",
+      "ko": "멍?"
+    },
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "汪？",
+        "zh-TW": "汪？",
+        "en": "Woof?",
+        "ja": "わん？",
+        "ko": "멍?"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): tilting head 45 degrees curiously with perked ears and bright shining eyes — initial alert ears and eye contact.",
+        "Frame 2 (approach): tilting head 45 degrees curiously with perked ears and bright shining eyes — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): tilting head 45 degrees curiously with perked ears and bright shining eyes — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): tilting head 45 degrees curiously with perked ears and bright shining eyes — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p12_dog_welcome_spin",
+    "name_zh": "飞奔接下班",
+    "caption": "接你下班！",
+    "mood": "dog_happy: 飞奔接下班",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: bounding forward excitedly with tail wagging in a blur and a huge happy grin. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "接你下班！",
+      "zh-TW": "接你下班！",
+      "en": "Welcome home!!",
+      "ja": "おかえりなさい！",
+      "ko": "칼퇴 환영해 멍!"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "接你下班！",
+        "zh-TW": "接你下班！",
+        "en": "Welcome home!!",
+        "ja": "おかえりなさい！",
+        "ko": "칼퇴 환영해 멍!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): bounding forward excitedly with tail wagging in a blur and a huge happy grin — initial alert ears and eye contact.",
+        "Frame 2 (approach): bounding forward excitedly with tail wagging in a blur and a huge happy grin — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): bounding forward excitedly with tail wagging in a blur and a huge happy grin — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): bounding forward excitedly with tail wagging in a blur and a huge happy grin — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p13_dog_blep_smile",
+    "name_zh": "吐舌头傻笑",
+    "caption": "嘿嘿嘿",
+    "mood": "dog_happy: 吐舌头傻笑",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: smiling brightly with pink tongue sticking out slightly in a goofy happy expression. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "嘿嘿嘿",
+      "zh-TW": "嘿嘿嘿",
+      "en": "Hehehe~",
+      "ja": "えへへっ♪",
+      "ko": "헤헤헤 좋당"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): smiling brightly with pink tongue sticking out slightly in a goofy happy expression — initial alert ears and eye contact.",
+        "Frame 2 (approach): smiling brightly with pink tongue sticking out slightly in a goofy happy expression — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): smiling brightly with pink tongue sticking out slightly in a goofy happy expression — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): smiling brightly with pink tongue sticking out slightly in a goofy happy expression — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p14_dog_guilty_ears",
+    "name_zh": "委屈垂耳认错",
+    "caption": "我错啦",
+    "mood": "dog_happy: 委屈垂耳认错",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: lowering head and drooping ears flat with big watery puppy eyes looking up. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "我错啦",
+      "zh-TW": "我錯啦",
+      "en": "I am so sorry...",
+      "ja": "ごめんなさい…",
+      "ko": "제가 잘못했어요..."
+    },
+    "bubble": {
+      "shape": "whisper",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "我错啦",
+        "zh-TW": "我錯啦",
+        "en": "I am so sorry...",
+        "ja": "ごめんなさい…",
+        "ko": "제가 잘못했어요..."
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): lowering head and drooping ears flat with big watery puppy eyes looking up — initial alert ears and eye contact.",
+        "Frame 2 (approach): lowering head and drooping ears flat with big watery puppy eyes looking up — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): lowering head and drooping ears flat with big watery puppy eyes looking up — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): lowering head and drooping ears flat with big watery puppy eyes looking up — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p15_dog_proud_toy",
+    "name_zh": "叼玩具邀功",
+    "caption": "快夸我！",
+    "mood": "dog_happy: 叼玩具邀功",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: holding a plush toy proudly in mouth with chest puffed out waiting for head pats. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "快夸我！",
+      "zh-TW": "快誇我！",
+      "en": "Praise me now!",
+      "ja": "いっぱい褒めて！",
+      "ko": "얼른 칭찬해 줘!"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "快夸我！",
+        "zh-TW": "快誇我！",
+        "en": "Praise me now!",
+        "ja": "いっぱい褒めて！",
+        "ko": "얼른 칭찬해 줘!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): holding a plush toy proudly in mouth with chest puffed out waiting for head pats — initial alert ears and eye contact.",
+        "Frame 2 (approach): holding a plush toy proudly in mouth with chest puffed out waiting for head pats — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): holding a plush toy proudly in mouth with chest puffed out waiting for head pats — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): holding a plush toy proudly in mouth with chest puffed out waiting for head pats — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p16_dog_innocent_mess",
+    "name_zh": "案发现场装傻",
+    "caption": "沙发自己裂的",
+    "mood": "dog_happy: 案发现场装傻",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: sitting innocently beside a torn cushion while looking away whistling. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "沙发自己裂的",
+      "zh-TW": "沙發自己裂的",
+      "en": "The sofa exploded!",
+      "ja": "ソファが勝手に爆発した",
+      "ko": "소파가 혼자 터졌어요"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "沙发自己裂的",
+        "zh-TW": "沙發自己裂的",
+        "en": "The sofa exploded!",
+        "ja": "ソファが勝手に爆発した",
+        "ko": "소파가 혼자 터졌어요"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): sitting innocently beside a torn cushion while looking away whistling — initial alert ears and eye contact.",
+        "Frame 2 (approach): sitting innocently beside a torn cushion while looking away whistling — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): sitting innocently beside a torn cushion while looking away whistling — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): sitting innocently beside a torn cushion while looking away whistling — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p17_dog_guard_bowl",
+    "name_zh": "守在饭碗前",
+    "caption": "开饭了吗",
+    "mood": "dog_happy: 守在饭碗前",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: resting chin right on the edge of an empty food bowl staring intensely. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "开饭了吗",
+      "zh-TW": "開飯了嗎",
+      "en": "Dinner time yet?",
+      "ja": "ごはんまだですか？",
+      "ko": "밥 시간 아직이야?"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "开饭了吗",
+        "zh-TW": "開飯了嗎",
+        "en": "Dinner time yet?",
+        "ja": "ごはんまだですか？",
+        "ko": "밥 시간 아직이야?"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): resting chin right on the edge of an empty food bowl staring intensely — initial alert ears and eye contact.",
+        "Frame 2 (approach): resting chin right on the edge of an empty food bowl staring intensely — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): resting chin right on the edge of an empty food bowl staring intensely — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): resting chin right on the edge of an empty food bowl staring intensely — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p18_dog_begging_bite",
+    "name_zh": "湿漉漉求投喂",
+    "caption": "分我一口",
+    "mood": "dog_happy: 湿漉漉求投喂",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: sitting up straight with front paws together begging for a snack with sparkling eyes. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "分我一口",
+      "zh-TW": "分我一口",
+      "en": "Just one bite~",
+      "ja": "ひとくち頂戴！",
+      "ko": "한 입만 주세요~"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "分我一口",
+        "zh-TW": "分我一口",
+        "en": "Just one bite~",
+        "ja": "ひとくち頂戴！",
+        "ko": "한 입만 주세요~"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): sitting up straight with front paws together begging for a snack with sparkling eyes — initial alert ears and eye contact.",
+        "Frame 2 (approach): sitting up straight with front paws together begging for a snack with sparkling eyes — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): sitting up straight with front paws together begging for a snack with sparkling eyes — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): sitting up straight with front paws together begging for a snack with sparkling eyes — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p19_dog_chin_rest",
+    "name_zh": "修勾贴贴撒娇",
+    "caption": "最喜欢你",
+    "mood": "dog_happy: 修勾贴贴撒娇",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: resting fluffy chin affectionately on a pillow looking warmly into the lens. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "最喜欢你",
+      "zh-TW": "最喜歡你",
+      "en": "Love you most!",
+      "ja": "いちばん大好き！",
+      "ko": "언니 오빠가 제일 좋아!"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "最喜欢你",
+        "zh-TW": "最喜歡你",
+        "en": "Love you most!",
+        "ja": "いちばん大好き！",
+        "ko": "언니 오빠가 제일 좋아!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): resting fluffy chin affectionately on a pillow looking warmly into the lens — initial alert ears and eye contact.",
+        "Frame 2 (approach): resting fluffy chin affectionately on a pillow looking warmly into the lens — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): resting fluffy chin affectionately on a pillow looking warmly into the lens — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): resting fluffy chin affectionately on a pillow looking warmly into the lens — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p20_dog_belly_up_sleep",
+    "name_zh": "四仰八叉断电",
+    "caption": "电量耗尽",
+    "mood": "dog_happy: 四仰八叉断电",
+    "category": "dog_happy",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: sleeping soundly upside down with all four paws in the air. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "电量耗尽",
+      "zh-TW": "電量耗盡",
+      "en": "Battery 0%",
+      "ja": "充電切れでおやすみ",
+      "ko": "배터리 방전 쿨쿨"
+    },
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): sleeping soundly upside down with all four paws in the air — initial alert ears and eye contact.",
+        "Frame 2 (approach): sleeping soundly upside down with all four paws in the air — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): sleeping soundly upside down with all four paws in the air — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): sleeping soundly upside down with all four paws in the air — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p21_pet_glasses_work",
+    "name_zh": "戴眼镜替班",
+    "caption": "本喵替你上班",
+    "mood": "pet_meme: 戴眼镜替班",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: wearing cute round prop glasses while sitting seriously in front of a laptop screen. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "本喵替你上班",
+      "zh-TW": "本喵替你上班",
+      "en": "Working for my human",
+      "ja": "代わりに働いてあげる",
+      "ko": "집사 대신 출근함"
+    },
+    "bubble": {
+      "shape": "rect",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "本喵替你上班",
+        "zh-TW": "本喵替你上班",
+        "en": "Working for my human",
+        "ja": "代わりに働いてあげる",
+        "ko": "집사 대신 출근함"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): wearing cute round prop glasses while sitting seriously in front of a laptop screen — initial alert ears and eye contact.",
+        "Frame 2 (approach): wearing cute round prop glasses while sitting seriously in front of a laptop screen — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): wearing cute round prop glasses while sitting seriously in front of a laptop screen — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): wearing cute round prop glasses while sitting seriously in front of a laptop screen — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p22_pet_paw_keyboard",
+    "name_zh": "爪爪敲代码",
+    "caption": "正在改八阿哥",
+    "mood": "pet_meme: 爪爪敲代码",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: pressing both front paws dramatically onto a mechanical keyboard. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "正在改八阿哥",
+      "zh-TW": "正在改八阿哥",
+      "en": "Fixing bugs now",
+      "ja": "バグ修正中ニャ",
+      "ko": "버그 고치는 중"
+    },
+    "bubble": {
+      "shape": "rect",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): pressing both front paws dramatically onto a mechanical keyboard — initial alert ears and eye contact.",
+        "Frame 2 (approach): pressing both front paws dramatically onto a mechanical keyboard — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): pressing both front paws dramatically onto a mechanical keyboard — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): pressing both front paws dramatically onto a mechanical keyboard — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p23_pet_sunglasses_boss",
+    "name_zh": "墨镜大佬坐姿",
+    "caption": "叫我总座",
+    "mood": "pet_meme: 墨镜大佬坐姿",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: wearing mini dark sunglasses and leaning one paw on an armrest like a boss. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "叫我总座",
+      "zh-TW": "叫我總座",
+      "en": "Call me the Boss",
+      "ja": "ボスと呼びなさい",
+      "ko": "보스라고 불러라"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "叫我总座",
+        "zh-TW": "叫我總座",
+        "en": "Call me the Boss",
+        "ja": "ボスと呼びなさい",
+        "ko": "보스라고 불러라"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): wearing mini dark sunglasses and leaning one paw on an armrest like a boss — initial alert ears and eye contact.",
+        "Frame 2 (approach): wearing mini dark sunglasses and leaning one paw on an armrest like a boss — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): wearing mini dark sunglasses and leaning one paw on an armrest like a boss — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): wearing mini dark sunglasses and leaning one paw on an armrest like a boss — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p24_pet_couch_potato",
+    "name_zh": "瘫沙发看剧",
+    "caption": "不想努力了",
+    "mood": "pet_meme: 瘫沙发看剧",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: slouching upright on a soft sofa like a human with a completely lazy expression. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "不想努力了",
+      "zh-TW": "不想努力了",
+      "en": "Done trying today",
+      "ja": "もう頑張らない",
+      "ko": "아무것도 하기 싫다"
+    },
+    "bubble": {
+      "shape": "thought",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "不想努力了",
+        "zh-TW": "不想努力了",
+        "en": "Done trying today",
+        "ja": "もう頑張らない",
+        "ko": "아무것도 하기 싫다"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): slouching upright on a soft sofa like a human with a completely lazy expression — initial alert ears and eye contact.",
+        "Frame 2 (approach): slouching upright on a soft sofa like a human with a completely lazy expression — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): slouching upright on a soft sofa like a human with a completely lazy expression — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): slouching upright on a soft sofa like a human with a completely lazy expression — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p25_pet_protect_fish",
+    "name_zh": "抱紧小鱼干",
+    "caption": "护食警告",
+    "mood": "pet_meme: 抱紧小鱼干",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: hugging a plush dried fish toy tightly with both paws and glaring. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "护食警告",
+      "zh-TW": "護食警告",
+      "en": "Hands off my snack!",
+      "ja": "おやつは渡さない！",
+      "ko": "내 간식 건들지 마!"
+    },
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "护食警告",
+        "zh-TW": "護食警告",
+        "en": "Hands off my snack!",
+        "ja": "おやつは渡さない！",
+        "ko": "내 간식 건들지 마!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): hugging a plush dried fish toy tightly with both paws and glaring — initial alert ears and eye contact.",
+        "Frame 2 (approach): hugging a plush dried fish toy tightly with both paws and glaring — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): hugging a plush dried fish toy tightly with both paws and glaring — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): hugging a plush dried fish toy tightly with both paws and glaring — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p26_pet_pupil_quake",
+    "name_zh": "瞳孔地震",
+    "caption": "大为震撼",
+    "mood": "pet_meme: 瞳孔地震",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: leaning back with wide saucer eyes and jaw slightly dropped in comical disbelief. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "大为震撼",
+      "zh-TW": "大為震撼",
+      "en": "Shook to the core",
+      "ja": "衝撃の事実…！",
+      "ko": "동공지진 대충격"
+    },
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): leaning back with wide saucer eyes and jaw slightly dropped in comical disbelief — initial alert ears and eye contact.",
+        "Frame 2 (approach): leaning back with wide saucer eyes and jaw slightly dropped in comical disbelief — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): leaning back with wide saucer eyes and jaw slightly dropped in comical disbelief — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): leaning back with wide saucer eyes and jaw slightly dropped in comical disbelief — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p27_pet_thumbs_up",
+    "name_zh": "肉垫比赞",
+    "caption": "本宠批准",
+    "mood": "pet_meme: 肉垫比赞",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: raising one fluffy front paw high showing pink paw pads like a high-five. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "本宠批准",
+      "zh-TW": "本寵批准",
+      "en": "Paw of approval!",
+      "ja": "肉球スタンプ承認！",
+      "ko": "발바닥 도장 승인!"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "本宠批准",
+        "zh-TW": "本寵批准",
+        "en": "Paw of approval!",
+        "ja": "肉球スタンプ承認！",
+        "ko": "발바닥 도장 승인!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): raising one fluffy front paw high showing pink paw pads like a high-five — initial alert ears and eye contact.",
+        "Frame 2 (approach): raising one fluffy front paw high showing pink paw pads like a high-five — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): raising one fluffy front paw high showing pink paw pads like a high-five — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): raising one fluffy front paw high showing pink paw pads like a high-five — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p28_pet_money_luck",
+    "name_zh": "招财进宝宠",
+    "caption": "招财显灵",
+    "mood": "pet_meme: 招财进宝宠",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: raising one lucky beckoning paw beside ear with a bright auspicious vibe. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "招财显灵",
+      "zh-TW": "招財顯靈",
+      "en": "Bringing you wealth!",
+      "ja": "金運アップ招き猫",
+      "ko": "부자 되게 해줄게!"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "招财显灵",
+        "zh-TW": "招財顯靈",
+        "en": "Bringing you wealth!",
+        "ja": "金運アップ招き猫",
+        "ko": "부자 되게 해줄게!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): raising one lucky beckoning paw beside ear with a bright auspicious vibe — initial alert ears and eye contact.",
+        "Frame 2 (approach): raising one lucky beckoning paw beside ear with a bright auspicious vibe — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): raising one lucky beckoning paw beside ear with a bright auspicious vibe — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): raising one lucky beckoning paw beside ear with a bright auspicious vibe — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p29_pet_tangerine_zen",
+    "name_zh": "头顶橘子佛系",
+    "caption": "情绪极其稳定",
+    "mood": "pet_meme: 头顶橘子佛系",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: balancing a small tangerine calmly on top of head with eyes peacefully closed. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "caption",
+    "captions": {
+      "zh-CN": "情绪极其稳定",
+      "zh-TW": "情緒極其穩定",
+      "en": "Zen master state",
+      "ja": "悟りの境地",
+      "ko": "멘탈 완전 평온함"
+    },
+    "bubble": {
+      "shape": "oval",
+      "position": "auto",
+      "texts": {}
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): balancing a small tangerine calmly on top of head with eyes peacefully closed — initial alert ears and eye contact.",
+        "Frame 2 (approach): balancing a small tangerine calmly on top of head with eyes peacefully closed — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): balancing a small tangerine calmly on top of head with eyes peacefully closed — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): balancing a small tangerine calmly on top of head with eyes peacefully closed — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p30_pet_scold_chatter",
+    "name_zh": "骂骂咧咧吵架",
+    "caption": "喵喵队立大功",
+    "mood": "pet_meme: 骂骂咧咧吵架",
+    "category": "pet_meme",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: opening mouth wide mid-chatter looking like lecturing someone passionately. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "喵喵队立大功",
+      "zh-TW": "喵喵隊立大功",
+      "en": "Hear me roar!",
+      "ja": "文句があるなら聞くよ",
+      "ko": "잔소리 대폭발!"
+    },
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "喵喵队立大功",
+        "zh-TW": "喵喵隊立大功",
+        "en": "Hear me roar!",
+        "ja": "文句があるなら聞くよ",
+        "ko": "잔소리 대폭발!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): opening mouth wide mid-chatter looking like lecturing someone passionately — initial alert ears and eye contact.",
+        "Frame 2 (approach): opening mouth wide mid-chatter looking like lecturing someone passionately — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): opening mouth wide mid-chatter looking like lecturing someone passionately — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): opening mouth wide mid-chatter looking like lecturing someone passionately — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p31_pet_red_scarf_ny",
+    "name_zh": "红围巾拜年",
+    "caption": "恭喜发财",
+    "mood": "pet_festival: 红围巾拜年",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: wearing a festive red knit scarf and sitting politely with a joyful expression. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "恭喜发财",
+      "zh-TW": "恭喜發財",
+      "en": "Happy New Year!",
+      "ja": "あけおめニャン！",
+      "ko": "새해 복 많이 받으세요!"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "恭喜发财",
+        "zh-TW": "恭喜發財",
+        "en": "Happy New Year!",
+        "ja": "あけおめニャン！",
+        "ko": "새해 복 많이 받으세요!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): wearing a festive red knit scarf and sitting politely with a joyful expression — initial alert ears and eye contact.",
+        "Frame 2 (approach): wearing a festive red knit scarf and sitting politely with a joyful expression — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): wearing a festive red knit scarf and sitting politely with a joyful expression — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): wearing a festive red knit scarf and sitting politely with a joyful expression — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p32_pet_beg_redpacket",
+    "name_zh": "作揖讨压岁钱",
+    "caption": "压岁罐罐拿来",
+    "mood": "pet_festival: 作揖讨压岁钱",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: putting both front paws together in a traditional New Year greeting bow. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "压岁罐罐拿来",
+      "zh-TW": "壓歲罐罐拿來",
+      "en": "Red packet please!",
+      "ja": "お年玉ちゅーる頂戴",
+      "ko": "세뱃돈으로 간식 주세요"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "压岁罐罐拿来",
+        "zh-TW": "壓歲罐罐拿來",
+        "en": "Red packet please!",
+        "ja": "お年玉ちゅーる頂戴",
+        "ko": "세뱃돈으로 간식 주세요"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): putting both front paws together in a traditional New Year greeting bow — initial alert ears and eye contact.",
+        "Frame 2 (approach): putting both front paws together in a traditional New Year greeting bow — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): putting both front paws together in a traditional New Year greeting bow — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): putting both front paws together in a traditional New Year greeting bow — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p33_pet_birthday_crown",
+    "name_zh": "生日小寿星",
+    "caption": "今日小寿星",
+    "mood": "pet_festival: 生日小寿星",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: wearing a tiny golden felt birthday crown and looking happily at a pet cake. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "今日小寿星",
+      "zh-TW": "今日小壽星",
+      "en": "Birthday baby!",
+      "ja": "主役のお誕生日！",
+      "ko": "오늘의 생일 주인공!"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "今日小寿星",
+        "zh-TW": "今日小壽星",
+        "en": "Birthday baby!",
+        "ja": "主役のお誕生日！",
+        "ko": "오늘의 생일 주인공!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): wearing a tiny golden felt birthday crown and looking happily at a pet cake — initial alert ears and eye contact.",
+        "Frame 2 (approach): wearing a tiny golden felt birthday crown and looking happily at a pet cake — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): wearing a tiny golden felt birthday crown and looking happily at a pet cake — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): wearing a tiny golden felt birthday crown and looking happily at a pet cake — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p34_pet_good_morning",
+    "name_zh": "阳光早安宠",
+    "caption": "早安打工人",
+    "mood": "pet_festival: 阳光早安宠",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: stretching paws in warm morning window sunlight with a bright energetic face. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "早安打工人",
+      "zh-TW": "早安打工人",
+      "en": "Good morning!",
+      "ja": "おはようニャ！",
+      "ko": "좋은 아침이야!"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "早安打工人",
+        "zh-TW": "早安打工人",
+        "en": "Good morning!",
+        "ja": "おはようニャ！",
+        "ko": "좋은 아침이야!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): stretching paws in warm morning window sunlight with a bright energetic face — initial alert ears and eye contact.",
+        "Frame 2 (approach): stretching paws in warm morning window sunlight with a bright energetic face — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): stretching paws in warm morning window sunlight with a bright energetic face — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): stretching paws in warm morning window sunlight with a bright energetic face — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p35_pet_blanket_night",
+    "name_zh": "盖小被子晚安",
+    "caption": "本宝睡了晚安",
+    "mood": "pet_festival: 盖小被子晚安",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: tucked snugly under a soft pastel blanket with paws resting on the edge and sleepy eyes. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "本宝睡了晚安",
+      "zh-TW": "本寶睡了晚安",
+      "en": "Goodnight world~",
+      "ja": "おやすみなさい～",
+      "ko": "먼저 잘게 굿나잇~"
+    },
+    "bubble": {
+      "shape": "whisper",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "本宝睡了晚安",
+        "zh-TW": "本寶睡了晚安",
+        "en": "Goodnight world~",
+        "ja": "おやすみなさい～",
+        "ko": "먼저 잘게 굿나잇~"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): tucked snugly under a soft pastel blanket with paws resting on the edge and sleepy eyes — initial alert ears and eye contact.",
+        "Frame 2 (approach): tucked snugly under a soft pastel blanket with paws resting on the edge and sleepy eyes — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): tucked snugly under a soft pastel blanket with paws resting on the edge and sleepy eyes — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): tucked snugly under a soft pastel blanket with paws resting on the edge and sleepy eyes — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p36_pet_rose_gift",
+    "name_zh": "叼玫瑰送花",
+    "caption": "送你花花",
+    "mood": "pet_festival: 叼玫瑰送花",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: gently holding a single red rose stem in mouth with a sweet affectionate gaze. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "送你花花",
+      "zh-TW": "送你花花",
+      "en": "A rose for you~",
+      "ja": "お花をどうぞ♪",
+      "ko": "꽃 한 송이 배달왔어요"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "送你花花",
+        "zh-TW": "送你花花",
+        "en": "A rose for you~",
+        "ja": "お花をどうぞ♪",
+        "ko": "꽃 한 송이 배달왔어요"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): gently holding a single red rose stem in mouth with a sweet affectionate gaze — initial alert ears and eye contact.",
+        "Frame 2 (approach): gently holding a single red rose stem in mouth with a sweet affectionate gaze — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): gently holding a single red rose stem in mouth with a sweet affectionate gaze — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): gently holding a single red rose stem in mouth with a sweet affectionate gaze — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p37_pet_koi_lucky",
+    "name_zh": "好运锦鲤宠",
+    "caption": "好运来贴贴",
+    "mood": "pet_festival: 好运锦鲤宠",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: glowing in warm golden light with a cheerful expression radiating good fortune. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "好运来贴贴",
+      "zh-TW": "好運來貼貼",
+      "en": "Good luck incoming!",
+      "ja": "幸運をお届け！",
+      "ko": "행운 가득 가져왔어!"
+    },
+    "bubble": {
+      "shape": "heart",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "好运来贴贴",
+        "zh-TW": "好運來貼貼",
+        "en": "Good luck incoming!",
+        "ja": "幸運をお届け！",
+        "ko": "행운 가득 가져왔어!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): glowing in warm golden light with a cheerful expression radiating good fortune — initial alert ears and eye contact.",
+        "Frame 2 (approach): glowing in warm golden light with a cheerful expression radiating good fortune — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): glowing in warm golden light with a cheerful expression radiating good fortune — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): glowing in warm golden light with a cheerful expression radiating good fortune — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p38_pet_cheer_pom",
+    "name_zh": "为你加油打气",
+    "caption": "冲鸭加油！",
+    "mood": "pet_festival: 为你加油打气",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: raising both front paws excitedly in the air cheering for the viewer. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "冲鸭加油！",
+      "zh-TW": "衝鴨加油！",
+      "en": "You got this!",
+      "ja": "フレー！フレー！",
+      "ko": "오늘도 화이팅!"
+    },
+    "bubble": {
+      "shape": "shout",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "冲鸭加油！",
+        "zh-TW": "衝鴨加油！",
+        "en": "You got this!",
+        "ja": "フレー！フレー！",
+        "ko": "오늘도 화이팅!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): raising both front paws excitedly in the air cheering for the viewer — initial alert ears and eye contact.",
+        "Frame 2 (approach): raising both front paws excitedly in the air cheering for the viewer — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): raising both front paws excitedly in the air cheering for the viewer — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): raising both front paws excitedly in the air cheering for the viewer — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p39_pet_polite_bow",
+    "name_zh": "礼貌低头致谢",
+    "caption": "谢谢投喂",
+    "mood": "pet_festival: 礼貌低头致谢",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: bowing head politely between front paws in a grateful posture. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "谢谢投喂",
+      "zh-TW": "謝謝投餵",
+      "en": "Thank you so much!",
+      "ja": "ごちそうさまです！",
+      "ko": "간식 감사합니다!"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "谢谢投喂",
+        "zh-TW": "謝謝投餵",
+        "en": "Thank you so much!",
+        "ja": "ごちそうさまです！",
+        "ko": "간식 감사합니다!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): bowing head politely between front paws in a grateful posture — initial alert ears and eye contact.",
+        "Frame 2 (approach): bowing head politely between front paws in a grateful posture — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): bowing head politely between front paws in a grateful posture — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): bowing head politely between front paws in a grateful posture — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  },
+  {
+    "id": "p40_pet_salute_roger",
+    "name_zh": "肉垫敬礼收到",
+    "caption": "收到保证完成",
+    "mood": "pet_festival: 肉垫敬礼收到",
+    "category": "pet_festival",
+    "static_pose": "Photorealistic real-pet portrait sticker cutout: raising one front paw to forehead in a cute crisp salute. Faithfully preserve the exact pet breed, fur color, coat pattern, eye color, and realistic fur texture from the reference photo.",
+    "text_layout": "bubble",
+    "captions": {
+      "zh-CN": "收到保证完成",
+      "zh-TW": "收到保證完成",
+      "en": "Roger that!",
+      "ja": "了解しました！",
+      "ko": "라져! 확인 완료!"
+    },
+    "bubble": {
+      "shape": "round",
+      "position": "auto",
+      "texts": {
+        "zh-CN": "收到保证完成",
+        "zh-TW": "收到保證完成",
+        "en": "Roger that!",
+        "ja": "了解しました！",
+        "ko": "라져! 확인 완료!"
+      }
+    },
+    "motion": {
+      "type": "wave_hand",
+      "duration_ms": 720,
+      "frames": 4,
+      "loop": "seamless",
+      "amplitude": "medium",
+      "keyframe_poses": [
+        "Frame 1 (anticipation): raising one front paw to forehead in a cute crisp salute — initial alert ears and eye contact.",
+        "Frame 2 (approach): raising one front paw to forehead in a cute crisp salute — natural pet movement into the gesture with lively fur and whiskers.",
+        "Frame 3 (peak apex): raising one front paw to forehead in a cute crisp salute — peak expressive pet pose and vivid eyes.",
+        "Frame 4 (settle): raising one front paw to forehead in a cute crisp salute — gentle follow-through while keeping lower body baseline stable."
+      ],
+      "stationary_parts": [
+        "lower_torso",
+        "shoulders"
+      ]
+    }
+  }
+]

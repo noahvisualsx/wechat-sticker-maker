@@ -12,6 +12,7 @@ from .config import AppSettings, get_default_font_path, get_profile
 from .duo import DUO_CATEGORIES, DUO_CATEGORY_LABELS, list_duo_presets
 from .orchestrator import StickerOrchestrator
 from .package import package_deliverables
+from .pets import PET_CATEGORIES, PET_CATEGORY_LABELS, list_pet_presets
 from .i18n import BUILTIN_CAPTION_LANGUAGES, describe_font_support, normalize_language
 from .planner import CATEGORY_LABELS, THEME_PACKS, list_categories, load_all_presets, localized_caption, plan_expressions, translation_template
 from .platforms import load_platform_profiles, platform_groups, resolve_platforms
@@ -24,8 +25,16 @@ from .providers.openai_images import OpenAIImagesProvider
 from .providers.openai_native_gif import OpenAINativeGifProvider
 from .quality.report import run_full_validation
 from .schemas import AnimationConfig, JobConfig
-from .studio import generate_social_posters, remix_captions, resolve_theme_preset
+from .server import run_studio_server
+from .studio import (
+    generate_animated_social_poster,
+    generate_social_posters,
+    generate_wechat_submission_kit,
+    remix_captions,
+    resolve_theme_preset,
+)
 from .styles import STYLE_REGIONS, infer_language_for_style, list_style_presets, resolve_style_preset
+from .telegram_publisher import publish_to_telegram_bot
 
 logger = logging.getLogger("sticker_maker")
 
@@ -135,6 +144,34 @@ def cmd_duo(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_pets(args: argparse.Namespace) -> int:
+    """List built-in 40 real-pet photographic sticker presets (猫主子 / 快乐修勾 / 萌宠梗图 / 萌宠祝福)."""
+    lang = normalize_language(args.language)
+    try:
+        items = list_pet_presets(category=getattr(args, "category", None))
+    except ValueError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 2
+    if getattr(args, "json", False):
+        print(json.dumps([i.model_dump() for i in items], indent=2, ensure_ascii=False))
+        return 0
+
+    print(f"=== 真宠实拍表情包预设 ({len(items)} 款: 猫主子10 + 快乐修勾10 + 萌宠梗图10 + 萌宠祝福10, language={lang}) ===")
+    for cid in PET_CATEGORIES:
+        group = [i for i in items if i.category == cid]
+        if not group:
+            continue
+        meta = PET_CATEGORY_LABELS[cid]
+        print(f"\n[{cid}] {meta['zh']} / {meta['en']} ({len(group)}) — {meta['desc_zh']}")
+        for it in group:
+            cap, _ = localized_caption(it, lang)
+            bubble = it.bubble.texts.get(lang, "") if it.bubble else ""
+            b_tag = f" 💬[{bubble}]" if bubble else ""
+            print(f"  * {it.id:<26} {cap}{b_tag}  <{it.text_layout}> {it.mood}")
+            print(f"    pose: {it.static_pose}")
+    return 0
+
+
 def cmd_themes(args: argparse.Namespace) -> int:
     """List built-in one-click theme packs."""
     if getattr(args, "json", False):
@@ -177,12 +214,32 @@ def cmd_remix_text(args: argparse.Namespace) -> int:
 
 
 def cmd_collage(args: argparse.Namespace) -> int:
-    """Generate social promotional posters (Xiaohongshu 3:4, Story 9:16, Grid 1:1) & store submission copy."""
+    """Generate social promotional posters (Xiaohongshu 3:4, Story 9:16, Grid 1:1) & optional animated/WeChat kit."""
     out_p = Path(args.output)
     if not out_p.exists():
         print(f"Error: Output directory not found: {out_p}", file=sys.stderr)
         return 2
-    res = generate_social_posters(
+    style = getattr(args, "style", "real-cutout") or "real-cutout"
+    lang = normalize_language(getattr(args, "language", "zh-CN") or "zh-CN")
+    title = getattr(args, "title", None)
+    subtitle = getattr(args, "subtitle", None)
+    res = generate_social_posters(out_p, title=title, subtitle=subtitle, style=style, language=lang)
+    if getattr(args, "animated", False):
+        res.update(generate_animated_social_poster(out_p, title=title, subtitle=subtitle, style=style, language=lang))
+    if getattr(args, "wechat_kit", False):
+        res.update(generate_wechat_submission_kit(out_p, title=title, subtitle=subtitle, style=style, language=lang))
+    for k, p in res.items():
+        print(f"Generated {k}: {p}")
+    return 0
+
+
+def cmd_video(args: argparse.Namespace) -> int:
+    """Generate animated 3:4 (Xiaohongshu/Douyin) & 9:16 (Story/Reels) dynamic showcase posters (GIF + WebP)."""
+    out_p = Path(args.output)
+    if not out_p.exists():
+        print(f"Error: Output directory not found: {out_p}", file=sys.stderr)
+        return 2
+    res = generate_animated_social_poster(
         out_p,
         title=getattr(args, "title", None),
         subtitle=getattr(args, "subtitle", None),
@@ -191,6 +248,58 @@ def cmd_collage(args: argparse.Namespace) -> int:
     )
     for k, p in res.items():
         print(f"Generated {k}: {p}")
+    return 0
+
+
+def cmd_wechat_kit(args: argparse.Namespace) -> int:
+    """Generate complete WeChat Sticker Open Platform (微信表情开放平台) submission accessory kit."""
+    out_p = Path(args.output)
+    if not out_p.exists():
+        print(f"Error: Output directory not found: {out_p}", file=sys.stderr)
+        return 2
+    res = generate_wechat_submission_kit(
+        out_p,
+        title=getattr(args, "title", None),
+        subtitle=getattr(args, "subtitle", None),
+        style=getattr(args, "style", "real-cutout") or "real-cutout",
+        language=normalize_language(getattr(args, "language", "zh-CN") or "zh-CN"),
+    )
+    for k, p in res.items():
+        print(f"Generated {k}: {p}")
+    return 0
+
+
+def cmd_publish_telegram(args: argparse.Namespace) -> int:
+    """Publish a generated sticker pack directly to Telegram via Bot API (`createNewStickerSet`)."""
+    out_p = Path(args.output)
+    if not out_p.exists():
+        print(f"Error: Output directory not found: {out_p}", file=sys.stderr)
+        return 2
+    try:
+        res = publish_to_telegram_bot(
+            out_p,
+            pack_short_name=args.name,
+            pack_title=args.title,
+            user_id=getattr(args, "user_id", None),
+            bot_token=getattr(args, "bot_token", None),
+            dry_run=getattr(args, "dry_run", False),
+        )
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+    print(f"Telegram Pack Status: {res['status']} ({res['sticker_count']} stickers)")
+    print(f"Manifest:             {res['manifest_path']}")
+    print(f"Share URL:            {res['share_url']}")
+    return 0
+
+
+def cmd_serve(args: argparse.Namespace) -> int:
+    """Launch local interactive Web Studio HTTP server."""
+    run_studio_server(
+        host=getattr(args, "host", "127.0.0.1"),
+        port=getattr(args, "port", 7860),
+        open_browser=getattr(args, "open", False),
+    )
     return 0
 
 
@@ -215,6 +324,8 @@ def cmd_plan(args: argparse.Namespace) -> int:
     categories = _split(args.categories)
     duo_cats = _split(getattr(args, "duo_category", None))
     duo_ids = _split(getattr(args, "duo_ids", None))
+    pet_cats = _split(getattr(args, "pet_category", None))
+    pet_ids = _split(getattr(args, "pet_ids", None))
     meme_cats = _split(args.meme_categories)
     pack_type = args.pack_type
 
@@ -231,6 +342,8 @@ def cmd_plan(args: argparse.Namespace) -> int:
             categories = list(tcfg["categories"])  # type: ignore
         if not duo_cats and tcfg.get("duo_categories"):
             duo_cats = list(tcfg["duo_categories"])  # type: ignore
+        if not pet_cats and tcfg.get("pet_categories"):
+            pet_cats = list(tcfg["pet_categories"])  # type: ignore
         if not meme_cats and tcfg.get("meme_categories"):
             meme_cats = list(tcfg["meme_categories"])  # type: ignore
 
@@ -239,6 +352,8 @@ def cmd_plan(args: argparse.Namespace) -> int:
     extra_langs = [normalize_language(x) for x in (_split(getattr(args, "languages", None)) or [])] or None
     if (partner_p or duo_cats or duo_ids) and pack_type == "expressions":
         pack_type = "duo"
+    if (pet_cats or pet_ids) and pack_type == "expressions":
+        pack_type = "pet"
 
     job_id = args.job_id or out_p.name
     job = JobConfig(
@@ -259,6 +374,8 @@ def cmd_plan(args: argparse.Namespace) -> int:
         expression_ids=_split(args.expressions),
         duo_categories=duo_cats,
         duo_ids=duo_ids,
+        pet_categories=pet_cats,
+        pet_ids=pet_ids,
         pack_type=pack_type,
         meme_templates=[resolve_meme_id(m) for m in (_split(args.meme_templates) or [])] or None,
         meme_categories=meme_cats,
@@ -717,8 +834,14 @@ def main() -> None:
     p_duo.add_argument("--language", default="zh-CN", help="Caption language: zh-CN, zh-TW, en, ja, ko")
     p_duo.add_argument("--json", action="store_true", help="Output duo presets as JSON")
 
+    # pets
+    p_pets = subparsers.add_parser("pets", help="List 40 real-pet photographic sticker presets (猫主子/快乐修勾/萌宠梗图/萌宠祝福)")
+    p_pets.add_argument("--category", help="Filter by pet category: 猫主子/cat_boss, 快乐修勾/dog_happy, 萌宠梗图/pet_meme, 萌宠祝福/pet_festival")
+    p_pets.add_argument("--language", default="zh-CN", help="Caption language: zh-CN, zh-TW, en, ja, ko")
+    p_pets.add_argument("--json", action="store_true", help="Output pet presets as JSON")
+
     # themes
-    p_themes = subparsers.add_parser("themes", help="List 15 one-click themed sticker packs (打工人/发疯/干饭/搞钱/电竞/追星/闺蜜/情侣/百合/双男主...)")
+    p_themes = subparsers.add_parser("themes", help="List 18 one-click themed sticker packs (打工人/发疯/干饭/搞钱/电竞/追星/猫主子/快乐修勾/闺蜜/情侣/百合...)")
     p_themes.add_argument("--json", action="store_true")
 
     # remix-text
@@ -730,11 +853,44 @@ def main() -> None:
 
     # collage
     p_col = subparsers.add_parser("collage", help="Generate Xiaohongshu 3:4, Story 9:16, Grid 1:1 promotional posters + store submission copy")
-    p_col.add_argument("--output", "-o", required=True, help="Output directory containing generated stickers")
+    p_col.add_argument("--output", "-o", "--dir", "-d", dest="output", required=True, help="Output directory containing generated stickers")
     p_col.add_argument("--title", help="Custom poster main title")
     p_col.add_argument("--subtitle", help="Custom poster subtitle")
     p_col.add_argument("--style", default="real-cutout")
     p_col.add_argument("--language", default="zh-CN")
+    p_col.add_argument("--animated", action="store_true", help="Also generate animated GIF & WebP 3:4 and 9:16 posters")
+    p_col.add_argument("--wechat-kit", action="store_true", help="Also generate full WeChat Open Platform submission kit (banner/guide/thank_you/avatar)")
+
+    # video (animated social poster)
+    p_vid = subparsers.add_parser("video", help="Generate animated 3:4 (Xiaohongshu/Douyin) & 9:16 (Story/Reels) dynamic showcase posters (GIF + WebP)")
+    p_vid.add_argument("--output", "-o", "--dir", "-d", dest="output", required=True, help="Output directory containing generated stickers")
+    p_vid.add_argument("--title", help="Custom poster main title")
+    p_vid.add_argument("--subtitle", help="Custom poster subtitle")
+    p_vid.add_argument("--style", default="real-cutout")
+    p_vid.add_argument("--language", default="zh-CN")
+
+    # wechat-kit
+    p_wxk = subparsers.add_parser("wechat-kit", help="Generate complete WeChat Sticker Open Platform submission kit (banner 750x400, appreciation guide/thank_you 750x560, avatar 300x300)")
+    p_wxk.add_argument("--output", "-o", "--dir", "-d", dest="output", required=True, help="Output directory containing generated stickers")
+    p_wxk.add_argument("--title", help="Custom album title")
+    p_wxk.add_argument("--subtitle", help="Custom album subtitle")
+    p_wxk.add_argument("--style", default="real-cutout")
+    p_wxk.add_argument("--language", default="zh-CN")
+
+    # publish-telegram
+    p_tg = subparsers.add_parser("publish-telegram", help="Publish generated sticker pack directly to Telegram via Bot API (`createNewStickerSet`)")
+    p_tg.add_argument("--output", "-o", "--dir", "-d", dest="output", required=True, help="Output directory containing generated stickers")
+    p_tg.add_argument("--name", required=True, help="Telegram sticker pack short name (e.g. my_real_pack)")
+    p_tg.add_argument("--title", required=True, help="Telegram sticker pack display title")
+    p_tg.add_argument("--user-id", type=int, help="Telegram owner numeric user_id")
+    p_tg.add_argument("--bot-token", help="Telegram Bot API token (or set TELEGRAM_BOT_TOKEN)")
+    p_tg.add_argument("--dry-run", action="store_true", help="Validate 512px WebP assets and write manifest without calling Telegram API")
+
+    # serve
+    p_srv = subparsers.add_parser("serve", help="Launch local interactive Web Studio server (zero extra dependencies)")
+    p_srv.add_argument("--host", default="127.0.0.1", help="Bind host (default: 127.0.0.1)")
+    p_srv.add_argument("--port", type=int, default=7860, help="Bind port (default: 7860)")
+    p_srv.add_argument("--open", action="store_true", help="Automatically open browser")
 
     # plan
     p_plan = subparsers.add_parser("plan", help="Plan expressions and create job.json")
@@ -756,8 +912,10 @@ def main() -> None:
     p_plan.add_argument("--expressions", help="Comma-separated explicit expression ids")
     p_plan.add_argument("--duo-category", help="Duo interaction category: 闺蜜/besties, 情侣/couple, 百合/yuri, 双男主/yaoi, 欢喜冤家/rivals, 亲子/family (comma list)")
     p_plan.add_argument("--duo-ids", help="Explicit duo preset IDs (e.g. d01_bestie_cheek_selfie,d73_yuri_chin_lift_gaze)")
+    p_plan.add_argument("--pet-category", help="Pet preset category: 猫主子/cat_boss, 快乐修勾/dog_happy, 萌宠梗图/pet_meme, 萌宠祝福/pet_festival (comma list)")
+    p_plan.add_argument("--pet-ids", help="Explicit pet preset IDs (e.g. p01_cat_judge_stare,p11_dog_head_tilt)")
     p_plan.add_argument("--captions-file", help="JSON file with custom captions / translations")
-    p_plan.add_argument("--pack-type", choices=["expressions", "memes", "mixed", "duo"], default="expressions", help="Expression stickers, meme/abstract pack, mixed, or two-person duo pack")
+    p_plan.add_argument("--pack-type", choices=["expressions", "memes", "mixed", "duo", "pet"], default="expressions", help="Expression stickers, meme/abstract pack, mixed, two-person duo pack, or real-pet pack")
     p_plan.add_argument("--meme-templates", help="Comma list of meme template ids/aliases (claude,中国ip,封号,m14 ...)")
     p_plan.add_argument("--meme-categories", help="ai-meme,ban-warning,chat-ui,abstract,classic-meme,work-life")
     p_plan.add_argument("--meme-text", action="append", help="Override meme text: TEMPLATE=TEXT (repeatable)")
@@ -896,9 +1054,14 @@ def main() -> None:
         "doctor": cmd_doctor,
         "styles": cmd_styles,
         "duo": cmd_duo,
+        "pets": cmd_pets,
         "themes": cmd_themes,
         "remix-text": cmd_remix_text,
         "collage": cmd_collage,
+        "video": cmd_video,
+        "wechat-kit": cmd_wechat_kit,
+        "publish-telegram": cmd_publish_telegram,
+        "serve": cmd_serve,
         "plan": cmd_plan,
         "generate": cmd_generate,
         "regenerate": cmd_regenerate,

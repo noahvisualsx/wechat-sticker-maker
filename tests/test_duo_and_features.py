@@ -149,11 +149,21 @@ def test_duo_and_multilang_orchestrator_end_to_end(tmp_path: Path):
 
     # Test 0-Token Remix Captions & Social Poster Generator
     import json
-    from sticker_maker.studio import generate_social_posters, list_theme_presets, remix_captions, resolve_theme_preset
+    from sticker_maker.studio import (
+        generate_animated_social_poster,
+        generate_social_posters,
+        generate_wechat_submission_kit,
+        list_theme_presets,
+        remix_captions,
+        resolve_theme_preset,
+    )
 
-    assert len(list_theme_presets()) == 15
+    assert len(list_theme_presets()) == 18
     assert resolve_theme_preset("电竞")["style"] == "real-cyber-neon"
     assert resolve_theme_preset("双男主")["pack_type"] == "duo"
+    assert resolve_theme_preset("猫主子")["pack_type"] == "pet"
+    assert resolve_theme_preset("快乐修勾")["pack_type"] == "pet"
+    assert resolve_theme_preset("AI冲浪梗")["pack_type"] == "memes"
 
     job_file = out_dir / "job.json"
     job_file.write_text(json.dumps(job.model_dump(), ensure_ascii=False, indent=2), encoding="utf-8")
@@ -172,3 +182,97 @@ def test_duo_and_multilang_orchestrator_end_to_end(tmp_path: Path):
     assert poster_res["story_9x16"].exists()
     assert poster_res["grid_1x1"].exists()
     assert poster_res["submission_copy"].exists()
+
+    # Test Animated Social Posters (GIF + WebP)
+    anim_posters = generate_animated_social_poster(out_dir, title="百合双女主动态包", frames_count=4)
+    assert anim_posters["animated_xhs_3x4_gif"].exists()
+    assert anim_posters["animated_xhs_3x4_webp"].exists()
+    assert anim_posters["animated_story_9x16_gif"].exists()
+
+    # Test WeChat Open Platform Submission Kit
+    wx_kit = generate_wechat_submission_kit(out_dir, title="百合双女主")
+    assert wx_kit["banner_750x400"].exists()
+    with Image.open(wx_kit["banner_750x400"]) as bim:
+        assert bim.size == (750, 400)
+        assert bim.mode == "RGB"
+    assert wx_kit["guide_750x560"].exists()
+    assert wx_kit["thank_you_750x560"].exists()
+    assert wx_kit["artist_avatar_300x300"].exists()
+    assert wx_kit["cover_240x240"].exists()
+    assert wx_kit["icon_50x50"].exists()
+    assert wx_kit["submission_guide"].exists()
+
+    # Test Telegram Bot Publisher (--dry-run)
+    from sticker_maker.telegram_publisher import publish_to_telegram_bot
+
+    tg_res = publish_to_telegram_bot(out_dir, pack_short_name="yuri_duo_test", pack_title="Yuri Duo Pack", dry_run=True)
+    assert tg_res["status"] == "dry_run"
+    assert tg_res["sticker_count"] >= 2
+    assert Path(str(tg_res["manifest_path"])).exists()
+    assert "https://t.me/addstickers/yuri_duo_test" in str(tg_res["share_url"])
+
+    # Test Local Studio Server REST API endpoints
+    from sticker_maker.server import handle_api_request
+
+    st_cat, cat_payload = handle_api_request("GET", "/api/catalog")
+    assert st_cat == 200
+    assert cat_payload["counts"]["styles"] == 108
+    assert cat_payload["counts"]["expressions"] == 220
+    assert cat_payload["counts"]["duos"] == 168
+    assert cat_payload["counts"]["pets"] == 40
+    assert cat_payload["counts"]["memes"] == 60
+    assert cat_payload["counts"]["themes"] == 18
+
+    st_jobs, jobs_payload = handle_api_request("GET", "/api/jobs", base_dir=tmp_path)
+    assert st_jobs == 200
+    assert any(j["name"] == "duo_out" for j in jobs_payload["jobs"])
+
+
+def test_pet_catalog_40_presets_and_prompts():
+    from sticker_maker.pets import (
+        build_pet_sprite_sheet_prompt,
+        build_pet_static_prompt,
+        list_pet_presets,
+        load_pet_presets,
+        normalize_pet_category,
+        plan_pet_expressions,
+    )
+
+    all_pets = load_pet_presets()
+    assert len(all_pets) == 40
+    assert len(list_pet_presets("猫主子")) == 10
+    assert len(list_pet_presets("快乐修勾")) == 10
+    assert len(list_pet_presets("萌宠梗图")) == 10
+    assert len(list_pet_presets("萌宠祝福")) == 10
+    assert normalize_pet_category("猫咪") == "cat_boss"
+    assert normalize_pet_category("修勾") == "dog_happy"
+
+    for lang in ("zh-CN", "zh-TW", "en", "ko", "ja"):
+        dummy_job = JobConfig(
+            job_id=f"pet-check-{lang}",
+            source_image="pet.png",
+            output_dir="out",
+            language=lang,
+            pack_type="pet",
+        )
+        issues = language_issues(all_pets, dummy_job)
+        assert not issues, f"Language issues in pet presets for {lang}: {issues}"
+
+    planned = plan_pet_expressions(count=8, categories=["猫主子", "萌宠梗图"])
+    assert len(planned) == 8
+
+    bible = CharacterBible(
+        character_id="test_cat",
+        source_sha256="0" * 64,
+        reference_image="cat.png",
+        subject_type="pet-portrait",
+        identity_facts=["fluffy British Shorthair golden tabby cat with round green eyes"],
+        locked_attributes=["breed", "fur"],
+        master_anchor="anchor.png",
+    )
+    sp = build_pet_static_prompt(bible, planned[0], style="real-jp-airy")
+    assert "REAL-PET" in sp
+    assert "British Shorthair" in sp
+    sheet_p = build_pet_sprite_sheet_prompt(bible, planned[0])
+    assert "2x2 ANIMATION SPRITE SHEET" in sheet_p
+

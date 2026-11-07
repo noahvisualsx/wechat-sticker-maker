@@ -43,11 +43,13 @@ class JobConfig(BaseModel):
     bubble_animation: BubbleAnimation = "none"
     categories: Optional[List[str]] = None
     expression_ids: Optional[List[str]] = None
-    pack_type: Literal["expressions", "memes", "mixed", "duo"] = "expressions"
+    pack_type: Literal["expressions", "memes", "mixed", "duo", "pet"] = "expressions"
     partner_image: Optional[str] = None
     partner_facts: Optional[List[str]] = None
     duo_categories: Optional[List[str]] = None
     duo_ids: Optional[List[str]] = None
+    pet_categories: Optional[List[str]] = None
+    pet_ids: Optional[List[str]] = None
     meme_templates: Optional[List[str]] = None
     meme_categories: Optional[List[str]] = None
     meme_texts: Optional[Dict[str, str]] = None  # override main text of single-template memes
@@ -91,6 +93,8 @@ class JobConfig(BaseModel):
             self.language = infer_language_for_style(self.style)
         if (self.partner_image or self.duo_categories or self.duo_ids) and self.pack_type == "expressions":
             self.pack_type = "duo"
+        if (self.pet_categories or self.pet_ids or (self.subject_type and "pet" in self.subject_type.lower())) and self.pack_type == "expressions":
+            self.pack_type = "pet"
         if self.count < 1 or self.count > 120:
             raise ValueError(f"Count must be between 1 and 120, got {self.count}")
         if "wechat" in self.platforms and self.count not in WECHAT_ALLOWED_COUNTS:

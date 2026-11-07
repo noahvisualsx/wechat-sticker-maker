@@ -68,6 +68,9 @@ THEME_PACKS: Dict[str, Dict[str, object]] = {
     "双男主": {"pack_type": "duo", "duo_categories": ["yaoi"], "style": "real-blue-hour", "desc": "拽领带对视、西装背靠背、雨夜共撑黑伞双男主宿命感包"},
     "欢喜冤家": {"pack_type": "duo", "duo_categories": ["rivals"], "style": "real-variety-meme", "desc": "互相扯脸、弹脑门、偷喝奶茶、吵架秒和好相爱相杀双人包"},
     "亲子": {"pack_type": "duo", "duo_categories": ["family"], "style": "real-film-kodak-gold", "desc": "大小同款托腮、有姐在别怕、戳乖宝脸蛋家庭温情双人包"},
+    "猫主子": {"pack_type": "pet", "pet_categories": ["cat_boss", "pet_meme"], "style": "real-jp-airy", "desc": "蔑视眼神、飞机耳哈气、踩奶营业、讨罐罐全套真宠实拍猫主子包"},
+    "快乐修勾": {"pack_type": "pet", "pet_categories": ["dog_happy", "pet_meme"], "style": "real-film-kodak-gold", "desc": "歪头杀、飞奔接下班、吐舌傻笑、委屈垂耳全套真宠实拍修勾包"},
+    "AI冲浪梗": {"pack_type": "memes", "meme_categories": ["ai-meme", "chat-ui", "ban-warning"], "style": "real-cutout", "desc": "正在思考、Token耗尽、转账520、仅三天可见、已老实全套冲浪热梗包"},
 }
 
 MEME_CATEGORY_LABELS: Dict[str, Dict[str, str]] = {
@@ -169,10 +172,11 @@ def load_meme_templates(path: Path | None = None) -> List[ExpressionItem]:
 
 def get_item_by_id(item_id: str) -> ExpressionItem:
     from .duo import load_duo_presets
-    for it in load_all_presets() + load_meme_templates() + load_duo_presets():
+    from .pets import load_pet_presets
+    for it in load_all_presets() + load_meme_templates() + load_duo_presets() + load_pet_presets():
         if it.id == item_id:
             return it
-    raise ValueError(f"Unknown expression / meme / duo id: {item_id}")
+    raise ValueError(f"Unknown expression / meme / duo / pet id: {item_id}")
 
 
 def plan_memes(
@@ -211,6 +215,13 @@ def plan_pack(job: JobConfig, strict_counts: bool = True) -> List[ExpressionItem
             job.count,
             categories=job.duo_categories or job.categories,
             duo_ids=job.duo_ids or job.expression_ids,
+        )
+    if job.pack_type == "pet":
+        from .pets import plan_pet_expressions
+        return plan_pet_expressions(
+            job.count,
+            categories=job.pet_categories or job.categories,
+            pet_ids=job.pet_ids or job.expression_ids,
         )
     if job.pack_type == "memes":
         return plan_memes(job.count, job.meme_templates, job.meme_categories)

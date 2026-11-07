@@ -17,7 +17,7 @@
 [![Real Person Only](https://img.shields.io/badge/Subject-100%25%20Real%20Person%20Portrait-ff69b4.svg)](#内置-26-款真人专属风格referencesstyle-presetsjson)
 [![Styles](https://img.shields.io/badge/Photographic%20Styles-108%20Presets%20(General%20%7C%20KR%20%7C%20JP%20%7C%20CN)-blue.svg)](#内置-108-款真人专属风格referencesstyle-presetsjson)
 [![Duo Interactions](https://img.shields.io/badge/Two--Person%20Duo-168%20Presets%20(6%20Categories)-ff2d55.svg)](#内置-168-套真人双人互动表情包6-大关系referencesduo-presetsjson)
-[![Expressions & Memes](https://img.shields.io/badge/Catalog-220%20Expressions%20%7C%2060%20Memes%20%7C%2015%20Themes-success.svg)](#22-大类真人表情分类220-款)
+[![Expressions & Memes](https://img.shields.io/badge/Catalog-220%20Expressions%20%7C%2040%20Pets%20%7C%2060%20Memes%20%7C%2018%20Themes-success.svg)](#22-大类真人表情分类220-款)
 [![Languages](https://img.shields.io/badge/Single--Language%20Bubbles-zh--CN%20%7C%20zh--TW%20%7C%20en%20%7C%20ja%20%7C%20ko-orange.svg)](#7-种对话气泡与-5-种独立单语种支持)
 [![Platforms](https://img.shields.io/badge/Export-23%20Social%20Platforms-purple.svg)](#全平台自动分发与社交封面导出)
 
@@ -37,9 +37,13 @@
 - **168 套真人双人互动表情包（6 大关系：闺蜜 36 + 情侣 36 + 百合双女主 36 + 双男主/兄弟耽美 20 + 欢喜冤家/相爱相杀 20 + 亲子/姐弟萌娃 20）**：支持传入两张真人参考照（`-i personA.jpg -p personB.jpg --duo-category 闺蜜|情侣|百合|双男主|欢喜冤家|亲子`），锁定双人真实骨相与神态。
 - **22 大类 220 个单人高频动作（`references/expression-presets.json`）**：除基础问候/职场/撒娇外，完整覆盖 **🎮 开黑电竞**、**💖 追星打Call**、**🧧 搞钱暴富**、**🧋 干饭奶茶**、**📚 学生考研**、**🍵 阴阳怪气/茶艺**、**🌋 发疯精神状态**、**🐱 萌宠同框** 8 大热门聊天场景。
 - **60 款真人热梗与抽象图模板（`references/meme-templates.json`）**：涵盖 Claude 正在思考、检测到中国IP、再说话封你号、MBTI 快乐小狗/INTJ、赛博木鱼功德+1、社交电量 1%、微信转账 ¥520、60 秒语音方阵轰炸、已老实求放过、发疯指数 999%、尊嘟假嘟、偷感很重、硬控 10 秒、仅三天可见、已读不回、泼天的富贵、确诊恋爱脑、智商余额不足、禁止画饼、持证摸鱼、光速下班、AI 一本正经胡说八道等。
-- **15 套一键主题卡包（`wechat-sticker-maker themes` / `plan --theme <主题名>`）**：内置 `打工人`、`发疯`、`干饭`、`搞钱`、`电竞`、`追星`、`阴阳怪气`、`学生党`、`萌宠`、`闺蜜`、`情侣`、`百合`、`双男主`、`欢喜冤家`、`亲子` 15 套黄金配比卡包，一键自动匹配最佳摄影风格、动作分类与热梗。
-- **0 成本秒级改字/改气泡（`wechat-sticker-maker remix-text`）**：基于已生成的 `work/raw_static` 透明底图，0 Token、2 秒内自由替换任意表情的底部字幕或对话气泡，无需重新调用 AI 生图。
-- **小红书/抖音宣发海报 + 官方上架文案生成（`wechat-sticker-maker collage`）**：一键渲染小红书 `3:4` 封面海报、抖音/IG Story `9:16` 竖版海报、`1:1` 九宫格预览图，并自动生成中/英/韩/日四语种微信表情开放平台 / LINE / KakaoTalk 上架标题、一句话简介、致谢词与标签 (`submission-copy.json`)。
+- **40 款真宠实拍主角预设（`references/pet-presets.json` · 猫主子 10 + 快乐修勾 10 + 萌宠梗图 10 + 萌宠祝福 10）**：专为铲屎官打造的纯宠物主角实拍模式（`wechat-sticker-maker pets` / `plan --theme 猫主子|快乐修勾`），保留猫咪/小狗真实毛发质感、花色与品种特征，绝不画成卡通动物。
+- **18 套一键主题卡包（`wechat-sticker-maker themes` / `plan --theme <主题名>`）**：内置 `打工人`、`发疯`、`干饭`、`搞钱`、`电竞`、`追星`、`阴阳怪气`、`学生党`、`萌宠`、`猫主子`、`快乐修勾`、`AI冲浪梗`、`闺蜜`、`情侣`、`百合`、`双男主`、`欢喜冤家`、`亲子` 18 套黄金配比卡包，一键自动匹配最佳摄影风格、动作分类与热梗。
+- **0 成本秒级改字/改气泡（`wechat-sticker-maker remix-text`）+ 本地全栈可视化工作台（`wechat-sticker-maker serve`）**：基于已生成的 `work/raw_static` 透明底图，0 Token、2 秒内自由替换任意表情的底部字幕或对话气泡；支持启动本地 Web Server 在浏览器内在线调词与合成海报。
+- **小红书/抖音动态宣发海报 (`video`) + 微信表情开放平台全套过审包 (`wechat-kit`) + Telegram Bot 一键直发上架 (`publish-telegram`)**：
+  - `collage` / `video`：一键输出小红书 `3:4`、Story `9:16` 静态与**多帧动态波浪海报（GIF + WebP）**。
+  - `wechat-kit`：自动生成微信表情后台全套合规附件（详情页横幅 `750×400`、赞赏引导图 `750×560`、赞赏致谢图 `750×560`、艺术家头像 `300×300`、封面 `240×240`、图标 `50×50` 及填表指南 `submission_guide_zh.md`）。
+  - `publish-telegram`：直接通过 Telegram Bot API (`createNewStickerSet`) 一键将生成的贴纸包上架到 Telegram 并返回 `https://t.me/addstickers/...` 分享链接。
 - **一次生图 → 直出多语言整套分包（`--languages zh-CN,en,ja,ko`）**：AI 底图只需生成 1 次（省下 75% 额度与时间），Python 自动用零误差字体渲染分别输出全中文、全英文、全韩文、全日文等多套纯净单语种表情包；支持 `--language auto` 按风格自动匹配语种（韩系→韩语、日系→日语、中式→中文、通用→英语）。
 - **多模型生图后端 + 断点续跑 + 本地聊天实测页**：内置支持 OpenAI (`OPENAI_API_KEY`)、Google Gemini Nano Banana (`GEMINI_API_KEY`)、火山方舟 Seedream (`ARK_API_KEY`) 及 Codex / Claude Code 内置生图；支持 `--resume` 断点续跑与 `preview.html` 微信深浅色聊天实测网页。
 
@@ -312,11 +316,24 @@ wechat-sticker-maker remix-text \
   --set d73_yuri_chin_lift_gaze="姐姐只看我" \
   --bubble d73_yuri_chin_lift_gaze="心跳超标💗"
 
-# 一键输出小红书 3:4 封面海报、抖音/Story 9:16 竖版海报、九宫格及 4 国语言官方商店上架文案 JSON
+# 一键输出小红书 3:4 封面海报、抖音/Story 9:16 竖版海报、动态波浪海报 (GIF/WebP) 及微信表情后台全套过审附件
 wechat-sticker-maker collage \
-  --dir output/yuri-duo-pack \
+  --output output/yuri-duo-pack \
   --title "双女主宿命感贴贴包" \
-  --subtitle "100% 真人实拍 · 168套双人互动"
+  --subtitle "100% 真人实拍 · 168套双人互动" \
+  --animated \
+  --wechat-kit
+
+# 一键将表情包直接发布到 Telegram 并返回分享链接 (https://t.me/addstickers/...)
+wechat-sticker-maker publish-telegram \
+  --output output/yuri-duo-pack \
+  --name yuri_real_pack \
+  --title "双女主真人贴贴包" \
+  --user-id 123456789 \
+  --bot-token "$TELEGRAM_BOT_TOKEN"
+
+# 启动本地可视化交互工作台 (http://127.0.0.1:7860)
+wechat-sticker-maker serve --port 7860 --open
 ```
 
 ### 6. 单张真人梗图（60 款）& 在线交互式工作台
