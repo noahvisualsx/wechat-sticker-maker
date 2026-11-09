@@ -26,10 +26,15 @@ Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺
   - Styles only change lighting, color grading and mood. Face, face shape, eye size, hairstyle and outfit always stay as in the photo. When the user asks for "韩系 / 日系 / 中式", pick from that series; if no style is specified, use `real-cutout`.
 - Default count: 16 stickers; mode `both`; language `zh-CN`; platforms `wechat`.
 - Transparent background with crisp WeChat-style die-cut white border (`die_cut_border_px >= 4`); one unique file per expression; never substitute a collage.
+- **STRICT ANATOMY, FACIAL PROPORTION & CLEAN ALPHA GATE (`references/quality-standards.md` — ZERO TOLERANCE)**:
+  - **Limb & Hand Count Hard Lock**: Single person = strictly `<= 2` arms & `<= 2` hands (`1 left + 1 right`); Two-person duo = strictly `<= 4` arms & `<= 4` hands (`max 2 per person`). **NEVER generate a "3rd hand" or same-shoulder dual-arm split** (if an arm is raised to touch hair/head/cheek/prop, that side's sleeve MUST lift upward with it — NEVER draw a downward-hanging sleeve/arm at the side AND a second raised arm emerging from behind the same shoulder). Natural 5-finger human hands only; zero disembodied floating hands.
+  - **Craniofacial Aspect-Ratio Lock**: Preserve the exact facial width-to-height ratio (~`1:1.25`) from the reference photo(s). **NEVER vertically elongate/stretch the midface, nose bridge, philtrum, or chin ("no horse-face distortion")**; in two-person (`duo`) shots, overlap shoulders naturally by `15%–25%` instead of horizontally squishing faces.
+  - **Zero Baked-In Checkerboard**: Render raw cutouts on a flat solid `#FFFFFF` pure white studio backdrop or native RGBA `alpha=0` — **NEVER paint grey-and-white checkerboard squares into RGB pixels**.
+  - **Zero 2D Cartoon Symbols on Real Faces**: Express emotion with real human irises and facial muscles — NEVER draw `@_@` swirl eyes, star/heart/coin eyeball stickers, or anime lines.
 
 ## Workflow
 1. Identify the source portrait photo; check permissions and available tools (image generation, Python, ffmpeg).
-2. Read `references/character-consistency.md`; build the real-person character bible + neutral portrait anchor (Codex built-in image generation).
+2. Read `references/character-consistency.md` and `references/quality-standards.md`; build the real-person character bible + neutral portrait anchor (Codex built-in image generation).
 3. Plan expressions from `references/expression-presets.json` (220 expressions, 22 categories: greeting, positive, negative, surprise, reply, polite, love, praise, daily, work, meme, festival, status, social, gaming, fandom, wealth, foodie, campus, sassy, mental, pet_collab; motions in `references/motion-library.json`). Pick by `--theme`, `--categories`, `--expressions` or the curated defaults.
 4. Read `references/text-bubbles-and-languages.md`:
    - each expression has a text layout: `caption` (bottom text), `bubble` (speech bubble), `both`, or `none`;
@@ -37,15 +42,22 @@ Use when a user wants a set of real-person chat stickers / 真人表情包 / 闺
    - built-in captions for `zh-CN` / `zh-TW` / `en` / `ja` / `ko`; for any other language, export a template (`captions-template --language xx`), write natural colloquial translations yourself, pass `--captions-file`;
    - **ONE language per pack**: every caption, bubble and meme element on every sticker uses only the job language (`--language`). Never mix languages (no `"你好 / Hi there!"`). The pipeline refuses to run if a translation is missing or a text mixes languages; short acronyms in chat slang (`IP`, `CPU`, `OK`, `BAN`) are fine.
    - **Never ask the image model to draw text or bubbles.** Prompts reserve empty space; Python overlays text.
-5. Static stickers: generate each real-person pose with `build_static_prompt` (enforces `[REAL_PERSON_HARD_LOCK]` and layout composition hint).
+5. Static stickers: generate each real-person pose with `build_static_prompt` / `build_duo_static_prompt` (enforces `[REAL_PERSON_HARD_LOCK]`, `[ANATOMY & PROPORTION LOCK]`, `[CLEAN CUTOUT BACKGROUND RULE]`, and layout composition hint).
    Memes / abstract images (真人梗图、抽象图, 60 built-in templates in `references/meme-templates.json`, e.g. `"AI 正在思考"`, `"检测到中国IP"`, `"再说话封你号"`, `"MBTI快乐小狗"`, `"赛博木鱼功德+1"`, `"转账520"`, `"已老实求放过"`): read `references/memes.md`; use `--pack-type memes|mixed` or the one-shot `wechat-sticker-maker meme -t <template|alias> -i char.png -o out.gif`. AI draws only the real-person character; all meme UI/text/stamps/signs/filters are overlaid by code.
 6. Animated stickers — read `references/animation-policy.md`:
    - **STRICT BAN**: never animate by floating/bobbing/shaking one static image, scaling the caption, or warping/painting the face with PIL.
    - Use Codex built-in image generation to draw **real multi-frame human actions**: one `2×2` 4-frame action sheet (`build_sprite_sheet_prompt`) or 2–4 sequential keyframes referencing frame 1 (`build_keyframe_sequence_prompts`).
    - Assemble with `assemble_gif_from_sprite_sheet()` / `assemble_gif_from_keyframe_files()` or `wechat-sticker-maker assemble-gif`.
-7. Export — read `references/platform-export.md`. One master (720px) per sticker is exported to every platform in `references/platform-profiles.json` with correct size, margin, format (`PNG`/`WEBP`/`GIF`/`APNG`/`WEBM`/`MP4`), byte budget, frame/duration limits, pack assets and social showcase content.
-8. Validate: WeChat → `qa/report.md`; other platforms → `exports/<platform>/qa-report.md`. Fix any FAIL.
-9. Deliver individual files + per-platform ZIPs (`static-pack.zip`, `animated-pack.zip`, `exports/<platform>-pack.zip`) and the quality reports.
+7. **MANDATORY POST-GENERATION STRICT ANATOMY & 2× ZOOM AUDIT (NEVER SKIP)**:
+   - Immediately run `wechat-sticker-maker audit -o <out_dir> --strict` (or `wechat-sticker-maker audit -i <raw_image.png> [--duo]`), which checks for baked-in checkerboards, detached limb islands, vertical stretching, tiny distant figures, and `2×2` quadrant cross-bleed, and generates `<out_dir>/qa/strict-audit-sheet.jpg`.
+   - **Open and visually inspect `<out_dir>/qa/strict-audit-sheet.jpg`** (check both the `2x Face & Shoulders` and `2x Sleeves & Hands` zoom panels against the reference photo):
+     1. Count every shoulder, sleeve, and arm (`<= 2` per person; confirm ZERO hanging-sleeve + raised-arm duplication and ZERO 6-finger or disembodied hands);
+     2. Check facial width-to-height ratio (confirm ZERO vertical midface/chin elongation or horizontal duo squishing);
+     3. Confirm 100% real eyes/skin and clean transparency (ZERO grey/white checkerboard squares).
+   - If ANY sticker fails programmatic or visual red-lines, **immediately regenerate it** with targeted corrective instructions (`wechat-sticker-maker regenerate -j <out_dir>/job.json --item <id> --defect third_hand_or_extra_limb,stretched_or_warped_face,baked_checkerboard` or re-run Codex image generation with the `Suggested Corrective Retry Prompt Block` from `audit`) and re-audit until `0` failures remain.
+8. Export — read `references/platform-export.md`. One master (720px) per sticker is exported to every platform in `references/platform-profiles.json` with correct size, margin, format (`PNG`/`WEBP`/`GIF`/`APNG`/`WEBM`/`MP4`), byte budget, frame/duration limits, pack assets and social showcase content.
+9. Validate: WeChat → `qa/report.md` (`wechat-sticker-maker validate -o <out_dir> --strict`); other platforms → `exports/<platform>/qa-report.md`. Fix any FAIL.
+10. Deliver individual files + per-platform ZIPs (`static-pack.zip`, `animated-pack.zip`, `exports/<platform>-pack.zip`) and the quality reports.
 
 ## CLI quick reference
 ```bash
@@ -57,7 +69,10 @@ wechat-sticker-maker expressions --language ko          # browse 220 single-pers
 wechat-sticker-maker memes --language zh-CN             # browse 60 real-person meme templates
 wechat-sticker-maker plan -i photo1.jpg -p photo2.jpg --duo-category 百合 -o out \
   --style real-kr-idol-selfie --language auto --languages zh-CN,en,ja,ko --count 16
-wechat-sticker-maker generate -j out/job.json --provider auto
+wechat-sticker-maker generate -j out/job.json --provider auto --strict-qa
+wechat-sticker-maker audit -o out --strict               # run strict anatomy/checkerboard QA + generate 2x zoom sheet
+wechat-sticker-maker regenerate -j out/job.json --item d03_bestie_hype_queen \
+  --defect third_hand_or_extra_limb,stretched_or_warped_face
 wechat-sticker-maker remix-text -j out/job.json --set d73_yuri_chin_lift_gaze="姐姐只看我"
 wechat-sticker-maker collage -o out --title "双女主贴贴包" --animated --wechat-kit
 wechat-sticker-maker publish-telegram -o out --name my_real_pack --title "My Real Pack" --dry-run

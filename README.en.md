@@ -294,6 +294,12 @@ wechat-sticker-maker plan \
   --output output/yuri-duo-pack
 
 wechat-sticker-maker generate --job output/yuri-duo-pack/job.json
+
+# Strict Anatomy & Facial-Proportion QA Gate (Zero 3rd Hands / Stretched Faces / Baked Checkerboards)
+# Generates qa/strict-audit-sheet.jpg with 2x Face, Shoulder & Hand zoom panels (--vlm enables Vision API verification)
+wechat-sticker-maker audit -o output/yuri-duo-pack --strict
+wechat-sticker-maker regenerate -j output/yuri-duo-pack/job.json --item d03_bestie_hype_queen \
+  --defect third_hand_or_extra_limb,stretched_or_warped_face,baked_checkerboard
 ```
 
 ## Testing

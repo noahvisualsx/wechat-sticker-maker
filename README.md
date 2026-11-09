@@ -351,6 +351,21 @@ wechat-sticker-maker meme -t 已老实 -i photo.jpg -o output/behaving.gif
 open docs/index.html
 ```
 
+### 7. 严苛解剖与比例质检门禁（防第三只手 / 防拉长脸 / 防伪透明棋盘格）
+
+遵循 [`references/quality-standards.md`](references/quality-standards.md) 八维红线规范，自动拦截画入式灰白棋盘格、悬浮断手残肢、纵向拉长变形与 `2×2` 穿帮，并输出 **2× 脸部/双肩/手部放大三联质检卡** (`qa/strict-audit-sheet.jpg`)：
+
+```bash
+# 对整个输出目录执行严苛质检并生成 qa/strict-audit-sheet.jpg（加 --vlm 可调用视觉大模型复核手臂数量与脸部比例）
+wechat-sticker-maker audit -o output/yuri-duo-pack --strict
+
+# 针对单张有瑕疵的表情携带红线纠偏指令重新生成
+wechat-sticker-maker regenerate \
+  -j output/yuri-duo-pack/job.json \
+  --item d03_bestie_hype_queen \
+  --defect third_hand_or_extra_limb,stretched_or_warped_face,baked_checkerboard
+```
+
 ## 测试
 
 ```bash

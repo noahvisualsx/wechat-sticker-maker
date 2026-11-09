@@ -7,6 +7,7 @@ from typing import List, Optional
 from PIL import Image
 
 from ..schemas import ValidationCheck
+from .anatomy import detect_baked_checkerboard
 
 
 def check_visual_safety(
@@ -22,6 +23,9 @@ def check_visual_safety(
     try:
         with Image.open(path) as img:
             rgba = img.convert("RGBA")
+            checker_chk = detect_baked_checkerboard(rgba, target_label=rel_path)
+            checker_chk.name = f"{check_name_prefix}: Fake Checkerboard Check"
+            checks.append(checker_chk)
             w, h = rgba.size
             alpha = rgba.getchannel("A")
             bbox = alpha.getbbox()

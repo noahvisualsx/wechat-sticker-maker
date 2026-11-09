@@ -274,6 +274,11 @@ wechat-sticker-maker plan \
   --output output/yuri-duo-pack
 
 wechat-sticker-maker generate --job output/yuri-duo-pack/job.json
+
+# 엄격한 인체 해부학 및 얼굴 비율 품질 검수 (제3의 손 / 얼굴 늘어남 / 가짜 체크무늬 배경 차단 + 2배 확대 검수 시트 생성)
+wechat-sticker-maker audit -o output/yuri-duo-pack --strict
+wechat-sticker-maker regenerate -j output/yuri-duo-pack/job.json --item d03_bestie_hype_queen \
+  --defect third_hand_or_extra_limb,stretched_or_warped_face,baked_checkerboard
 ```
 
 ## 테스트

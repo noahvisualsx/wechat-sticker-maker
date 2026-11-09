@@ -97,7 +97,7 @@
     "caption": "绝美！",
     "mood": "besties: 暴风夸夸给跪",
     "category": "besties",
-    "static_pose": "Two-person real-photo portrait sticker cutout: Person A striking a confident model pose while Person B hype-claps and holds up a phone taking photos with starry-eyed admiration. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A smiling with confident poise (one hand resting on her hip, the other relaxed down at her side — strictly 2 arms) while Person B holds up a smartphone with one hand to take Person A's photo and raises her other open hand in an excited cheering gesture with bright admiring eyes. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, natural facial width-to-height proportions, hairstyles, and outfits from their reference photos (strictly max 2 arms per person, <=4 arms total).",
     "text_layout": "bubble",
     "captions": {
       "zh-CN": "绝美！",
@@ -124,10 +124,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1 (anticipation): Person A striking a confident model pose while Person B hype-claps and holds up a phone taking photos with starry-eyed admiration — initial eye contact and beginning of the gesture.",
-        "Frame 2 (approach): Person A striking a confident model pose while Person B hype-claps and holds up a phone taking photos with starry-eyed admiration — both real people leaning closer into the interaction with natural micro-expression change.",
-        "Frame 3 (peak apex): Person A striking a confident model pose while Person B hype-claps and holds up a phone taking photos with starry-eyed admiration — peak expressive moment of the interaction with vivid eyes and hand gesture.",
-        "Frame 4 (settle): Person A striking a confident model pose while Person B hype-claps and holds up a phone taking photos with starry-eyed admiration — warm follow-through smile while keeping lower torso baseline stable."
+        "Frame 1 (anticipation): Person A smiling with confident poise (one hand resting on her hip, the other relaxed down at her side — strictly 2 arms) while Person B holds up a smartphone with one hand to take Person A's photo and raises her other open hand in an excited cheering gesture with bright admiring eyes — initial eye contact and beginning of the gesture (<=2 arms per person).",
+        "Frame 2 (approach): Person A smiling with confident poise (one hand resting on her hip, the other relaxed down at her side — strictly 2 arms) while Person B holds up a smartphone with one hand to take Person A's photo and raises her other open hand in an excited cheering gesture with bright admiring eyes — both real people leaning into the interaction with natural micro-expression change.",
+        "Frame 3 (peak apex): Person A smiling with confident poise (one hand resting on her hip, the other relaxed down at her side — strictly 2 arms) while Person B holds up a smartphone with one hand to take Person A's photo and raises her other open hand in an excited cheering gesture with bright admiring eyes — peak expressive moment of the interaction with vivid real eyes and clean hand gesture.",
+        "Frame 4 (settle): Person A smiling with confident poise (one hand resting on her hip, the other relaxed down at her side — strictly 2 arms) while Person B holds up a smartphone with one hand to take Person A's photo and raises her other open hand in an excited cheering gesture with bright admiring eyes — warm follow-through expression while keeping lower torso baseline and shoulder anatomy stable."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1799,7 +1799,7 @@
     "caption": "不准逃",
     "mood": "couple: 心动壁咚对视",
     "category": "couple",
-    "static_pose": "Two-person real-photo portrait sticker cutout: Person B leaning in with one hand placed forward in a romantic kabedon pose, gazing into Person A's blushing face. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B leaning in close at a warm three-quarter angle with one hand resting gently on Person A's shoulder, gazing fondly into Person A's blushing smiling face. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, natural facial width-to-height proportions, hairstyles, and outfits from their reference photos (strictly max 2 arms per person, <=4 arms total).",
     "text_layout": "bubble",
     "captions": {
       "zh-CN": "不准逃",
@@ -1826,10 +1826,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1 (anticipation): Person B leaning in with one hand placed forward in a romantic kabedon pose, gazing into Person A's blushing face — initial eye contact and beginning of the gesture.",
-        "Frame 2 (approach): Person B leaning in with one hand placed forward in a romantic kabedon pose, gazing into Person A's blushing face — both real people leaning closer into the interaction with natural micro-expression change.",
-        "Frame 3 (peak apex): Person B leaning in with one hand placed forward in a romantic kabedon pose, gazing into Person A's blushing face — peak expressive moment of the interaction with vivid eyes and hand gesture.",
-        "Frame 4 (settle): Person B leaning in with one hand placed forward in a romantic kabedon pose, gazing into Person A's blushing face — warm follow-through smile while keeping lower torso baseline stable."
+        "Frame 1 (anticipation): Person B leaning in close at a warm three-quarter angle with one hand resting gently on Person A's shoulder, gazing fondly into Person A's blushing smiling face — initial eye contact and beginning of the gesture (<=2 arms per person).",
+        "Frame 2 (approach): Person B leaning in close at a warm three-quarter angle with one hand resting gently on Person A's shoulder, gazing fondly into Person A's blushing smiling face — both real people leaning into the interaction with natural micro-expression change.",
+        "Frame 3 (peak apex): Person B leaning in close at a warm three-quarter angle with one hand resting gently on Person A's shoulder, gazing fondly into Person A's blushing smiling face — peak expressive moment of the interaction with vivid real eyes and clean hand gesture.",
+        "Frame 4 (settle): Person B leaning in close at a warm three-quarter angle with one hand resting gently on Person A's shoulder, gazing fondly into Person A's blushing smiling face — warm follow-through expression while keeping lower torso baseline and shoulder anatomy stable."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3409,7 +3409,7 @@
     "caption": "心跳好快...",
     "mood": "yuri: 清冷姐姐壁咚甜妹",
     "category": "yuri",
-    "static_pose": "Two-person real-photo portrait sticker cutout: Cool poised Woman B leaning in for a gentle kabedon while sweet Woman A blushes softly looking up into her eyes. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Cool poised Woman B leaning in close with one arm gently around Woman A's shoulder and the other hand softly near Woman A's jawline, while Woman A blushes softly looking up into her eyes. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, natural facial width-to-height proportions, hairstyles, and outfits from their reference photos (strictly max 2 arms per person, <=4 arms total).",
     "text_layout": "bubble",
     "captions": {
       "zh-CN": "心跳好快...",
@@ -3436,10 +3436,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1 (anticipation): Cool poised Woman B leaning in for a gentle kabedon while sweet Woman A blushes softly looking up into her eyes — initial eye contact and beginning of the gesture.",
-        "Frame 2 (approach): Cool poised Woman B leaning in for a gentle kabedon while sweet Woman A blushes softly looking up into her eyes — both real people leaning closer into the interaction with natural micro-expression change.",
-        "Frame 3 (peak apex): Cool poised Woman B leaning in for a gentle kabedon while sweet Woman A blushes softly looking up into her eyes — peak expressive moment of the interaction with vivid eyes and hand gesture.",
-        "Frame 4 (settle): Cool poised Woman B leaning in for a gentle kabedon while sweet Woman A blushes softly looking up into her eyes — warm follow-through smile while keeping lower torso baseline stable."
+        "Frame 1 (anticipation): Cool poised Woman B leaning in close with one arm gently around Woman A's shoulder and the other hand softly near Woman A's jawline, while Woman A blushes softly looking up into her eyes — initial eye contact and beginning of the gesture (<=2 arms per person).",
+        "Frame 2 (approach): Cool poised Woman B leaning in close with one arm gently around Woman A's shoulder and the other hand softly near Woman A's jawline, while Woman A blushes softly looking up into her eyes — both real people leaning into the interaction with natural micro-expression change.",
+        "Frame 3 (peak apex): Cool poised Woman B leaning in close with one arm gently around Woman A's shoulder and the other hand softly near Woman A's jawline, while Woman A blushes softly looking up into her eyes — peak expressive moment of the interaction with vivid real eyes and clean hand gesture.",
+        "Frame 4 (settle): Cool poised Woman B leaning in close with one arm gently around Woman A's shoulder and the other hand softly near Woman A's jawline, while Woman A blushes softly looking up into her eyes — warm follow-through expression while keeping lower torso baseline and shoulder anatomy stable."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -5072,7 +5072,7 @@
       "ja": "俺の言う通りにして"
     },
     "mood": "yaoi: 单手撑墙低声耳语",
-    "static_pose": "Two-person real-photo portrait sticker cutout: Person B leaning one hand against the wall beside Person A and whispering low near his ear. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person B leaning in close beside Person A with one hand resting lightly on Person A's shoulder, whispering low near his ear with a subtle knowing smirk. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, natural facial width-to-height proportions, hairstyles, and outfits from their reference photos (strictly max 2 arms per person, <=4 arms total).",
     "text_layout": "bubble",
     "bubble": {
       "texts": {
@@ -5093,10 +5093,10 @@
       "loop": "pingpong",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1 (top-left): Starting pose — Person B leaning one hand against the wall beside Person A and whispering low near his ear. Both real people maintain exact facial likeness.",
-        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (单手撑墙低声耳语), natural eye blink and warm micro-expressions.",
-        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '单手撑墙低声耳语', authentic chemistry and lively hand/head movement.",
-        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+        "Frame 1 (anticipation): Person B leaning in close beside Person A with one hand resting lightly on Person A's shoulder, whispering low near his ear with a subtle knowing smirk — initial eye contact and beginning of the gesture (<=2 arms per person).",
+        "Frame 2 (approach): Person B leaning in close beside Person A with one hand resting lightly on Person A's shoulder, whispering low near his ear with a subtle knowing smirk — both real people leaning into the interaction with natural micro-expression change.",
+        "Frame 3 (peak apex): Person B leaning in close beside Person A with one hand resting lightly on Person A's shoulder, whispering low near his ear with a subtle knowing smirk — peak expressive moment of the interaction with vivid real eyes and clean hand gesture.",
+        "Frame 4 (settle): Person B leaning in close beside Person A with one hand resting lightly on Person A's shoulder, whispering low near his ear with a subtle knowing smirk — warm follow-through expression while keeping lower torso baseline and shoulder anatomy stable."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -5900,7 +5900,7 @@
       "ja": "お互い様でしょ!"
     },
     "mood": "rivals: 互相扯脸颊肉较劲",
-    "static_pose": "Two-person real-photo portrait sticker cutout: Person A and Person B pinching and stretching each other's cheeks at the same time with funny competitive faces. Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, hairstyles, and outfits from their reference photos.",
+    "static_pose": "Two-person real-photo portrait sticker cutout: Person A and Person B angled slightly toward each other, each using their near inner hand to playfully pinch the other's facing cheek with funny squished expressions (each person's outer arm relaxed naturally at their side). Faithfully preserve BOTH Person A and Person B's exact real facial features, bone structure, real skin texture, natural facial width-to-height proportions, hairstyles, and outfits from their reference photos (strictly max 2 arms per person, <=4 arms total).",
     "text_layout": "caption",
     "bubble": {
       "texts": {
@@ -5921,10 +5921,10 @@
       "loop": "pingpong",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1 (top-left): Starting pose — Person A and Person B pinching and stretching each other's cheeks at the same time with funny competitive faces. Both real people maintain exact facial likeness.",
-        "Frame 2 (top-right): Mid-motion — Both people lean slightly closer into the interaction (互相扯脸颊肉较劲), natural eye blink and warm micro-expressions.",
-        "Frame 3 (bottom-left): Peak interaction — Full expressive peak of '互相扯脸颊肉较劲', authentic chemistry and lively hand/head movement.",
-        "Frame 4 (bottom-right): Settling back smoothly toward Frame 1 for a seamless loop."
+        "Frame 1 (anticipation): Person A and Person B angled slightly toward each other, each using their near inner hand to playfully pinch the other's facing cheek with funny squished expressions (each person's outer arm relaxed naturally at their side) — initial eye contact and beginning of the gesture (<=2 arms per person).",
+        "Frame 2 (approach): Person A and Person B angled slightly toward each other, each using their near inner hand to playfully pinch the other's facing cheek with funny squished expressions (each person's outer arm relaxed naturally at their side) — both real people leaning into the interaction with natural micro-expression change.",
+        "Frame 3 (peak apex): Person A and Person B angled slightly toward each other, each using their near inner hand to playfully pinch the other's facing cheek with funny squished expressions (each person's outer arm relaxed naturally at their side) — peak expressive moment of the interaction with vivid real eyes and clean hand gesture.",
+        "Frame 4 (settle): Person A and Person B angled slightly toward each other, each using their near inner hand to playfully pinch the other's facing cheek with funny squished expressions (each person's outer arm relaxed naturally at their side) — warm follow-through expression while keeping lower torso baseline and shoulder anatomy stable."
       ],
       "stationary_parts": [
         "lower_torso",

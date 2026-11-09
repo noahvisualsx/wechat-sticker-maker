@@ -884,10 +884,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws raised beside the head, palms facing forward; eyes open, a wide delighted grin; lower body stays in place.",
-        "Frame 2: Both hands/paws swaying to the left; eyes in a quick natural blink, a wide delighted grin; lower body stays in place.",
-        "Frame 3: Both hands/paws swung wide to the right at full stretch; eyes sparkling with happy tears of reunion, mouth open in a joyful shout; lower body stays in place.",
-        "Frame 4: Both hands/paws swinging back to center beside the head; eyes open again, a wide delighted grin; lower body stays in place."
+        "Frame 1: Both hands raised beside the head, palms facing forward; eyes open, a wide delighted grin; lower body stays in place.",
+        "Frame 2: Both hands swaying to the left; eyes in a quick natural blink, a wide delighted grin; lower body stays in place.",
+        "Frame 3: Both hands swung wide to the right at full stretch; eyes sparkling with happy tears of reunion, mouth open in a joyful shout; lower body stays in place.",
+        "Frame 4: Both hands swinging back to center beside the head; eyes open again, a wide delighted grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -960,10 +960,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised at shoulder height, palm out; eyes open, a friendly closed-mouth smile; lower body stays in place.",
-        "Frame 2: The hand/paw swinging inward; eyes in a quick natural blink, a friendly closed-mouth smile; lower body stays in place.",
-        "Frame 3: The hand/paw swung wide to the side in a big wave; eyes in a playful wink, mouth in a bright cheerful grin; lower body stays in place.",
-        "Frame 4: The hand/paw swinging back; eyes open again, a friendly closed-mouth smile; lower body stays in place."
+        "Frame 1: One hand raised at shoulder height, palm out; eyes open, a friendly closed-mouth smile; lower body stays in place.",
+        "Frame 2: The hand swinging inward; eyes in a quick natural blink, a friendly closed-mouth smile; lower body stays in place.",
+        "Frame 3: The hand swung wide to the side in a big wave; eyes in a playful wink, mouth in a bright cheerful grin; lower body stays in place.",
+        "Frame 4: The hand swinging back; eyes open again, a friendly closed-mouth smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -998,7 +998,7 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Slight crouch with hands/paws tucked near the chest; eyes open, an excited open smile; lower body stays in place.",
+        "Frame 1: Slight crouch with hands tucked near the chest; eyes open, an excited open smile; lower body stays in place.",
         "Frame 2: Springing up with arms starting to rise; eyes in a quick natural blink, an excited open smile; lower body stays in place.",
         "Frame 3: Fully stretched upward with both arms thrown high; eyes wide and shining, mouth open in a big happy cheer; lower body stays in place.",
         "Frame 4: Settling back down with arms lowering, feet back on the same spot; eyes open again, an excited open smile; lower body stays in place."
@@ -1032,10 +1032,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws cradling a cup at chest height; eyes open, a calm contented smile; lower body stays in place.",
-        "Frame 2: Both hands/paws raising the cup toward the chin; eyes in a quick natural blink, a calm contented smile; lower body stays in place.",
-        "Frame 3: Both hands/paws tilting the cup at the lips mid-sip; eyes softly closed in bliss, mouth gently sipping with a satisfied sigh; lower body stays in place.",
-        "Frame 4: Both hands/paws lowering the cup back to chest height; eyes open again, a calm contented smile; lower body stays in place."
+        "Frame 1: Both hands cradling a cup at chest height; eyes open, a calm contented smile; lower body stays in place.",
+        "Frame 2: Both hands raising the cup toward the chin; eyes in a quick natural blink, a calm contented smile; lower body stays in place.",
+        "Frame 3: Both hands tilting the cup at the lips mid-sip; eyes softly closed in bliss, mouth gently sipping with a satisfied sigh; lower body stays in place.",
+        "Frame 4: Both hands lowering the cup back to chest height; eyes open again, a calm contented smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1111,10 +1111,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Hands/paws on hips, chest neutral; eyes open, a confident little smirk; lower body stays in place.",
-        "Frame 2: Hands/paws on hips, chest puffing out, chin rising; eyes in a quick natural blink, a confident little smirk; lower body stays in place.",
-        "Frame 3: Hands/paws firmly on hips, chest fully puffed, chin held high; eyes closed proudly, mouth in a big self-satisfied grin, nose in the air; lower body stays in place.",
-        "Frame 4: Hands/paws still on hips, chest relaxing slightly; eyes open again, a confident little smirk; lower body stays in place."
+        "Frame 1: Hands on hips, chest neutral; eyes open, a confident little smirk; lower body stays in place.",
+        "Frame 2: Hands on hips, chest puffing out, chin rising; eyes in a quick natural blink, a confident little smirk; lower body stays in place.",
+        "Frame 3: Hands firmly on hips, chest fully puffed, chin held high; eyes closed proudly, mouth in a big self-satisfied grin, nose in the air; lower body stays in place.",
+        "Frame 4: Hands still on hips, chest relaxing slightly; eyes open again, a confident little smirk; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1145,10 +1145,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised near the forehead; eyes open, a tense wobbly smile; lower body stays in place.",
-        "Frame 2: The back of the hand/paw sweeping across the brow; eyes in a quick natural blink, a tense wobbly smile; lower body stays in place.",
-        "Frame 3: The hand/paw flicked outward after wiping, shoulders dropping in relief; eyes closed in relief, mouth letting out a long relaxed sigh; lower body stays in place.",
-        "Frame 4: The hand/paw drifting back toward the forehead; eyes open again, a tense wobbly smile; lower body stays in place."
+        "Frame 1: One hand raised near the forehead; eyes open, a tense wobbly smile; lower body stays in place.",
+        "Frame 2: The back of the hand sweeping across the brow; eyes in a quick natural blink, a tense wobbly smile; lower body stays in place.",
+        "Frame 3: The hand flicked outward after wiping, shoulders dropping in relief; eyes closed in relief, mouth letting out a long relaxed sigh; lower body stays in place.",
+        "Frame 4: The hand drifting back toward the forehead; eyes open again, a tense wobbly smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1179,8 +1179,8 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding sunglasses just below the eyes; eyes open, a cool half-smile; lower body stays in place.",
-        "Frame 2: The hand/paw sliding the sunglasses up toward the eyes; eyes in a quick natural blink, a cool half-smile; lower body stays in place.",
+        "Frame 1: One hand holding sunglasses just below the eyes; eyes open, a cool half-smile; lower body stays in place.",
+        "Frame 2: The hand sliding the sunglasses up toward the eyes; eyes in a quick natural blink, a cool half-smile; lower body stays in place.",
         "Frame 3: The sunglasses settled on the face with a finger pushing the bridge, a tiny glint flashing; eyes hidden behind the glinting sunglasses, mouth in a confident smirk; lower body stays in place.",
         "Frame 4: The finger lowering slightly from the sunglasses bridge; eyes open again, a cool half-smile; lower body stays in place."
       ],
@@ -1248,10 +1248,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised near the mouth; eyes open, a sly little smile; lower body stays in place.",
+        "Frame 1: One hand raised near the mouth; eyes open, a sly little smile; lower body stays in place.",
         "Frame 2: Fingertips covering the mouth, shoulders lifting; eyes in a quick natural blink, a sly little smile; lower body stays in place.",
-        "Frame 3: The hand/paw pressed over the mouth, shoulders shaking with suppressed giggles; eyes squeezed into mischievous crescents, mouth hidden in a giggle; lower body stays in place.",
-        "Frame 4: The hand/paw easing slightly away from the mouth; eyes open again, a sly little smile; lower body stays in place."
+        "Frame 3: The hand pressed over the mouth, shoulders shaking with suppressed giggles; eyes squeezed into mischievous crescents, mouth hidden in a giggle; lower body stays in place.",
+        "Frame 4: The hand easing slightly away from the mouth; eyes open again, a sly little smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1316,10 +1316,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a red heart at the chest; eyes open, a quivering frown; lower body stays in place.",
-        "Frame 2: Hands/paws trembling as a jagged crack runs down the heart; eyes in a quick natural blink, a quivering frown; lower body stays in place.",
-        "Frame 3: Hands/paws holding the heart split into two halves; eyes brimming with tears, mouth in a wobbly devastated frown; lower body stays in place.",
-        "Frame 4: Hands/paws lowering slightly with the halves drooping; eyes open again, a quivering frown; lower body stays in place."
+        "Frame 1: Both hands holding a red heart at the chest; eyes open, a quivering frown; lower body stays in place.",
+        "Frame 2: Hands trembling as a jagged crack runs down the heart; eyes in a quick natural blink, a quivering frown; lower body stays in place.",
+        "Frame 3: Hands holding the heart split into two halves; eyes brimming with tears, mouth in a wobbly devastated frown; lower body stays in place.",
+        "Frame 4: Hands lowering slightly with the halves drooping; eyes open again, a quivering frown; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1385,10 +1385,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a handkerchief near the mouth; eyes open, a clenched envious pout; lower body stays in place.",
-        "Frame 2: Hands/paws tugging the handkerchief sideways; eyes in a quick natural blink, a clenched envious pout; lower body stays in place.",
-        "Frame 3: The handkerchief bitten and pulled taut in both hands/paws; eyes narrowed with envious tears, teeth biting hard on the handkerchief; lower body stays in place.",
-        "Frame 4: Hands/paws loosening the handkerchief near the mouth; eyes open again, a clenched envious pout; lower body stays in place."
+        "Frame 1: Both hands holding a handkerchief near the mouth; eyes open, a clenched envious pout; lower body stays in place.",
+        "Frame 2: Hands tugging the handkerchief sideways; eyes in a quick natural blink, a clenched envious pout; lower body stays in place.",
+        "Frame 3: The handkerchief bitten and pulled taut in both hands; eyes narrowed with envious tears, teeth biting hard on the handkerchief; lower body stays in place.",
+        "Frame 4: Hands loosening the handkerchief near the mouth; eyes open again, a clenched envious pout; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1468,7 +1468,7 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws gripping the edge of a small table in front; eyes open, gritted teeth; lower body stays in place.",
+        "Frame 1: Both hands gripping the edge of a small table in front; eyes open, gritted teeth; lower body stays in place.",
         "Frame 2: Arms rising as the table edge lifts; eyes in a quick natural blink, gritted teeth; lower body stays in place.",
         "Frame 3: Arms flung high as the small table flips over in front; eyes blazing with fury, mouth wide open in an angry roar; lower body stays in place.",
         "Frame 4: Arms lowering, the table settled back in front; eyes open again, gritted teeth; lower body stays in place."
@@ -1537,10 +1537,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Hands/paws clasped under the chin; eyes open, a downturned trembling mouth; lower body stays in place.",
-        "Frame 2: Hands/paws trembling under the chin as tears well up; eyes in a quick natural blink, a downturned trembling mouth; lower body stays in place.",
-        "Frame 3: Hands/paws clutching the cheeks, two streams of tears pouring from the eyes; eyes overflowing with two streams of tears, mouth in a heartbroken wobble; lower body stays in place.",
-        "Frame 4: Hands/paws sliding back under the chin, tears thinning; eyes open again, a downturned trembling mouth; lower body stays in place."
+        "Frame 1: Hands clasped under the chin; eyes open, a downturned trembling mouth; lower body stays in place.",
+        "Frame 2: Hands trembling under the chin as tears well up; eyes in a quick natural blink, a downturned trembling mouth; lower body stays in place.",
+        "Frame 3: Hands clutching the cheeks, two streams of tears pouring from the eyes; eyes overflowing with two streams of tears, mouth in a heartbroken wobble; lower body stays in place.",
+        "Frame 4: Hands sliding back under the chin, tears thinning; eyes open again, a downturned trembling mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1575,7 +1575,7 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Hands/paws raised beside the face; eyes open, a small surprised mouth; lower body stays in place.",
+        "Frame 1: Hands raised beside the face; eyes open, a small surprised mouth; lower body stays in place.",
         "Frame 2: Palms touching the cheeks; eyes in a quick natural blink, a small surprised mouth; lower body stays in place.",
         "Frame 3: Palms pressing the cheeks hard, elbows out; eyes huge with tiny pupils, mouth dropped wide open in a gasp; lower body stays in place.",
         "Frame 4: Palms easing off the cheeks; eyes open again, a small surprised mouth; lower body stays in place."
@@ -1609,10 +1609,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw scratching the side of the head; eyes open, a crooked confused mouth; lower body stays in place.",
-        "Frame 2: The hand/paw paused at the head as a small curly question-mark symbol appears above; eyes in a quick natural blink, a crooked confused mouth; lower body stays in place.",
-        "Frame 3: Both hands/paws up in a puzzled shrug, three curly question-mark symbols floating above; eyes blank dots, mouth in a wavy baffled line; lower body stays in place.",
-        "Frame 4: One hand/paw back to scratching the head as the symbols fade; eyes open again, a crooked confused mouth; lower body stays in place."
+        "Frame 1: One hand scratching the side of the head; eyes open, a crooked confused mouth; lower body stays in place.",
+        "Frame 2: The hand paused at the head as a small curly question-mark symbol appears above; eyes in a quick natural blink, a crooked confused mouth; lower body stays in place.",
+        "Frame 3: Both hands up in a puzzled shrug, three curly question-mark symbols floating above; eyes blank dots, mouth in a wavy baffled line; lower body stays in place.",
+        "Frame 4: One hand back to scratching the head as the symbols fade; eyes open again, a crooked confused mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1647,9 +1647,9 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws raised in loose fists near the eyes; eyes open, a slightly open stunned mouth; lower body stays in place.",
+        "Frame 1: Both hands raised in loose fists near the eyes; eyes open, a slightly open stunned mouth; lower body stays in place.",
         "Frame 2: Fists rubbing the eyes; eyes in a quick natural blink, a slightly open stunned mouth; lower body stays in place.",
-        "Frame 3: Hands/paws dropped open in front of the chest, staring in disbelief; eyes popped wide in disbelief, jaw hanging open; lower body stays in place.",
+        "Frame 3: Hands dropped open in front of the chest, staring in disbelief; eyes popped wide in disbelief, jaw hanging open; lower body stays in place.",
         "Frame 4: Fists rising back toward the eyes; eyes open again, a slightly open stunned mouth; lower body stays in place."
       ],
       "stationary_parts": [
@@ -1685,10 +1685,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Hands/paws clutched together at the chest; eyes open, a wobbly frightened mouth; lower body stays in place.",
-        "Frame 2: Hands/paws clutched, arms and shoulders jittering slightly left; eyes in a quick natural blink, a wobbly frightened mouth; lower body stays in place.",
-        "Frame 3: Hands/paws clenched tight, the whole upper body shaking with wobble lines; eyes wide and watery with shrunken pupils, teeth chattering; lower body stays in place.",
-        "Frame 4: Hands/paws still clutched, the jitter easing to the right; eyes open again, a wobbly frightened mouth; lower body stays in place."
+        "Frame 1: Hands clutched together at the chest; eyes open, a wobbly frightened mouth; lower body stays in place.",
+        "Frame 2: Hands clutched, arms and shoulders jittering slightly left; eyes in a quick natural blink, a wobbly frightened mouth; lower body stays in place.",
+        "Frame 3: Hands clenched tight, the whole upper body shaking with wobble lines; eyes wide and watery with shrunken pupils, teeth chattering; lower body stays in place.",
+        "Frame 4: Hands still clutched, the jitter easing to the right; eyes open again, a wobbly frightened mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1719,8 +1719,8 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Hands/paws loose at the sides, wobbling; eyes open, a woozy open mouth; lower body stays in place.",
-        "Frame 2: One hand/paw to the forehead, upper body tilting back; eyes in a quick natural blink, a woozy open mouth; lower body stays in place.",
+        "Frame 1: Hands loose at the sides, wobbling; eyes open, a woozy open mouth; lower body stays in place.",
+        "Frame 2: One hand to the forehead, upper body tilting back; eyes in a quick natural blink, a woozy open mouth; lower body stays in place.",
         "Frame 3: Arms flopped open, upper body leaned far back, dizzy spiral marks above; eyes turned into dizzy swirls, mouth slack with tongue peeking out; lower body stays in place.",
         "Frame 4: Arms loose, upper body swaying back toward upright; eyes open again, a woozy open mouth; lower body stays in place."
       ],
@@ -1833,10 +1833,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised to shoulder height; eyes open, a sunny smile; lower body stays in place.",
+        "Frame 1: One hand raised to shoulder height; eyes open, a sunny smile; lower body stays in place.",
         "Frame 2: Fingers curling into a circle; eyes in a quick natural blink, a sunny smile; lower body stays in place.",
-        "Frame 3: A clear OK hand/paw sign held up beside the face; eyes in a cheerful wink, mouth in a bright grin; lower body stays in place.",
-        "Frame 4: The OK hand/paw sign lowering a little; eyes open again, a sunny smile; lower body stays in place."
+        "Frame 3: A clear OK hand sign held up beside the face; eyes in a cheerful wink, mouth in a bright grin; lower body stays in place.",
+        "Frame 4: The OK hand sign lowering a little; eyes open again, a sunny smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -1871,7 +1871,7 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw under the chin, other arm across the waist; eyes open, pursed thoughtful lips; lower body stays in place.",
+        "Frame 1: One hand under the chin, other arm across the waist; eyes open, pursed thoughtful lips; lower body stays in place.",
         "Frame 2: Fingers tapping the chin, gaze drifting upward; eyes in a quick natural blink, pursed thoughtful lips; lower body stays in place.",
         "Frame 3: Index finger pressed to the chin, head tilted, deep in thought; eyes looking up and to the side, mouth twisted in deep thought; lower body stays in place.",
         "Frame 4: Fingers relaxing under the chin; eyes open again, pursed thoughtful lips; lower body stays in place."
@@ -1905,8 +1905,8 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw under the chin; eyes open, a curious small mouth; lower body stays in place.",
-        "Frame 2: The hand/paw lifting, index finger starting to rise; eyes in a quick natural blink, a curious small mouth; lower body stays in place.",
+        "Frame 1: One hand under the chin; eyes open, a curious small mouth; lower body stays in place.",
+        "Frame 2: The hand lifting, index finger starting to rise; eyes in a quick natural blink, a curious small mouth; lower body stays in place.",
         "Frame 3: Index finger pointing up as a glowing lightbulb pops above the head; eyes lit up wide with realization, mouth open in an excited aha; lower body stays in place.",
         "Frame 4: The finger lowering as the lightbulb glow softens; eyes open again, a curious small mouth; lower body stays in place."
       ],
@@ -1943,10 +1943,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Hands/paws resting at the sides, upright; eyes open, a small curious open mouth; lower body stays in place.",
-        "Frame 2: Hands/paws rising as the upper body leans toward the viewer; eyes in a quick natural blink, a small curious open mouth; lower body stays in place.",
-        "Frame 3: Hands/paws cupped near the cheeks, face close to the viewer; eyes huge and sparkling with curiosity, mouth in an eager little o; lower body stays in place.",
-        "Frame 4: Hands/paws lowering as the upper body eases back; eyes open again, a small curious open mouth; lower body stays in place."
+        "Frame 1: Hands resting at the sides, upright; eyes open, a small curious open mouth; lower body stays in place.",
+        "Frame 2: Hands rising as the upper body leans toward the viewer; eyes in a quick natural blink, a small curious open mouth; lower body stays in place.",
+        "Frame 3: Hands cupped near the cheeks, face close to the viewer; eyes huge and sparkling with curiosity, mouth in an eager little o; lower body stays in place.",
+        "Frame 4: Hands lowering as the upper body eases back; eyes open again, a small curious open mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2015,10 +2015,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a phone at the ear, other hand at the side; eyes open, a lively talking smile; lower body stays in place.",
-        "Frame 2: The free hand/paw lifting in a talking gesture; eyes in a quick natural blink, a lively talking smile; lower body stays in place.",
-        "Frame 3: The free hand/paw pointing at the viewer, phone still at the ear; eyes in a playful wink, mouth open mid-sentence; lower body stays in place.",
-        "Frame 4: The free hand/paw lowering back; eyes open again, a lively talking smile; lower body stays in place."
+        "Frame 1: One hand holding a phone at the ear, other hand at the side; eyes open, a lively talking smile; lower body stays in place.",
+        "Frame 2: The free hand lifting in a talking gesture; eyes in a quick natural blink, a lively talking smile; lower body stays in place.",
+        "Frame 3: The free hand pointing at the viewer, phone still at the ear; eyes in a playful wink, mouth open mid-sentence; lower body stays in place.",
+        "Frame 4: The free hand lowering back; eyes open again, a lively talking smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2050,10 +2050,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Hands/paws together in front of the waist, upright; eyes open, an apologetic wobbly mouth; lower body stays in place.",
-        "Frame 2: Hands/paws together as the upper body bends forward halfway; eyes in a quick natural blink, an apologetic wobbly mouth; lower body stays in place.",
-        "Frame 3: Hands/paws at the knees, upper body bowed deeply, head lowered; eyes squeezed shut with a guilty tear, mouth in a sincere apology; lower body stays in place.",
-        "Frame 4: Hands/paws together as the upper body rises halfway; eyes open again, an apologetic wobbly mouth; lower body stays in place."
+        "Frame 1: Hands together in front of the waist, upright; eyes open, an apologetic wobbly mouth; lower body stays in place.",
+        "Frame 2: Hands together as the upper body bends forward halfway; eyes in a quick natural blink, an apologetic wobbly mouth; lower body stays in place.",
+        "Frame 3: Hands at the knees, upper body bowed deeply, head lowered; eyes squeezed shut with a guilty tear, mouth in a sincere apology; lower body stays in place.",
+        "Frame 4: Hands together as the upper body rises halfway; eyes open again, an apologetic wobbly mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2088,10 +2088,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Hands/paws relaxed in front, head level; eyes open, a gracious soft smile; lower body stays in place.",
-        "Frame 2: Hands/paws relaxed, head dipping forward; eyes in a quick natural blink, a gracious soft smile; lower body stays in place.",
-        "Frame 3: Hands/paws relaxed, head at the lowest point of a firm nod; eyes closed gently, mouth in a modest warm smile; lower body stays in place.",
-        "Frame 4: Hands/paws relaxed, head lifting back up; eyes open again, a gracious soft smile; lower body stays in place."
+        "Frame 1: Hands relaxed in front, head level; eyes open, a gracious soft smile; lower body stays in place.",
+        "Frame 2: Hands relaxed, head dipping forward; eyes in a quick natural blink, a gracious soft smile; lower body stays in place.",
+        "Frame 3: Hands relaxed, head at the lowest point of a firm nod; eyes closed gently, mouth in a modest warm smile; lower body stays in place.",
+        "Frame 4: Hands relaxed, head lifting back up; eyes open again, a gracious soft smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2126,10 +2126,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw at shoulder height, palm forward; eyes open, a timid little smile; lower body stays in place.",
-        "Frame 2: The hand/paw rising higher; eyes in a quick natural blink, a timid little smile; lower body stays in place.",
-        "Frame 3: The hand/paw raised high above the head; eyes glancing sideways nervously with a sweat drop, mouth in an awkward smile; lower body stays in place.",
-        "Frame 4: The hand/paw lowering slightly; eyes open again, a timid little smile; lower body stays in place."
+        "Frame 1: One hand at shoulder height, palm forward; eyes open, a timid little smile; lower body stays in place.",
+        "Frame 2: The hand rising higher; eyes in a quick natural blink, a timid little smile; lower body stays in place.",
+        "Frame 3: The hand raised high above the head; eyes glancing sideways nervously with a sweat drop, mouth in an awkward smile; lower body stays in place.",
+        "Frame 4: The hand lowering slightly; eyes open again, a timid little smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2171,9 +2171,9 @@
       "amplitude": "medium",
       "keyframe_poses": [
         "Frame 1: One fist pressed into the other open palm at chest height; eyes open, a beaming grin; lower body stays in place.",
-        "Frame 2: The clasped hands/paws pushing forward; eyes in a quick natural blink, a beaming grin; lower body stays in place.",
-        "Frame 3: The clasped hands/paws shaking forward with a small bow of the head; eyes curved in delighted gratitude, mouth wide in a flattering laugh; lower body stays in place.",
-        "Frame 4: The clasped hands/paws drawing back to the chest; eyes open again, a beaming grin; lower body stays in place."
+        "Frame 2: The clasped hands pushing forward; eyes in a quick natural blink, a beaming grin; lower body stays in place.",
+        "Frame 3: The clasped hands shaking forward with a small bow of the head; eyes curved in delighted gratitude, mouth wide in a flattering laugh; lower body stays in place.",
+        "Frame 4: The clasped hands drawing back to the chest; eyes open again, a beaming grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2204,10 +2204,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Hands/paws together in front of the chest; eyes open, a warm caring smile; lower body stays in place.",
-        "Frame 2: Hands/paws together as the head and shoulders dip; eyes in a quick natural blink, a warm caring smile; lower body stays in place.",
-        "Frame 3: Hands/paws together at the lowest point of a gentle bow; eyes softly closed, mouth in a kind thankful smile; lower body stays in place.",
-        "Frame 4: Hands/paws together as the upper body rises; eyes open again, a warm caring smile; lower body stays in place."
+        "Frame 1: Hands together in front of the chest; eyes open, a warm caring smile; lower body stays in place.",
+        "Frame 2: Hands together as the head and shoulders dip; eyes in a quick natural blink, a warm caring smile; lower body stays in place.",
+        "Frame 3: Hands together at the lowest point of a gentle bow; eyes softly closed, mouth in a kind thankful smile; lower body stays in place.",
+        "Frame 4: Hands together as the upper body rises; eyes open again, a warm caring smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2277,9 +2277,9 @@
       "amplitude": "medium",
       "keyframe_poses": [
         "Frame 1: Fingertips touching the lips; eyes open, puckered lips; lower body stays in place.",
-        "Frame 2: The hand/paw starting to move away from the lips; eyes in a quick natural blink, puckered lips; lower body stays in place.",
-        "Frame 3: The hand/paw flung outward toward the viewer, a small heart floating away; one eye winking, lips puckered in a kiss with a heart floating away; lower body stays in place.",
-        "Frame 4: The hand/paw returning toward the lips; eyes open again, puckered lips; lower body stays in place."
+        "Frame 2: The hand starting to move away from the lips; eyes in a quick natural blink, puckered lips; lower body stays in place.",
+        "Frame 3: The hand flung outward toward the viewer, a small heart floating away; one eye winking, lips puckered in a kiss with a heart floating away; lower body stays in place.",
+        "Frame 4: The hand returning toward the lips; eyes open again, puckered lips; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2310,10 +2310,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised near the cheek; eyes open, a sweet smile; lower body stays in place.",
+        "Frame 1: One hand raised near the cheek; eyes open, a sweet smile; lower body stays in place.",
         "Frame 2: Thumb and index finger beginning to cross; eyes in a quick natural blink, a sweet smile; lower body stays in place.",
         "Frame 3: A crisp finger heart pushed toward the viewer, a tiny heart popping above; one eye in a cute wink, mouth in a sweet beaming smile; lower body stays in place.",
-        "Frame 4: The hand/paw drawing back toward the cheek; eyes open again, a sweet smile; lower body stays in place."
+        "Frame 4: The hand drawing back toward the cheek; eyes open again, a sweet smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2348,10 +2348,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Hands/paws clasped near the chin; eyes open, a shy blushing smile; lower body stays in place.",
-        "Frame 2: Hands/paws at the chin, leaning forward slightly; eyes in a quick natural blink, a shy blushing smile; lower body stays in place.",
-        "Frame 3: Hands/paws at the chin, leaning in with small hearts floating around; eyes closed blissfully, lips puckered for a big kiss, cheeks rosy; lower body stays in place.",
-        "Frame 4: Hands/paws still clasped, leaning back; eyes open again, a shy blushing smile; lower body stays in place."
+        "Frame 1: Hands clasped near the chin; eyes open, a shy blushing smile; lower body stays in place.",
+        "Frame 2: Hands at the chin, leaning forward slightly; eyes in a quick natural blink, a shy blushing smile; lower body stays in place.",
+        "Frame 3: Hands at the chin, leaning in with small hearts floating around; eyes closed blissfully, lips puckered for a big kiss, cheeks rosy; lower body stays in place.",
+        "Frame 4: Hands still clasped, leaning back; eyes open again, a shy blushing smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2417,8 +2417,8 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws raised to the chest; eyes open, a cheerful smile; lower body stays in place.",
-        "Frame 2: Hands/paws forming the two halves of a heart; eyes in a quick natural blink, a cheerful smile; lower body stays in place.",
+        "Frame 1: Both hands raised to the chest; eyes open, a cheerful smile; lower body stays in place.",
+        "Frame 2: Hands forming the two halves of a heart; eyes in a quick natural blink, a cheerful smile; lower body stays in place.",
         "Frame 3: A big heart shape made with both arms over the head; eyes curved happily, mouth in a big loving grin; lower body stays in place.",
         "Frame 4: Arms lowering back to the chest; eyes open again, a cheerful smile; lower body stays in place."
       ],
@@ -2441,7 +2441,7 @@
       "ko": "설렘"
     },
     "mood": "smitten",
-    "static_pose": "holding a pulsing pink heart at the chest, blushing starry eyes",
+    "static_pose": "holding a pulsing pink heart at the chest, blushing bright admiring real eyes",
     "text_layout": "none",
     "bubble": null,
     "motion": {
@@ -2451,10 +2451,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a pink heart at the chest; eyes open, a shy smitten smile; lower body stays in place.",
-        "Frame 2: The hands/paws holding the heart as it shrinks slightly; eyes in a quick natural blink, a shy smitten smile; lower body stays in place.",
-        "Frame 3: The hands/paws holding the heart as it pulses big and glowing; eyes turned into little hearts, cheeks deeply blushing, mouth in a giddy smile; lower body stays in place.",
-        "Frame 4: The hands/paws holding the heart as it settles; eyes open again, a shy smitten smile; lower body stays in place."
+        "Frame 1: Both hands holding a pink heart at the chest; eyes open, a shy smitten smile; lower body stays in place.",
+        "Frame 2: The hands holding the heart as it shrinks slightly; eyes in a quick natural blink, a shy smitten smile; lower body stays in place.",
+        "Frame 3: The hands holding the heart as it pulses big and glowing; eyes turned into little hearts, cheeks deeply blushing, mouth in a giddy smile; lower body stays in place.",
+        "Frame 4: The hands holding the heart as it settles; eyes open again, a shy smitten smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2485,10 +2485,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised at shoulder height; eyes open, an impressed grin; lower body stays in place.",
-        "Frame 2: The hand/paw extending thumb and pinky in a six gesture; eyes in a quick natural blink, an impressed grin; lower body stays in place.",
-        "Frame 3: The hand/paw shaking the six gesture toward the viewer with sparkles; eyes wide with admiration, mouth open in an impressed whoa; lower body stays in place.",
-        "Frame 4: The hand/paw easing back; eyes open again, an impressed grin; lower body stays in place."
+        "Frame 1: One hand raised at shoulder height; eyes open, an impressed grin; lower body stays in place.",
+        "Frame 2: The hand extending thumb and pinky in a six gesture; eyes in a quick natural blink, an impressed grin; lower body stays in place.",
+        "Frame 3: The hand shaking the six gesture toward the viewer with sparkles; eyes wide with admiration, mouth open in an impressed whoa; lower body stays in place.",
+        "Frame 4: The hand easing back; eyes open again, an impressed grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2519,10 +2519,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Hands/paws apart in front of the chest; eyes open, a beaming smile; lower body stays in place.",
-        "Frame 2: Hands/paws moving together; eyes in a quick natural blink, a beaming smile; lower body stays in place.",
+        "Frame 1: Hands apart in front of the chest; eyes open, a beaming smile; lower body stays in place.",
+        "Frame 2: Hands moving together; eyes in a quick natural blink, a beaming smile; lower body stays in place.",
         "Frame 3: Palms meeting in a clap with small burst lines; eyes curved in delight, mouth open cheering; lower body stays in place.",
-        "Frame 4: Hands/paws opening apart again; eyes open again, a beaming smile; lower body stays in place."
+        "Frame 4: Hands opening apart again; eyes open again, a beaming smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2591,7 +2591,7 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised beside the shoulder; eyes open, an amazed open smile; lower body stays in place.",
+        "Frame 1: One hand raised beside the shoulder; eyes open, an amazed open smile; lower body stays in place.",
         "Frame 2: The arm extending forward; eyes in a quick natural blink, an amazed open smile; lower body stays in place.",
         "Frame 3: Index finger pointed straight at the viewer; eyes sparkling with admiration, mouth wide in an excited shout; lower body stays in place.",
         "Frame 4: The arm drawing back slightly; eyes open again, an amazed open smile; lower body stays in place."
@@ -2629,8 +2629,8 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding pompoms at the hips; eyes open, an encouraging smile; lower body stays in place.",
-        "Frame 2: One hand/paw raising a pompom beside the head; eyes in a quick natural blink, an encouraging smile; lower body stays in place.",
+        "Frame 1: Both hands holding pompoms at the hips; eyes open, an encouraging smile; lower body stays in place.",
+        "Frame 2: One hand raising a pompom beside the head; eyes in a quick natural blink, an encouraging smile; lower body stays in place.",
         "Frame 3: Both arms throwing the pompoms high overhead; eyes bright and determined, mouth open in an energetic cheer; lower body stays in place.",
         "Frame 4: Both arms bringing the pompoms down to shoulder height; eyes open again, an encouraging smile; lower body stays in place."
       ],
@@ -2664,10 +2664,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw rising toward the brow; eyes open, a firm serious mouth; lower body stays in place.",
-        "Frame 2: The hand/paw at the brow, fingers together; eyes in a quick natural blink, a firm serious mouth; lower body stays in place.",
-        "Frame 3: The hand/paw held in a crisp salute at the brow, chest out; eyes sharp and respectful, mouth set in a proud firm line; lower body stays in place.",
-        "Frame 4: The saluting hand/paw relaxing a little; eyes open again, a firm serious mouth; lower body stays in place."
+        "Frame 1: One hand rising toward the brow; eyes open, a firm serious mouth; lower body stays in place.",
+        "Frame 2: The hand at the brow, fingers together; eyes in a quick natural blink, a firm serious mouth; lower body stays in place.",
+        "Frame 3: The hand held in a crisp salute at the brow, chest out; eyes sharp and respectful, mouth set in a proud firm line; lower body stays in place.",
+        "Frame 4: The saluting hand relaxing a little; eyes open again, a firm serious mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2688,7 +2688,7 @@
       "ko": "미쳤다!"
     },
     "mood": "worshipful",
-    "static_pose": "bowing low with arms stretched forward in exaggerated worship, starry eyes",
+    "static_pose": "chest-up portrait giving enthusiastic double thumbs-up with bright amazed real eyes and an impressed wide smile",
     "text_layout": "both",
     "bubble": {
       "shape": "shout",
@@ -2742,7 +2742,7 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding chopsticks over a bowl held by the other hand; eyes open, an eager hungry smile; lower body stays in place.",
+        "Frame 1: One hand holding chopsticks over a bowl held by the other hand; eyes open, an eager hungry smile; lower body stays in place.",
         "Frame 2: The chopsticks lifting noodles toward the mouth; eyes in a quick natural blink, an eager hungry smile; lower body stays in place.",
         "Frame 3: The chopsticks holding noodles being slurped into the mouth; eyes closed in delicious bliss, cheeks puffed while slurping; lower body stays in place.",
         "Frame 4: The chopsticks dipping back to the bowl; eyes open again, an eager hungry smile; lower body stays in place."
@@ -2777,10 +2777,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws resting on the tummy; eyes open, a droopy hungry mouth; lower body stays in place.",
-        "Frame 2: Hands/paws circling on the tummy; eyes in a quick natural blink, a droopy hungry mouth; lower body stays in place.",
-        "Frame 3: Hands/paws pressed to the tummy, shoulders hunched; eyes teary and pleading, mouth open with a little drool drop; lower body stays in place.",
-        "Frame 4: Hands/paws circling back; eyes open again, a droopy hungry mouth; lower body stays in place."
+        "Frame 1: Both hands resting on the tummy; eyes open, a droopy hungry mouth; lower body stays in place.",
+        "Frame 2: Hands circling on the tummy; eyes in a quick natural blink, a droopy hungry mouth; lower body stays in place.",
+        "Frame 3: Hands pressed to the tummy, shoulders hunched; eyes teary and pleading, mouth open with a little drool drop; lower body stays in place.",
+        "Frame 4: Hands circling back; eyes open again, a droopy hungry mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2811,10 +2811,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws cradling a cup at chest height; eyes open, a tired flat mouth; lower body stays in place.",
-        "Frame 2: Both hands/paws raising the cup toward the chin; eyes in a quick natural blink, a tired flat mouth; lower body stays in place.",
-        "Frame 3: Both hands/paws tilting the cup at the lips mid-sip; eyes half-closed with dark circles, mouth sipping as a tiny spark of energy returns; lower body stays in place.",
-        "Frame 4: Both hands/paws lowering the cup back to chest height; eyes open again, a tired flat mouth; lower body stays in place."
+        "Frame 1: Both hands cradling a cup at chest height; eyes open, a tired flat mouth; lower body stays in place.",
+        "Frame 2: Both hands raising the cup toward the chin; eyes in a quick natural blink, a tired flat mouth; lower body stays in place.",
+        "Frame 3: Both hands tilting the cup at the lips mid-sip; eyes half-closed with dark circles, mouth sipping as a tiny spark of energy returns; lower body stays in place.",
+        "Frame 4: Both hands lowering the cup back to chest height; eyes open again, a tired flat mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2846,10 +2846,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: A towel draped on the head, hands/paws holding a scrub brush; eyes open, a happy humming smile; lower body stays in place.",
-        "Frame 2: The hands/paws scrubbing one shoulder as soap foam appears; eyes in a quick natural blink, a happy humming smile; lower body stays in place.",
-        "Frame 3: The hands/paws scrubbing high behind the head, soap foam puffs everywhere; eyes closed contentedly, mouth humming a tune among soap foam; lower body stays in place.",
-        "Frame 4: The hands/paws moving the brush back to the shoulder; eyes open again, a happy humming smile; lower body stays in place."
+        "Frame 1: A towel draped on the head, hands holding a scrub brush; eyes open, a happy humming smile; lower body stays in place.",
+        "Frame 2: The hands scrubbing one shoulder as soap foam appears; eyes in a quick natural blink, a happy humming smile; lower body stays in place.",
+        "Frame 3: The hands scrubbing high behind the head, soap foam puffs everywhere; eyes closed contentedly, mouth humming a tune among soap foam; lower body stays in place.",
+        "Frame 4: The hands moving the brush back to the shoulder; eyes open again, a happy humming smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2881,10 +2881,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding shopping bags at the sides; eyes open, a thrilled grin; lower body stays in place.",
-        "Frame 2: The hands/paws lifting the bags up; eyes in a quick natural blink, a thrilled grin; lower body stays in place.",
+        "Frame 1: Both hands holding shopping bags at the sides; eyes open, a thrilled grin; lower body stays in place.",
+        "Frame 2: The hands lifting the bags up; eyes in a quick natural blink, a thrilled grin; lower body stays in place.",
         "Frame 3: Both arms raising the bags high in triumph; eyes sparkling with excitement, mouth open in a gleeful laugh; lower body stays in place.",
-        "Frame 4: The hands/paws lowering the bags; eyes open again, a thrilled grin; lower body stays in place."
+        "Frame 4: The hands lowering the bags; eyes open again, a thrilled grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2916,10 +2916,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws gripping a game controller at chest height; eyes open, a focused mouth with tongue poking out; lower body stays in place.",
+        "Frame 1: Both hands gripping a game controller at chest height; eyes open, a focused mouth with tongue poking out; lower body stays in place.",
         "Frame 2: Thumbs mashing buttons, the controller tilting left; eyes in a quick natural blink, a focused mouth with tongue poking out; lower body stays in place.",
-        "Frame 3: Hands/paws jerking the controller to the right in an intense moment; eyes narrowed in intense focus, teeth gritted in concentration; lower body stays in place.",
-        "Frame 4: Hands/paws tilting the controller back; eyes open again, a focused mouth with tongue poking out; lower body stays in place."
+        "Frame 3: Hands jerking the controller to the right in an intense moment; eyes narrowed in intense focus, teeth gritted in concentration; lower body stays in place.",
+        "Frame 4: Hands tilting the controller back; eyes open again, a focused mouth with tongue poking out; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2951,10 +2951,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a dumbbell at the waist; eyes open, a determined tight mouth; lower body stays in place.",
-        "Frame 2: The hand/paw curling the dumbbell halfway up; eyes in a quick natural blink, a determined tight mouth; lower body stays in place.",
-        "Frame 3: The hand/paw curling the dumbbell to the shoulder, bicep bulging; eyes squeezed with effort and sweat drops, teeth clenched powerfully; lower body stays in place.",
-        "Frame 4: The hand/paw lowering the dumbbell; eyes open again, a determined tight mouth; lower body stays in place."
+        "Frame 1: One hand holding a dumbbell at the waist; eyes open, a determined tight mouth; lower body stays in place.",
+        "Frame 2: The hand curling the dumbbell halfway up; eyes in a quick natural blink, a determined tight mouth; lower body stays in place.",
+        "Frame 3: The hand curling the dumbbell to the shoulder, bicep bulging; eyes squeezed with effort and sweat drops, teeth clenched powerfully; lower body stays in place.",
+        "Frame 4: The hand lowering the dumbbell; eyes open again, a determined tight mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -2986,8 +2986,8 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw near the mouth; eyes open, a sleepy droopy mouth; lower body stays in place.",
-        "Frame 2: The hand/paw covering the mouth; eyes in a quick natural blink, a sleepy droopy mouth; lower body stays in place.",
+        "Frame 1: One hand near the mouth; eyes open, a sleepy droopy mouth; lower body stays in place.",
+        "Frame 2: The hand covering the mouth; eyes in a quick natural blink, a sleepy droopy mouth; lower body stays in place.",
         "Frame 3: Arms stretched out in a big yawn, a tear at the eye corner; eyes squeezed shut, mouth wide open in a huge yawn; lower body stays in place.",
         "Frame 4: Arms dropping back down; eyes open again, a sleepy droopy mouth; lower body stays in place."
       ],
@@ -3054,10 +3054,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Hands/paws relaxed in front, head level; eyes open, a polite closed-mouth smile; lower body stays in place.",
-        "Frame 2: Hands/paws relaxed, head dipping forward; eyes in a quick natural blink, a polite closed-mouth smile; lower body stays in place.",
-        "Frame 3: Hands/paws relaxed, head at the lowest point of a firm nod; eyes glazing over while nodding along, mouth in a stiff polite smile; lower body stays in place.",
-        "Frame 4: Hands/paws relaxed, head lifting back up; eyes open again, a polite closed-mouth smile; lower body stays in place."
+        "Frame 1: Hands relaxed in front, head level; eyes open, a polite closed-mouth smile; lower body stays in place.",
+        "Frame 2: Hands relaxed, head dipping forward; eyes in a quick natural blink, a polite closed-mouth smile; lower body stays in place.",
+        "Frame 3: Hands relaxed, head at the lowest point of a firm nod; eyes glazing over while nodding along, mouth in a stiff polite smile; lower body stays in place.",
+        "Frame 4: Hands relaxed, head lifting back up; eyes open again, a polite closed-mouth smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3143,10 +3143,10 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Hands/paws holding a fan of paper bills; eyes open, a huge greedy grin; lower body stays in place.",
-        "Frame 2: Hands/paws tossing some bills upward; eyes in a quick natural blink, a huge greedy grin; lower body stays in place.",
+        "Frame 1: Hands holding a fan of paper bills; eyes open, a huge greedy grin; lower body stays in place.",
+        "Frame 2: Hands tossing some bills upward; eyes in a quick natural blink, a huge greedy grin; lower body stays in place.",
         "Frame 3: Arms flung up as bills rain down; eyes turned into shiny coins, mouth wide open laughing; lower body stays in place.",
-        "Frame 4: Hands/paws catching falling bills; eyes open again, a huge greedy grin; lower body stays in place."
+        "Frame 4: Hands catching falling bills; eyes open again, a huge greedy grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3187,10 +3187,10 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Hands/paws hovering beside the head; eyes open, a panicked wobbly mouth; lower body stays in place.",
-        "Frame 2: Hands/paws clutching the head; eyes in a quick natural blink, a panicked wobbly mouth; lower body stays in place.",
-        "Frame 3: Hands/paws gripping the head, sweat drops flying; eyes spinning in panic, mouth wide open screaming; lower body stays in place.",
-        "Frame 4: Hands/paws loosening on the head; eyes open again, a panicked wobbly mouth; lower body stays in place."
+        "Frame 1: Hands hovering beside the head; eyes open, a panicked wobbly mouth; lower body stays in place.",
+        "Frame 2: Hands clutching the head; eyes in a quick natural blink, a panicked wobbly mouth; lower body stays in place.",
+        "Frame 3: Hands gripping the head, sweat drops flying; eyes spinning in panic, mouth wide open screaming; lower body stays in place.",
+        "Frame 4: Hands loosening on the head; eyes open again, a panicked wobbly mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3221,9 +3221,9 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a phone at chest height; eyes open, a sneaky smug smile; lower body stays in place.",
+        "Frame 1: Both hands holding a phone at chest height; eyes open, a sneaky smug smile; lower body stays in place.",
         "Frame 2: A thumb swiping up on the screen; eyes in a quick natural blink, a sneaky smug smile; lower body stays in place.",
-        "Frame 3: The hands/paws tilting the phone closer to the face mid-swipe; eyes darting sideways to check nobody is watching, mouth in a sly grin; lower body stays in place.",
+        "Frame 3: The hands tilting the phone closer to the face mid-swipe; eyes darting sideways to check nobody is watching, mouth in a sly grin; lower body stays in place.",
         "Frame 4: The thumb returning; eyes open again, a sneaky smug smile; lower body stays in place."
       ],
       "stationary_parts": [
@@ -3256,10 +3256,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding an open book; eyes open, a focused small mouth; lower body stays in place.",
-        "Frame 2: One hand/paw turning a page; eyes in a quick natural blink, a focused small mouth; lower body stays in place.",
-        "Frame 3: The hands/paws raising the book closer, page mid-turn; eyes intent behind round glasses, mouth murmuring along quietly; lower body stays in place.",
-        "Frame 4: The hands/paws settling the page; eyes open again, a focused small mouth; lower body stays in place."
+        "Frame 1: Both hands holding an open book; eyes open, a focused small mouth; lower body stays in place.",
+        "Frame 2: One hand turning a page; eyes in a quick natural blink, a focused small mouth; lower body stays in place.",
+        "Frame 3: The hands raising the book closer, page mid-turn; eyes intent behind round glasses, mouth murmuring along quietly; lower body stays in place.",
+        "Frame 4: The hands settling the page; eyes open again, a focused small mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3291,10 +3291,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a pen over a notebook; eyes open, a stressed tight mouth; lower body stays in place.",
-        "Frame 2: The hand/paw moving the pen across the page; eyes in a quick natural blink, a stressed tight mouth; lower body stays in place.",
-        "Frame 3: The hand/paw scribbling fast with motion lines; eyes bloodshot and wide, mouth clenched with sweat drops flying; lower body stays in place.",
-        "Frame 4: The hand/paw lifting the pen slightly; eyes open again, a stressed tight mouth; lower body stays in place."
+        "Frame 1: One hand holding a pen over a notebook; eyes open, a stressed tight mouth; lower body stays in place.",
+        "Frame 2: The hand moving the pen across the page; eyes in a quick natural blink, a stressed tight mouth; lower body stays in place.",
+        "Frame 3: The hand scribbling fast with motion lines; eyes bloodshot and wide, mouth clenched with sweat drops flying; lower body stays in place.",
+        "Frame 4: The hand lifting the pen slightly; eyes open again, a stressed tight mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3326,7 +3326,7 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Hands/paws over a laptop keyboard; eyes open, an intense tight-lipped mouth; lower body stays in place.",
+        "Frame 1: Hands over a laptop keyboard; eyes open, an intense tight-lipped mouth; lower body stays in place.",
         "Frame 2: Fingers tapping on the left keys; eyes in a quick natural blink, an intense tight-lipped mouth; lower body stays in place.",
         "Frame 3: Fingers blurring across the keys with motion lines; eyes blazing with focus, mouth in a fierce determined line; lower body stays in place.",
         "Frame 4: Fingers tapping on the right keys; eyes open again, an intense tight-lipped mouth; lower body stays in place."
@@ -3442,10 +3442,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a watermelon slice; eyes open, a nosy chewing mouth; lower body stays in place.",
-        "Frame 2: The hands/paws raising the slice toward the mouth; eyes in a quick natural blink, a nosy chewing mouth; lower body stays in place.",
-        "Frame 3: The hands/paws holding the slice as a big bite is taken; eyes wide and gossip-hungry, cheeks full mid-bite; lower body stays in place.",
-        "Frame 4: The hands/paws lowering the slice; eyes open again, a nosy chewing mouth; lower body stays in place."
+        "Frame 1: Both hands holding a watermelon slice; eyes open, a nosy chewing mouth; lower body stays in place.",
+        "Frame 2: The hands raising the slice toward the mouth; eyes in a quick natural blink, a nosy chewing mouth; lower body stays in place.",
+        "Frame 3: The hands holding the slice as a big bite is taken; eyes wide and gossip-hungry, cheeks full mid-bite; lower body stays in place.",
+        "Frame 4: The hands lowering the slice; eyes open again, a nosy chewing mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3546,7 +3546,7 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw rising toward the face; eyes open, a grimacing mouth; lower body stays in place.",
+        "Frame 1: One hand rising toward the face; eyes open, a grimacing mouth; lower body stays in place.",
         "Frame 2: The palm reaching the forehead; eyes in a quick natural blink, a grimacing mouth; lower body stays in place.",
         "Frame 3: The palm planted over the face, head bowed; eyes hidden behind the palm, mouth in a long-suffering grimace; lower body stays in place.",
         "Frame 4: The palm sliding down slightly; eyes open again, a grimacing mouth; lower body stays in place."
@@ -3585,9 +3585,9 @@
       "amplitude": "subtle",
       "keyframe_poses": [
         "Frame 1: Arms crossed, chin slightly up; eyes open, a smug smirk; lower body stays in place.",
-        "Frame 2: One hand/paw lifting to the chin; eyes in a quick natural blink, a smug smirk; lower body stays in place.",
+        "Frame 2: One hand lifting to the chin; eyes in a quick natural blink, a smug smirk; lower body stays in place.",
         "Frame 3: Fingers framing the chin in a smug pose; eyes half-lidded and mocking, mouth in an exaggerated smug grin; lower body stays in place.",
-        "Frame 4: The hand/paw lowering back to crossed arms; eyes open again, a smug smirk; lower body stays in place."
+        "Frame 4: The hand lowering back to crossed arms; eyes open again, a smug smirk; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3628,8 +3628,8 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Hands/paws loosely clasped in front; eyes open, a stiff forced smile; lower body stays in place.",
-        "Frame 2: One hand/paw giving a weak thumbs up; eyes in a quick natural blink, a stiff forced smile; lower body stays in place.",
+        "Frame 1: Hands loosely clasped in front; eyes open, a stiff forced smile; lower body stays in place.",
+        "Frame 2: One hand giving a weak thumbs up; eyes in a quick natural blink, a stiff forced smile; lower body stays in place.",
         "Frame 3: The weak thumbs up held while the shoulders tremble; eyes watering behind the smile, mouth trembling at the corners; lower body stays in place.",
         "Frame 4: The thumb lowering; eyes open again, a stiff forced smile; lower body stays in place."
       ],
@@ -3696,10 +3696,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One arm hugging a popcorn bucket, other hand/paw in the bucket; eyes open, an eager munching mouth; lower body stays in place.",
-        "Frame 2: The hand/paw lifting popcorn toward the mouth; eyes in a quick natural blink, an eager munching mouth; lower body stays in place.",
-        "Frame 3: The hand/paw tossing popcorn into the mouth; eyes glued forward in anticipation, cheeks stuffed with popcorn; lower body stays in place.",
-        "Frame 4: The hand/paw dipping back into the bucket; eyes open again, an eager munching mouth; lower body stays in place."
+        "Frame 1: One arm hugging a popcorn bucket, other hand in the bucket; eyes open, an eager munching mouth; lower body stays in place.",
+        "Frame 2: The hand lifting popcorn toward the mouth; eyes in a quick natural blink, an eager munching mouth; lower body stays in place.",
+        "Frame 3: The hand tossing popcorn into the mouth; eyes glued forward in anticipation, cheeks stuffed with popcorn; lower body stays in place.",
+        "Frame 4: The hand dipping back into the bucket; eyes open again, an eager munching mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3731,10 +3731,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a microphone out at arm's length; eyes open, a cool confident smirk; lower body stays in place.",
+        "Frame 1: One hand holding a microphone out at arm's length; eyes open, a cool confident smirk; lower body stays in place.",
         "Frame 2: Fingers loosening around the microphone; eyes in a quick natural blink, a cool confident smirk; lower body stays in place.",
-        "Frame 3: The microphone falling from the open hand/paw; eyes closed in cool confidence, mouth in a satisfied smirk; lower body stays in place.",
-        "Frame 4: The hand/paw closing and lowering; eyes open again, a cool confident smirk; lower body stays in place."
+        "Frame 3: The microphone falling from the open hand; eyes closed in cool confidence, mouth in a satisfied smirk; lower body stays in place.",
+        "Frame 4: The hand closing and lowering; eyes open again, a cool confident smirk; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3765,10 +3765,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Hands/paws on hips; eyes open, a fake polite smile; lower body stays in place.",
-        "Frame 2: Hands/paws on hips, head tilting back; eyes in a quick natural blink, a fake polite smile; lower body stays in place.",
-        "Frame 3: Hands/paws on hips, head tilted back for a full eye roll; eyes rolled up to the sky, mouth in a sarcastic flat smile; lower body stays in place.",
-        "Frame 4: Hands/paws on hips, head returning; eyes open again, a fake polite smile; lower body stays in place."
+        "Frame 1: Hands on hips; eyes open, a fake polite smile; lower body stays in place.",
+        "Frame 2: Hands on hips, head tilting back; eyes in a quick natural blink, a fake polite smile; lower body stays in place.",
+        "Frame 3: Hands on hips, head tilted back for a full eye roll; eyes rolled up to the sky, mouth in a sarcastic flat smile; lower body stays in place.",
+        "Frame 4: Hands on hips, head returning; eyes open again, a fake polite smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3803,10 +3803,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Hands/paws relaxed in front, head level; eyes open, a tight polite smile; lower body stays in place.",
-        "Frame 2: Hands/paws relaxed, head dipping forward; eyes in a quick natural blink, a tight polite smile; lower body stays in place.",
-        "Frame 3: Hands/paws relaxed, head at the lowest point of a firm nod; eyes closed with a twitching brow, mouth in an overly sweet smile; lower body stays in place.",
-        "Frame 4: Hands/paws relaxed, head lifting back up; eyes open again, a tight polite smile; lower body stays in place."
+        "Frame 1: Hands relaxed in front, head level; eyes open, a tight polite smile; lower body stays in place.",
+        "Frame 2: Hands relaxed, head dipping forward; eyes in a quick natural blink, a tight polite smile; lower body stays in place.",
+        "Frame 3: Hands relaxed, head at the lowest point of a firm nod; eyes closed with a twitching brow, mouth in an overly sweet smile; lower body stays in place.",
+        "Frame 4: Hands relaxed, head lifting back up; eyes open again, a tight polite smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3827,7 +3827,7 @@
       "ko": "새해 복 많이!"
     },
     "mood": "festive",
-    "static_pose": "arms raised cheering in festive clothes with fireworks bursting behind",
+    "static_pose": "chest-up portrait clasping hands together in a joyful festive greeting with a bright celebratory smile",
     "text_layout": "caption",
     "bubble": null,
     "motion": {
@@ -3837,8 +3837,8 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws raised pointing up; eyes open, a festive beaming smile; lower body stays in place.",
-        "Frame 2: Hands/paws raised as a firework streak rises behind; eyes in a quick natural blink, a festive beaming smile; lower body stays in place.",
+        "Frame 1: Both hands raised pointing up; eyes open, a festive beaming smile; lower body stays in place.",
+        "Frame 2: Hands raised with joyful festive cheer; eyes in a quick natural blink, a festive beaming smile; lower body stays in place.",
         "Frame 3: Arms raised in cheer as a colorful firework bursts behind; eyes sparkling with festive joy, mouth open in a cheer; lower body stays in place.",
         "Frame 4: Arms lowering as the sparkles fade; eyes open again, a festive beaming smile; lower body stays in place."
       ],
@@ -3881,10 +3881,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a red envelope at the chest; eyes open, a cheeky hopeful grin; lower body stays in place.",
-        "Frame 2: The hands/paws pushing the envelope forward; eyes in a quick natural blink, a cheeky hopeful grin; lower body stays in place.",
-        "Frame 3: The hands/paws offering the red envelope toward the viewer with gold sparkles; eyes sparkling greedily, mouth in a big lucky grin; lower body stays in place.",
-        "Frame 4: The hands/paws drawing the envelope back; eyes open again, a cheeky hopeful grin; lower body stays in place."
+        "Frame 1: Both hands holding a red envelope at the chest; eyes open, a cheeky hopeful grin; lower body stays in place.",
+        "Frame 2: The hands pushing the envelope forward; eyes in a quick natural blink, a cheeky hopeful grin; lower body stays in place.",
+        "Frame 3: The hands offering the red envelope toward the viewer with gold sparkles; eyes sparkling greedily, mouth in a big lucky grin; lower body stays in place.",
+        "Frame 4: The hands drawing the envelope back; eyes open again, a cheeky hopeful grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3916,10 +3916,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a small birthday cake with candles; eyes open, a joyful smile; lower body stays in place.",
-        "Frame 2: The hands/paws raising the cake a little, candle flames flickering; eyes in a quick natural blink, a joyful smile; lower body stays in place.",
-        "Frame 3: The hands/paws lifting the cake toward the viewer, candles glowing; eyes curved with happiness, mouth open singing a birthday song; lower body stays in place.",
-        "Frame 4: The hands/paws lowering the cake; eyes open again, a joyful smile; lower body stays in place."
+        "Frame 1: Both hands holding a small birthday cake with candles; eyes open, a joyful smile; lower body stays in place.",
+        "Frame 2: The hands raising the cake a little, candle flames flickering; eyes in a quick natural blink, a joyful smile; lower body stays in place.",
+        "Frame 3: The hands lifting the cake toward the viewer, candles glowing; eyes curved with happiness, mouth open singing a birthday song; lower body stays in place.",
+        "Frame 4: The hands lowering the cake; eyes open again, a joyful smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3951,10 +3951,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a wrapped gift box; eyes open, a jolly smile; lower body stays in place.",
-        "Frame 2: The hands/paws pushing the gift box forward; eyes in a quick natural blink, a jolly smile; lower body stays in place.",
-        "Frame 3: The hands/paws holding the gift out toward the viewer with sparkles; eyes twinkling merrily, mouth in a big jolly laugh; lower body stays in place.",
-        "Frame 4: The hands/paws drawing the gift back; eyes open again, a jolly smile; lower body stays in place."
+        "Frame 1: Both hands holding a wrapped gift box; eyes open, a jolly smile; lower body stays in place.",
+        "Frame 2: The hands pushing the gift box forward; eyes in a quick natural blink, a jolly smile; lower body stays in place.",
+        "Frame 3: The hands holding the gift out toward the viewer with sparkles; eyes twinkling merrily, mouth in a big jolly laugh; lower body stays in place.",
+        "Frame 4: The hands drawing the gift back; eyes open again, a jolly smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -3986,10 +3986,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a big red heart at the chest; eyes open, a shy blushing smile; lower body stays in place.",
-        "Frame 2: The hands/paws pushing the heart forward; eyes in a quick natural blink, a shy blushing smile; lower body stays in place.",
-        "Frame 3: The hands/paws holding the heart out toward the viewer, glowing and pulsing; eyes shining with love, mouth in a hopeful sweet smile, cheeks rosy; lower body stays in place.",
-        "Frame 4: The hands/paws drawing the heart back; eyes open again, a shy blushing smile; lower body stays in place."
+        "Frame 1: Both hands holding a big red heart at the chest; eyes open, a shy blushing smile; lower body stays in place.",
+        "Frame 2: The hands pushing the heart forward; eyes in a quick natural blink, a shy blushing smile; lower body stays in place.",
+        "Frame 3: The hands holding the heart out toward the viewer, glowing and pulsing; eyes shining with love, mouth in a hopeful sweet smile, cheeks rosy; lower body stays in place.",
+        "Frame 4: The hands drawing the heart back; eyes open again, a shy blushing smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4021,10 +4021,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a glowing lantern; eyes open, a serene gentle smile; lower body stays in place.",
-        "Frame 2: The hand/paw lifting the lantern higher; eyes in a quick natural blink, a serene gentle smile; lower body stays in place.",
+        "Frame 1: One hand holding a glowing lantern; eyes open, a serene gentle smile; lower body stays in place.",
+        "Frame 2: The hand lifting the lantern higher; eyes in a quick natural blink, a serene gentle smile; lower body stays in place.",
         "Frame 3: The lantern raised high, glowing warmly; eyes softly reflecting the lantern glow, mouth in a peaceful smile; lower body stays in place.",
-        "Frame 4: The hand/paw lowering the lantern; eyes open again, a serene gentle smile; lower body stays in place."
+        "Frame 4: The hand lowering the lantern; eyes open again, a serene gentle smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4060,10 +4060,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a jack-o'-lantern; eyes open, a mischievous grin; lower body stays in place.",
-        "Frame 2: The hands/paws pushing the pumpkin forward; eyes in a quick natural blink, a mischievous grin; lower body stays in place.",
-        "Frame 3: The hands/paws thrusting the pumpkin toward the viewer in a playful spook; eyes wide in a playful spook, mouth open in a fake scary boo; lower body stays in place.",
-        "Frame 4: The hands/paws drawing the pumpkin back; eyes open again, a mischievous grin; lower body stays in place."
+        "Frame 1: Both hands holding a jack-o'-lantern; eyes open, a mischievous grin; lower body stays in place.",
+        "Frame 2: The hands pushing the pumpkin forward; eyes in a quick natural blink, a mischievous grin; lower body stays in place.",
+        "Frame 3: The hands thrusting the pumpkin toward the viewer in a playful spook; eyes wide in a playful spook, mouth open in a fake scary boo; lower body stays in place.",
+        "Frame 4: The hands drawing the pumpkin back; eyes open again, a mischievous grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4095,10 +4095,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws cupped holding confetti; eyes open, a joyful open smile; lower body stays in place.",
-        "Frame 2: The hands/paws sweeping upward; eyes in a quick natural blink, a joyful open smile; lower body stays in place.",
+        "Frame 1: Both hands cupped holding confetti; eyes open, a joyful open smile; lower body stays in place.",
+        "Frame 2: The hands sweeping upward; eyes in a quick natural blink, a joyful open smile; lower body stays in place.",
         "Frame 3: Both arms throwing confetti high overhead, colorful pieces floating; eyes squeezed in celebration, mouth wide in a happy cheer; lower body stays in place.",
-        "Frame 4: The hands/paws lowering; eyes open again, a joyful open smile; lower body stays in place."
+        "Frame 4: The hands lowering; eyes open again, a joyful open smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4133,10 +4133,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a drink glass; eyes open, a merry grin; lower body stays in place.",
-        "Frame 2: The hand/paw lifting the glass; eyes in a quick natural blink, a merry grin; lower body stays in place.",
-        "Frame 3: The hand/paw raising the glass high toward the viewer in a toast with a clink sparkle; eyes closed in merriment, mouth wide open in a toast cheer; lower body stays in place.",
-        "Frame 4: The hand/paw lowering the glass; eyes open again, a merry grin; lower body stays in place."
+        "Frame 1: One hand holding a drink glass; eyes open, a merry grin; lower body stays in place.",
+        "Frame 2: The hand lifting the glass; eyes in a quick natural blink, a merry grin; lower body stays in place.",
+        "Frame 3: The hand raising the glass high toward the viewer in a toast with a clink sparkle; eyes closed in merriment, mouth wide open in a toast cheer; lower body stays in place.",
+        "Frame 4: The hand lowering the glass; eyes open again, a merry grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4169,9 +4169,9 @@
       "amplitude": "strong",
       "keyframe_poses": [
         "Frame 1: Arms holding a stack of papers and a phone; eyes open, a frazzled wobbly mouth; lower body stays in place.",
-        "Frame 2: One hand/paw grabbing as papers slip; eyes in a quick natural blink, a frazzled wobbly mouth; lower body stays in place.",
+        "Frame 2: One hand grabbing as papers slip; eyes in a quick natural blink, a frazzled wobbly mouth; lower body stays in place.",
         "Frame 3: Arms flailing as papers and the phone fly up; eyes spinning with stress, mouth open in a frazzled yelp; lower body stays in place.",
-        "Frame 4: Hands/paws catching the items back; eyes open again, a frazzled wobbly mouth; lower body stays in place."
+        "Frame 4: Hands catching the items back; eyes open again, a frazzled wobbly mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4202,10 +4202,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding a blank placard at the chest; eyes open, a stern flat mouth; lower body stays in place.",
-        "Frame 2: The hands/paws raising the placard; eyes in a quick natural blink, a stern flat mouth; lower body stays in place.",
+        "Frame 1: Both hands holding a blank placard at the chest; eyes open, a stern flat mouth; lower body stays in place.",
+        "Frame 2: The hands raising the placard; eyes in a quick natural blink, a stern flat mouth; lower body stays in place.",
         "Frame 3: Both arms thrusting the placard up overhead; eyes narrowed sternly, mouth in a firm do-not-bother-me line; lower body stays in place.",
-        "Frame 4: The hands/paws lowering the placard; eyes open again, a stern flat mouth; lower body stays in place."
+        "Frame 4: The hands lowering the placard; eyes open again, a stern flat mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4237,10 +4237,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a tissue near the nose; eyes open, a weak droopy mouth; lower body stays in place.",
-        "Frame 2: The hand/paw hovering the tissue as the head tilts back; eyes in a quick natural blink, a weak droopy mouth; lower body stays in place.",
-        "Frame 3: The hand/paw pressing the tissue to the nose as the head jerks forward in a sneeze; eyes squeezed shut in a big sneeze, mouth burst open, red nose scrunched; lower body stays in place.",
-        "Frame 4: The hand/paw lowering the tissue as the head returns; eyes open again, a weak droopy mouth; lower body stays in place."
+        "Frame 1: One hand holding a tissue near the nose; eyes open, a weak droopy mouth; lower body stays in place.",
+        "Frame 2: The hand hovering the tissue as the head tilts back; eyes in a quick natural blink, a weak droopy mouth; lower body stays in place.",
+        "Frame 3: The hand pressing the tissue to the nose as the head jerks forward in a sneeze; eyes squeezed shut in a big sneeze, mouth burst open, red nose scrunched; lower body stays in place.",
+        "Frame 4: The hand lowering the tissue as the head returns; eyes open again, a weak droopy mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4315,10 +4315,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws holding an open wallet; eyes open, a quivering sad mouth; lower body stays in place.",
-        "Frame 2: The hands/paws turning the wallet upside down; eyes in a quick natural blink, a quivering sad mouth; lower body stays in place.",
-        "Frame 3: The hands/paws shaking the wallet as only a moth flutters out; eyes teary and hopeless, mouth in a wobbly frown; lower body stays in place.",
-        "Frame 4: The hands/paws turning the wallet back up; eyes open again, a quivering sad mouth; lower body stays in place."
+        "Frame 1: Both hands holding an open wallet; eyes open, a quivering sad mouth; lower body stays in place.",
+        "Frame 2: The hands turning the wallet upside down; eyes in a quick natural blink, a quivering sad mouth; lower body stays in place.",
+        "Frame 3: The hands shaking the wallet as only a moth flutters out; eyes teary and hopeless, mouth in a wobbly frown; lower body stays in place.",
+        "Frame 4: The hands turning the wallet back up; eyes open again, a quivering sad mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4360,10 +4360,10 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: Hands/paws clasped at the chest; eyes open, a giddy wide grin; lower body stays in place.",
-        "Frame 2: Hands/paws rising as sparkles appear; eyes in a quick natural blink, a giddy wide grin; lower body stays in place.",
-        "Frame 3: Hands/paws thrown up as gold coins rain down; eyes turned into gold coins, mouth open in an ecstatic laugh; lower body stays in place.",
-        "Frame 4: Hands/paws lowering; eyes open again, a giddy wide grin; lower body stays in place."
+        "Frame 1: Hands clasped at the chest; eyes open, a giddy wide grin; lower body stays in place.",
+        "Frame 2: Hands rising as sparkles appear; eyes in a quick natural blink, a giddy wide grin; lower body stays in place.",
+        "Frame 3: Hands thrown up as gold coins rain down; eyes turned into gold coins, mouth open in an ecstatic laugh; lower body stays in place.",
+        "Frame 4: Hands lowering; eyes open again, a giddy wide grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4429,10 +4429,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a hand fan; eyes open, a panting open mouth; lower body stays in place.",
-        "Frame 2: The hand/paw flicking the fan left; eyes in a quick natural blink, a panting open mouth; lower body stays in place.",
-        "Frame 3: The hand/paw flapping the fan hard, sweat drops flying; eyes droopy and dazed from heat, tongue hanging out panting; lower body stays in place.",
-        "Frame 4: The hand/paw flicking the fan right; eyes open again, a panting open mouth; lower body stays in place."
+        "Frame 1: One hand holding a hand fan; eyes open, a panting open mouth; lower body stays in place.",
+        "Frame 2: The hand flicking the fan left; eyes in a quick natural blink, a panting open mouth; lower body stays in place.",
+        "Frame 3: The hand flapping the fan hard, sweat drops flying; eyes droopy and dazed from heat, tongue hanging out panting; lower body stays in place.",
+        "Frame 4: The hand flicking the fan right; eyes open again, a panting open mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4464,7 +4464,7 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised reaching forward; eyes open, a soft caring smile; lower body stays in place.",
+        "Frame 1: One hand raised reaching forward; eyes open, a soft caring smile; lower body stays in place.",
         "Frame 2: The palm lowering gently; eyes in a quick natural blink, a soft caring smile; lower body stays in place.",
         "Frame 3: The palm patting softly with tiny sparkle marks; eyes closed gently, mouth in a tender soothing smile; lower body stays in place.",
         "Frame 4: The palm lifting; eyes open again, a soft caring smile; lower body stays in place."
@@ -4540,10 +4540,10 @@
       "loop": "seamless",
       "amplitude": "strong",
       "keyframe_poses": [
-        "Frame 1: One hand/paw raised at head height; eyes open, an energetic grin; lower body stays in place.",
-        "Frame 2: The hand/paw swinging forward; eyes in a quick natural blink, an energetic grin; lower body stays in place.",
+        "Frame 1: One hand raised at head height; eyes open, an energetic grin; lower body stays in place.",
+        "Frame 2: The hand swinging forward; eyes in a quick natural blink, an energetic grin; lower body stays in place.",
         "Frame 3: The palm pushed flat toward the viewer with burst lines; eyes bright and lively, mouth open in a hearty yeah; lower body stays in place.",
-        "Frame 4: The hand/paw pulling back; eyes open again, an energetic grin; lower body stays in place."
+        "Frame 4: The hand pulling back; eyes open again, an energetic grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4575,9 +4575,9 @@
       "amplitude": "medium",
       "keyframe_poses": [
         "Frame 1: One arm holding a phone up at an angle; eyes open, a cute photo smile; lower body stays in place.",
-        "Frame 2: The other hand/paw starting a peace sign; eyes in a quick natural blink, a cute photo smile; lower body stays in place.",
-        "Frame 3: The free hand/paw making a peace sign beside the cheek with a phone flash sparkle; one eye winking for the camera, mouth in a cute duck-face smile; lower body stays in place.",
-        "Frame 4: The peace-sign hand/paw easing; eyes open again, a cute photo smile; lower body stays in place."
+        "Frame 2: The other hand starting a peace sign; eyes in a quick natural blink, a cute photo smile; lower body stays in place.",
+        "Frame 3: The free hand making a peace sign beside the cheek with a phone flash sparkle; one eye winking for the camera, mouth in a cute duck-face smile; lower body stays in place.",
+        "Frame 4: The peace-sign hand easing; eyes open again, a cute photo smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4609,10 +4609,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Hands/paws gripping the side edge of the frame, only half the body visible; eyes open, a tiny curious mouth; lower body stays in place.",
-        "Frame 2: Hands/paws gripping the edge, head leaning out a bit; eyes in a quick natural blink, a tiny curious mouth; lower body stays in place.",
-        "Frame 3: Hands/paws gripping the edge, head and shoulders leaned out further; eyes big and curious looking at the viewer, mouth in a tiny shy smile; lower body stays in place.",
-        "Frame 4: Hands/paws gripping the edge, leaning back behind it; eyes open again, a tiny curious mouth; lower body stays in place."
+        "Frame 1: Hands gripping the side edge of the frame, only half the body visible; eyes open, a tiny curious mouth; lower body stays in place.",
+        "Frame 2: Hands gripping the edge, head leaning out a bit; eyes in a quick natural blink, a tiny curious mouth; lower body stays in place.",
+        "Frame 3: Hands gripping the edge, head and shoulders leaned out further; eyes big and curious looking at the viewer, mouth in a tiny shy smile; lower body stays in place.",
+        "Frame 4: Hands gripping the edge, leaning back behind it; eyes open again, a tiny curious mouth; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4644,10 +4644,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw holding a phone near the chest; eyes open, a generous smile; lower body stays in place.",
-        "Frame 2: The hand/paw turning the phone toward the viewer; eyes in a quick natural blink, a generous smile; lower body stays in place.",
-        "Frame 3: The hand/paw holding the phone out to the viewer with a sparkle on the screen; eyes in a proud wink, mouth in a generous confident grin; lower body stays in place.",
-        "Frame 4: The hand/paw drawing the phone back; eyes open again, a generous smile; lower body stays in place."
+        "Frame 1: One hand holding a phone near the chest; eyes open, a generous smile; lower body stays in place.",
+        "Frame 2: The hand turning the phone toward the viewer; eyes in a quick natural blink, a generous smile; lower body stays in place.",
+        "Frame 3: The hand holding the phone out to the viewer with a sparkle on the screen; eyes in a proud wink, mouth in a generous confident grin; lower body stays in place.",
+        "Frame 4: The hand drawing the phone back; eyes open again, a generous smile; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4683,10 +4683,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: Both hands/paws cupping the chin; eyes open, a small impatient pout; lower body stays in place.",
-        "Frame 2: Hands/paws cupping the chin as the head sways left; eyes in a quick natural blink, a small impatient pout; lower body stays in place.",
+        "Frame 1: Both hands cupping the chin; eyes open, a small impatient pout; lower body stays in place.",
+        "Frame 2: Hands cupping the chin as the head sways left; eyes in a quick natural blink, a small impatient pout; lower body stays in place.",
         "Frame 3: Cheeks squished in the palms, head tilted right; eyes staring longingly at the viewer, cheeks squished into a pout; lower body stays in place.",
-        "Frame 4: Hands/paws cupping the chin, head back to center; eyes open again, a small impatient pout; lower body stays in place."
+        "Frame 4: Hands cupping the chin, head back to center; eyes open again, a small impatient pout; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4721,10 +4721,10 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1: One hand/paw extended palm up; eyes open, an excited grin; lower body stays in place.",
+        "Frame 1: One hand extended palm up; eyes open, an excited grin; lower body stays in place.",
         "Frame 2: Fingers curling inward; eyes in a quick natural blink, an excited grin; lower body stays in place.",
-        "Frame 3: The hand/paw waving the viewer over enthusiastically; eyes sparkling with adventure, mouth open calling out happily; lower body stays in place.",
-        "Frame 4: The hand/paw reopening; eyes open again, an excited grin; lower body stays in place."
+        "Frame 3: The hand waving the viewer over enthusiastically; eyes sparkling with adventure, mouth open calling out happily; lower body stays in place.",
+        "Frame 4: The hand reopening; eyes open again, an excited grin; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -4789,10 +4789,10 @@
       "loop": "seamless",
       "amplitude": "subtle",
       "keyframe_poses": [
-        "Frame 1: One hand/paw making a finger gun near the chin; eyes open, a knowing smirk; lower body stays in place.",
+        "Frame 1: One hand making a finger gun near the chin; eyes open, a knowing smirk; lower body stays in place.",
         "Frame 2: The finger gun lifting, head tilting; eyes in a quick natural blink, a knowing smirk; lower body stays in place.",
         "Frame 3: The finger gun pointed at the viewer with a star sparkle; one eye winking knowingly, mouth in a sly sideways grin; lower body stays in place.",
-        "Frame 4: The hand/paw returning; eyes open again, a knowing smirk; lower body stays in place."
+        "Frame 4: The hand returning; eyes open again, a knowing smirk; lower body stays in place."
       ],
       "stationary_parts": [
         "lower_torso",
@@ -5264,7 +5264,7 @@
       "ko": "언니 사랑해!"
     },
     "mood": "fandom-cheering",
-    "static_pose": "Photorealistic real-person portrait sticker cutout: waving a glowing concert lightstick with starry-eyed excitement. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
+    "static_pose": "Photorealistic real-person portrait sticker cutout: waving a glowing concert lightstick with bright excited real eyes. Preserve exact facial bone structure, real skin texture, hairstyle, and outfit.",
     "text_layout": "bubble",
     "bubble": {
       "texts": {
@@ -5285,9 +5285,9 @@
       "loop": "seamless",
       "amplitude": "medium",
       "keyframe_poses": [
-        "Frame 1 (Top-Left): Starting real-person pose — waving a glowing concert lightstick with starry-eyed excitement; eyes open, lower torso anchored.",
-        "Frame 2 (Top-Right): Mid-action progression — waving a glowing concert lightstick with starry-eyed excitement with natural eye blink or micro-expression shift; lower torso anchored.",
-        "Frame 3 (Bottom-Left): Peak expressive moment — waving a glowing concert lightstick with starry-eyed excitement at full expressive intensity; lower torso anchored.",
+        "Frame 1 (Top-Left): Starting real-person pose — waving a glowing concert lightstick with bright excited real eyes; eyes open, lower torso anchored.",
+        "Frame 2 (Top-Right): Mid-action progression — waving a glowing concert lightstick with bright excited real eyes with natural eye blink or micro-expression shift; lower torso anchored.",
+        "Frame 3 (Bottom-Left): Peak expressive moment — waving a glowing concert lightstick with bright excited real eyes at full expressive intensity; lower torso anchored.",
         "Frame 4 (Bottom-Right): Smooth return toward Frame 1 for seamless loop; lower torso anchored."
       ],
       "stationary_parts": [

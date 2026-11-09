@@ -262,11 +262,14 @@ class FakeStickerProvider(StickerProvider):
             sx, sy = cx - head_rx - 8 * scale, head_cy - 25 * scale
             draw.ellipse([sx - 5 * scale, sy - 5 * scale, sx + 5 * scale, sy + 5 * scale], fill=(255, 220, 100, 235))
 
-        # Waving Hand (independent hand wave motion)
+        # Waving Arm + Hand (connected to right shoulder, zero floating island)
         hand_wave_x = math.sin(action_offset * math.pi / 2.0) * (8.0 * scale)
         hand_wave_y = math.cos(action_offset * math.pi / 2.0) * (10.0 * scale)
         hx = cx + head_rx + 8.0 * scale + hand_wave_x
         hy = head_cy + 18.0 * scale + hand_wave_y
+        sx0 = cx + shoulder_w * 0.65
+        sy0 = shoulder_top + 14.0 * scale
+        draw.line([(sx0, sy0), (hx, hy)], fill=shirt_fill, width=max(3, int(11 * scale)))
         draw.ellipse([hx - 10 * scale, hy - 10 * scale, hx + 10 * scale, hy + 10 * scale], fill=skin_fill, outline=skin_outline, width=max(1, int(2 * scale)))
 
         return img

@@ -16,13 +16,20 @@ import json
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence
 
-from .prompts import REAL_PERSON_HARD_LOCK, composition_hint
+from .prompts import (
+    CLEAN_BACKGROUND_HARD_LOCK,
+    DUO_ANATOMY_AND_PROPORTION_LOCK,
+    REAL_PERSON_HARD_LOCK,
+    composition_hint,
+)
 from .schemas import CharacterBible, ExpressionItem
 from .styles import resolve_style_preset
 
 REAL_PERSON_NEGATIVE = (
     "No 2D cartoon, no anime, no flat vector illustration, no 3D doll, no panda/animal head, "
-    "no face swapping, no extra limbs, no text, no letters, no speech bubbles."
+    "no face swapping, no extra limbs, no 3rd hand, no 5th hand, no duplicate arm from one shoulder, "
+    "no vertically stretched/elongated face, no horizontal face squishing, no grey-white checkerboard grid, "
+    "no text, no letters, no speech bubbles."
 )
 
 DUO_CATEGORIES = ("besties", "couple", "yuri", "yaoi", "rivals", "family")
@@ -200,12 +207,14 @@ def build_duo_static_prompt(
     return (
         f"Create a TWO-PERSON photorealistic real-person chat sticker (真人双人互动表情包: {DUO_CATEGORY_LABELS.get(item.category, {}).get('zh', item.category)}). "
         f"{REAL_PERSON_HARD_LOCK} "
+        f"{DUO_ANATOMY_AND_PROPORTION_LOCK} "
         f"Style ID: {preset.id} ({preset.display_name}). {preset.prompt_lock} "
         f"Person A identity lock: {facts_a}. "
         f"Person B identity lock: {facts_b}. "
         f"Interaction & expression ({item.name_zh or item.caption}): {item.static_pose}. "
         f"Lighting: {preset.lighting}. "
-        f"Composition: {comp_hint} Both people framed waist-up/chest-up together as one cohesive sticker silhouette on a transparent background. "
+        f"Composition: {comp_hint} Both people framed waist-up/chest-up together with comfortable 15%-25% natural shoulder overlap as one cohesive sticker silhouette. "
+        f"{CLEAN_BACKGROUND_HARD_LOCK} "
         f"Negative constraints: {REAL_PERSON_NEGATIVE} {preset.negative_extra}"
     )
 
@@ -234,12 +243,15 @@ def build_duo_sprite_sheet_prompt(
         f"bottom-left=Frame 3, bottom-right=Frame 4) for a TWO-PERSON real-person animated sticker "
         f"({item.name_zh or item.caption}). "
         f"{REAL_PERSON_HARD_LOCK} "
+        f"{DUO_ANATOMY_AND_PROPORTION_LOCK} "
         f"Style ID: {preset.id} ({preset.display_name}). {preset.prompt_lock} "
         f"Person A identity lock: {facts_a}. Person B identity lock: {facts_b}. "
         f"Frame 1 (top-left): {poses[0]} "
         f"Frame 2 (top-right): {poses[1]} "
         f"Frame 3 (bottom-left): {poses[2]} "
         f"Frame 4 (bottom-right): {poses[3]} "
-        f"Keep camera angle, head scale, and lower-torso baseline identical across all 4 quadrants. "
+        f"Keep camera angle, natural facial width-to-height proportions, head scale, and lower-torso baseline identical across all 4 quadrants, "
+        f"with clean empty centerline separation so nothing bleeds across quadrants. "
+        f"{CLEAN_BACKGROUND_HARD_LOCK} "
         f"Negative constraints: {REAL_PERSON_NEGATIVE} {preset.negative_extra}"
     )

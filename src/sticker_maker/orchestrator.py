@@ -32,6 +32,7 @@ from .processing.compose import compose_sticker_frames
 from .processing.gif_encoder import load_gif_frames, slice_sprite_sheet, synthesize_motion_frames
 from .prompts import (
     build_anchor_prompt,
+    build_corrective_retry_prompt,
     build_keyframe_prompt,
     build_native_gif_prompt,
     build_sprite_sheet_prompt,
@@ -48,6 +49,7 @@ from .providers.fake import FakeStickerProvider
 from .providers.gemini_images import GeminiImagesProvider
 from .providers.openai_images import OpenAIImagesProvider
 from .providers.openai_native_gif import OpenAINativeGifProvider
+from .quality.anatomy import audit_pack_directory, audit_single_image
 from .quality.report import generate_preview_html, generate_preview_sheet, run_full_validation
 from .schemas import (
     CharacterBible,
@@ -306,6 +308,7 @@ class StickerOrchestrator:
         self.state = "VALIDATING"
         run_full_validation(self.output_dir, profile_name=self.job.export_profile)
         generate_preview_sheet(self.output_dir, files=self._preview_files(masters))
+        audit_pack_directory(self.output_dir, strict=self.job.strict_qa, use_vlm=False, prefer_raw=True)
 
         # Multi-language zero-extra-cost pack generation from the same raw AI cutouts
         if self.job.languages:
@@ -461,6 +464,67 @@ class StickerOrchestrator:
         partner = getattr(self, "norm_partner", None)
         return [p for p in (anchor_img, source_img, partner) if p and p.exists()]
 
+    def _render_with_strict_qa_gate(
+        self,
+        item: ExpressionItem,
+        refs: List[Path],
+        base_prompt: str,
+        out_path: Path,
+        *,
+        is_sprite_sheet: bool = False,
+    ) -> Path:
+        seed_defects: List[str] = list(getattr(self, "_forced_retry_defects", None) or [])
+        seed_note: str = str(getattr(self, "_forced_retry_note", "") or "")
+        prompt = (
+            build_corrective_retry_prompt(base_prompt, seed_defects, custom_note=seed_note)
+            if (seed_defects or seed_note)
+            else base_prompt
+        )
+        max_attempts = 1 + max(0, int(self.job.qa_max_retries)) if self.job.strict_qa else 1
+        use_vlm = bool(
+            self.job.vlm_qa
+            and self.job.allow_cloud_upload
+            and not isinstance(self.provider, FakeStickerProvider)
+            and not is_sprite_sheet
+        )
+        is_duo = self._is_duo_item(item)
+
+        for attempt in range(1, max_attempts + 1):
+            self.provider.render_static(refs, prompt, out_path)
+            if not self.job.strict_qa:
+                break
+            aud = audit_single_image(
+                out_path,
+                item_id=item.id,
+                is_duo=is_duo,
+                is_raw=True,
+                is_sprite_sheet=is_sprite_sheet,
+                strict=True,
+                use_vlm=use_vlm,
+                reference_paths=refs,
+            )
+            if aud.status != "fail":
+                break
+            if attempt < max_attempts:
+                logger.warning(
+                    "Strict QA rejected %s on attempt %d/%d (defects=%s); auto-retrying with corrective prompt...",
+                    out_path.name,
+                    attempt,
+                    max_attempts,
+                    aud.defect_codes,
+                )
+                out_path.unlink(missing_ok=True)
+                merged_defects = list(dict.fromkeys([*seed_defects, *aud.defect_codes]))
+                prompt = build_corrective_retry_prompt(base_prompt, merged_defects, custom_note=seed_note)
+            else:
+                logger.warning(
+                    "Strict QA still flagged %s after %d attempt(s): %s",
+                    out_path.name,
+                    max_attempts,
+                    aud.defect_codes,
+                )
+        return out_path
+
     def _render_raw_static(self, item: ExpressionItem, bible: CharacterBible, source_img: Path, anchor_img: Path, spec: TextSpec) -> Path:
         raw_path = self.work_raw_static / f"{item.id}_raw.png"
         if not raw_path.exists():
@@ -475,7 +539,7 @@ class StickerOrchestrator:
             else:
                 prompt = build_static_prompt(bible, item, style=self.job.style, text_layout=spec.layout)
             refs = self._reference_images(anchor_img, source_img)
-            self.provider.render_static(refs, prompt, raw_path)
+            self._render_with_strict_qa_gate(item, refs, prompt, raw_path, is_sprite_sheet=False)
         return raw_path
 
     def _ai_sprite_sheet_cells(self, item, bible, source_img, anchor_img, spec) -> List[Image.Image]:
@@ -492,7 +556,7 @@ class StickerOrchestrator:
             else:
                 prompt = build_sprite_sheet_prompt(bible, item, style=self.job.style, text_layout=spec.layout)
             refs = self._reference_images(anchor_img, source_img)
-            self.provider.render_static(refs, prompt, sheet_path)
+            self._render_with_strict_qa_gate(item, refs, prompt, sheet_path, is_sprite_sheet=True)
         with Image.open(sheet_path) as sheet:
             return slice_sprite_sheet(sheet)
 
@@ -640,7 +704,12 @@ class StickerOrchestrator:
                 for f in sc.glob("*"):
                     f.unlink()
 
-    def regenerate_single_item(self, item_id: str) -> ManifestItem:
+    def regenerate_single_item(
+        self,
+        item_id: str,
+        defect_codes: Optional[List[str]] = None,
+        retry_note: str = "",
+    ) -> ManifestItem:
         """Regenerate one expression (AI frames + master + every platform export) and refresh manifest/QA."""
         self._check_cloud_permission()
         expressions = self._plan()
@@ -658,7 +727,13 @@ class StickerOrchestrator:
         bible = create_or_load_character_bible(ref_for_bible, self.output_dir, style=self.job.style)
         anchor_path = Path(bible.master_anchor)
 
-        spec, _asset = self._process_single_expression(item, idx + 1, bible, norm_source, anchor_path)
+        self._forced_retry_defects = list(defect_codes or [])
+        self._forced_retry_note = retry_note
+        try:
+            spec, _asset = self._process_single_expression(item, idx + 1, bible, norm_source, anchor_path)
+        finally:
+            self._forced_retry_defects = []
+            self._forced_retry_note = ""
         masters = load_master_assets(self.output_dir, [e.id for e in expressions])
         self.export_results = export_all_platforms(
             self.output_dir, self.platforms, masters, style=self.job.style, language=self.job.language,
@@ -696,5 +771,6 @@ class StickerOrchestrator:
 
         run_full_validation(self.output_dir, profile_name=self.job.export_profile)
         generate_preview_sheet(self.output_dir, files=self._preview_files(masters))
+        audit_pack_directory(self.output_dir, strict=self.job.strict_qa, use_vlm=False, prefer_raw=True)
         logger.info("Successfully regenerated item %s", item_id)
         return updated_item

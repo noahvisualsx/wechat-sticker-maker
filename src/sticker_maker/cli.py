@@ -23,6 +23,7 @@ from .providers.fake import FakeStickerProvider
 from .providers.gemini_images import GeminiImagesProvider
 from .providers.openai_images import OpenAIImagesProvider
 from .providers.openai_native_gif import OpenAINativeGifProvider
+from .quality.anatomy import audit_pack_directory, audit_single_image, generate_strict_audit_sheet
 from .quality.report import run_full_validation
 from .schemas import AnimationConfig, JobConfig
 from .server import run_studio_server
@@ -394,6 +395,9 @@ def cmd_plan(args: argparse.Namespace) -> int:
         keep_source=args.keep_source,
         resume=getattr(args, "resume", True),
         matting=getattr(args, "matting", "auto"),
+        strict_qa=getattr(args, "strict_qa", True),
+        vlm_qa=getattr(args, "vlm_qa", False),
+        qa_max_retries=getattr(args, "qa_retries", 2),
         font_path=args.font or get_default_font_path(),
         subject_type=args.subject_type,
     )
@@ -485,6 +489,12 @@ def cmd_generate(args: argparse.Namespace) -> int:
         job_data["resume"] = args.resume
     if getattr(args, "matting", None):
         job_data["matting"] = args.matting
+    if getattr(args, "strict_qa", None) is not None:
+        job_data["strict_qa"] = args.strict_qa
+    if getattr(args, "vlm_qa", None) is not None:
+        job_data["vlm_qa"] = args.vlm_qa
+    if getattr(args, "qa_retries", None) is not None:
+        job_data["qa_max_retries"] = args.qa_retries
 
     job = JobConfig(**job_data)
     provider, gif_provider = _build_providers(args.provider)
@@ -527,9 +537,13 @@ def cmd_regenerate(args: argparse.Namespace) -> int:
 
     provider, gif_provider = _build_providers(getattr(args, "provider", "auto"))
     orchestrator = StickerOrchestrator(job=job, provider=provider, native_gif_provider=gif_provider)
+    defect_codes = _split(getattr(args, "defect", None))
+    retry_note = getattr(args, "note", "") or ""
     try:
-        orchestrator.regenerate_single_item(args.item)
+        orchestrator.regenerate_single_item(args.item, defect_codes=defect_codes, retry_note=retry_note)
         print(f"Item {args.item} regenerated successfully.")
+        if defect_codes:
+            print(f"  Applied strict QA retry corrections: {', '.join(defect_codes)}")
         return 0
     except PermissionError as e:
         print(f"Security/Permission error: {e}", file=sys.stderr)
@@ -549,15 +563,91 @@ def cmd_validate(args: argparse.Namespace) -> int:
         print(f"Error: Output folder not found: {out_p}", file=sys.stderr)
         return 2
 
-    report = run_full_validation(out_p, profile_name=args.profile)
+    report = run_full_validation(
+        out_p,
+        profile_name=args.profile,
+        strict_qa=getattr(args, "strict", False),
+        vlm_qa=getattr(args, "vlm", False),
+    )
     print(f"Validation finished. Overall status: {report.overall_status.upper()}")
     print(f"  Failures: {report.stats.get('total_failures', 0)}")
     print(f"  Warnings: {report.stats.get('total_warnings', 0)}")
     print(f"Report written to: {out_p}/qa/report.md")
+    if report.stats.get("strict_audit_sheet"):
+        print(f"2x Zoom Audit Sheet: {report.stats['strict_audit_sheet']}")
 
     if report.overall_status == "fail":
         return 5
     return 0
+
+
+def cmd_audit(args: argparse.Namespace) -> int:
+    """Run strict anatomy, facial-proportion, checkerboard, and 2x-zoom visual audit."""
+    strict = getattr(args, "strict", True)
+    use_vlm = getattr(args, "vlm", False)
+
+    if getattr(args, "image", None):
+        img_p = Path(args.image)
+        if not img_p.exists():
+            print(f"Error: Image file not found: {img_p}", file=sys.stderr)
+            return 2
+        refs = [Path(p) for p in (_split(getattr(args, "refs", None)) or []) if Path(p).exists()]
+        aud = audit_single_image(
+            img_p,
+            is_duo=True if getattr(args, "duo", False) else None,
+            is_raw=not getattr(args, "composed", False),
+            is_sprite_sheet=getattr(args, "sprite_sheet", False),
+            strict=strict,
+            use_vlm=use_vlm,
+            reference_paths=refs or None,
+        )
+        sheet_out = Path(args.sheet_output) if getattr(args, "sheet_output", None) else img_p.with_name(f"{img_p.stem}_strict_audit.jpg")
+        sheet_p = generate_strict_audit_sheet([aud], sheet_out)
+        data = aud.to_dict()
+        data["audit_sheet"] = str(sheet_p) if sheet_p else None
+        if getattr(args, "json", False):
+            print(json.dumps(data, indent=2, ensure_ascii=False))
+        else:
+            print(f"=== Strict Anatomy & Quality Audit: {img_p.name} -> {aud.status.upper()} ===")
+            if aud.defect_codes:
+                print(f"  Defect codes: {', '.join(aud.defect_codes)}")
+            for chk in aud.checks:
+                print(f"  [{chk.status.upper():4}] {chk.name}: {chk.message}")
+            if sheet_p:
+                print(f"2x Zoom Inspection Sheet: {sheet_p}")
+            if aud.corrective_prompt_suffix:
+                print("\nSuggested Corrective Retry Prompt Block:")
+                print(aud.corrective_prompt_suffix)
+        return 5 if aud.status == "fail" else 0
+
+    if not getattr(args, "output", None):
+        print("Error: Provide either --output/-o <pack_dir> or --image/-i <image_file>", file=sys.stderr)
+        return 2
+
+    out_p = Path(args.output)
+    if not out_p.exists():
+        print(f"Error: Output directory not found: {out_p}", file=sys.stderr)
+        return 2
+
+    res = audit_pack_directory(
+        out_p,
+        strict=strict,
+        use_vlm=use_vlm,
+        prefer_raw=not getattr(args, "composed", False),
+    )
+    if getattr(args, "json", False):
+        print(json.dumps(res, indent=2, ensure_ascii=False))
+    else:
+        counts = res["counts"]
+        print(f"=== Strict Anatomy & Quality Audit: {res['overall_status'].upper()} ===")
+        print(f"  Items audited: {counts['total']} (PASS={counts['pass']}, WARN={counts['warn']}, FAIL={counts['fail']})")
+        if res.get("audit_sheet"):
+            print(f"  2x Zoom Inspection Sheet: {res['audit_sheet']}")
+        print(f"  Markdown Report:          {res['report_md']}")
+        for item in res["items"]:
+            if item["status"] != "pass":
+                print(f"  [{item['status'].upper():4}] {item['item_id']}: defects={item['defect_codes']}")
+    return 5 if res["overall_status"] == "fail" else 0
 
 
 def cmd_package(args: argparse.Namespace) -> int:
@@ -934,6 +1024,14 @@ def main() -> None:
     p_plan.add_argument("--subject-type", default="human-portrait", help="Subject type (default: human-portrait, real-person only)")
     p_plan.add_argument("--matting", choices=["auto", "color", "rembg"], default="auto", help="Background removal engine: color flood-fill or neural rembg")
     p_plan.add_argument(
+        "--strict-qa",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Enforce strict anatomy/checkerboard/proportion QA gate with auto-retry (default: enabled)",
+    )
+    p_plan.add_argument("--vlm-qa", action="store_true", help="Also verify arm count & facial proportions via OpenAI/Gemini Vision API")
+    p_plan.add_argument("--qa-retries", type=int, default=2, help="Max auto-retries per sticker when strict QA detects a red-line defect")
+    p_plan.add_argument(
         "--resume",
         action=argparse.BooleanOptionalAction,
         default=True,
@@ -964,18 +1062,44 @@ def main() -> None:
     p_gen.add_argument("--sample", action="store_true", help="Run sample-first mode (2 static + 1 animated)")
     p_gen.add_argument("--max-parallel", type=int, help="Override maximum parallel item workers")
     p_gen.add_argument("--matting", choices=["auto", "color", "rembg"], help="Override background removal engine")
+    p_gen.add_argument("--strict-qa", action=argparse.BooleanOptionalAction, default=None, help="Override strict anatomy/checkerboard QA gate")
+    p_gen.add_argument("--vlm-qa", action=argparse.BooleanOptionalAction, default=None, help="Enable/disable Vision API anatomy verification")
+    p_gen.add_argument("--qa-retries", type=int, help="Override max strict QA corrective retries per item")
     p_gen.add_argument("--resume", action=argparse.BooleanOptionalAction, default=None, help="Resume from existing raw keyframes")
 
     # regenerate
-    p_regen = subparsers.add_parser("regenerate", help="Regenerate a specific single item")
+    p_regen = subparsers.add_parser("regenerate", help="Regenerate a specific single item with optional red-line defect fixes")
     p_regen.add_argument("--job", "-j", required=True, help="Path to job.json")
-    p_regen.add_argument("--item", required=True, help="Expression item ID to regenerate (e.g. 05_shy)")
+    p_regen.add_argument("--item", required=True, help="Expression item ID to regenerate (e.g. 05_shy or d03_bestie_hype_queen)")
     p_regen.add_argument("--provider", choices=["auto", "fake", "openai", "gemini", "ark"], default="auto")
+    p_regen.add_argument(
+        "--defect",
+        help="Comma-separated red-line defect codes to fix (e.g. third_hand_or_extra_limb,stretched_or_warped_face,baked_checkerboard)",
+    )
+    p_regen.add_argument("--note", default="", help="Extra custom corrective instruction appended to retry prompt")
 
     # validate
     p_val = subparsers.add_parser("validate", help="Validate assets in output directory")
     p_val.add_argument("--output", "-o", required=True, help="Output directory containing assets")
     p_val.add_argument("--profile", default="wechat-conservative-2026-11")
+    p_val.add_argument("--strict", action="store_true", help="Also run strict raw-cutout anatomy/checkerboard/island QA")
+    p_val.add_argument("--vlm", action="store_true", help="Also invoke OpenAI/Gemini Vision API anatomy judge")
+
+    # audit (strict anatomy, face-ratio, checkerboard & 2x zoom contact sheet)
+    p_aud = subparsers.add_parser(
+        "audit",
+        help="Run strict anatomy/proportion/checkerboard QA and generate 2x Face/Shoulder/Hand zoom audit sheet",
+    )
+    p_aud.add_argument("--output", "-o", "--dir", "-d", dest="output", help="Job/pack directory to audit")
+    p_aud.add_argument("--image", "-i", help="Audit a single generated image file instead of a directory")
+    p_aud.add_argument("--refs", help="Comma-separated reference photo paths (for single-image VLM audit)")
+    p_aud.add_argument("--duo", action="store_true", help="Treat single image as two-person duo sticker (<=4 arms)")
+    p_aud.add_argument("--sprite-sheet", action="store_true", help="Treat single image as a 2x2 animation sprite sheet")
+    p_aud.add_argument("--composed", action="store_true", help="Audit composed static PNGs instead of raw cutouts")
+    p_aud.add_argument("--sheet-output", help="Custom output path for single-image 2x zoom audit sheet")
+    p_aud.add_argument("--strict", action=argparse.BooleanOptionalAction, default=True, help="Strict fail-fast thresholds (default: true)")
+    p_aud.add_argument("--vlm", action="store_true", help="Invoke OpenAI/Gemini Vision API to count arms & check face stretching")
+    p_aud.add_argument("--json", action="store_true", help="Print full JSON audit report")
 
     # package
     p_pkg = subparsers.add_parser("package", help="Create ZIP archives for platform submission")
@@ -1066,6 +1190,7 @@ def main() -> None:
         "generate": cmd_generate,
         "regenerate": cmd_regenerate,
         "validate": cmd_validate,
+        "audit": cmd_audit,
         "package": cmd_package,
         "assemble-gif": cmd_assemble_gif,
         "expressions": cmd_expressions,

@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw
 
 from ..config import get_profile
 from ..schemas import ValidationCheck, ValidationReport
+from .anatomy import audit_pack_directory
 from .structural import validate_gif, validate_png
 from .visual import check_visual_safety
 
@@ -18,6 +19,9 @@ from .visual import check_visual_safety
 def run_full_validation(
     output_dir: Path,
     profile_name: str = "wechat-conservative-2026-11",
+    *,
+    strict_qa: bool = False,
+    vlm_qa: bool = False,
 ) -> ValidationReport:
     profile = get_profile(profile_name)
     all_checks: List[ValidationCheck] = []
@@ -119,6 +123,14 @@ def run_full_validation(
                     message=f"Invalid manifest JSON: {e}",
                 )
             )
+
+    if strict_qa or vlm_qa:
+        strict_res = audit_pack_directory(output_dir, strict=strict_qa, use_vlm=vlm_qa, prefer_raw=True)
+        stats["strict_audit_sheet"] = strict_res.get("audit_sheet")
+        for item_entry in strict_res.get("items", []):
+            for raw_chk in item_entry.get("checks", []):
+                if raw_chk.get("status") in ("fail", "warn"):
+                    all_checks.append(ValidationCheck(**raw_chk))
 
     fails = [c for c in all_checks if c.status == "fail"]
     warns = [c for c in all_checks if c.status == "warn"]

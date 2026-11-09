@@ -67,6 +67,9 @@ class JobConfig(BaseModel):
     custom_facts: Optional[List[str]] = None
     resume: bool = True
     matting: Literal["auto", "color", "rembg"] = "auto"
+    strict_qa: bool = True
+    vlm_qa: bool = False
+    qa_max_retries: int = 2
 
     @field_validator("job_id")
     @classmethod

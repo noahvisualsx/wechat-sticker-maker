@@ -14,7 +14,7 @@ import json
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence
 
-from .prompts import composition_hint
+from .prompts import CLEAN_BACKGROUND_HARD_LOCK, composition_hint
 from .schemas import CharacterBible, ExpressionItem
 from .styles import resolve_style_preset
 
@@ -22,13 +22,15 @@ REAL_PET_HARD_LOCK = (
     "CRITICAL REAL-PET PHOTOGRAPHIC LOCK: The subject MUST remain the exact same REAL, "
     "photorealistic pet (cat/dog/animal) from the reference photo, faithfully preserving its "
     "exact breed, coat pattern, fur color and markings, eye color, ear shape, muzzle proportions, "
+    "natural animal limb/paw anatomy (strictly <=4 legs/paws, max 2 front paws visible in half-body pose), "
     "and realistic individual fur strands. Strictly forbid turning the pet into a 2D cartoon, "
     "anime mascot, flat vector illustration, 3D plastic toy, or bipedal humanoid furry."
 )
 
 REAL_PET_NEGATIVE = (
     "No 2D cartoon, no anime mascot, no flat vector illustration, no 3D doll, no human hands or body "
-    "replacing pet paws, no text, no letters, no speech bubbles."
+    "replacing pet paws, no extra paws/limbs, no stretched muzzle, no grey-white checkerboard grid, "
+    "no text, no letters, no speech bubbles."
 )
 
 PET_CATEGORIES = ("cat_boss", "dog_happy", "pet_meme", "pet_festival")
@@ -185,7 +187,7 @@ def build_pet_static_prompt(
         f"Pet identity lock: {facts}. "
         f"Pet pose & expression ({item.name_zh or item.caption}): {item.static_pose}. "
         f"Lighting: {preset.lighting}. "
-        f"Composition: {comp_hint} Single cohesive pet cutout silhouette on a clean transparent background. "
+        f"Composition: {comp_hint} Single cohesive pet cutout silhouette. {CLEAN_BACKGROUND_HARD_LOCK} "
         f"Negative constraints: {REAL_PET_NEGATIVE} {preset.negative_extra}"
     )
 
@@ -214,6 +216,7 @@ def build_pet_sprite_sheet_prompt(
         f"Frame 2 (top-right): {poses[1]} "
         f"Frame 3 (bottom-left): {poses[2]} "
         f"Frame 4 (bottom-right): {poses[3]} "
-        f"Each quadrant must show the exact same real pet with consistent body scale and baseline alignment on a clean background. "
+        f"Each quadrant must show the exact same real pet with consistent body scale and baseline alignment, "
+        f"with clean empty separation along the horizontal and vertical centerlines. {CLEAN_BACKGROUND_HARD_LOCK} "
         f"Negative constraints: {REAL_PET_NEGATIVE} {preset.negative_extra}"
     )
