@@ -2,7 +2,7 @@
 
 本图库只展示同一真人照片生成的实拍表情包与真人梗图。项目内置 **108 款摄影风格**（通用 18 / 韩系 30 / 日系 30 / 中式 30）、**168 套双人互动**、**22 类 220 款单人表情**、**40 款真宠表情** 与 **60 款真人梗图**；当前图库已实拍合成 **108 款风格（164 张单人 PNG + 16 张双人同框 PNG）+ 18 款真动作 GIF + 60 款真人梗图**，全部保留照片里的真实五官比例、发型和穿搭。
 
-[返回首页](../../README.md) · [文件清单](manifest.json) · [生图提示词](prompts.json) · [待补生图清单](MISSING_IMAGES_CHECKLIST.md) · [素材检查](QUALITY.md)
+[返回首页](../../README.md) · [文件清单](manifest.json) · [生图提示词](prompts.json) · [质检与扩展清单](MISSING_IMAGES_CHECKLIST.md)
 
 ![真人展示首图](images/hero.jpg)
 
