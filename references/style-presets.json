@@ -23,6 +23,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人写真抠图贴纸",
+      "en": "Real Photo Die-Cut Sticker",
+      "ko": "실사 화보 누끼 스티커",
+      "ja": "実写ポートレート切り抜き（デフォルト）"
     }
   },
   {
@@ -49,6 +55,12 @@
       "stroke_color": "#FFEE32",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "真人综艺花字斗图",
+      "en": "Chinese Variety Show Meme",
+      "ko": "버라이어티 컬러 자막 짤",
+      "ja": "バラエティ番組ポップ文字スタンプ"
     }
   },
   {
@@ -75,6 +87,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人搞怪大头贴",
+      "en": "Real Caricature Bobblehead",
+      "ko": "실사 대두 캐리커처 스티커",
+      "ja": "実写デフォルメ頭身ステッカー"
     }
   },
   {
@@ -101,6 +119,12 @@
       "stroke_color": "#FFF0F3",
       "stroke_width": 4,
       "start_font_size": 26
+    },
+    "display_names": {
+      "zh-CN": "韩系人生四格大头贴",
+      "en": "Korean Life4Cuts Photobooth",
+      "ko": "한국 인생네컷 포토부스",
+      "ja": "韓国「人生4カット」フォトブース"
     }
   },
   {
@@ -127,6 +151,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人潮酷街拍贴纸",
+      "en": "Real Editorial Street Flash",
+      "ko": "매거진 스트릿 직광 스냅",
+      "ja": "ストリートフラッシュスナップ"
     }
   },
   {
@@ -153,6 +183,12 @@
       "stroke_color": "#FFFDF7",
       "stroke_width": 4,
       "start_font_size": 26
+    },
+    "display_names": {
+      "zh-CN": "真人复古CCD胶片贴纸",
+      "en": "Real Y2K CCD Digicam",
+      "ko": "Y2K 빈티지 CCD 디카",
+      "ja": "Y2K ヴィンテージCCDデジカメ"
     }
   },
   {
@@ -179,6 +215,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "真人打工人纪实梗图",
+      "en": "Real Office Deadpan Candid",
+      "ko": "직장인 리얼 공감 짤",
+      "ja": "社会人リアル日常スナップ"
     }
   },
   {
@@ -205,6 +247,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "真人黑白高反差梗图",
+      "en": "Real High-Contrast B&W Meme",
+      "ko": "고대비 흑백 밈 스티커",
+      "ja": "白黒ハイコントラストミーム"
     }
   },
   {
@@ -231,6 +279,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系爱豆自拍",
+      "en": "K-Pop Idol Selfie",
+      "ko": "K-POP 아이돌 셀카",
+      "ja": "K-POPアイドルセルフィー"
     }
   },
   {
@@ -257,6 +311,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系水光肌清透",
+      "en": "Korean Dewy Glass Skin",
+      "ko": "한국식 물광 유리알 피부",
+      "ja": "韓国水光肌（グラススキン）"
     }
   },
   {
@@ -283,6 +343,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系爱豆小卡",
+      "en": "K-Pop Collectible Photocard",
+      "ko": "K-POP 아이돌 포토카드",
+      "ja": "K-POPトレーディングカード風"
     }
   },
   {
@@ -309,6 +375,12 @@
       "stroke_color": "#FFFDF8",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系咖啡馆胶片",
+      "en": "Seoul Cafe Warm Film",
+      "ko": "서울 카페 감성 필름",
+      "ja": "ソウルカフェ・ウォームフィルム"
     }
   },
   {
@@ -335,6 +407,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩剧主角氛围",
+      "en": "K-Drama Golden Backlight",
+      "ko": "K-드라마 주인공 역광 무드",
+      "ja": "韓国ドラマヒロイン逆光ムード"
     }
   },
   {
@@ -361,6 +439,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "韩综字幕斗图",
+      "en": "K-Variety Show Reaction",
+      "ko": "한국 예능 자막 리액션 짤",
+      "ja": "韓国バラエティ番組テロップ風"
     }
   },
   {
@@ -387,6 +471,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系空气感清新",
+      "en": "Japanese Airy Transparent",
+      "ko": "일본 에이리(Airy) 투명 감성",
+      "ja": "日系エアリー透明感"
     }
   },
   {
@@ -413,6 +503,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系富士胶片",
+      "en": "Japanese Fujifilm Portra",
+      "ko": "일본 후지필름 포트라",
+      "ja": "富士フイルム・ノスタルジック調"
     }
   },
   {
@@ -439,6 +535,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系大头贴プリクラ",
+      "en": "Tokyo Purikura Pastel",
+      "ko": "도쿄 프리쿠라(プリクラ) 스티커",
+      "ja": "東京プリクラ風パステル美肌"
     }
   },
   {
@@ -465,6 +567,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系夏日逆光",
+      "en": "Kamakura Summer Backlight",
+      "ko": "가마쿠라 여름 역광 스냅",
+      "ja": "鎌倉サマーバックライト"
     }
   },
   {
@@ -491,6 +599,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系原宿街头",
+      "en": "Harajuku Street Snap",
+      "ko": "하라주쿠 스트릿 스냅",
+      "ja": "原宿ストリートスナップ"
     }
   },
   {
@@ -517,6 +631,12 @@
       "stroke_color": "#FFF8EA",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系昭和复古",
+      "en": "80s Showa Retro Film",
+      "ko": "80년대 쇼와 레트로 필름",
+      "ja": "80年代昭和レトロフィルム"
     }
   },
   {
@@ -543,6 +663,12 @@
       "stroke_color": "#FFF8EC",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "新中式国风写真",
+      "en": "Neo-Chinese Guofeng Portrait",
+      "ko": "네오 차이니즈 고풍 포트레이트",
+      "ja": "ネオチャイニーズ（新中式）写真"
     }
   },
   {
@@ -569,6 +695,12 @@
       "stroke_color": "#FFF3E8",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "港风复古胶片",
+      "en": "90s Hong Kong Cinema Neon",
+      "ko": "90년대 홍콩 영화 네온 필름",
+      "ja": "90年代香港シネマネオン"
     }
   },
   {
@@ -595,6 +727,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "小红书氛围感",
+      "en": "Xiaohongshu Creamy Aesthetic",
+      "ko": "샤오홍슈 크리미 무드",
+      "ja": "RED（小紅書）クリーミームード"
     }
   },
   {
@@ -621,6 +759,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "抖音网红美颜",
+      "en": "Douyin Studio Beauty Light",
+      "ko": "스튜디오 하이키 뷰티 라이트",
+      "ja": "スタジオビューティーリングライト"
     }
   },
   {
@@ -647,6 +791,12 @@
       "stroke_color": "#FFE36E",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "复古影楼风",
+      "en": "90s Retro Photo Studio",
+      "ko": "90년대 레트로 사진관",
+      "ja": "90年代レトロ写真館風"
     }
   },
   {
@@ -673,6 +823,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "台式青春胶片",
+      "en": "Taiwan Youth Indie Film",
+      "ko": "대만 청춘 인디 필름",
+      "ja": "台湾青春インディーフィルム"
     }
   },
   {
@@ -699,6 +855,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人拍立得即时相纸",
+      "en": "Polaroid SX-70 Instant Film",
+      "ko": "폴라로이드 SX-70 즉석사진",
+      "ja": "ポラロイド SX-70 インスタント写真"
     }
   },
   {
@@ -725,6 +887,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人千禧鱼眼大头贴",
+      "en": "Y2K 16mm Fisheye Close-Up",
+      "ko": "Y2K 16mm 어안렌즈 클로즈업",
+      "ja": "Y2K 16mm 魚眼レンズ風クローズアップ"
     }
   },
   {
@@ -751,6 +919,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人狗仔直闪抓拍",
+      "en": "Night Paparazzi Direct Flash",
+      "ko": "야간 파파라치 직광 플래시",
+      "ja": "夜間パパラッチ直焚きフラッシュ"
     }
   },
   {
@@ -777,6 +951,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人落日夕阳逆光",
+      "en": "Golden Hour Sunset Backlight",
+      "ko": "골든아워 노을 역광",
+      "ja": "ゴールデンアワー夕暮れ逆光"
     }
   },
   {
@@ -803,6 +983,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人蓝调时刻电影感",
+      "en": "Blue Hour Twilight Cinema",
+      "ko": "블루아워 새벽 시네마틱",
+      "ja": "ブルーアワー映画風トワイライト"
     }
   },
   {
@@ -829,6 +1015,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人赛博霓虹夜景",
+      "en": "Cyberpunk Dual-Neon Night",
+      "ko": "사이버펑크 듀얼 네온 야경",
+      "ja": "サイバーパンク・デュアルネオン夜景"
     }
   },
   {
@@ -855,6 +1047,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人柯达Gold200胶片",
+      "en": "Kodak Gold 200 Warm Film",
+      "ko": "코닥 골드 200 따뜻한 필름",
+      "ja": "Kodak Gold 200 ウォームフィルム"
     }
   },
   {
@@ -881,6 +1079,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人CineStill钨丝灯胶片",
+      "en": "CineStill 800T Tungsten Film",
+      "ko": "씨네스틸 800T 텅스텐 필름",
+      "ja": "CineStill 800T タングステン映画フィルム"
     }
   },
   {
@@ -907,6 +1111,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人高定时尚杂志封面",
+      "en": "High-Fashion Editorial Studio",
+      "ko": "하이패션 매거진 화보 조명",
+      "ja": "ハイファッション誌スタジオ照明"
     }
   },
   {
@@ -933,6 +1143,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人法式慵懒午后写真",
+      "en": "Parisian Afternoon Window Light",
+      "ko": "파리지앵 오후 자연광 스냅",
+      "ja": "パリジェンヌ午後の窓辺自然光"
     }
   },
   {
@@ -959,6 +1175,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人美式复古毕业年鉴",
+      "en": "90s American Yearbook Studio",
+      "ko": "90년대 하이틴 졸업앨범 스튜디오",
+      "ja": "90年代アメリカ卒業アルバム風スタジオ"
     }
   },
   {
@@ -985,6 +1207,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "真人潮流伪彩视觉",
+      "en": "Festival UV Duotone Stage Glow",
+      "ko": "페스티벌 UV 듀오톤 컬러 조명",
+      "ja": "フェスUVデュオトーン・ステージ照明"
     }
   },
   {
@@ -1011,6 +1239,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系打歌舞台Ending妖精",
+      "en": "K-Pop Music Show Ending Fairy",
+      "ko": "음악방송 엔딩요정 스포트라이트",
+      "ja": "K-POP音楽番組「エンディング妖精」照明"
     }
   },
   {
@@ -1037,6 +1271,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系签售会奶油柔光",
+      "en": "Idol Fansign Creamy Soft Light",
+      "ko": "아이돌 팬사인회 대포 카메라 소프트광",
+      "ja": "アイドルサイン会・ふんわりソフト光"
     }
   },
   {
@@ -1063,6 +1303,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系仁川机场路透街拍",
+      "en": "Incheon Airport Off-Duty Snap",
+      "ko": "인천공항 출국길 자연광 스냅",
+      "ja": "仁川空港セレブ私服スナップ風"
     }
   },
   {
@@ -1089,6 +1335,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系弘大街头潮拍",
+      "en": "Hongdae Indie Street Snap",
+      "ko": "홍대 스트릿 패션 스냅",
+      "ja": "弘大（ホンデ）ストリートスナップ"
     }
   },
   {
@@ -1115,6 +1367,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系圣水洞工业风写真",
+      "en": "Seongsu-dong Loft Minimalist",
+      "ko": "성수동 인더스트리얼 채광 화보",
+      "ja": "聖水洞（ソンスドン）無機質カフェ自然光"
     }
   },
   {
@@ -1141,6 +1399,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系汉南洞千金氛围",
+      "en": "Hannam-dong Old-Money Cashmere",
+      "ko": "한남동 올드머니 캐시미어 무드",
+      "ja": "漢南洞（ハンナムドン）上品カシミヤムード"
     }
   },
   {
@@ -1167,6 +1431,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系狎鸥亭闪光夜拍",
+      "en": "Apgujeong Night Flash Glam",
+      "ko": "압구정 나이트 직광 글램 스냅",
+      "ja": "狎鴎亭（アックジョン）ナイトフラッシュ"
     }
   },
   {
@@ -1193,6 +1463,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系济州岛海风胶片",
+      "en": "Jeju Island Coastal Breeze Film",
+      "ko": "제주도 바닷바람 청량 필름",
+      "ja": "済州島（チェジュ）海風クリアフィルム"
     }
   },
   {
@@ -1219,6 +1495,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系北村韩屋暖阳",
+      "en": "Bukchon Hanok Warm Courtyard",
+      "ko": "북촌 한옥마을 따뜻한 햇살",
+      "ja": "北村韓屋（ハノク）木漏れ日ウォーム光"
     }
   },
   {
@@ -1245,6 +1527,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系初雪围巾恋歌",
+      "en": "First Snow Winter Sonata Glow",
+      "ko": "첫눈 오는 날 겨울 드라마 무드",
+      "ja": "初雪マフラー・冬ソナタ風ソフト光"
     }
   },
   {
@@ -1271,6 +1559,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系汝矣岛樱花柔光",
+      "en": "Yeouido Cherry Blossom Sunlight",
+      "ko": "여의도 벚꽃길 봄날 로맨스",
+      "ja": "汝矣島（ヨイド）桜並木スプリング光"
     }
   },
   {
@@ -1297,6 +1591,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系雨夜布帐马车",
+      "en": "Seoul Night Pojangmacha Glow",
+      "ko": "비 오는 밤 포장마차 감성 조명",
+      "ja": "ソウル雨夜の屋台（ポチャ）暖色ライト"
     }
   },
   {
@@ -1323,6 +1623,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系High-Teen复古校园",
+      "en": "K-Pop High-Teen Campus Pop",
+      "ko": "하이틴 캠퍼스 하이키 팝 조명",
+      "ja": "K-POPハイティーン学園ポップ照明"
     }
   },
   {
@@ -1349,6 +1655,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系Y2K千禧银光",
+      "en": "Y2K Cyber Silver Concept",
+      "ko": "Y2K 실버 메탈릭 걸그룹 컨셉",
+      "ja": "Y2Kシルバーメタリック・コンセプト照明"
     }
   },
   {
@@ -1375,6 +1687,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系芭蕾风柔粉写真",
+      "en": "Korean Balletcore Pearl Soft",
+      "ko": "한국식 발레코어 펄 핑크 소프트",
+      "ja": "韓国バレエコア・パールピンク柔光"
     }
   },
   {
@@ -1401,6 +1719,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系Clean-Fit极简白棚",
+      "en": "Gangnam Clean-Fit White Studio",
+      "ko": "강남 클린핏 화이트 호리존 스튜디오",
+      "ja": "江南クリーンフィット純白スタジオ照明"
     }
   },
   {
@@ -1427,6 +1751,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系最美证件照精修",
+      "en": "Seoul Signature ID Portrait",
+      "ko": "서울 시그니처 증명사진 스튜디오",
+      "ja": "ソウル写真館・韓国証明写真ライティング"
     }
   },
   {
@@ -1453,6 +1783,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系俯拍高角度四格",
+      "en": "High-Angle Overhead Photobooth",
+      "ko": "하이앵글 항공샷 포토부스",
+      "ja": "韓国ハイアングル（俯瞰）プリクラ照明"
     }
   },
   {
@@ -1479,6 +1815,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系黑白胶片四格",
+      "en": "Monochrome Self-Photo Studio",
+      "ko": "홍대 흑백 셀프사진관 실버필름",
+      "ja": "韓国モノクロ・セルフ写真館風"
     }
   },
   {
@@ -1505,6 +1847,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系练习室对镜自拍",
+      "en": "Dance Practice Room Mirror Snap",
+      "ko": "연습실 거울 셀카 데일리 라이트",
+      "ja": "K-POP練習室ミラーセルフィー照明"
     }
   },
   {
@@ -1531,6 +1879,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系深夜便利店霓虹",
+      "en": "Late-Night Convenience Store",
+      "ko": "심야 편의점 형광등 감성 스냅",
+      "ja": "韓国深夜コンビニ・ネオン白色光"
     }
   },
   {
@@ -1557,6 +1911,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系先锋画报冷冽光",
+      "en": "Seoul Avant-Garde Editorial",
+      "ko": "서울 컨셉추얼 매거진 화보 조명",
+      "ja": "韓国モード誌アバンギャルド照明"
     }
   },
   {
@@ -1583,6 +1943,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "韩系漫改主角神颜光",
+      "en": "K-Webtoon Live-Action Hero Glow",
+      "ko": "웹툰 실사화 주인공 등장 역광",
+      "ja": "韓国ウェブトゥーン実写化ヒロイン逆光"
     }
   },
   {
@@ -1609,6 +1975,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系川内伦子风淡彩",
+      "en": "Rinko Kawauchi Airy Pastel",
+      "ko": "카와우치 린코풍 하이키 파스텔",
+      "ja": "川内倫子風ハイキー・パステル透明感"
     }
   },
   {
@@ -1635,6 +2007,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系滨田英明风清透",
+      "en": "Hideaki Hamada Medium-Format",
+      "ko": "하마다 히데아키풍 청량 중형필름",
+      "ja": "濱田英明風・中判フィルム清涼自然光"
     }
   },
   {
@@ -1661,6 +2039,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系森山大道粗颗粒黑白",
+      "en": "Daido Moriyama Gritty B&W",
+      "ko": "모리야마 다이도풍 거친 흑백 스트릿",
+      "ja": "森山大道風ハイコントラスト粗粒子モノクロ"
     }
   },
   {
@@ -1687,6 +2071,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系蜷川实花浓郁花影",
+      "en": "Mika Ninagawa Jewel-Toned",
+      "ko": "니나가와 미카풍 고채도 플라워 조명",
+      "ja": "蜷川実花風・極彩色ビビッドライティング"
     }
   },
   {
@@ -1713,6 +2103,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系涩谷十字路口霓虹",
+      "en": "Shibuya Crossing Night Neon",
+      "ko": "시부야 스크램블 야간 네온 스냅",
+      "ja": "渋谷スクランブル交差点ナイトネオン"
     }
   },
   {
@@ -1739,6 +2135,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系下北泽古着胶片",
+      "en": "Shimokitazawa Vintage Shop",
+      "ko": "시모키타자와 빈티지숍 웜필름",
+      "ja": "下北沢古着屋・ウォームフィルム調"
     }
   },
   {
@@ -1765,6 +2167,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系代官山晨光书店",
+      "en": "Daikanyama Morning Bookstore",
+      "ko": "다이칸야마 아침 서점 창가 채광",
+      "ja": "代官山モーニング書店・窓辺の朝光"
     }
   },
   {
@@ -1791,6 +2199,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系银座夜色流光",
+      "en": "Ginza Evening Champagne Bokeh",
+      "ko": "긴자 나이트 샴페인 골드 보케",
+      "ja": "銀座イブニング・シャンパンゴールド光"
     }
   },
   {
@@ -1817,6 +2231,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系京都木漏日和风",
+      "en": "Kyoto Garden Komorebi Sunlight",
+      "ko": "교토 정원 나뭇잎 햇살(코모레비)",
+      "ja": "京都庭園の木漏れ日（こもれび）和風光"
     }
   },
   {
@@ -1843,6 +2263,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系北海道情书雪景",
+      "en": "Hokkaido Love Letter Snow",
+      "ko": "홋카이도 러브레터 설원 반사광",
+      "ja": "北海道『Love Letter』雪原バウンス柔光"
     }
   },
   {
@@ -1869,6 +2295,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系冲绳盛夏海盐",
+      "en": "Okinawa Sea-Salt Tropical Sun",
+      "ko": "오키나와 한여름 바다소금 청량광",
+      "ja": "沖縄サマー・シーソルトブルー太陽光"
     }
   },
   {
@@ -1895,6 +2327,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系樱花季春光胶片",
+      "en": "Meguro River Sakura Film",
+      "ko": "메구로강 벚꽃 시즌 핑크 필름",
+      "ja": "目黒川桜シーズン・春光ピンクフィルム"
     }
   },
   {
@@ -1921,6 +2359,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系银杏大道秋日暖光",
+      "en": "Meiji Jingu Golden Ginkgo",
+      "ko": "메이지진구 은행나무 가로수길 가을빛",
+      "ja": "明治神宮外苑・銀杏並木オータム逆光"
     }
   },
   {
@@ -1947,6 +2391,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系镰仓梅雨紫阳花",
+      "en": "Kamakura Rainy Hydrangea Blue",
+      "ko": "가마쿠라 장마철 수국 블루 무드",
+      "ja": "鎌倉梅雨の紫陽花（あじさい）ブルー微光"
     }
   },
   {
@@ -1973,6 +2423,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系温泉旅馆暖雾",
+      "en": "Hakone Ryokan Warm Steam",
+      "ko": "하코네 온천 료칸 따뜻한 김 서림",
+      "ja": "箱根温泉旅館・湯けむりウォームライト"
     }
   },
   {
@@ -1999,6 +2455,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系深夜食堂居酒屋",
+      "en": "Late-Night Tokyo Izakaya Lantern",
+      "ko": "심야식당 이자카야 제등 조명",
+      "ja": "深夜食堂・居酒屋提灯の暖色あかり"
     }
   },
   {
@@ -2025,6 +2487,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系纯喫茶昭和咖啡",
+      "en": "Showa Kissaten Amber Coffee",
+      "ko": "쇼와 킷사텐 호박색 테이블 램프",
+      "ja": "昭和純喫茶・琥珀色ランプのレトロ光"
     }
   },
   {
@@ -2051,6 +2519,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系青春天台晴空",
+      "en": "High-School Rooftop Clear Sky",
+      "ko": "청춘 드라마 학교 옥상 맑은 하늘",
+      "ja": "青春高校屋上・青空バックライト"
     }
   },
   {
@@ -2077,6 +2551,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系夏日祭花火微光",
+      "en": "Summer Matsuri Handheld Sparkler",
+      "ko": "여름 축제 선향불꽃(불꽃놀이) 미광",
+      "ja": "夏祭り線香花火のウォームオレンジ微光"
     }
   },
   {
@@ -2103,6 +2583,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系甜美日杂画报",
+      "en": "Japanese Sweet Fashion Magazine",
+      "ko": "일본 패션잡지 스위트 스튜디오",
+      "ja": "日系ファッション誌スウィート棚拍柔光"
     }
   },
   {
@@ -2129,6 +2615,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系CityBoy街头画报",
+      "en": "Tokyo City-Boy Editorial Sun",
+      "ko": "도쿄 시티보이 매거진 자연광 스냅",
+      "ja": "東京シティボーイ誌面風・自然光スナップ"
     }
   },
   {
@@ -2155,6 +2647,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日系写ルンです一次性胶片",
+      "en": "Fujifilm QuickSnap Disposable",
+      "ko": "후지 우츠룬데스 일회용 필름카메라",
+      "ja": "富士『写ルンです』フラッシュ＆粒子感"
     }
   },
   {
@@ -2181,6 +2679,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "日剧黄金档电影感剧照",
+      "en": "J-Drama Prime-Time Still",
+      "ko": "일드 골든타임 명장면 스틸컷",
+      "ja": "日本ドラマ黄金枠・映画風シネマ照明"
     }
   },
   {
@@ -2207,6 +2711,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "日综夸张大字报斗图",
+      "en": "J-Variety Show Bold Telop",
+      "ko": "일본 예능 강렬한 컬러 자막 리액션",
+      "ja": "日本バラエティ番組・極太テロップ風"
     }
   },
   {
@@ -2233,6 +2743,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式江南烟雨清冷",
+      "en": "Jiangnan Celadon Misty Rain",
+      "ko": "강남 연우(안개비) 청자빛 포트레이트",
+      "ja": "江南水郷・青磁色の霧雨ソフト光"
     }
   },
   {
@@ -2259,6 +2775,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式红墙琉璃暖阳",
+      "en": "Imperial Vermilion Wall Sunlight",
+      "ko": "고궁 붉은 담장 따스한 오후 햇살",
+      "ja": "故宮の朱벽・ウォームサンライト"
     }
   },
   {
@@ -2285,6 +2807,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式宋韵极简留白",
+      "en": "Song-Dynasty Minimalist Ivory",
+      "ko": "송나라 여요(汝窯) 미니멀 여백 미학",
+      "ja": "宋代ミニマリズム・宣紙ホワイト柔光"
     }
   },
   {
@@ -2311,6 +2839,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式盛唐鎏金夜宴",
+      "en": "Tang-Style Gilded Lantern Glow",
+      "ko": "성당(盛唐) 금빛 연회 촛불 무드",
+      "ja": "盛唐ゴールド＆紅・華麗ランタン光"
     }
   },
   {
@@ -2337,6 +2871,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式敦煌大漠流沙",
+      "en": "Dunhuang Desert Amber Sunset",
+      "ko": "둔황 사막 황혼의 금빛 역광",
+      "ja": "敦煌デザート・琥珀サンセット逆光"
     }
   },
   {
@@ -2363,6 +2903,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式水墨光影写真",
+      "en": "Monochrome Ink-Tonal Portrait",
+      "ko": "수묵 농담(濃淡) 흑백 실사 조명",
+      "ja": "水墨グラデーション風モノクロ実写照明"
     }
   },
   {
@@ -2389,6 +2935,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式民国复古画报",
+      "en": "1930s Shanghai Velvet Tungsten",
+      "ko": "1930년대 올드 상하이 벨벳 조명",
+      "ja": "1930年代オールド上海ベルベット暖光"
     }
   },
   {
@@ -2415,6 +2967,12 @@
       "stroke_color": "#FFEE32",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式外滩流光夜色",
+      "en": "Shanghai Bund Blossoms Amber",
+      "ko": "상하이 와이탄 유금(流金) 앰버 야경",
+      "ja": "上海外灘『繁花』風アンバーゴールド夜景"
     }
   },
   {
@@ -2441,6 +2999,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "港风90年代TVB剧照",
+      "en": "90s Hong Kong TVB Drama Still",
+      "ko": "90년대 홍콩 TVB 드라마 스틸컷",
+      "ja": "90年代香港TVBドラマ風ウォーム照明"
     }
   },
   {
@@ -2467,6 +3031,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "港风旺角雨夜霓虹",
+      "en": "Mong Kok Rainy Neon Street",
+      "ko": "몽콕 비 오는 밤 홍록 네온 사인",
+      "ja": "香港・旺角（モンコック）雨夜ネオン光"
     }
   },
   {
@@ -2493,6 +3063,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "台式夜市烟火霓虹",
+      "en": "Taipei Night Market Warm Bokeh",
+      "ko": "타이베이 야시장 따뜻한 등불 보케",
+      "ja": "台北夜市・ウォームランタン玉ボケ光"
     }
   },
   {
@@ -2519,6 +3095,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式成都竹椅茶馆",
+      "en": "Chengdu Bamboo Teahouse Sun",
+      "ko": "청두 대나무 찻집 여유로운 햇살",
+      "ja": "成都・竹林茶館の木漏れ日リラックス光"
     }
   },
   {
@@ -2545,6 +3127,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式重庆山城迷雾夜",
+      "en": "Chongqing Mountain-City Mist",
+      "ko": "충칭 산성 강안개와 네온 야경",
+      "ja": "重慶・山城の川霧ブルー＆暖色ネオン夜景"
     }
   },
   {
@@ -2571,6 +3159,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式大理洱海慢生活",
+      "en": "Dali Erhai Highland Sunshine",
+      "ko": "다리 얼하이 호수 고원 투명 햇살",
+      "ja": "雲南・大理洱海のクリアハイランド陽光"
     }
   },
   {
@@ -2597,6 +3191,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式草原旷野清风",
+      "en": "Hulunbuir Grassland Breeze",
+      "ko": "후룬베이얼 초원 바람과 황금빛 들판",
+      "ja": "フルンボイル大草原・爽風と草原バウンス光"
     }
   },
   {
@@ -2623,6 +3223,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式80年代怀旧胶片",
+      "en": "80s Vintage Seagull Film",
+      "ko": "80년대 빈티지 시걸(해오) 필름 카메라",
+      "ja": "80年代中国レトロ・海鴎フィルムカメラ調"
     }
   },
   {
@@ -2649,6 +3255,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式90年代挂历画报",
+      "en": "90s Retro Wall-Calendar Studio",
+      "ko": "90년대 레트로 달력 화보 스튜디오",
+      "ja": "90年代レトロカレンダー風・高彩度照明"
     }
   },
   {
@@ -2675,6 +3287,12 @@
       "stroke_color": "#FFEE32",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "中式新春贺岁红金",
+      "en": "Lunar New Year Red & Gold",
+      "ko": "설날 신춘(新春) 레드 골드 축복 조명",
+      "ja": "旧正月（春節）レッド＆ゴールド祝賀光"
     }
   },
   {
@@ -2701,6 +3319,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式武侠清风江湖",
+      "en": "Cinematic Wuxia Slate Breeze",
+      "ko": "무협 영화 청회색 검기 & 바람 역광",
+      "ja": "武侠シネマ風クールスレート＆風になびく髪"
     }
   },
   {
@@ -2727,6 +3351,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式围炉煮茶禅意",
+      "en": "Hearth Tea-Brewing Zen Glow",
+      "ko": "화로 차 우려내기(위로조차) 선(禪) 무드",
+      "ja": "囲炉裏茶室（囲炉煮茶）の禅ウォーム光"
     }
   },
   {
@@ -2753,6 +3383,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式国潮街头撞色",
+      "en": "Guochao Vermilion & Teal Flash",
+      "ko": "국조(Guochao) 레드·틸 스트릿 플래시",
+      "ja": "国潮ストリート・朱赤×ピーコック青フラッシュ"
     }
   },
   {
@@ -2779,6 +3415,12 @@
       "stroke_color": "#FFFFFF",
       "stroke_width": 4,
       "start_font_size": 27
+    },
+    "display_names": {
+      "zh-CN": "中式大厂打工人图鉴",
+      "en": "Modern Tech-Office Monitor Glow",
+      "ko": "오피스 모니터 조명 직장인 생존 짤",
+      "ja": "オフィスモニター光・社会人リアル表情"
     }
   },
   {
@@ -2805,6 +3447,12 @@
       "stroke_color": "#FFEE32",
       "stroke_width": 4,
       "start_font_size": 28
+    },
+    "display_names": {
+      "zh-CN": "中式锦鲤好运玄学风",
+      "en": "Auspicious Koi Golden Halo",
+      "ko": "행운의 비단잉어(금리) 골든 후광",
+      "ja": "開運錦鯉（コイ）ゴールデンハロー柔光"
     }
   }
 ]

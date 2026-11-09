@@ -222,13 +222,15 @@ def generate_social_posters(
     posters_dir = output_dir / "posters"
     posters_dir.mkdir(parents=True, exist_ok=True)
 
+    loc_name = preset.localized_name(language)
     default_titles = {
-        "zh-CN": (title or f"{preset.display_name} · 真人表情包", subtitle or "100% 保留真实五官 · 单张纯净单语 · 全平台直出"),
-        "ko": (title or f"{preset.display_name} · 실사 이모티콘", subtitle or "100% 실제 이목구비 보존 · 카톡/인스타/위챗 지원"),
-        "ja": (title or f"{preset.display_name} · 実写スタンプ", subtitle or "100% ご本人の顔立ち維持 · LINE/インスタ対応"),
-        "en": (title or f"{preset.display_name} · Real Sticker Pack", subtitle or "100% Authentic Real Portrait · Multi-Platform Ready"),
+        "zh-CN": (title or f"{loc_name} · 真人表情包", subtitle or "100% 保留真实五官 · 单张纯净单语 · 全平台直出"),
+        "zh-TW": (title or f"{loc_name} · 真人貼圖包", subtitle or "100% 保留真實五官 · 單張純淨單語 · 全平台直出"),
+        "ko": (title or f"{loc_name} · 실사 이모티콘", subtitle or "100% 실제 이목구비 보존 · 카톡/인스타/위챗 지원"),
+        "ja": (title or f"{loc_name} · 実写スタンプ", subtitle or "100% ご本人の顔立ち維持 · LINE/インスタ対応"),
+        "en": (title or f"{loc_name} · Real Sticker Pack", subtitle or "100% Authentic Real Portrait · Multi-Platform Ready"),
     }
-    main_title, sub_title = default_titles.get(language, default_titles["zh-CN"])
+    main_title, sub_title = default_titles.get(language, default_titles["en" if not language.startswith("zh") else "zh-CN"])
     bg_rgba = hex_to_rgba(preset.banner_bg or "#F7F5F2", 255)
     accent_rgba = hex_to_rgba((preset.default_palette or ["#07C160"])[0], 255)
 
@@ -335,13 +337,15 @@ def generate_animated_social_poster(
     posters_dir = output_dir / "posters"
     posters_dir.mkdir(parents=True, exist_ok=True)
 
+    loc_name = preset.localized_name(language)
     default_titles = {
-        "zh-CN": (title or f"{preset.display_name} · 动态表情包", subtitle or "真人实拍神态 · 丝滑多帧动图 · 全平台一键直出"),
-        "ko": (title or f"{preset.display_name} · 모션 이모티콘", subtitle or "실사 표정 모션 · 카톡/인스타/위챗 동시 지원"),
-        "ja": (title or f"{preset.display_name} · 動く実写スタンプ", subtitle or "リアルな表情アニメーション · LINE/SNS対応"),
-        "en": (title or f"{preset.display_name} · Animated Pack", subtitle or "Real-Portrait Multi-Frame Motion · 23 Platforms"),
+        "zh-CN": (title or f"{loc_name} · 动态表情包", subtitle or "真人实拍神态 · 丝滑多帧动图 · 全平台一键直出"),
+        "zh-TW": (title or f"{loc_name} · 動態貼圖包", subtitle or "真人實拍神態 · 絲滑多幀動圖 · 全平台一鍵直出"),
+        "ko": (title or f"{loc_name} · 모션 이모티콘", subtitle or "실사 표정 모션 · 카톡/인스타/위챗 동시 지원"),
+        "ja": (title or f"{loc_name} · 動く実写スタンプ", subtitle or "リアルな表情アニメーション · LINE/SNS対応"),
+        "en": (title or f"{loc_name} · Animated Pack", subtitle or "Real-Portrait Multi-Frame Motion · 23 Platforms"),
     }
-    main_title, sub_title = default_titles.get(language, default_titles["zh-CN"])
+    main_title, sub_title = default_titles.get(language, default_titles["en" if not language.startswith("zh") else "zh-CN"])
     bg_rgba = hex_to_rgba(preset.banner_bg or "#F7F5F2", 255)
     accent_rgba = hex_to_rgba((preset.default_palette or ["#07C160"])[0], 255)
 
@@ -442,8 +446,44 @@ def generate_wechat_submission_kit(
     kit_dir = output_dir / "wechat_submission_kit"
     kit_dir.mkdir(parents=True, exist_ok=True)
 
-    pack_title = (title or f"{preset.display_name}日常")[:16]
-    sub_text = subtitle or "100% 真人实拍神态 · 聊天斗图必备"
+    loc_name = preset.localized_name(language)
+    kit_strings = {
+        "zh-CN": (
+            f"{loc_name}日常",
+            "100% 真人实拍神态 · 聊天斗图必备",
+            ("喜欢这套表情包吗？", "点个赞赏支持一下创作者吧 ~"),
+            ("感谢你的温暖赞赏！", "祝你每天开心斗图、好运爆棚！"),
+        ),
+        "zh-TW": (
+            f"{loc_name}日常",
+            "100% 真人實拍神態 · 聊天貼圖必備",
+            ("喜歡這套貼圖包嗎？", "點個讚賞支持一下創作者吧 ~"),
+            ("感謝你的溫暖讚賞！", "祝你每天開心聊天、好運爆棚！"),
+        ),
+        "en": (
+            f"{loc_name}",
+            "100% Real-Person Portrait · Daily Reaction Pack",
+            ("Enjoying this sticker pack?", "Tap to support the creator!"),
+            ("Thank you for your support!", "Wishing you joy and good vibes every day!"),
+        ),
+        "ko": (
+            f"{loc_name}",
+            "100% 실사 인물 표정 · 데일리 리액션 이모티콘",
+            ("이모티콘이 마음에 드시나요?", "작가에게 따뜻한 응원을 보내주세요 ~"),
+            ("따뜻한 후원에 감사드립니다!", "매일 즐겁고 행운 가득한 하루 보내세요!"),
+        ),
+        "ja": (
+            f"{loc_name}",
+            "100% 実写ポートレート · 毎日使えるスタンプ",
+            ("このスタンプは気に入りましたか？", "クリエイターを応援してね ~"),
+            ("温かいご支援ありがとうございます！", "毎日楽しく素敵な一日になりますように！"),
+        ),
+    }
+    def_pack, def_sub, guide_pair, thanks_pair = kit_strings.get(
+        language, kit_strings["en" if not language.startswith("zh") else "zh-CN"]
+    )
+    pack_title = (title or def_pack)[:28 if language == "en" else 16]
+    sub_text = subtitle or def_sub
     bg_rgb = hex_to_rgba(preset.banner_bg or "#F6F4F0", 255)[:3]
     accent_rgba = hex_to_rgba((preset.default_palette or ["#07C160"])[0], 255)
     outputs: Dict[str, Path] = {}
@@ -452,8 +492,8 @@ def generate_wechat_submission_kit(
     banner = Image.new("RGB", (750, 400), bg_rgb)
     bdraw = ImageDraw.Draw(banner)
     bdraw.rectangle([0, 0, 750, 10], fill=accent_rgba[:3])
-    _draw_multilang_text(bdraw, (250, 120), pack_title, 40, (26, 26, 30, 255), language=language, anchor_center=False)
-    _draw_multilang_text(bdraw, (250, 185), sub_text, 22, (105, 105, 115, 255), language=language, anchor_center=False)
+    _draw_multilang_text(bdraw, (250, 120), pack_title, 34 if language == "en" else 40, (26, 26, 30, 255), language=language, anchor_center=False)
+    _draw_multilang_text(bdraw, (250, 185), sub_text, 20 if language == "en" else 22, (105, 105, 115, 255), language=language, anchor_center=False)
     with Image.open(pngs[0]) as hero_im:
         rgba = hero_im.convert("RGBA")
         rgba.thumbnail((320, 320), Image.Resampling.LANCZOS)
@@ -468,9 +508,9 @@ def generate_wechat_submission_kit(
     outputs["banner_750x400"] = banner_p
 
     # 2. Appreciation Guide 750x560 & Thank You 750x560
-    for key, idx_pick, headline, subline in [
-        ("guide_750x560", min(1, len(pngs) - 1), "喜欢这套表情包吗？", "点个赞赏支持一下创作者吧 ~"),
-        ("thank_you_750x560", min(2, len(pngs) - 1), "感谢你的温暖赞赏！", "祝你每天开心斗图、好运爆棚！"),
+    for key, idx_pick, (headline, subline) in [
+        ("guide_750x560", min(1, len(pngs) - 1), guide_pair),
+        ("thank_you_750x560", min(2, len(pngs) - 1), thanks_pair),
     ]:
         card = Image.new("RGB", (750, 560), bg_rgb)
         cdraw = ImageDraw.Draw(card)

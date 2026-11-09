@@ -134,6 +134,7 @@ class BubbleStyle(BaseModel):
 class StylePreset(BaseModel):
     id: str
     display_name: str
+    display_names: Dict[str, str] = Field(default_factory=dict)
     category: str = "真人专属"
     region: str = "通用"  # 通用 / 韩系 / 日系 / 中式
     description: str = ""
@@ -148,6 +149,17 @@ class StylePreset(BaseModel):
     caption_animation: Literal["none", "pulse", "bounce", "shake"] = "none"
     typography: TypographyStyle = Field(default_factory=TypographyStyle)
     bubble: BubbleStyle = Field(default_factory=BubbleStyle)
+
+    def localized_name(self, language: str = "zh-CN") -> str:
+        lang = (language or "zh-CN").strip()
+        if lang in self.display_names and self.display_names[lang]:
+            return self.display_names[lang]
+        short = lang.split("-")[0].lower()
+        for k, v in self.display_names.items():
+            if k.lower() == lang.lower() or k.split("-")[0].lower() == short:
+                if v:
+                    return v
+        return self.display_name
 
 
 class CharacterBible(BaseModel):
